@@ -11,5 +11,6 @@
 
 * [Reporting on data collected by Endpoint Agent](endpoint-agent/untitled-1.md)
 * [Data collected by Endpoint Agent](endpoint-agent/untitled.md)
+* [Test Page](endpoint-agent/test.md)
 * [Blog](https://blog.thousandeyes.com/)
 
