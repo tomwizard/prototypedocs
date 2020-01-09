@@ -4,6 +4,22 @@
 
 Becoming a super hero is a fairly straight forward process:
 
+{% hint style="info" %}
+Information
+{% endhint %}
+
+{% hint style="warning" %}
+Warning
+{% endhint %}
+
+{% hint style="danger" %}
+Critical
+{% endhint %}
+
+{% hint style="success" %}
+Checkmark
+{% endhint %}
+
 ```
 $ give me super-powers
 ```
