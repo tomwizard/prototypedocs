@@ -1,4 +1,1 @@
-# QA
-
 Some content.
-
