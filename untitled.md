@@ -2,7 +2,7 @@
 description: Content imported via URL in GitBook UI. No formatting done after import.
 ---
 
-# User Management - ThousandEyes Customer Success Center
+# What Is an Account Group?
 
 *  [Knowledge Base](https://success.thousandeyes.com/Articles?category=Knowledge_Base)
   *  [Getting Started](https://success.thousandeyes.com/Articles?category=Getting_Started)
