@@ -1,7 +1,7 @@
 ---
 description: >-
   Copy-paste from success.thousandeyes.com. Long topic, subsections,
-  screenshots, tables. No formatting done after paste. Figuring out how to add a
+  screenshots, tables. No formatting done after paste.Figuring out how to add a
   topic directly into an existing group.
 ---
 
