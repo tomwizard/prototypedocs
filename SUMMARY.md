@@ -24,4 +24,5 @@
 ## User Management
 
 * [Role-Based Access Control, Explained](user-management/role-based-access-control-explained.md)
+* [Terminology in RBAC](user-management/terminology-in-rbac.md)
 
