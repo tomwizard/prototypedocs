@@ -21,3 +21,7 @@
   * [Untitled](test/untitled/untitled.md)
   * [Release Update 2019-11-26 - ThousandEyes Customer Success Center](release-notes-1/release-update-2019-11-26-thousandeyes-customer-success-center.md)
 
+## User Management
+
+* [Role-Based Access Control, Explained](user-management/role-based-access-control-explained.md)
+
