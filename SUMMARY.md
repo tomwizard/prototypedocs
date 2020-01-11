@@ -19,12 +19,15 @@
 
 * [Untitled](test/untitled/README.md)
   * [Untitled](test/untitled/untitled.md)
-  * [Release Update 2019-11-26 - ThousandEyes Customer Success Center](test/untitled/release-update-2019-11-26-thousandeyes-customer-success-center.md)
+
+## Release Notes
+
+* [Release Update 2019-11-26 - ThousandEyes Customer Success Center](release-notes/release-update-2019-11-26-thousandeyes-customer-success-center.md)
 
 ## User Management
 
 * [Role-Based Access Control, Explained](user-management/role-based-access-control-explained/README.md)
   * [Terminology in RBAC](user-management/role-based-access-control-explained/terminology-in-rbac.md)
 * [Working with RBAC](user-management/working-with-rbac.md)
-* [What Is an Account Group?](user-management/untitled.md)
+* [What Is an Account Group?](user-management/what-is-an-account-group.md)
 
