@@ -1,7 +1,5 @@
 # Table of contents
 
-* [Welcome to the Documentation Prototype](README.md)
-
 ## Sandbox
 
 * [Release Notes](sandbox/release-notes-1/README.md)
