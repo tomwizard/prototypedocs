@@ -7,6 +7,8 @@ ThousandEyes platform contains a reporting engine which provides both on-demand 
 Page Success percentage  
 Response Time
 
+![](../.gitbook/assets/screen-shot-2020-01-10-at-3.25.20-pm.png)
+
 ## Network metrics:
 
 Loss  
