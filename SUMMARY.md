@@ -11,6 +11,7 @@
 ## Alerts
 
 * [Integrations](alerts/integrations/README.md)
+  * [Slack](alerts/integrations/slack.md)
   * [Configure SMS Notifications \(Unsupported\)](alerts/integrations/configure-sms-notifications-unsupported.md)
 
 ## Endpoint Agent
