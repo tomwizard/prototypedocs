@@ -1,6 +1,16 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Alerts](alerts/README.md)
+  * [Alert Metrics](alerts/alert-metrics.md)
+  * [Dynamic Baselines](alerts/dynamic-baselines.md)
+  * [Integrations](alerts/integrations/README.md)
+    * [Webhooks](alerts/integrations/webhooks.md)
+    * [ServiceNow](alerts/integrations/servicenow.md)
+    * [PagerDuty](alerts/integrations/pagerduty.md)
+    * [HipChat](alerts/integrations/hipchat.md)
+    * [Slack](alerts/integrations/slack.md)
+    * [Configure SMS Notifications \(Unsupported\)](alerts/integrations/configure-sms-notifications-unsupported.md)
 
 ## Sandbox
 
@@ -10,13 +20,6 @@
   * [Release Update 2019-12-10 - ThousandEyes Customer Success Center](sandbox/release-notes-1/untitled.md)
   * [Release Update 2019-11-26 - ThousandEyes Customer Success Center](sandbox/release-notes-1/release-update-2019-11-26-thousandeyes-customer-success-center.md)
   * [Release Update 2019-11-12 - ThousandEyes Customer Success Center](sandbox/release-notes-1/untitled-2.md)
-* [Integrations](sandbox/integrations/README.md)
-  * [Webhooks](sandbox/integrations/webhooks.md)
-  * [ServiceNow](sandbox/integrations/servicenow.md)
-  * [PagerDuty](sandbox/integrations/pagerduty.md)
-  * [HipChat](sandbox/integrations/hipchat.md)
-  * [Slack](sandbox/integrations/slack.md)
-  * [Configure SMS Notifications \(Unsupported\)](sandbox/integrations/configure-sms-notifications-unsupported.md)
 * [Reporting on data collected by Endpoint Agent](sandbox/untitled-1-1.md)
 * [Data collected by Endpoint Agent](sandbox/untitled-1.md)
 * [Test Page](sandbox/test.md)
