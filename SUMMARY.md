@@ -8,6 +8,11 @@
   * [Release Update 2019-11-26 - ThousandEyes Customer Success Center](release-notes-1/release-update-2019-11-26-thousandeyes-customer-success-center.md)
   * [Release Update 2019-11-12 - ThousandEyes Customer Success Center](release-notes-1/untitled-2.md)
 
+## Alerts
+
+* [Integrations](alerts/integrations/README.md)
+  * [Configure SMS Notifications \(Unsupported\)](alerts/integrations/configure-sms-notifications-unsupported.md)
+
 ## Endpoint Agent
 
 * [Reporting on data collected by Endpoint Agent](endpoint-agent/untitled-1.md)
