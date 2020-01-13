@@ -11,6 +11,10 @@
 ## Alerts
 
 * [Integrations](alerts/integrations/README.md)
+  * [Webhooks](alerts/integrations/webhooks.md)
+  * [ServiceNow](alerts/integrations/servicenow.md)
+  * [PagerDuty](alerts/integrations/pagerduty.md)
+  * [HipChat](alerts/integrations/hipchat.md)
   * [Slack](alerts/integrations/slack.md)
   * [Configure SMS Notifications \(Unsupported\)](alerts/integrations/configure-sms-notifications-unsupported.md)
 
