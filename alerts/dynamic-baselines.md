@@ -29,6 +29,7 @@ The following metrics currently support dynamic baselines:
 The image below shows an example alert configuration using a dynamic baseline. The alert condition states that if the response time exceeds two standard deviations above the average value over the last four hours, the alert will fire.
 
 ![](../.gitbook/assets/dynamic-baseline-example.png)
+![](../.gitbook/assets/dynamic-baseline-example-two.png)
 
 {% hint style="danger" %}
 The time window for the alert must be at least three times the length of the interval of any tests it is attached to, in order to fire. For example, if a test runs every five minutes, the time window for the alert must be at least fifteen minutes in order to gather the three data points required.
