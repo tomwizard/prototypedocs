@@ -2,6 +2,8 @@
 
 Dynamic baselines allow users to create alerts that more accurately reflect the natural variance in test data. Using standard deviation, percentage change, or absolute values, users can configure alerts that dynamically determine whether to fire or not, based on historical data within a sliding time window.
 
+New paragraph text.
+
 {% hint style="warning" %}
 Dynamic baselines are currently only available for Cloud and Enterprise Agent alerts.
 {% endhint %}
