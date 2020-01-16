@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Alerts](alerts/README.md)
+  * [API Doc](alerts/api-doc.md)
   * [Alert Metrics](alerts/alert-metrics.md)
   * [Dynamic Baselines](alerts/dynamic-baselines.md)
   * [Integrations](alerts/integrations/README.md)
