@@ -14,7 +14,7 @@
     * [Configure SMS Notifications \(Unsupported\)](alerts/integrations/configure-sms-notifications-unsupported.md)
 * [Endpoint Agent](endpoint-agent/README.md)
   * [Data collected by Endpoint Agent](sandbox/untitled-1.md)
-  * [Reporting on data collected by Endpoint Agent](endpoint-agent/untitled-1-1.md)
+  * [Reporting on data collected by Endpoint Agent](sandbox/untitled-1-1.md)
 * [Release Notes](sandbox/release-notes-1/README.md)
   * [Release Update 2019-12-10 - ThousandEyes Customer Success Center](sandbox/release-notes-1/untitled.md)
   * [Release Update 2019-11-26 - ThousandEyes Customer Success Center](sandbox/release-notes-1/release-update-2019-11-26-thousandeyes-customer-success-center.md)
