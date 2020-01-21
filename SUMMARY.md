@@ -296,6 +296,8 @@
   * [Privacy Related](migration/top-level/privacy-related/README.md)
     * [Authorized Subprocessors for ThousandEyes Network Intelligence Platform](migration/top-level/privacy-related/untitled.md)
   * [Release Notes](migration/top-level/release-notes.md)
+    * [Release update 2014-07-09 - ThousandEyes Customer Success Center](migration/top-level/release-notes/untitled-34.md)
+    * [Release update 2014-06-26 - ThousandEyes Customer Success Center](migration/top-level/release-notes/untitled-33.md)
     * [Release update 2014-06-11 - ThousandEyes Customer Success Center](migration/top-level/release-notes/untitled-32.md)
     * [Release update 2014-06-04 - ThousandEyes Customer Success Center](migration/top-level/release-notes/untitled-31.md)
     * [Release update 2014-04-09 - ThousandEyes Customer Success Center](migration/top-level/release-notes/untitled-30.md)
