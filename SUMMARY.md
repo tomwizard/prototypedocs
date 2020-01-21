@@ -43,3 +43,14 @@
 * [Working with RBAC](sandbox/working-with-rbac.md)
 * [What Is an Account Group?](sandbox/what-is-an-account-group.md)
 
+## Migration
+
+* [Top Level](migration/top-level/README.md)
+  * [Getting Started](migration/top-level/getting-started-1/README.md)
+    * [Where are Cloud Agents available?](migration/top-level/getting-started-1/untitled-3.md)
+    * [Notification of upgrades, maintenance and outages](migration/top-level/getting-started-1/untitled-2.md)
+    * [Getting Started with ThousandEyes - ThousandEyes Customer Success Center](migration/top-level/getting-started-1/untitled-1.md)
+    * [What is Path Trace? - ThousandEyes Customer Success Center](migration/top-level/getting-started-1/untitled.md)
+    * [Getting support from ThousandEyes - ThousandEyes Customer Success Center](migration/top-level/getting-started-1/getting-started.md)
+    * [User Entity Controls \(UECs\) - ThousandEyes Customer Success Center](migration/top-level/getting-started-1/migration-folder.md)
+
