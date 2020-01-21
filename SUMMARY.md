@@ -295,5 +295,12 @@
     * [Discovering Device Layer Devices - ThousandEyes Customer Success Center](migration/top-level/device-layer/untitled.md)
   * [Privacy Related](migration/top-level/privacy-related/README.md)
     * [Authorized Subprocessors for ThousandEyes Network Intelligence Platform](migration/top-level/privacy-related/untitled.md)
-  * [Release Notes](migration/top-level/release-notes.md)
+  * [Release Notes](migration/top-level/release-notes/README.md)
+    * [Release update 2012-06-20 - ThousandEyes Customer Success Center](migration/top-level/release-notes/untitled-6.md)
+    * [Release update 2012-06-05 - ThousandEyes Customer Success Center](migration/top-level/release-notes/untitled-5.md)
+    * [Release update 2012-05-22 - ThousandEyes Customer Success Center](migration/top-level/release-notes/untitled-4.md)
+    * [Release update 2012-04-24 - ThousandEyes Customer Success Center](migration/top-level/release-notes/untitled-3.md)
+    * [Release update 2012-04-11 - ThousandEyes Customer Success Center](migration/top-level/release-notes/untitled-2.md)
+    * [Release update 2012-03-28 - ThousandEyes Customer Success Center](migration/top-level/release-notes/untitled-1.md)
+    * [Release update 2013-01-08 - ThousandEyes Customer Success Center](migration/top-level/release-notes/untitled.md)
 
