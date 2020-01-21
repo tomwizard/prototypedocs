@@ -53,4 +53,5 @@
     * [What is Path Trace? - ThousandEyes Customer Success Center](migration/top-level/getting-started-1/untitled.md)
     * [Getting support from ThousandEyes - ThousandEyes Customer Success Center](migration/top-level/getting-started-1/getting-started.md)
     * [User Entity Controls \(UECs\) - ThousandEyes Customer Success Center](migration/top-level/getting-started-1/migration-folder.md)
+  * [ThousandEyes Basics](migration/top-level/thousandeyes-basics.md)
 
