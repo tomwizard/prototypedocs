@@ -1,4 +1,4 @@
-# Release update 2013-01-08 - ThousandEyes Customer Success Center
+# 2013-01-08 Technical Release Notes
 
 Get ready, because we've rolled out some major \(and majorly exciting\) new features for 2013!
 
