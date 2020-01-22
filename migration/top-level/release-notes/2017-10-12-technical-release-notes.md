@@ -1,4 +1,4 @@
-# Release Update 2017-10-12 - ThousandEyes Customer Success Center
+# Technical Release Notes: 2017-10-12
 
 Welcome to a special Wednesday night release!
 
