@@ -1,4 +1,4 @@
-# Release Update 2017-06-21 - ThousandEyes Customer Success Center
+# 2017-06-21 Technical Release Notes
 
 Welcome to tonight's release!  We've got some long-awaited features that are making their debut, but first...
 
