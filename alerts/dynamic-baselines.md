@@ -30,8 +30,6 @@ The image below shows an example alert configuration using a dynamic baseline. T
 
 ![](../.gitbook/assets/dynamic-baseline-example.png)
 
-_Image One_
-
 {% hint style="danger" %}
 The time window for the alert must be at least three times the length of the interval of any tests it is attached to, in order to fire. For example, if a test runs every five minutes, the time window for the alert must be at least fifteen minutes in order to gather the three data points required.
 {% endhint %}
