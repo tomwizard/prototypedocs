@@ -1,4 +1,4 @@
-# Release update 2012-03-28 - ThousandEyes Customer Success Center
+# 2012-03-28 Technical Release Notes
 
 We made quite a few changes in this release, including:
 
