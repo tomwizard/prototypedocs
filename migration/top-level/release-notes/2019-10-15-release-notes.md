@@ -1,4 +1,4 @@
-# Release Update 2019-10-15 - ThousandEyes Customer Success Center
+# Release Notes: 2019-10-15
 
 Welcome to our latest release!
 

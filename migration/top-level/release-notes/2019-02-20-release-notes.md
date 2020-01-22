@@ -1,4 +1,4 @@
-# Technical Release Notes: 2019-02-20
+# Release Notes: 2019-02-20
 
 ### Release Update 2019-02-20
 

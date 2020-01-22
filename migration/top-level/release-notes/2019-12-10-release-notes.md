@@ -1,4 +1,4 @@
-# Technical Release Notes: 2019-12-10
+# Release Notes: 2019-12-10
 
 Welcome to our latest release!
 
