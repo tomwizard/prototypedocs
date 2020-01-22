@@ -22,7 +22,26 @@ The DNS+ Resolution Time view shows two different data views, depending on wheth
         <p>The timeline area plots average response time, calculated globally over
           time, as shown below.</p>
         <p>The Detailed metrics area, broken into two tabs shows the following:</p>
-        <ul></ul>
+        <ul>
+          <li>
+            <ul>
+              <li>Map: Shows worldwide average resolution time results, along with total
+                number of vantage points available within all tested countries, for the
+                selected date and time. The map shows countries colored based on the resolution
+                time measurements obtained from vantage points within those countries.
+                Dark green color indicates least resolution time while dark red color indicates
+                maximum resolution time.</li>
+              <li>Countries: Tabulates for each country, average resolution time measurements,
+                number of networks, number of vantage points (in those networks), sorted
+                by default in descending average resolution time measurements results.</li>
+              <li></li>
+              <li>Networks: Tabulates for worldwide networks, AS number, resolution time
+                (as computed across all vantage points in that network), and number of
+                vantage points, sorted by default in descending order of average resolution
+                time measurements</li>
+            </ul>
+          </li>
+        </ul>
         <p>To select a specific country, simply select a country from the world map,
           or choose a country from the Countries tab in the detailed metrics area
           or from the Country dropdown menu.</p>

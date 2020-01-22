@@ -16,7 +16,7 @@ A ThousandEyes Enterprise Agent performing Path Visualization using TCP sends TC
 
 With the Agent's network adapter set to NAT Network, the first hop \(the host\) does not respond to the SYN packet \(having an original TTL = 1\) with an ICMP Time-to-Live exceeded packet, and the first SYN packet has the TTL changed to 64, which allows the packet to reach the target. A normally functioning target replies with TCP SYN ACK, terminating the trace. Thus, the Path Visualization consists of only the Agent and the target. Below is a Path Visualization as it would appear from an Agent in Oracle VirtualBox with the "NAT Network" setting, or in Parallels with the "Shared Network" setting:
 
-The limitation is best documented in the Networking chapter of the VirtualBox user's guide, in the section [NAT Limitations](https://www.virtualbox.org/manual/ch06.html#nat-limitations): 
+The limitation is best documented in the Networking chapter of the VirtualBox user's guide, in the section [NAT Limitations](https://www.virtualbox.org/manual/ch06.html#nat-limitations):
 
 Some frequently used network debugging tools \(e.g. ping or tracerouting\) rely on the ICMP protocol for sending/receiving messages. While ICMP support has been improved with VirtualBox 2.1 \(ping should now work\), some other tools may not work reliably.
 

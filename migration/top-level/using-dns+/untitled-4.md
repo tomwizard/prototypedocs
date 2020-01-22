@@ -48,7 +48,26 @@ The DNS+ Server Latency view shows two different data views, depending on whethe
           as line graph plotted over the worldwide average server latency data. An
           example of a timeline with a country selected is shown below.</p>
         <p>The Detailed metrics area, broken into two tabs shows the following:</p>
-        <ul></ul>
+        <ul>
+          <li>
+            <ul>
+              <li>Map: Shows for the selected country, average server latency measurements
+                along with number of vantage points for the selected date and time. The
+                map shows countries colored based on the server latency measurements obtained
+                from all vantage points within those countries. Dark green color is used
+                to indicate least average server latency, while dark red color indicates
+                maximum average sever latency. Selected country is shown in blue color.</li>
+              <li>Countries: Tabulates for each country, average server latency measurements,
+                number of networks, number of vantage points (in those networks), sorted
+                by default in descending order of average server latency measurement. Selected
+                country will be highlighted in blue.</li>
+              <li>Networks: Tabulates for networks within the country, AS number, server
+                latency (as computed across all vantage points in that network), and number
+                of vantage points, sorted by default in descending order of average server
+                latency measurements.</li>
+            </ul>
+          </li>
+        </ul>
         <p>To clear a selected country, either click in background (uncolored) area
           of the world map, or click on &apos;x&apos; from the Country dropdown menu.</p>
       </th>
