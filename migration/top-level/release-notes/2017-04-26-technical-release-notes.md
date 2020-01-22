@@ -1,4 +1,4 @@
-# 2017-04-26 Technical Release Notes
+# Technical Release Notes: 2017-04-26
 
 Hello, ThousandEyes community!
 
