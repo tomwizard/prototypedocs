@@ -1,4 +1,4 @@
-# Release update 2013-03-20 - ThousandEyes Customer Success Center
+# 2013-03-20 Technical Release Notes
 
 Our team has been hard at work over the last month working to bring you improvements on across the platform!  A few of the bigger updates can be found below:
 
