@@ -1,4 +1,4 @@
-# How DNS+ Domain tests work
+# How DNS+ Domain Tests Work
 
 ## What is DNS+?
 
