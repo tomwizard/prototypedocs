@@ -1,4 +1,4 @@
-# 2013-01-08 Technical Release Notes
+# Technical Release Notes: 2013-01-08
 
 Get ready, because we've rolled out some major \(and majorly exciting\) new features for 2013!
 

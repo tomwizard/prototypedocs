@@ -1,4 +1,4 @@
-# Release update 2013-04-17 - ThousandEyes Customer Success Center
+# Technical Release Notes: 2013-04-17
 
 As usual, our team has been burning the midnight oil bringing you some new and fun stuff!
 

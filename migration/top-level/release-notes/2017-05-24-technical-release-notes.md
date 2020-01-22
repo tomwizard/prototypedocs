@@ -1,4 +1,4 @@
-# 2017-05-24 Technical Release Notes
+# Technical Release Notes: 2017-05-24
 
 ## Bug fixes & minor features
 
