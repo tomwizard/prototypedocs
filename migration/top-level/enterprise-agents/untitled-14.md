@@ -1,6 +1,6 @@
 # Replacing an Enterprise Agent using the agent clustering method
 
-For a variety of reasons, customers may need to replace an Enterprise Agent which is currently operational.  When replacement is required, customers may want to preserve the Agent's configuration \(such as the Agent's name, or settings from the Advanced Settings tab of the Agent's entry on the [Enterprise Agent page](https://app.thousandeyes.com/settings/agents/enterprise/)\) and the tests and Account Groups to which the Enterprise Agent has been assigned. The information below provides a process to quickly substitute the new Enterprise Agent for the old, using the ThousandEyes Enterprise Agent cluster feature.
+For a variety of reasons, customers may need to replace an Enterprise Agent which is currently operational. When replacement is required, customers may want to preserve the Agent's configuration \(such as the Agent's name, or settings from the Advanced Settings tab of the Agent's entry on the [Enterprise Agent page](https://app.thousandeyes.com/settings/agents/enterprise/)\) and the tests and Account Groups to which the Enterprise Agent has been assigned. The information below provides a process to quickly substitute the new Enterprise Agent for the old, using the ThousandEyes Enterprise Agent cluster feature.
 
 Replacement using the process below not only makes replacement faster and simpler than manual reconfiguration of an Agent, but ensures that organizations which have limits or which are billed for overages to their contracted number of concurrently active Enterprise Agents do not encounter problems due to those limits.
 
@@ -26,7 +26,7 @@ For more detailed instructions, refer to the section below.
 1. Create a new cluster using the Agent requiring replacement
 
    Navigate to the [Enterprise Agents page](https://app.thousandeyes.com/settings/agents/enterprise/?), expand the row of the Agent requiring replacement, and click the Add agent to cluster button.  
-    More info about clusters can be found in the Knowledge Base article [Working with Enterprise Agent Clusters](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmngKAC).
+   More info about clusters can be found in the Knowledge Base article [Working with Enterprise Agent Clusters](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmngKAC).
 
 2. Name the new cluster
 3. Disable the new cluster

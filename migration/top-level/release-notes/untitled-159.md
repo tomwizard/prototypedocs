@@ -38,7 +38,7 @@ The response payloads for both endpoints will be identical; the content is speci
 
 In Scheduled Tests, we've removed the "TCP" option from the **Protocol** selector, and added the **TCP Connect** checkbox.
 
-A new metric, "Connection failures" has been added to the test's Network view,  which is the count of TCP connection failures across Agents running the test. Additionally, the Table tab of the test's Network views now displays a TCP Connect column which indicates the status of this portion of the test.
+A new metric, "Connection failures" has been added to the test's Network view, which is the count of TCP connection failures across Agents running the test. Additionally, the Table tab of the test's Network views now displays a TCP Connect column which indicates the status of this portion of the test.
 
 The TCP Connect message is also available in the tooltip displayed when hovering over an Agent in the Path Visualization.
 

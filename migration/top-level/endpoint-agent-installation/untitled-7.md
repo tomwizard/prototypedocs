@@ -16,7 +16,7 @@ Another common scenario for deleting an Agent in the platform occurs when an Age
 
 In scenarios where multiple installations are performed on a computer with the same hostname, multiple entries in the Endpoint Agent page are created with the same Agent name, as in the image below:
 
-If an administrator wishes to retain the current Agent while deleting prior instances, use the Last Contact time from the table in Endpoint Agents page to select the Agent with the most recent contact, ideally making certain that the Endpoint Agent and its host computer are currently running.  If two Agents have a Last Contact time closer than 30 minutes, ThousandEyes recommends waiting for another update to the Last Contact time to ensure that the active Agent can be correctly identified.
+If an administrator wishes to retain the current Agent while deleting prior instances, use the Last Contact time from the table in Endpoint Agents page to select the Agent with the most recent contact, ideally making certain that the Endpoint Agent and its host computer are currently running. If two Agents have a Last Contact time closer than 30 minutes, ThousandEyes recommends waiting for another update to the Last Contact time to ensure that the active Agent can be correctly identified.
 
 ## Deleting an Endpoint Agent from the platform
 

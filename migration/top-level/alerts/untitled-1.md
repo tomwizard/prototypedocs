@@ -2,7 +2,7 @@
 
 The following article describes the steps in adding or editing an Alert Rule. To understand how alerts work, refer to the ThousandEyes Knowledge Base article [How Alerts work](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnBqCAK).
 
-To create a new Alert rule, Click on [**Alerts &gt; Alert Rules**](https://app.thousandeyes.com/settings/alerts/?)  and the Alert Rules page will open.
+To create a new Alert rule, Click on [**Alerts &gt; Alert Rules**](https://app.thousandeyes.com/settings/alerts/?) and the Alert Rules page will open.
 
 Select the desired source from the tabs at the top:
 
