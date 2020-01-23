@@ -1,4 +1,4 @@
-# Alert Suppression Windows - ThousandEyes Customer Success Center
+# Alert Suppression Windows
 
 The ThousandEyes platform provides Alert Suppression Windows to suppress alerting for Tests during the periods such as planned maintenance.  Windows can be one-time events or recurring events to handle periodic occurrences such as monthly downtime for maintenance.
 

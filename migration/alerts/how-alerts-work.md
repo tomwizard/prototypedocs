@@ -1,4 +1,4 @@
-# How Alerts work - ThousandEyes Customer Success Center
+# How Alerts work
 
 Last updated: Thu Jan 02 21:56:36 GMT 2020
 

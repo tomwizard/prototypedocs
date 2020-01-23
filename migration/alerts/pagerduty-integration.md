@@ -1,4 +1,4 @@
-# PagerDuty Integration - ThousandEyes Customer Success Center
+# PagerDuty Integration
 
 On our October 29, 2014 release, we introduced an integration with PagerDuty for Alert management.
 

@@ -1,4 +1,4 @@
-# ServiceNow Integration - ThousandEyes Customer Success Center
+# ServiceNow Integration
 
 ThousandEyes supports routing alert notifications directly into [ServiceNow](https://www.servicenow.com/) [Incident Management Services](https://docs.servicenow.com/bundle/london-it-service-management/page/product/incident-management/concept/c_IncidentManagement.html) - a solution for streamlining the logging, classification, assignment, escalation, and reporting of incidents. The following guide describes the process of configuring ServiceNow and ThousandEyes [Alert Rules](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnBqCAK_How-Alerts-work) to send alert notifications directly into the ServiceNow platform. 
 

@@ -1,4 +1,4 @@
-# Slack and HipChat Integration - ThousandEyes Customer Success Center
+# Slack and HipChat Integration
 
 The ThousandEyes platform integrates with the popular messaging applications Slack and HipChat. When an Alert is raised, notification can be sent to a channel automatically.
 
