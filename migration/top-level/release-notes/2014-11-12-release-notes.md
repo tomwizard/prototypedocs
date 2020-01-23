@@ -1,4 +1,4 @@
-# Release update 2014-11-12 - ThousandEyes Customer Success Center
+# Release Notes: 2014-11-12
 
 Today's release notes are light, but very rich.  In our last release, we introduced the ability to integrate PagerDuty.  With today's release, our system now has the ability to send an event to a target server, using Webhooks.  Check out the release notes below, and as always, we love your feedback.  [Send us a note](mailto:support@thousandeyes.com?subject=November%2012%20Release%20Question) if you have questions, comments, or are looking for additional information.
 
