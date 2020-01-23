@@ -1,4 +1,4 @@
-# Outage Detection - Overview - ThousandEyes Customer Success Center
+# Outage Detection - Overview
 
 ## Index <a id="recommended-reading-order"></a>
 

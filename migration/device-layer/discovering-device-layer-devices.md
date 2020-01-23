@@ -1,4 +1,4 @@
-# Discovering Device Layer Devices - ThousandEyes Customer Success Center
+# Discovering Device Layer Devices
 
 ### Discovering Device Layer Devices
 

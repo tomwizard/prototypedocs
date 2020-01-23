@@ -1,4 +1,4 @@
-# Working with Reports - ThousandEyes Customer Success Center
+# Working with Reports
 
 ## Table of contents
 

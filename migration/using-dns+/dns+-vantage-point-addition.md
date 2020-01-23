@@ -1,4 +1,4 @@
-# DNS+ Vantage Point addition - ThousandEyes Customer Success Center
+# DNS+ Vantage Point addition
 
 During our maintenance update on May 14, 2014 we will be updating our validation rules for DNS+ Vantage Points, to remove a constraint which was unnecessarily causing a number of open resolvers used in DNS+ to be removed from the list.
 
