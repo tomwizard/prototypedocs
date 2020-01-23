@@ -1,4 +1,4 @@
-# Technical Release Notes: 2017-08-30
+# Release Notes: 2017-08-30
 
 Welcome to tonight's release!
 
