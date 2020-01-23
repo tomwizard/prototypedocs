@@ -1,4 +1,4 @@
-# Technical Release Notes: 2017-06-06
+# Release Notes: 2017-06-06
 
 Welcome to tonight's release. But first a word from our sponsor...
 
