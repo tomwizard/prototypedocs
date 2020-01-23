@@ -1,4 +1,4 @@
-# RTP Stream test settings - ThousandEyes Customer Success Center
+# RTP Stream test settings
 
 An RTP Stream test creates a simulated voice data stream between two ThousandEyes Agents acting as the VoIP user agents. RTP packets are sent between one or more Agents and a target Agent, using UDP as the transport protocol, to obtain Mean Opinion Score \(MOS\), packet loss, discards, latency and Packet Delay Variation \(PDV\) metrics. Metrics produced are one-way metrics \(source to target\). The RTP Stream test provides server port, call duration, de-jitter buffer size and codec configuration options.
 

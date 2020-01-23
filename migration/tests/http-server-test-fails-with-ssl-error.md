@@ -1,4 +1,4 @@
-# HTTP Server test fails with SSL Error: SSL certificate problem: unable to get local issuer certifica
+# HTTP Server test fails with SSL Error
 
 An HTTP Server test or the HTTP Server view of a Page Load test may display the following error message:
 

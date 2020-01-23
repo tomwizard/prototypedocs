@@ -1,4 +1,4 @@
-# Voice Call test settings - ThousandEyes Customer Success Center
+# Voice Call test settings
 
 A Voice Call test simulates a full Voice over IP \(VoIP\) call sequence: first the session initiation using the Session Initiation Protocol \(SIP\) and then voice data transmission using the Real-time Transport Protocol \(RTP\) between one or more ThousandEyes Agents and a target Agent, acting as the VoIP user agents \(call endpoints\). Call registration with SIP servers is performed for both user agents using credentials specific to each user agent. Separate SIP proxies can be configured for one or both user agents.  Simulated voice data is then sent via RTP between one or more Agents and a target Agent, using UDP or TCP as the transport protocol.  Metrics produced are one-way metrics \(source to target\).
 

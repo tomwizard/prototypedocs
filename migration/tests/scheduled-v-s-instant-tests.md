@@ -1,4 +1,4 @@
-# Scheduled v/s instant tests - ThousandEyes Customer Success Center
+# Scheduled v/s instant tests
 
 ThousandEyes offers tests in Scheduled and Instant forms.
 

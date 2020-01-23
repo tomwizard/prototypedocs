@@ -1,4 +1,4 @@
-# SIP Server test settings - ThousandEyes Customer Success Center
+# SIP Server test settings
 
 SIP Server tests facilitate network measurements, BGP data collection and, most importantly, SIP service availability and performance testing against SIP-based VoIP infrastructure. [Enterprise and Cloud Agents](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnvICAS_Comparison-of-Agent-Types) performing a SIP Server test will verify the SIP service availability by issuing a SIP OPTIONS request \(also known as the SIP "ping" request\) against it and validate the response. Optionally, the following SIP aspects can be configured:
 

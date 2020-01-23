@@ -1,4 +1,4 @@
-# Sharing Test Data - ThousandEyes Customer Success Center
+# Sharing Test Data
 
 The ThousandEyes platform provides the **Sharing** menu for users to share test data, either with other users of the ThousandEyes platform or with people who are not users of the platform. You can collaborate with the same graphical view of test results, allowing you to troubleshoot with colleagues, partners or providers, regardless of whether they subscribe to the ThousandEyes platform.
 

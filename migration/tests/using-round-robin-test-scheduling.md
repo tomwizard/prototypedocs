@@ -1,4 +1,4 @@
-# Using Round-robin test scheduling - ThousandEyes Customer Success Center
+# Using Round-robin test scheduling
 
 When configuring a ThousandEyes test, the Interval setting controls the time between each test execution. For certain test types, an additional two settings, the **Schedule** mode and the **Subinterval** are available to control the distribution of test execution, typically used when the test is assigned to multiple Cloud or Enterprise Agents.
 
