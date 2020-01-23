@@ -1,4 +1,4 @@
-# Technical Release Notes: 2012-03-28
+# Release Notes: 2012-03-28
 
 We made quite a few changes in this release, including:
 
