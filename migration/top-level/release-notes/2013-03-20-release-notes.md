@@ -1,4 +1,4 @@
-# Technical Release Notes: 2013-03-20
+# Release Notes: 2013-03-20
 
 Our team has been hard at work over the last month working to bring you improvements on across the platform!  A few of the bigger updates can be found below:
 
