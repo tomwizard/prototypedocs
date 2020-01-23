@@ -1,4 +1,4 @@
-# Working with Agent settings - ThousandEyes Customer Success Center
+# Working with Agent settings
 
 ThousandEyes Agents provide a variety of settings to customize their behavior to your needs. This article describes menu choices under the Cloud & Enterprise Agents and Endpoint Agent areas.
 

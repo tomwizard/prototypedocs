@@ -1,4 +1,4 @@
-# Working with the Dashboard - ThousandEyes Customer Success Center
+# Working with the Dashboard
 
 #### Working with the Dashboard
 

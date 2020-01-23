@@ -1,4 +1,4 @@
-# ThousandEyes view layouts - ThousandEyes Customer Success Center
+# ThousandEyes view layouts
 
 ### ThousandEyes view layouts
 

@@ -1,4 +1,4 @@
-# Customizing your Dashboard - ThousandEyes Customer Success Center
+# Customizing your Dashboard
 
 In ThousandEyes, you can configure your Dashboard page to meet your own individual needs. If you have a role with the appropriate permissions, you can configure a Dashboard and make it available for other users in your own Account Group. It's pretty simple to customize as needed - just check out the details below.
 
