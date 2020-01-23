@@ -1,4 +1,4 @@
-# Getting support from ThousandEyes - ThousandEyes Customer Success Center
+# Getting support from ThousandEyes
 
 There are a number of ways to contact us when requesting assistance from the ThousandEyes Customer Success team. Depending on your needs and the information exchanged, one method may be preferable to others. Additionally, knowing in advance what information the Customer Success team requires for different types of problems can inform the choice of contact method. Moreover, providing necessary information, particularly at first contact, can reduce the time spent by both you and the Customer Success team in resolving questions or problems.
 

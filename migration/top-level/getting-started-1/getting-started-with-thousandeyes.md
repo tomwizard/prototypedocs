@@ -1,4 +1,4 @@
-# Getting Started with ThousandEyes - ThousandEyes Customer Success Center
+# Getting Started with ThousandEyes
 
 ## Welcome to ThousandEyes!
 

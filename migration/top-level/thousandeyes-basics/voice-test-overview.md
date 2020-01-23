@@ -1,4 +1,4 @@
-# Voice Test overview - ThousandEyes Customer Success Center
+# Voice Test overview
 
 VoIP \(Voice over Internet Protocol\) embeds the sound of your voice into data packets, which are sent over the Internet to be converted back into original sound once they reach the destination. Typically, VoIP calls are divided into two phases: Session Connection and Voice Data Transfer. Session Initiation Protocol \(SIP\)  and the Skinny Call Control Protocol \(SCCP, or simply Skinny\) are the widely used VoIP control mechanisms to create, modify, and terminate sessions with the target participant\(s\). SIP signaling messages can be either TCP or UDP based and use Real Time Transport Protocol \(RTP\) for sending voice streams while SCCP uses TCP/IP to connect to the VoIP server and sends traffic as stream of RTP packets using UDP. A Voice test measures network bandwidth, latency, call jitter, packet loss and round trip time.
 

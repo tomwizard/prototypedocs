@@ -1,4 +1,4 @@
-# Inside-out BGP visibility - ThousandEyes Customer Success Center
+# Inside-out BGP visibility
 
 ## Inside-out BGP visibility
 

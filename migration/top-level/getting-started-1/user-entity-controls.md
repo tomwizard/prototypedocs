@@ -1,4 +1,4 @@
-# User Entity Controls \(UECs\) - ThousandEyes Customer Success Center
+# User Entity Controls
 
 As a cloud service provider we share responsibilities for security with our customers. ThousandEyes User entity \(customer\) is responsible for implementing the following security controls and operational activities:
 

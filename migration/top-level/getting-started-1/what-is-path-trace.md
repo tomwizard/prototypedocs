@@ -1,4 +1,4 @@
-# What is Path Trace? - ThousandEyes Customer Success Center
+# What is Path Trace?
 
 When working to diagnose a network issue with the ThousandEyes platform you will likely use the Path Visualization. This tool illustrates a visual representation of the Path Trace data collected for a round.
 
