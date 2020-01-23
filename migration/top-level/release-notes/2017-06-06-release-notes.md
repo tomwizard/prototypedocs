@@ -10,15 +10,15 @@ Nick Kephart's latest blog post is entitled [Monitoring IPv6 Networks](https://b
 
 ## API
 
-Starting today, we are beginning the countdown for the change to the default version of our API.  In 90 days \(September 13th, 2017\) the default version of the API will be changed from version 5 to version 6.  At that time, API queries specified against the non-versioned API will query based on the newer version, and the oldest version of the API \(version 4\) will move into a sunset phase of 90 days. Customers should prepare their API-based applications for the change.  Consult the [Change Policy](http://developer.thousandeyes.com/v5/#/versioning) of our API documentation for more information. 
+Starting today, we are beginning the countdown for the change to the default version of our API. In 90 days \(September 13th, 2017\) the default version of the API will be changed from version 5 to version 6. At that time, API queries specified against the non-versioned API will query based on the newer version, and the oldest version of the API \(version 4\) will move into a sunset phase of 90 days. Customers should prepare their API-based applications for the change. Consult the [Change Policy](http://developer.thousandeyes.com/v5/#/versioning) of our API documentation for more information.
 
 ## Enterprise Agents
 
-We've updated the queues used to calculate Enterprise Agent utilization. The **HTTP + DNS + Network Tests** queue has been renamed **General Tests**. The **Agent to Agent Tests** queue has been removed, and the Agent to Agent tests are now included in the General queue, or the **Bandwidth and Throughput Tests** queue if the test is configured for Bandwidth and/or Throughput measurements.  For more information on Enterprise Agent utilization, check out the new Knowledge Base article [Enterprise Agent Utilization](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnjgCAC).
+We've updated the queues used to calculate Enterprise Agent utilization. The **HTTP + DNS + Network Tests** queue has been renamed **General Tests**. The **Agent to Agent Tests** queue has been removed, and the Agent to Agent tests are now included in the General queue, or the **Bandwidth and Throughput Tests** queue if the test is configured for Bandwidth and/or Throughput measurements. For more information on Enterprise Agent utilization, check out the new Knowledge Base article [Enterprise Agent Utilization](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnjgCAC).
 
 ## Bug fixes & minor features
 
- Here's the bug fixes and minor features in this week's release:
+Here's the bug fixes and minor features in this week's release:
 
 * We've made some improvements to BrowserBot on our Cloud Agents, in response to some instability issues from the past two weeks.
 * Path Visualization tooltips now show information on target nodes even if the target is unreachable.
@@ -33,5 +33,5 @@ We've updated the queues used to calculate Enterprise Agent utilization. The **H
 
 ## ​Questions, comments?
 
- Can't make it to ThousandEyes Connect but still want to connect with ThousandEyes? We'd love to know what's on your mind.  [Send us an email](mailto:support@thousandeyes.com?subject=2017-06-06+Release+Update).
+Can't make it to ThousandEyes Connect but still want to connect with ThousandEyes? We'd love to know what's on your mind. [Send us an email](mailto:support@thousandeyes.com?subject=2017-06-06+Release+Update).
 

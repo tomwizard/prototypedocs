@@ -8,9 +8,9 @@ And now without further ado...
 
 ## Update your whitelists!
 
-Starting on September 12, 2017, we will be bringing online a new and improved system to which Enterprise Agents will upload data. The new system’s domain name is data1.agt.thousandeyes.com and its IP address is 192.150.160.203. This change will affect customers who have security devices with configurations \(firewall rules, web proxy rules, router ACL’s\) which explicitly permit \("whitelist"\) Enterprise Agent connections to ThousandEyes.  Currently the connections go to c1.thousandeyes.com, at IP address 192.150.160.17.  Customers with whitelists should add the new information to the existing configurations \(or if possible whitelist the entire ThousandEyes network, 192.150.160.0/24\).
+Starting on September 12, 2017, we will be bringing online a new and improved system to which Enterprise Agents will upload data. The new system’s domain name is data1.agt.thousandeyes.com and its IP address is 192.150.160.203. This change will affect customers who have security devices with configurations \(firewall rules, web proxy rules, router ACL’s\) which explicitly permit \("whitelist"\) Enterprise Agent connections to ThousandEyes. Currently the connections go to c1.thousandeyes.com, at IP address 192.150.160.17. Customers with whitelists should add the new information to the existing configurations \(or if possible whitelist the entire ThousandEyes network, 192.150.160.0/24\).
 
-At some later date following the next release on 9/14, we will push changes to the Enterprise Agents to use both c1.thousandeyes.com/192.150.160.17 and data1.agt.thousandeyes.com/192.150.160.203. If customers do not update their whitelists, Enterprise Agents will appear as online, but the Agents will not be able to upload test data. 
+At some later date following the next release on 9/14, we will push changes to the Enterprise Agents to use both c1.thousandeyes.com/192.150.160.17 and data1.agt.thousandeyes.com/192.150.160.203. If customers do not update their whitelists, Enterprise Agents will appear as online, but the Agents will not be able to upload test data.
 
 ## IPv6 Cloud Agents
 
@@ -18,7 +18,7 @@ Our newest IPv6 Cloud Agent is Helsinki, Finland. Raise your glass of glögi in 
 
 ## Agent to Agent tests
 
-In a bidirectional Agent to Agent test \(**Direction** setting is "Both Directions\) where an Enterprise Agent is NAT'ed, it is possible that the source IP address in the outbound direction is not the same as the destination IP address in the inbound direction. Previously we only displayed the Enterprise Agent's icon with the source IP address.  Now we display two Enterprise Agent icons to indicate different IP addresses, as in the example below, with the Enterprise Agent "Dallas, TX NAT":
+In a bidirectional Agent to Agent test \(**Direction** setting is "Both Directions\) where an Enterprise Agent is NAT'ed, it is possible that the source IP address in the outbound direction is not the same as the destination IP address in the inbound direction. Previously we only displayed the Enterprise Agent's icon with the source IP address. Now we display two Enterprise Agent icons to indicate different IP addresses, as in the example below, with the Enterprise Agent "Dallas, TX NAT":
 
 ## Bug fixes & minor features
 

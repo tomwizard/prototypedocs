@@ -4,7 +4,7 @@
 
 Welcome to the last release of the summer \(or winter, for our friends in the southern hemisphere\)!
 
-If you're in the neighborhood of Sheffield, England, today was the start of the UK Network Operators Forum.  If you're attending [UKNOF38](https://indico.uknof.org.uk/event/40/), ThousandEyes is a sponsor and presenter, so feel free to seek out one of our folks and say hello. If you missed it, the presentation slides for [Decoding Major Internet Outages in 2017](https://indico.uknof.org.uk/event/40/contribution/16) by ThousandEyes Solutions Engineer Nitin Nayar are available online. Click that link to see how ThousandEyes saw major events affecting Amazon Web Services, Marketo and other big logos.
+If you're in the neighborhood of Sheffield, England, today was the start of the UK Network Operators Forum. If you're attending [UKNOF38](https://indico.uknof.org.uk/event/40/), ThousandEyes is a sponsor and presenter, so feel free to seek out one of our folks and say hello. If you missed it, the presentation slides for [Decoding Major Internet Outages in 2017](https://indico.uknof.org.uk/event/40/contribution/16) by ThousandEyes Solutions Engineer Nitin Nayar are available online. Click that link to see how ThousandEyes saw major events affecting Amazon Web Services, Marketo and other big logos.
 
 No new ThousandEyes blog posts to talk up, this release. So we'll just take this space to extend best wishes to peoples around the world who've been affected by disasters natural or otherwise, and express our hopes for a quick return to safety and normalcy.
 
@@ -28,13 +28,13 @@ Our Operations team has been working hard to bring new Cloud Agent locations onl
 
 ## New live chat
 
-For those customers who enjoy communicating with our Customer Success team via chat, we’re proud to introduce a new in-app chat, which will provide our customers with a much richer support experience. This new platform will provide many new benefits, both now and in the future.  Read all about it in the ThousandEyes Knowledge Base article [Using ThousandEyes Live Chat](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0440000009RwiCAE).
+For those customers who enjoy communicating with our Customer Success team via chat, we’re proud to introduce a new in-app chat, which will provide our customers with a much richer support experience. This new platform will provide many new benefits, both now and in the future. Read all about it in the ThousandEyes Knowledge Base article [Using ThousandEyes Live Chat](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0440000009RwiCAE).
 
 ## API version changes
 
 Per our API Change Policy, we will be changing the default version of the ThousandEyes API from version 5 to version 6, effective as of our release on September 27th, 2017. Timelines for deprecation and other policies governing API version changes can be found in the [Change Policy section](http://developer.thousandeyes.com/#/versioning) of our API documentation, along with instructions for specifying the API version in your query.
 
-Users whose queries specify version 4 \(queries which begin with https://api.thousandeyes.com/v4\) will have 90 days from the date of the switch to make the necessary changes to their queries. After the 90-day transition period, version 4 will no longer be available. We recommend updating any v4-based queries to use the current version of the API \(no specification of version in the query\) in order to avoid the need for future changes.
+Users whose queries specify version 4 \(queries which begin with [https://api.thousandeyes.com/v4\](https://api.thousandeyes.com/v4\)\) will have 90 days from the date of the switch to make the necessary changes to their queries. After the 90-day transition period, version 4 will no longer be available. We recommend updating any v4-based queries to use the current version of the API \(no specification of version in the query\) in order to avoid the need for future changes.
 
 ## Dashboard widgets change
 

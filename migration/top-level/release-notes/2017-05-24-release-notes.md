@@ -2,7 +2,7 @@
 
 ## Bug fixes & minor features
 
- Here's the bux fixes and minor features in this week's release:
+Here's the bux fixes and minor features in this week's release:
 
 * The API now provides access to the Utilization statistic for Agent Clusters, in addition to Utilization for individual Enterprise Agents.
 * An API request to create a Network test previously ignored incorrect "Protocol" field specifications and created a test with default values.  The API now correctly validates the Protocol field.
@@ -15,5 +15,5 @@
 
 ## ​Questions, comments?
 
- What's on your mind? Got comments about the blog articles?  Suggestions for features you want to see in a future Release Update? We love hearing from our customers.  Feel free to [send us an email](mailto:support@thousandeyes.com?subject=2017-05-24+Release+Update).
+What's on your mind? Got comments about the blog articles? Suggestions for features you want to see in a future Release Update? We love hearing from our customers. Feel free to [send us an email](mailto:support@thousandeyes.com?subject=2017-05-24+Release+Update).
 

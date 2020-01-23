@@ -4,7 +4,7 @@
 
 Welcome to the first release of the fall season!
 
-###  ThousandEyes Connect
+### ThousandEyes Connect
 
 We'll be having our next ThousandEyes Connect event in Chicago on October, 11. [Registration](https://www.thousandeyes.com/events/connect) is now open. Come swing by the Windy City, the Second City, the [City of Big Shoulders](https://www.poetryfoundation.org/poetrymagazine/poems/12840/chicago) to hear some great presentations from ThousandEyes users and employees!
 
@@ -14,12 +14,11 @@ We'll be having our next ThousandEyes Connect event in Chicago on October, 11. [
 
 ### WAN Summit
 
- If you're in Europe and plan to be attending the [WAN Summit](https://www.wansummit.com/london/index/) on October 17th and 18th in London, come say hello to the folks from our London office, who will be manning our exhibition booth. 
+If you're in Europe and plan to be attending the [WAN Summit](https://www.wansummit.com/london/index/) on October 17th and 18th in London, come say hello to the folks from our London office, who will be manning our exhibition booth.
 
 ### Cisco Connect
 
-If you want to connect with ThousandEyes, there's lots of opportunity to meet us face-to-face in the coming weeks.  We'll be attending [Cisco Connect](https://www.cisco.com/c/en/us/training-events/events-webinars/cisco-connect.html) events across the USA and Canada. If you're going to attend one of the following events, come say "hi" to us, chat about your needs, learn about new features in the product, or just get some swag in the form of cool new t-shirts.  
- 
+If you want to connect with ThousandEyes, there's lots of opportunity to meet us face-to-face in the coming weeks. We'll be attending [Cisco Connect](https://www.cisco.com/c/en/us/training-events/events-webinars/cisco-connect.html) events across the USA and Canada. If you're going to attend one of the following events, come say "hi" to us, chat about your needs, learn about new features in the product, or just get some swag in the form of cool new t-shirts.
 
 | **Location** | **Date** |
 | :--- | :--- |
@@ -56,7 +55,7 @@ Still more new Cloud Agent locations coming online, courtesy of our Operations t
 
 ## API version changes
 
-Per our announcement in the [previous Release Update](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0440000009RwJCAU), we are changing the default version of the ThousandEyes API from version 5 to version 6. Users whose queries specify version 4 \(queries which begin with https://api.thousandeyes.com/v4\) will have 90 days to make the necessary changes to their queries. After the 90-day transition period, version 4 will no longer be available. We recommend updating any v4-based queries to use the current version of the API \(no specification of version in the query\) in order to avoid the need for future changes.
+Per our announcement in the [previous Release Update](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0440000009RwJCAU), we are changing the default version of the ThousandEyes API from version 5 to version 6. Users whose queries specify version 4 \(queries which begin with [https://api.thousandeyes.com/v4\](https://api.thousandeyes.com/v4\)\) will have 90 days to make the necessary changes to their queries. After the 90-day transition period, version 4 will no longer be available. We recommend updating any v4-based queries to use the current version of the API \(no specification of version in the query\) in order to avoid the need for future changes.
 
 ## Reports and Dashboards
 
@@ -73,7 +72,7 @@ For the introduction of this new permission, those roles that have the existing 
 
 We've improved the iconography for displaying status of multiple Enterprise Agents in a single geographic region. We now display online, offline and disabled Enterprise Agents on a map widget using green, red and grey arcs \(respectively\) on the border of the dot which displays the location and number of the Enterprise Agents. The length of the arc is proportional to the number of Agents in each of the three categories. For example:
 
-In the region above, there are 8 Enterprise Agents.  One is online \(green\), four offline \(red\) and three disabled \(grey\).  Mousing over the dot will display a tooltip with the detailed listing of Enterprise Agents, grouped by the status.
+In the region above, there are 8 Enterprise Agents. One is online \(green\), four offline \(red\) and three disabled \(grey\). Mousing over the dot will display a tooltip with the detailed listing of Enterprise Agents, grouped by the status.
 
 ## Bug fixes & minor features
 
@@ -90,5 +89,5 @@ Here's the bug fixes and minor features in this week's release:
 
 ## ​Questions, comments?
 
-Can't make it to an event but still want to connect with ThousandEyes? We'd love to know what's on your mind.  [Send us an email](mailto:support@thousandeyes.com?subject=2017-09-27+Release+Update).
+Can't make it to an event but still want to connect with ThousandEyes? We'd love to know what's on your mind. [Send us an email](mailto:support@thousandeyes.com?subject=2017-09-27+Release+Update).
 

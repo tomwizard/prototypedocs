@@ -12,7 +12,7 @@ And now for the details of tonight's release.
 
 ## Cloud Agents
 
-Welcome to our newest Cloud Agent site, Hamburg, Germany!  Both IPv4 and IPv6 versions of our Cloud Agent are available.
+Welcome to our newest Cloud Agent site, Hamburg, Germany! Both IPv4 and IPv6 versions of our Cloud Agent are available.
 
 ### IPv6 Cloud Agents
 
@@ -24,9 +24,8 @@ Manila, in the Republic of the Philippines is our newest IPv4 Cloud Agent. Three
 
 ## Endpoint Agent
 
-In order to make managing large numbers of Endpoint Agents easier, we've added a feature to allow editing of multiple Endpoint Agents' settings.  On the [Agents tab of the Endpoint Agents Settings page](https://app.thousandeyes.com/settings/agents/endpoint/?section=agents), each Endpoint Agent now has a checkbox.  Selecting a box displays the **Edit Selected Agents** button.
+In order to make managing large numbers of Endpoint Agents easier, we've added a feature to allow editing of multiple Endpoint Agents' settings. On the [Agents tab of the Endpoint Agents Settings page](https://app.thousandeyes.com/settings/agents/endpoint/?section=agents), each Endpoint Agent now has a checkbox. Selecting a box displays the **Edit Selected Agents** button.
 
-  
 Click the button to display the menu which allows enabling of disabled Agents, disabling of enabled Agents, and deleting of Agents. Click the "-" to select all Endpoint Agents.
 
 Additionally, we've added DNS Server probes to the Network Topology view of the Endpoint Data:
