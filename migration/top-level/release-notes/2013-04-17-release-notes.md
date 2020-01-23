@@ -1,4 +1,4 @@
-# Technical Release Notes: 2013-04-17
+# Release Notes: 2013-04-17
 
 As usual, our team has been burning the midnight oil bringing you some new and fun stuff!
 
