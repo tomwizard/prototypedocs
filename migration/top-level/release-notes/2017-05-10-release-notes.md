@@ -1,4 +1,4 @@
-# Technical Release Notes: 2017-05-10
+# Release Notes: 2017-05-10
 
 ### Release Update 2017-05-10
 
