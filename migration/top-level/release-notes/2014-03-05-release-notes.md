@@ -1,4 +1,4 @@
-# Release update 2014-03-05 - ThousandEyes Customer Success Center
+# Release Notes: 2014-03-05
 
 Short and sweet for the week, here's a quick preview of what our team has been working on for the last few weeks.
 

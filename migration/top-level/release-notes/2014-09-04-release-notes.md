@@ -1,4 +1,4 @@
-# Release Update 2014-09-04 - ThousandEyes Customer Success Center
+# Release Notes: 2014-09-04
 
 As we send the kids back to school, we start the slow but steady unveil of what our development team has been working on throughout the summer. Check out a list of the major updates below, and let us know if you have any questions...
 

@@ -1,4 +1,4 @@
-# Release update 2014-06-04 - ThousandEyes Customer Success Center
+# Release Notes: 2014-06-04
 
 Our team has been busy, and the changes we've been alluding to in the last couple of releases have come to fruition.  Check out the specific comments below, and let us know if you have any questions.
 

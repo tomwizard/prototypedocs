@@ -1,4 +1,4 @@
-# Release update 2014-10-01 - ThousandEyes Customer Success Center
+# Release Notes: 2014-10-01
 
 ### Release update 2014-10-01
 
