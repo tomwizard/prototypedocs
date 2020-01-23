@@ -1,4 +1,4 @@
-# Working with Instant Tests - ThousandEyes Customer Success Center
+# Working with Instant Tests
 
 ### Working with Instant Tests
 

@@ -1,4 +1,4 @@
-# Transaction Scripting Guide - ThousandEyes Customer Success Center
+# Transaction Scripting Guide
 
 ### Transaction Scripting Guide
 

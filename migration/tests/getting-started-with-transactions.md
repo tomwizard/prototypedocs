@@ -1,4 +1,4 @@
-# Getting Started with Transactions - ThousandEyes Customer Success Center
+# Getting Started with Transactions
 
 Welcome to ThousandEyes transactions. The video below explains basic transaction testing concepts, provides an overview of the test results views and demonstrates how to create your very first transaction test.  
  

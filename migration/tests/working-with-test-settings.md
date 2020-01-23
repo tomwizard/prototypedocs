@@ -1,4 +1,4 @@
-# Working with Test settings - ThousandEyes Customer Success Center
+# Working with Test settings
 
 The ThousandEyes platform enables customers to test networked assets owned by the organization, and test SaaS-based assets to which the organization subscribes.  This article describes how to create and work with tests using the Tests Settings page.
 

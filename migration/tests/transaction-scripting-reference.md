@@ -1,4 +1,4 @@
-# Transaction Scripting Reference - ThousandEyes Customer Success Center
+# Transaction Scripting Reference
 
 This article contains a reference of all namespaces, classes, modules and methods that are available for creating [transaction tests](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000UFYvCAO_Transaction-scripting-guide).
 
