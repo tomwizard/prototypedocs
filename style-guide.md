@@ -1,4 +1,4 @@
-# Style Guide
+# Markdown Formatting Guide
 
 ## Heading One
 

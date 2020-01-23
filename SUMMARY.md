@@ -20,7 +20,7 @@
   * [Release Update 2019-11-26 - ThousandEyes Customer Success Center](release-notes-1/release-update-2019-11-26-thousandeyes-customer-success-center.md)
   * [Release Update 2019-11-12 - ThousandEyes Customer Success Center](release-notes-1/untitled-2.md)
 * [ThousandEyes Blog](https://blog.thousandeyes.com/)
-* [Style Guide](style-guide.md)
+* [Markdown Formatting Guide](style-guide.md)
 
 ## Sandbox
 
