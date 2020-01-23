@@ -1,4 +1,4 @@
-# Endpoint Agent Installation FAQ - ThousandEyes Customer Success Center
+# Endpoint Agent Installation FAQ
 
 To ensure that you meet the requirements to install and run Endpoint Agent, see the list of frequently asked questions below.
 

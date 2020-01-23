@@ -1,4 +1,4 @@
-# Endpoint Agent FAQ - ThousandEyes Customer Success Center
+# Endpoint Agent FAQ
 
 **Q. What is Endpoint Agent?**
 

@@ -1,4 +1,4 @@
-# Transactions \(Classic\) - Web Transaction tests for Salesforce.com
+# Transactions \(Classic\) - Web Transaction tests for Salesforce
 
 | Notice of obsolescence |
 | :--- |

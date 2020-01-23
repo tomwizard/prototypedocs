@@ -1,4 +1,4 @@
-# Endpoint Agent End-user Experience - ThousandEyes Customer Success Center
+# Endpoint Agent End-user Experience
 
 This article addresses the effects of installing Endpoint Agent from the end-user perspective.  You may also be interested in the [ThousandEyes Endpoint Agent End-User FAQ](https://www.thousandeyes.com/product/endpoint-agents/end-user-faq), a publicly available webpage on the ThousandEyes site which can be used to answer some common questions that your users might have.
 

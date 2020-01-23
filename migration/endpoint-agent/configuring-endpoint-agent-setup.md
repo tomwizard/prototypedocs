@@ -1,4 +1,4 @@
-# Configuring Endpoint Agent setup - ThousandEyes Customer Success Center
+# Configuring Endpoint Agent setup
 
 The ThousandEyes [Endpoint Agent](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnvICAS_Comparison-of-Agent-Types) is an application that is installed on Windows or Mac OS X machines to collect network and application performance data when users access specific websites from within monitored networks. The Endpoint Agent installer contains a built-in ThousandEyes account key, allowing performance data collected by the Endpoint Agent to be routed to the correct Account Group in ThousandEyes. This document outlines the basic setup process for an Endpoint Agent.
 

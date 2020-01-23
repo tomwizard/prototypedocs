@@ -1,4 +1,4 @@
-# CLI network troubleshooting utilities - ThousandEyes Customer Success Center
+# CLI network troubleshooting utilities
 
 ThousandEyes provides a full suite of terminal based Network, DNS, and Voice utilities. These utilities come from the same code base that our Agents use to perform tests, and provide enhanced insight during troubleshooting.  
  

@@ -1,4 +1,4 @@
-# Network tests explained - ThousandEyes Customer Success Center
+# Network tests explained
 
 When you create any test with network measurements enabled, such as Agent to Server network test, HTTP Server, Page Load, or a DNS server test, you get access to the network layer data in the [Overview](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmmtKAC) and [Path Visualization](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmmiKAC) views for the test. This article describes the network measurement details and how gathered metrics are presented in the network layer views.
 

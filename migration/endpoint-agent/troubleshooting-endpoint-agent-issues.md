@@ -1,4 +1,4 @@
-# Troubleshooting Endpoint Agent issues - ThousandEyes Customer Success Center
+# Troubleshooting Endpoint Agent issues
 
 ### Troubleshooting Endpoint Agent issues
 
