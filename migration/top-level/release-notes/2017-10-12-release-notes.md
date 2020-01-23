@@ -1,4 +1,4 @@
-# Technical Release Notes: 2017-10-12
+# Release Notes: 2017-10-12
 
 Welcome to a special Wednesday night release!
 
