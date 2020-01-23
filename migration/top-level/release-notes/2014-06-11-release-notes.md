@@ -1,4 +1,4 @@
-# Release update 2014-06-11 - ThousandEyes Customer Success Center
+# Release Notes: 2014-06-11
 
 In the wake of our monster updates last week \(you can check the release notes [here](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmloKAC)\), our release this week contains a few bug fixes and minor feature additions. Check out the list below and [let us know](mailto:support@thousandeyes.com?subject=Release%20Questions) if you have any questions.
 

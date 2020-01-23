@@ -1,4 +1,4 @@
-# Release update 2014-02-05 - ThousandEyes Customer Success Center
+# Release Notes: 2014-02-05
 
 Short and sweet, leading up to Valentine's day, please find below a list of updates for our February 5, 2014 release.
 

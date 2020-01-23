@@ -1,4 +1,4 @@
-# Release update 2014-09-17 - ThousandEyes Customer Success Center
+# Release Notes: 2014-09-17
 
 This week, our team has continued prepping for our next couple of releases, which will be packed with new features that we're certain you'll love.  We've managed to sneak a few changes into this release, most due to popular demand by our users.
 

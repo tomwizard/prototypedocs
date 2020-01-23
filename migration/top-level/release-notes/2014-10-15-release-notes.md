@@ -1,4 +1,4 @@
-# Release update 2014-10-15 - ThousandEyes Customer Success Center
+# Release Notes: 2014-10-15
 
 The fall rollout continues! See notes below related to tonight's release, and as always, let us know to the extent that you have any questions.
 

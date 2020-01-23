@@ -1,4 +1,4 @@
-# Release update 2014-08-20 - ThousandEyes Customer Success Center
+# Release Notes: 2014-08-20
 
 As our summer draws to a close, and the kids head back to school, we start to show off some of the impressive work our teams have been working on over the course of the summer. Below, find a few pointers to the things that have held our interest over this summer of 2014.
 
