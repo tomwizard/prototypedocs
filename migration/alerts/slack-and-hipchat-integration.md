@@ -1,4 +1,4 @@
-# Slack and HipChat Integration - ThousandEyes Customer Success Center
+# Slack and HipChat Integration
 
 The ThousandEyes platform integrates with the popular messaging applications Slack and HipChat. When an Alert is raised, notification can be sent to a channel automatically.
 
@@ -13,6 +13,8 @@ In order to integrate ThousandEyes Alerts into Slack, you need to generate a web
 
 From ThousandEyes, under **Alert Settings**, expand the Alert rule you wish to integrate into Slack, then click the **Notifications** tab. Click **Configure Integrations &gt; Add New Integration,** to open the below popup window. If you already have one or more integration services configured, click on **Edit Integrations &gt; Add New Integration**
 
+IMAGE MISSING
+
 1. **Type**: Choose your integration type.  
 2. **Name**: Enter a name for your integration  
 3. **URL**: Enter the channel Webhook URL \(per step 4 above\)  
@@ -21,9 +23,15 @@ From ThousandEyes, under **Alert Settings**, expand the Alert rule you wish to i
 
 A configured Slack integration example is shown below.
 
+IMAGE MISSING
+
 Now when an alert is triggered, the alert details will be posted as a message within the integrated channel, as shown below. Clicking on the Alert message link will open ThousandEyes Views webpage at the alert start time.
 
+IMAGE MISSING
+
 If you have the "**Send an email when clears**" box checked, under the Alert Rule &gt; Notifications tab, and Alert Rule conditions are no longer met by your test \(or the Alert Rule is updated such that the conditions no longer meet the criteria of the alert\), the Alert Rule cleared message will be posted within your Slack channel. Clicking on the Alert message link will open ThousandEyes Views webpage at the alert cleared time.
+
+IMAGE MISSING
 
 ## HipChat Integration 
 
@@ -37,6 +45,8 @@ In order to integrate ThousandEyes Alerts into HipChat, you need to generate a U
 
 From ThousandEyes, under **Alert Settings**, expand the Alert rule you wish to integrate into HipChat, then click the **Notifications** tab. Click **Configure Integrations &gt; Add New Integration,** to open the below popup window. If you already have one or more integration services configured, click on **Edit Integrations &gt; Add New Integration**
 
+IMAGE MISSING
+
 1. **Type**: Choose your integration type.  
 2. **Name**: Enter a name for your integration  
 3. **URL**: Enter the HipChat room URL \(from step 5 above\)  
@@ -45,7 +55,13 @@ From ThousandEyes, under **Alert Settings**, expand the Alert rule you wish to i
 
 A configured Hipchat integration example is shown below.
 
+IMAGE MISSING
+
 Now when an alert is triggered, alert details will be posted as a message within the integrated channel, as shown below. Clicking on the Alert message link will open ThousandEyes Views webpage at the alert start time.
 
+IMAGE MISSING
+
 If you have the "**Send an email when clears**" box checked, under the Alert Rule &gt; Notifications tab, and Alert Rule conditions are no longer met by your test \(or the Alert Rule is updated such that the conditions no longer meet the criteria of the alert\), the Alert Rule cleared message will be posted within your HipChat room. Clicking on the Alert message link will open ThousandEyes Views webpage at the alert cleared time.
+
+IMAGE MISSING
 
