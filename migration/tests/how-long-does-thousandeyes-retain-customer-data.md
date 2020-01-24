@@ -1,22 +1,12 @@
 # How long does ThousandEyes retain customer data?
 
-### How long does ThousandEyes retain customer data?
-
 The ThousandEyes platform retains user data for a finite amount of time. This article covers the data retention periods in different features of the ThousandEyes platform.
-
-### Table of contents
-
-* [Test views]()
-* [Reports]()
-* [Alerts]()
-* [Application Programming Interface \(API\)]()
-* [Trial accounts]()
-* [User audit history]()
-* [How is retention policy applied to test results data?]()
 
 ## Test views
 
 Test data in the Views is available for up to **31 days**, as seen in a test timeline.
+
+IMAGE MISSING
 
 It is possible to retain a period of data indefinitely using a Saved Event \(created with the **Save** button\). For more information on Saved Events, review the Knowledge Base article [Retaining data beyond the 90-day limit](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000Cmn3KAC).
 

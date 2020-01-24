@@ -1,19 +1,10 @@
 # Transactions \(Classic\) - How to Uninstall the ThousandEyes Recorder
 
-#### Transactions \(Classic\) - How to Uninstall the ThousandEyes Recorder
-
 | Notice of obsolescence |
 | :--- |
 | This content is related to an older generation of ThousandEyes transaction test type, now renamed to **Transaction \(Classic\)**. We encourage you to start using the more powerful, JavaScript-based current generation of transactions. For more information about the current generation transaction testing, head over to the [Transaction Scripting Guide](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000UFYvCAO_Transaction-Scripting-Guide). |
 
 As a browser extension, installation and removal of the ThousandEyes Recorder is managed by your browser. This article describes how to uninstall the ThousandEyes Recorder from Chrome and Chromium browsers.  
-
-####  Table of Contents
-
-[What is the ThousandEyes Recorder]()  
-[How is the ThousandEyes Recorder Installed]()  
-[How is the ThousandEyes Recorder Uninstalled]()  
-[Troubleshooting]()
 
 ### What is the ThousandEyes Recorder 
 
@@ -38,6 +29,8 @@ The ThousandEyes Recorder is a browser extension, for Chrome and Chromium browse
 
 ####  Step 1: Navigate to your browser's Extensions menu  
 
+IMAGE MISSING
+
 The **Extensions** menu may be accessed via the following steps:
 
 1. Select the **Options** button within the top right corner of your browser window
@@ -46,12 +39,16 @@ The **Extensions** menu may be accessed via the following steps:
 
 #### Step 2: Locate the ThousandEyes Recorder within your list of extensions & select Remove 
 
+IMAGE MISSING
+
 The **Extensions** menu will display a list of extensions that are installed within your browser. 
 
 1. Locate the **ThousandEyes Recorder** extension
 2. Select **Remove**
 
 #### Step 3: Verify that you would like to remove the ThousandEyes Recorder extension
+
+IMAGE MISSING
 
 1. Once you have selected the **Remove** option within the **ThousandEyes Recorder** extension listing, a dialog box will be displayed at the top of your screen
 2. Locate the dialog box prompting for verification of removal
