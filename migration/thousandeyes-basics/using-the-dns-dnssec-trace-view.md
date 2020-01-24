@@ -8,6 +8,8 @@ This article highlights specifics shown in the DNSSEC Trace view.
 
 This example shows the result of a globally distributed DNSSEC Trace test, targeting fbi.gov A 
 
+IMAGE MISSING
+
 ## View Specifics
 
 The DNSSEC Trace test measures worldwide validity by validating the keychain for the target DNS record from the bottom up.  This view is very simple and purposeful: a DNSSEC query has a binary response - either it works, or it doesn't. - this makes the view very simple.
@@ -21,11 +23,13 @@ The DNSSEC Trace test measures worldwide validity by validating the keychain for
         <p>For DNSSEC View, results are shown under two tabs:</p>
         <p><b>Map: </b>Shows worldwide validity percentage measurements of the target
           domain and record type calculated from all Agents assigned to the test.</p>
+        <p>IMAGE MISSING</p>
         <p><b>Table: </b>To view Agent specific results, click on the Details link
           under Status column.</p>
-        <p>
+        <p>IMAGE MISSING
           <br />The timeline plots the graph of the average validity of the target domain
           and record type calculated from all Agents assigned to the test.
+          <br />IMAGE MISSING
           <br />
         </p>
       </th>
@@ -35,12 +39,15 @@ The DNSSEC Trace test measures worldwide validity by validating the keychain for
         <p>For DNSSEC View, results are shown under two tabs:</p>
         <p><b>Map: </b>Shows whether the results from that Agent for the target domain
           and record type are OK (valid) or Invalid. Click on View Details for DNSSEC
-          trace data.</p>
+          trace data.
+          <br />IMAGE MISSING</p>
         <p><b>Table: </b>To view Agent specific results, click on the Details link
           under Status column.</p>
+        <p>IMAGE MISSING</p>
         <p>The timeline plots the validity percentage (0 or 100) results from the
           Agent as a line graph over the average validity measurements, calculated
           from all Agents, for the selected date and time.</p>
+        <p>IMAGE MISSING</p>
       </th>
     </tr>
   </thead>

@@ -1,6 +1,4 @@
-# Inside-out BGP visibility - ThousandEyes Customer Success Center
-
-## Inside-out BGP visibility
+# Inside-out BGP visibility
 
 You're familiar with the capabilities that ThousandEyes provides with regard to external BGP visibility, using public monitors to show the reachability of a particular network prefix, but want data that is more relevant to your organization?
 
@@ -12,9 +10,13 @@ So, how do you accomplish this? You're already monitoring the target site using 
 
 We've introduced the ability to obtain inside-out BGP visibility, using the private eBGP peer capability of our platform. This allows your network administrators to configure their BGP speakers to peer with our route collector, which will show the reachability of each BGP target, from the vantage point of your own networks.
 
-##  To configure your BGP speaker to interface with our collector:
+IMAGE MISSING
+
+## To configure your BGP speaker to interface with our collector:
 
 Your user must be in a role that has the Edit BGP monitors permission assigned in order to make these configuration changes.
+
+IMAGE MISSING
 
  Browse to [Cloud & Enterprise Agents &gt; BGP Monitors](https://app.thousandeyes.com/settings/bgp-sessions/) and click **Add Private BGP Monitor**; this will show a new monitor form. Enter fields as per below:
 
@@ -27,9 +29,13 @@ _Caution: edge router configuration changes should only be done by qualified per
 
 Once you complete all the required fields, click on **Request Peering**. You will see a modal window like this:
 
+IMAGE MISSING
+
 An email will be sent out to the recipients configured in the Notifications Tab along with configuration commands to be entered on your router.
 
 The BGP monitor will appear with "Pending" Status along with the entered information as shown below:
+
+IMAGE MISSING
 
 If you wish to Delete a Private BGP Monitor or Cancel a Pending Request, click the Trash icon next to the Status field of the desired BGP Private Monitor. You will be asked to confirm your action. 
 

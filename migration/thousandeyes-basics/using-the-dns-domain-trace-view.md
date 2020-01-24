@@ -8,6 +8,8 @@ This article highlights specifics shown in the DNS Domain Trace view.
 
 This example shows the result of a globally distributed DNS Domain Trace test, targeting ultradns.net:A.
 
+IMAGE MISSING
+
 ## View Specifics
 
 The DNS Domain Trace test measures the following metrics:
@@ -29,12 +31,15 @@ The DNS Domain Trace view shows two different data views, depending on whether o
         <p>The computed averages area comprises of two sections</p>
         <p><b>Map: </b>computes the worldwide average for availability, number of
           queries, and final query time:</p>
+        <p>IMAGE MISSING</p>
         <p> <b>Table: </b>Tabulates for each Agent assigned to the test, &quot;Trace&quot;
           hyperlink, which shows full trace information, all mappings returned for
           the domain trace query, number of queries sent and final query time in
           ms.</p>
+        <p>IMAGE MISSING</p>
         <p>Without an Agent selected, the timeline shows the average availability
           of the domain, calculated across all Agents.</p>
+        <p>IMAGE MISSING</p>
       </th>
       <th style="text-align:left">
         <p><b>With a location selected</b>
@@ -44,15 +49,16 @@ The DNS Domain Trace view shows two different data views, depending on whether o
           i.e OK or not i.e Error, number of queries, and final query time. Click
           on &quot;View Trace&quot; hyperlink for detailed trace data information
           ( similar to dig +trace &lt;domain_name&gt; from the command line)</p>
+        <p>IMAGE MISSING</p>
         <p><b>Table: </b>Tabulates for each Agent assigned to the test, &quot;Trace&quot;
           hyperlink, which shows full trace information, all mappings returned for
           the domain trace query, number of queries sent and final query time in
           ms. Selected Agent is highlighted in blue color.
-          <br />
-        </p>
+          <br />IMAGE MISSING</p>
         <p>The timeline plots the availability percentage of the target domain measured
           from the Agent as a line graph over the area graph showing the average
           availability percentage measured from all Agents assigned to the test.</p>
+        <p>IMAGE MISSING</p>
       </th>
     </tr>
   </thead>
