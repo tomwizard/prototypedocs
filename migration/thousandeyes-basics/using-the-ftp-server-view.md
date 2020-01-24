@@ -1,12 +1,12 @@
 # Using the FTP Server view
 
-### Using the FTP Server view
-
 When you create an FTP Server test, you get access to the FTP Server view.  The FTP Server view uses the [ThousandEyes standard layout](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmmgKAC). This article highlights elements specific to the FTP Server view.
 
 ## Example
 
 This example shows the result of an FTP Server download test to server ftp.ripe.net.
+
+IMAGE MISSING
 
 ## View Specifics
 
@@ -31,12 +31,14 @@ The Availability for a given Agent will be 100% if the FTP reply code is 2xx or 
         <p><b>Without a location selected</b>
         </p>
         <p>The Map tab shows a breakdown by Error Type, and any Active Alerts.</p>
+        <p>IMAGE MISSING</p>
       </th>
       <th style="text-align:left">
         <p><b>With a location selected</b>
         </p>
         <p>The Map tab shows the FTP reply code or similar status, along with a green/red
           square icon, and any Active Alerts.</p>
+        <p>IMAGE MISSING</p>
       </th>
     </tr>
   </thead>
@@ -52,10 +54,13 @@ The Availability for a given Agent will be 100% if the FTP reply code is 2xx or 
 | FTP | Receiving an FTP reply code that is not 2XX \(default\), or not the desired FTP reply code configured in Advanced Settings of the test |
 | Content  | \(optional\) Failure to match returned content to an expression in the **Verify Content** field |
 
-  
 With or without an Agent selected, the timeline displays a graph of Average Availability.  With an Agent selected, that Agent's Availability data is plotted in addition to the Average Availability.  The following image shows the Availability metric with the Johannesburg Agent selected.  The Agent's data is plotted using a green line, whereas the Average Availability data is plotted as a solid green area. The data round selector, indicated with the inverted yellow triangle at the top of the selector, is placed on a data round where the Johannesburg Agent has 100% availability but the Average Availability is 80% due to one of the other four Agents failing to successfully download the target file.
 
+IMAGE MISSING
+
 The Table tab shows information for each of Agents used in the test.  This includes Agent name, date/time that the data was captured, Target IP address, FTP error type and Error Details \(if applicable\).  In the following image, we see that the 80% Average Availability displayed in the previous image was due to the Maidenhead, UK Agent reaching the test timeout before completing the download. Selecting an Agent will highlight the Agent's row in the table. In the image below, the Johannesburg Agent has been selected.
+
+IMAGE MISSING
 
 ### Response Time
 
@@ -72,6 +77,7 @@ Also known as time-to-first-byte, Response Time is the time elapsed from the beg
           and a pie chart breaking down the Response into DNS lookup, Connect, Negotiation
           and Wait times. Hovering over the chart slices will show the individual
           timing averages via tooltips.</p>
+        <p>IMAGE MISSING</p>
       </th>
       <th style="text-align:left">
         <p><b>With a location selected</b>
@@ -81,13 +87,18 @@ Also known as time-to-first-byte, Response Time is the time elapsed from the beg
           and a pie chart breaking down the Response into DNS lookup, Connect, Negotiation
           and Wait times. Hovering over the chart slices will show the individual
           timings via tooltips.</p>
+        <p>IMAGE MISSING</p>
       </th>
     </tr>
   </thead>
   <tbody></tbody>
 </table>With or without an Agent selected, the timeline displays a graph of Average Response Time.  With an Agent selected, that Agent's Response Time data is plotted in addition to the Average Response Time.  The following image shows the Response Time metric with the Bruges Agent selected.  The Agent's data is plotted using a blue line, whereas the Average Response Time data is plotted as a solid blue area.
 
+IMAGE MISSING
+
 The Table tab shows information for each of Agents used in the test.  This includes Agent name, date/time that the data was captured, Total Response Time, and the components of Response Time: DNS Time, Connect Time, SSL Time and Wait Time. Selecting an Agent will highlight the Agent's row in the table. In the image below, no Agent has been selected.
+
+IMAGE MISSING
 
 ### Throughput
 
@@ -104,6 +115,7 @@ Throughput is the total wire size divided by the receive time. The Throughput me
           and a pie chart breaking down the Throughput into DNS Lookup, Connect,
           Negotiation, Wait and Transfer times. Hovering over the chart will show
           the individual timing averages via tooltips.</p>
+        <p>IMAGE MISSING</p>
       </th>
       <th style="text-align:left">
         <p><b>With a location selected</b>
@@ -113,11 +125,16 @@ Throughput is the total wire size divided by the receive time. The Throughput me
           a pie chart breaking down the Throughput into DNS Lookup, Connect, Negotiation,
           Wait and Transfer times. Hovering over the chart will show the individual
           timing averages via tooltips.</p>
+        <p>IMAGE MISSING</p>
       </th>
     </tr>
   </thead>
   <tbody></tbody>
 </table>With or without an Agent selected, the timeline displays a graph of Average Throughput.  With an Agent selected, that Agent's Throughput data is plotted in addition to the Average Throughput.  The following image shows the Throughput metric with the Bruges Agent selected.  The Agent's data is plotted using a blue line, whereas the Average Throughput data is plotted as a solid blue area.
 
+IMAGE MISSING
+
 The Table tab shows information for each of Agents used in the test.  This includes Agent name, date/time that the data was captured, Total Throughput, and the detailed timings: DNS Time, Connect Time, Negotiation Time, Wait Time, Transfer Time and Total Time. Selecting an Agent will highlight the Agent's row in the table. In the image below, the Bruges Agent has been selected.
+
+IMAGE MISSING
 
