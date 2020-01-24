@@ -2,23 +2,6 @@
 
 The ThousandEyes Network test provides a [Path Visualization view](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmmiKAC_Using-the-Path-Visualization-View) which is similar to the **traceroute** command line utility that is available for many operating systems \(Windows systems have the **tracert** command\). This article describes the reasons why devices may not appear on the Path Visualization or not display information, as well as steps that customers can take to increase the amount of information provided in a Path Visualization.
 
-## Table of Contents
-
-* [Path Visualization basics]()
-* [General approach]()
-* [Missing information]()
-  * [Single white node]()
-  * [Multiple consecutive white nodes]()
-    * [Firewall blocking ICMP time to live exceeded packets]()
-    * [Multiple devices not sending ICMP time to live exceeded packets]()
-* [Missing nodes]()
-  * [Network address translation \(NAT\)]()
-  * [Proxied Agent]()
-* [Increasing the amount of information displayed]()
-  * [Intermediate nodes]()
-  * [Test target]()
-* [Related information]()
-
 ## Path Visualization basics
 
 A ThousandEyes Cloud Agent or Enterprise Agent performing a Path Visualization uses either TCP packets with the synchronize bit set \(SYN\) or ICMP echo request packets \(type 8, code 0\) depending on the Network test's **Protocol** setting. These packets are sent to each "node" or "hop" \(routing device\) between the Agent and the test target by manipulating the Time to Live \(TTL\) field in the IP header of each packet. A packet series is sent with abnormally low \(1, 2, 3...\) TTL values. Because the value in the TTL field is decremented by each router that will forward the packet, these low values ensure that the packets "expire" \(TTL becomes 0\) prior to reaching the target. A packet with a starting TTL = 1 will expire at the first node, a packet with a starting TTL = 2 will expire at the second node, and so on.
@@ -30,6 +13,8 @@ When the trace's TCP or ICMP packets have the TTL set high enough to reach the t
 In addition to the basic path trace mechanics, a ThousandEyes Path Visualization performs additional probing and packet manipulation to obtain more and better information than is provided by the traditional traceroute program. For example, in addition to the aforementioned packets with artificially low TTL values, the Path Visualization performs an initial "reverse TTL" probe, which sends packets to the target, then inspects the TTL value of packets returned from the target to get an independent measurement of how many nodes are in the path.
 
 A ThousandEyes Path Visualization will graphically display the intermediate nodes between the ThousandEyes Agent and the test target. The Path Visualization will also provide information about each node, such as the node's IP address and DNS hostname \(if available\) as well as the network block \(Prefix\), the network block's owner \(Network\) and geographic location. The graphic below shows a Path Visualization from the Cloud Agent in Boston to the test target 93.185.216.34, with the mouse-over modal displaying the node's IP address and other information. 
+
+IMAGE MISSING
 
 The sections below describe the scenarios for Path Visualizations that do not display full information. A single Path Visualization may be affected by one or a combination of these scenarios.
 
@@ -47,6 +32,8 @@ In some scenarios, the solutions require reconfiguration of devices which do not
 
 A node in the Path Visualization may lack information, which is rendered as a white node in the path, and the modal that appears when mousing over the node will indicate that the Agent received no response from the node.
 
+IMAGE MISSING
+
 If the nodes before and after the white node are fully rendered \(blue or green\) then the most common cause is that the device is configured not to generate ICMP time to live exceeded responses when a packet's TTL expires at that node. Devices may be configured not to issue ICMP packets or a subset of ICMP types in order to avoid network scanning or device fingerprinting by malicious parties.
 
 If the device being rendered as a white node is configurable by the customer, check the device's configuration to determine whether ICMP time to live exceeded packets can be generated and if so, whether these packets are generated but then blocked by an access control list or similar filtering mechanism. These packets can be restricted by access control list or similar mechanism to only be returned to the ThousandEyes Agents performing the Path Visualization, rather than to any source, if security requirements mandate that the device not be discoverable by sources outside of the customer's control.
@@ -54,6 +41,8 @@ If the device being rendered as a white node is configurable by the customer, ch
 ### Single white node adjacent to target
 
 If the single white node is the node to the left of the target, then the issue is likely to be a firewall or router whose ruleset or access control lists block the ICMP time to live exceeded packets from returning to the Agent.
+
+IMAGE MISSING
 
 ### Multiple consecutive white nodes
 
@@ -63,6 +52,8 @@ If multiple consecutive white nodes in the Path Visualization appear, one of two
 
 If the consecutive white nodes extend up to the target, then a device leftward of the first white node may be filtering the ICMP time to live exceeded packets from devices beyond \(to the right of\) itself.
 
+IMAGE MISSING
+
 The most common reason is a firewall or router whose ruleset or access control lists block ICMP packets. In the Path Visualization above, the node immediately to the right of the ThousandEyes Enterprise Agent is a firewall which does not permit ICMP packets entering the internal network where the Agent is located. The target is unaffected in this scenario because the Path Visualization uses TCP. The Agent sent TCP SYN packets, and the target responded with TCP SYN-ACK packets to the Agent, which the firewall permitted. If the Path Visualization had used ICMP, the ICMP response \(echo reply\) from the target would have been blocked as well, and no nodes would have been rendered beyond the first node.
 
 If the device suspected of blocking the ICMP time to live exceeded packets sent from the white nodes is configurable by the customer, check the rulesets or access control lists to determine whether ICMP time to live exceeded is permitted to reach the ThousandEyes Agent. Because the IP addresses of senders of these ICMP packets are not known in advance, allow ICMP time to live exceeded packets from any source IP address to the IP address of the ThousandEyes Agent.
@@ -71,9 +62,13 @@ If the device suspected of blocking the ICMP time to live exceeded packets sent 
 
 If the consecutive white nodes do not extend up to the target, then the consecutive nodes likely belong to an organization or organizations which have uniformly configured their devices not to generate ICMP time to live exceeded responses, as described in the [Single white node]() section, above.
 
+IMAGE MISSING
+
 If the devices are customer controlled, the devices may be reconfigured to allow ICMP time to live exceeded responses, as per the [Firewall blocking ICMP time to live exceeded packets]() section.
 
 One or more nodes in the path may lack information \(white node\) or may be missing altogether from the Path Visualization. This often occurs with an Enterprise Agent installed behind a firewall. Below is a Path Visualization from an Enterprise Agent behind a firewall \(which is located before the first node in the path, but does not itself appear as a node; see below for explanation\).
+
+IMAGE MISSING
 
 In the above Path Visualization, the firewall does not have a node displayed because it is configured not to decrement the IP header's Time-to-Live field, so generates no ICMP Time-to-Live Exceeded packets.
 

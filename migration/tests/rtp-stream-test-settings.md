@@ -8,7 +8,7 @@ Additionally, the Path Visualization and BGP Route Visualization Views can be co
 
  When creating a new test, the RTP Stream test configuration is available under the Voice Layer of the Test Settings page.
 
-IMAGE MISSING
+## 
 
 * **Test Layer:** Voice
 * **Test Type:** RTP Stream
@@ -19,8 +19,6 @@ IMAGE MISSING
 * **Alerts:** When the **Enable** box is checked, the Alert Rules selected in drop-down list will be active for the test. You can select Alert Rules with the drop-down list, and create, modify and delete Alert Rules with the **Edit Alert Rules** link.  Additionally, Alert Suppression windows can be selected through the second drop-down list.
 
 Advanced Settings
-
-IMAGE MISSING
 
 ### Voice
 

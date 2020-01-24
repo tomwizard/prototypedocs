@@ -25,23 +25,26 @@ To perform a change of ownership, the following requirements exist:
 
 ## Changing ownership
 
-To change a test's Account Group, click the More Actions icon in the test's row of the **Settings &gt; Tests** page and click the **Transfer Ownership** option:  
- 
+To change a test's Account Group, click the More Actions icon in the test's row of the **Settings &gt; Tests** page and click the **Transfer Ownership** option:
 
-A dialogue appears, prompting for the target Account Group:  
- 
+IMAGE MISSING
 
-  
-Select the target Account Group in the same or another organization. In the example below, the target Account Group is "Testing" in the "ThousandEyes Sandbox" organization:  
- 
+A dialogue appears, prompting for the target Account Group:
 
-  
+IMAGE MISSING 
+
+Select the target Account Group in the same or another organization. In the example below, the target Account Group is "Testing" in the "ThousandEyes Sandbox" organization:
+
+IMAGE MISSING
+
 Informational messages may be displayed, indicating what changes will be made in order to change the Account Group.  
-You can choose whether to keep a Live Share copy of the test in the source Account Group via a checkbox, per the image below.  
- 
+You can choose whether to keep a Live Share copy of the test in the source Account Group via a checkbox, per the image below.
 
-If the change is successful, the dialogue indicates that the test has been moved:  
- 
+IMAGE MISSING 
+
+If the change is successful, the dialogue indicates that the test has been moved:
+
+IMAGE MISSING
 
 ## Effects of changing ownership
 
@@ -51,6 +54,8 @@ In addition to the test appearing under the new Account Group, some modification
 ### Automatic Sharing
 
 The test is automatically shared from the target Account Group to the source Account Group.  If not needed, the shared test can be removed from the source Account Group using either source or target Account Group context, and navigating to the **Settings &gt; Tests** page.  Expand the test's row and uncheck the box with the name of the source Account Group. In the example below, the source Account Group is "Thousandeyes\_dev":
+
+IMAGE MISSING
 
 ###  Alert Rules
 
