@@ -4,29 +4,11 @@
 | :--- |
 | This content is related to an older generation of ThousandEyes transaction test type, now renamed to **Transaction \(Classic\)**. We encourage you to start using the more powerful, JavaScript-based current generation of transactions. For more information about the current generation transaction testing, head over to the [Transaction Scripting Guide](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000UFYvCAO_Transaction-Scripting-Guide). |
 
-## Table of contents
-
-* [Problem analysis]()
-  * [Transaction scenario used in this example]()
-  * [Dissecting the error message]()
-  * [Screenshot analysis]()
-  * [Analytical conclusion]()
-* [Solving the issue]()
-  * [Theory]()
-  * [Locating the offending overlay element]()
-  * [Waiting for the overlay element to disappear]()
-  * [Waiting for the overlay element to become invisible]()
-  * [Waiting for the overlay element to either disappear or become invisible]()
-  * [Other approaches]()
-  * [Making our example work]()
-* [Related information]()
-
 ## Problem analysis
 
 Let's start with an assumption that your transaction is properly constructed and [leverages waitForCondition statements](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000UFeUCAW_Transactions-Classic-Using-the-waitForCondition-steps) in all the appropriate places, yet still reports the following error:
 
-  
-Transaction test reporting "Element is not clickable..." error - review the example [here](https://ucuvizrq.share.thousandeyes.com/).
+IMAGE MISSING
 
 Let's display the error message in a more readable manner:
 
@@ -43,11 +25,13 @@ Our transaction here is testing a Salesforce instance. The initial steps that de
 
 | Step number | Description | Screenshot indicating exact transaction flow |
 | :--- | :--- | :--- |
-| \#8 - \#10 | Wait for and click the **Edit** button |  |
-| \#11 - \#14 | First, wait for text **Edit S-CS-0100299** to appear.  Then wait for and click the **Cancel** button |  |
-| \#15 - \#17 | Wait for and click the **Change Owner** button |  |
+| \#8 - \#10 | Wait for and click the **Edit** button | IMAGE MISSING |
+| \#11 - \#14 | First, wait for text **Edit S-CS-0100299** to appear.  Then wait for and click the **Cancel** button | IMAGE MISSING |
+| \#15 - \#17 | Wait for and click the **Change Owner** button | IMAGE MISSING |
 
 The entire transaction script looks like this:
+
+IMAGE MISSING
 
 This script, despite being constructed as per [recommendations for proper usage of waitForCondition steps](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000UFeUCAW_Transactions-Using-the-waitForCondition-steps), still produces an unexpected error at step \#17. Time to investigate further.
 
@@ -73,8 +57,7 @@ How can an element be visible, but when clicked on, some other element would rec
 
 A much clearer clue is revealed in the screenshot of the error:
 
-  
-Screenshot of the target web page around the moment when error condition occurred
+IMAGE MISSING
 
 In the figure above, the **Change Owner** button is already visible, but only partially - the editing dialog and the semi-transparent overlay element from the previous step have not yet disappeared entirely, due to a gradual transition from fully visible to invisible. This explains how a visible element is unable to receive a click event.
 
@@ -155,8 +138,7 @@ The approaches above are not the only available and be-all-end-all solutions. Be
 
 While working on the example used in this guide, three iterations had to be performed and each revealed a new element that needed to be waited out. Eventually, the right `waitForCondition` step was constructed and the transaction has been running smoothly ever since:
 
-  
-Stable and successfully-completing transaction in the end. Review the working example [here](https://qkosssptw.share.thousandeyes.com/).
+IMAGE MISSING
 
 In our case, the step that successfully made the transaction stall until the overlay element disappears was this one:
 
