@@ -1,10 +1,8 @@
-# Getting support from ThousandEyes - ThousandEyes Customer Success Center
+# Getting support from ThousandEyes
 
 There are a number of ways to contact us when requesting assistance from the ThousandEyes Customer Success team. Depending on your needs and the information exchanged, one method may be preferable to others. Additionally, knowing in advance what information the Customer Success team requires for different types of problems can inform the choice of contact method. Moreover, providing necessary information, particularly at first contact, can reduce the time spent by both you and the Customer Success team in resolving questions or problems.
 
 This article describes the methods available for customers to contact the ThousandEyes Customer Success team, the types of assistance provided by the Customer Success team, and outlines the types of information needed by our team when addressing different categories of questions or problems.
-
-[Information to provide Customer Success]()
 
 ## [What support we provide]()
 
@@ -58,7 +56,11 @@ Please avoid deleting this tag from your email responses, if possible. Email rep
 
  For customers seeking interactive support, the ThousandEyes app provides a live chat client, which can be accessed from the **Help & Support** menu in the top navigation bar:
 
+IMAGE MISSING
+
  Selecting the "Chat with Support" option will display a chat window.
+
+IMAGE MISSING
 
 Begin by typing and end with the Return key to send. Once the chat has begun, files can also be sent by dragging and dropping a file on the chat client. When the chat has ended, the chat transcript is automatically generated and emailed to the user at the email address used to log into the ThousandEyes app.
 
@@ -68,7 +70,11 @@ Begin by typing and end with the Return key to send. Once the chat has begun, fi
 
 Access the portal from from the Help icon in the top navigation bar:
 
+IMAGE MISSING
+
  Selecting the "Contact Support" option will display the customer's support portal page. Select the Cases tab to open a support case or view existing cases:
+
+IMAGE MISSING
 
 ### [Online Collaboration]()
 
@@ -103,6 +109,8 @@ Zoom is a collaboration tool similar to Webex, having browser-based and stand-al
 ### [Account Group]()
 
  In addition to information specific to the type of problem, providing the current Account Group name is always helpful, as a user may be a member of many Account Groups. A user's current Account Group is displayed in rightmost corner of the Navigation bar, at the top of the ThousandEyes application:
+
+IMAGE MISSING
 
 In the image above, the user's current account group is "Support".
 
@@ -168,13 +176,17 @@ When submitting a support request about an API query, please provide the usernam
   }
   ```
 
-**Important:** Do not provide us with your API token! Also be certain to remove any sensitive information from POST query data, such as passwords for web site or proxies in Web Layer tests, or for authenticated Voice Layer tests.
+{% hint style="danger" %}
+Do not provide us with your API token! Also be certain to remove any sensitive information from POST query data, such as passwords for web site or proxies in Web Layer tests, or for authenticated Voice Layer tests.
+{% endhint %}
 
 ### [Feature Requests]()
 
  Customers may request enhancements to the ThousandEyes product by feature requests, which can be submitted through a support case. Feel free to tell us what you want in the product! Best if you can also tell us why you want what you want, and provide an example/use case to illustrate the benefits of the proposed feature.
 
 Feature requests can also be submitted in our Communities Ideas forum by users logged into the ThousandEyes application:
+
+IMAGE MISSING
 
  Additionally, feature requests can be submitted via your Account Manager or Solutions Engineer.
 

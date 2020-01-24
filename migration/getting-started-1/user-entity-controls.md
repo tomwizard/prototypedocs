@@ -1,4 +1,4 @@
-# User Entity Controls \(UECs\) - ThousandEyes Customer Success Center
+# User Entity Controls
 
 As a cloud service provider we share responsibilities for security with our customers. ThousandEyes User entity \(customer\) is responsible for implementing the following security controls and operational activities:
 
@@ -35,7 +35,9 @@ As a cloud service provider we share responsibilities for security with our cust
 
  The views listed above implement automatic content refreshing that happens periodically. These content refresh events also reset the session timer, preventing an inactive user's browser session from timing out.
 
-NOTE: The automatic session prolongation described above requires the "Keep session alive on auto-update" permission enabled for the user. See the [Role-Based Access Control article](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmnLKAS_Role-Based-Access-Control-explained) for more details about user roles and permissions.
+{% hint style="warning" %}
+The automatic session prolongation described above requires the "Keep session alive on auto-update" permission enabled for the user. See the [Role-Based Access Control article](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmnLKAS_Role-Based-Access-Control-explained) for more details about user roles and permissions.
+{% endhint %}
 
 ## Policies and Standards
 
