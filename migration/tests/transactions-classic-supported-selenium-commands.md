@@ -1,9 +1,5 @@
 # Transactions \(Classic\) - Supported Selenium commands
 
-## Transactions \(Classic\) - Supported Selenium commands
-
-Last updated: Tue Nov 19 13:58:30 GMT 2019
-
 | Notice of obsolescence |
 | :--- |
 | This content is related to an older generation of ThousandEyes transaction test type, now renamed to **Transaction \(Classic\)**. We encourage you to start using the more powerful, JavaScript-based current generation of transactions. For more information about the current generation transaction testing, head over to the [Transaction Scripting Guide](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000UFYvCAO_Transaction-Scripting-Guide). |

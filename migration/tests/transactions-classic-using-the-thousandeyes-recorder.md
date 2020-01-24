@@ -20,7 +20,11 @@ You can install the ThousandEyes Recorder from the [Chrome Store](https://chrome
 
 When you install the Recorder from the Chrome Store, you'll see a confirmation request on adding the new extension:
 
+IMAGE MISSING
+
 Click the **Add** button. Another confirmation will indicate the Recorder has been added:
+
+IMAGE MISSING
 
 The ThousandEyes End-User License Agreement will appear in a separate browser window. Read to the bottom of the page. If you agree to the terms, click the **I Agree** button. The installation will complete.
 
@@ -31,6 +35,8 @@ The ThousandEyes Recorder uses the [extension auto-updating feature](https://dev
 ## Running the ThousandEyes Recorder
 
 After installation, your new extension will display a button to the right of the address bar. Click the button to begin recording a transaction, and then interact with the target page. When the Recorder is recording, the icon will change from the at rest icon, to an icon showing that recording is in progress. During playback, the icon changes to a green play icon - see the three screenshots below:
+
+IMAGE MISSING
 
 ## How does the Recorder work?
 
@@ -45,6 +51,8 @@ The ThousandEyes Recorder records your clicks and keyboard inputs into a replay-
 In general, the output is pretty simple. It's a selenium script, which identifies ordered steps, and actions taken by each step. You can export the script as HTML, which exports the content into a table-formatted HTML page, or exports it directly into ThousandEyes, which will create a new Web Transaction test based on the content found in the Recorder. The screenshots below show a script captured in the Recorder, as well as both HTML and direct-to-ThousandEyes output. Note that form inputs \(keyboard\) are masked in the ThousandEyes test management interface to prevent inadvertent disclosure of username and password values.
 
 ThousandEyes Recorder interface:
+
+IMAGE MISSING
 
 ThousandEyes Recorder "Export to File" output:
 
@@ -92,9 +100,13 @@ ThousandEyes Recorder "Export to File" output:
 
 ThousandEyes Recorder "Export to TE" output:
 
+IMAGE MISSING
+
 ## Supported Commands
 
 The ThousandEyes Recorder is effectively a Selenium script generator, so most commands available through Selenium are available here as well. If you type a letter into the command pane input, a list of available commands will auto-populate based on the letter typed, similar to the following image. A command with invalid syntax will show in red until it is correctly completed. Check [this article link](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnBwCAK_Transactions-supported-Selenium-commands) for a list of all supported commands.
+
+IMAGE MISSING
 
 ## Tips and tricks
 

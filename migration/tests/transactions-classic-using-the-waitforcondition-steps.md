@@ -6,8 +6,6 @@
 
 Welcome to one of the \(arguably\) most important articles about transaction scripting. In this article, we'll explain what `waitForCondition` steps are, why they are necessary, where such steps should be placed and how to create them.
 
-#### Table of contents
-
 ## From a user journey description to a working transaction
 
 This section will guide you through an example user journey you might want to script and run as a transaction test. The purpose of such a transaction test is to make sure the tested application is working as expected and that the contracted service \(in this case we'll use Microsoft's login page as a fictional example\) is indeed functionally available to our users.
@@ -28,7 +26,7 @@ Let's consider the following user journey that we'll use throughout the rest of 
       <td style="text-align:left">Step #1:
         <br />- Open <a href="https://login.microsoftonline.com/">https://login.microsoftonline.com/</a>
       </td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">IMAGE MISSING</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -37,7 +35,7 @@ Let's consider the following user journey that we'll use throughout the rest of 
         <p>Step #3:
           <br />- Click the <b>Next</b> button (3)</p>
       </td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">IMAGE MISSING</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -46,7 +44,7 @@ Let's consider the following user journey that we'll use throughout the rest of 
           email was used, the redirect leads to the ThousandEyes-specific sign-in
           page.</p>
       </td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">IMAGE MISSING</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -57,19 +55,20 @@ Let's consider the following user journey that we'll use throughout the rest of 
         <p>Step #6:
           <br />- Click the <b>Sign In</b> button</p>
       </td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">IMAGE MISSING</td>
     </tr>
   </tbody>
 </table>Such a user journey could be scripted as follows:
 
-  
-An initial attempt at implementing the example user journey as a transaction script
+IMAGE MISSING
 
 There is nothing particularly wrong with the transaction script shown above - as far as a human is concerned, the script should work, provided that the steps are configured correctly \(they are\).
 
 ### Initial transaction run
 
 Without further ado, let's give the transaction script above a go. Here are the results of the first run:
+
+IMAGE MISSING
 
 The transaction has reached 50% completion. How come only 50% completion? That's... well, it's a start.
 
@@ -79,8 +78,7 @@ Whenever the transaction test reports an error, a screenshot is provided. To vie
 
 Let's see what the error screenshot can tell us:
 
-  
-Screenshot at the moment of the transaction failure
+IMAGE MISSING
 
 In the figure above it looks like the action from the previous step \(a click on the **Next** button\) is still being processed - the page is still being loaded. This brings us to the most important aspect of a transaction testing reliability - waiting for elements the transaction interacts with to become ready.
 
@@ -130,9 +128,13 @@ In the table above, the expression for uniquely identifying the username input f
 
 Now, let's give our updated transaction test another go:
 
+IMAGE MISSING
+
 Such. Beauty! :\)
 
 There. We've successfully amended our transaction script to contain appropriate `waitForCondition` steps to make it reach the desired 100% completion. To conclude the story, here is the final version of the transaction script:
+
+IMAGE MISSING
 
 ## Summary
 
