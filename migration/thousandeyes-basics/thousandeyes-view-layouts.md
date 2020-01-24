@@ -1,9 +1,5 @@
 # ThousandEyes view layouts
 
-|  option is selected in the Advanced Settings tab of the test configuration    |  |  |  |
-| :--- | :--- | :--- | :--- |
-
-
 This article describes how to navigate to and interact with the ThousandEyes Views.  This document describes the two primary View layouts \(standard and DNS+\) used throughout the user interface of the application, and makes reference to two other interactive Views.
 
 ## Navigation Bar and Menu
