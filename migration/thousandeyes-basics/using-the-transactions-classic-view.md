@@ -1,7 +1,5 @@
 # Using the Transactions \(Classic\) View
 
-### Using the Transactions \(Classic\) View
-
 | Notice of obsolescence |
 | :--- |
 | This content is related to an older generation of ThousandEyes transaction test type, now renamed to **Transaction \(Classic\)**. We encourage you to start using the more powerful, JavaScript-based current generation of transactions. For more information about the current generation transaction testing, head over to the [Transaction Scripting Guide](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000UFYvCAO_Transaction-Scripting-Guide). |
@@ -24,7 +22,7 @@ The example below is based on the following script:
 
 The screenshot below shows the result of a regionally distributed Web Transaction test to [https://www.londonstockexchange.com/](https://www.londonstockexchange.com/), searching for "AAPL" stock symbol and verifying that the resulting page loads.
 
-Figure 1: Example transactions view
+IMAGE MISSING
 
 ## View Specifics
 
@@ -45,7 +43,7 @@ A given metric display changes, depending on whether an Agent location is select
 
 The View Script link displays the steps of the script. The contents of the Value field are not shown if they contain text, which could represent passwords or other sensitive information. Those fields will instead display asterisks \(\*\*\*\*\*\*\).
 
-Figure 2: View script popup
+IMAGE MISSING
 
 ## Map Tab
 
@@ -55,25 +53,25 @@ Unlike other views, this section is pretty static. It includes the completion pe
 
 | **Map tab of Transaction view with no location selected** | **Map tab of Transaction view with location selected** |
 | :--- | :--- |
-
+| IMAGE MISSING | IMAGE MISSING |
 
 ## Table Tab
 
 The Table tab of a Transaction View displays a list of Agents, the date of the measurement in the user's chosen time zone, the completion of the test \(percentage, number of steps complete out of total steps\), and the transaction time for those steps.
 
-Figure 5: Table view of results
+IMAGE MISSING
 
 ## Timing Tab
 
 The Timing tab of a Transaction View has two histogram graphics. The histogram on the left half of the page lists each transaction step by name and the time for each step. The histogram on the right half of the page lists each page by URL and the time for each page. Mouse over a histogram bar to display the timing information in a tooltip. Click on a histogram bar to switch to the Waterfall tab with the relevant page's waterfall displayed. Or click on a step or page name to make the switch to the Waterfall tab.
 
-Figure 6: Timing tab
+IMAGE MISSING
 
 ## Waterfall Tab
 
 The Waterfall tab displays listings of objects loaded on each page and data associated with the loading of each object, along with data on the loading of the total page, for each page loaded. The itemized view and the list below describe the features on this tab.
 
-Figure 7: Waterfall tab
+IMAGE MISSING
 
 1. **Page info:** The page title is shown, along with the URL of the page accessed.
 2. **Page number banner:** To change the context of the waterfall to show a single page, click the page number in the banner. The size of the block for each page is proportional to the fraction of time spent on that page, relative to the total transaction time.
