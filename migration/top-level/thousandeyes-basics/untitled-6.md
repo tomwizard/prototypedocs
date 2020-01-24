@@ -2,8 +2,6 @@
 
 The following article describes the steps in adding or editing an Alert Rule. To understand how alerts work, refer to the ThousandEyes Knowledge Base article [How Alerts work](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnBqCAK).
 
-IMAGE MISSING
-
 To create a new Alert rule, Click on [**Alerts &gt; Alert Rules**](https://app.thousandeyes.com/settings/alerts/?)  and the Alert Rules page will open.
 
 Select the desired source from the tabs at the top:
@@ -14,8 +12,6 @@ Select the desired source from the tabs at the top:
 * Devices
 
 then click on **Add New Alert Rule**. The Add New Alert Rule panel will appear, displaying the Settings tab.
-
-IMAGE MISSING
 
 1. **Alert Type Layer:** test layers available to your organization.
 2. **Alert Type:** available alert types for the selected test layer.
@@ -38,8 +34,6 @@ Use the Settings tab to configure the conditions on which an Alert Rule is trigg
 ## Notifications tab
 
 Use the Notifications tab to configure the methods by which users are notified when an Alert Rule is triggered.
-
-IMAGE MISSING
 
 1. **Send emails to:** email addresses that receive the Alert Notification.
 2. **Edit emails:** create or edit an email address which can then be added to the **Send emails to** field.

@@ -1,12 +1,14 @@
 # Using the Path Visualization View
 
+### Using the Path Visualization View
+
+Last updated: Wed Dec 04 05:01:21 GMT 2019
+
 When you create any test which includes network metrics – including Network, HTTP Server \(with network measurements enabled\), Page Load \(with network measurements enabled\), or DNS server \(with network measurements enabled\), or Voice, you get access to the Path Visualization view for the test.
 
 ## Interface components
 
 The screenshot below shows the Path Visualization view for an [Agent to Server](https://rglnqsmc.share.thousandeyes.com/) Test.
-
-IMAGE MISSING
 
 1. _**Test selector**_ – use this control to change which test is being displayed in the view.  All tests will be shown here, including disabled tests and saved events.  
 2. _**Test settings**_ – use this to open up test configuration for current test.  
@@ -44,18 +46,17 @@ IMAGE MISSING
       * Network & Location: Aggregate paths based on each combination of a destination's network and geographical location.
       * Location: Aggregate path based on geographic location destination exists in. 
 
-The path visualization in below snippet has Agents grouped by Location, Interfaces grouped by Network and Destinations grouped by Network & Location: 
+The path visualization in below snippet has Agents grouped by Location, Interfaces grouped by Network and Destinations grouped by Network & Location:   
 
-IMAGE MISSING
 
 1.  _**Highlighting**_ - Configure thresholds to identify:
    * Nodes with Forwarding Loss above specified threshold.
    * Links with Link Delay higher than specified threshold.
 2. _**Selecting**_ - Selecting nodes of interest creates a filter within the Showing link that may be applied to isolate visualization to Agents with paths that traverse selected nodes.
    * Individual nodes may be select to create a filter.  
-   * An auto-filled Info drop-down may be selected to display objects with Alert, Error or distinct characteristics \(Info\) such as nodes within an MPLS tunnel or links associated with DSCP changes. IMAGE MISSING 
+   * An auto-filled Info drop-down may be selected to display objects with Alert, Error or distinct characteristics \(Info\) such as nodes within an MPLS tunnel or links associated with DSCP changes. 
 3. _**Highlight nodes that match**_ - Allows highlighting nodes by Network, Country, IP address, Prefix or Title based on text entered in search field.
-4. _**Agent and Endpoint complexity controls**_: This control is also present in the path visualization view, but it effectively allows simplification of the Path Visualization by collapsing routes between various nodes on the Path Visualization.  The further apart the controls on the slider are, the less complex the visualization.  IMAGE MISSING
+4. _**Agent and Endpoint complexity controls**_: This control is also present in the path visualization view, but it effectively allows simplification of the Path Visualization by collapsing routes between various nodes on the Path Visualization.  The further apart the controls on the slider are, the less complex the visualization. 
 
 ## Interacting with the Path Visualization view
 
@@ -74,20 +75,20 @@ All nodes can be repositioned by clicking and dragging the node to a new place o
 
 | **Object Image** | **What it signifies** | **Comments** |
 | :--- | :--- | :--- |
-| IMAGE MISSING | Agent location | Agent changes color based on the metric selected.  Scale goes from dark green \(no loss, latency, jitter, etc.\) to red \(severe loss, latency, jitter, etc.\) |
-| IMAGE MISSING | Enterprise Agent | The color of a Enterprise Agent is double-ringed, and changes color according to the same scale as a ThousandEyes Cloud Agent. |
-| IMAGE MISSING | Identifiable node | A blue node indicates that IP information is available.  |
-| IMAGE MISSING | Unidentifiable node  | A white node indicates that IP information is not available. |
-| IMAGE MISSING | Node in local network | A dark blue node indicates that a node was identified inside the agent's source network. |
-| IMAGE MISSING | Node in destination network  | A node shaded in green indicates a node which was identified as inside the destination network, as specified by the Autonomous System of the customer. |
-| IMAGE MISSING | Highlighted node  | A node can be highlighted using the Network, Country, IP address, Prefix or Title selector, while the other nodes are greyed out. This helps to quickly identify nodes based on their information. |
-| IMAGE MISSING | Node with loss | A node circled in red indicates that loss is occurring at that point in the path, meeting the percentage threshold specified by the loss slider. |
-| IMAGE MISSING | Endpoint node | A node circled in black, and showing an IP address beside it is an endpoint \(or target\) of the test.  |
-| IMAGE MISSING | Selected node | A node circled in a moving blue dashed line indicates that the node is selected. |
-| IMAGE MISSING | Selected link | A link represented as a moving blue dashed line indicates that the link is selected. |
-| IMAGE MISSING | Collapsed path | A path showing a dotted line is an indication of a path which was simplified for visualization purposes.  Expand using the complexity slider, or by clicking the label indicating the number of hops which were collapsed.  |
-| IMAGE MISSING | Split path | A path showing a split is an indication that there are multiple routes to the destination.  All path visualization is based on a minimum of three tests running from each agent.    When a path splits, the thickness of the line representing the link between the nodes will show how many of the tests traversed each link. |
-| IMAGE MISSING | Link with high delay | A red link will indicate a delay meeting the threshold specified by the latency slider. |
-| IMAGE MISSING | Unknown number  of hops between nodes | A dotted link with a question mark indicates insufficient data to determine the number of hops separating these nodes. Typically indicative of differing numbers of unresponsive nodes \(\* characters\) between responsive nodes, or an indication of path trace being unable to reach the destination when the end-to-end measurement was performed successfully. |
-| IMAGE MISSING | Unable to reach target node | A dotted link with an `X` symbol indicates a trace that was unable to be completed to the target due to 100% forwarding and 100% end-to-end loss. |
+|  | Agent location | Agent changes color based on the metric selected.  Scale goes from dark green \(no loss, latency, jitter, etc.\) to red \(severe loss, latency, jitter, etc.\) |
+|  | Enterprise Agent | The color of a Enterprise Agent is double-ringed, and changes color according to the same scale as a ThousandEyes Cloud Agent. |
+|  | Identifiable node | A blue node indicates that IP information is available.  |
+|  | Unidentifiable node  | A white node indicates that IP information is not available. |
+|  | Node in local network | A dark blue node indicates that a node was identified inside the agent's source network. |
+|  | Node in destination network  | A node shaded in green indicates a node which was identified as inside the destination network, as specified by the Autonomous System of the customer. |
+|  | Highlighted node  | A node can be highlighted using the Network, Country, IP address, Prefix or Title selector, while the other nodes are greyed out. This helps to quickly identify nodes based on their information. |
+|  | Node with loss | A node circled in red indicates that loss is occurring at that point in the path, meeting the percentage threshold specified by the loss slider. |
+|  | Endpoint node | A node circled in black, and showing an IP address beside it is an endpoint \(or target\) of the test.  |
+|  | Selected node | A node circled in a moving blue dashed line indicates that the node is selected. |
+|  | Selected link | A link represented as a moving blue dashed line indicates that the link is selected. |
+|  | Collapsed path | A path showing a dotted line is an indication of a path which was simplified for visualization purposes.  Expand using the complexity slider, or by clicking the label indicating the number of hops which were collapsed.  |
+|  | Split path | A path showing a split is an indication that there are multiple routes to the destination.  All path visualization is based on a minimum of three tests running from each agent.    When a path splits, the thickness of the line representing the link between the nodes will show how many of the tests traversed each link. |
+|  | Link with high delay | A red link will indicate a delay meeting the threshold specified by the latency slider. |
+|  | Unknown number  of hops between nodes | A dotted link with a question mark indicates insufficient data to determine the number of hops separating these nodes. Typically indicative of differing numbers of unresponsive nodes \(\* characters\) between responsive nodes, or an indication of path trace being unable to reach the destination when the end-to-end measurement was performed successfully. |
+|  | Unable to reach target node | A dotted link with an `X` symbol indicates a trace that was unable to be completed to the target due to 100% forwarding and 100% end-to-end loss. |
 

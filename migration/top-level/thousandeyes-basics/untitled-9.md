@@ -1,4 +1,4 @@
-# How Unit consumption works
+# How Unit consumption works - ThousandEyes Customer Success Center
 
 ThousandEyes bills for scheduled tests and Instant Tests based on whether the test is run from a Cloud Agent or an Enterprise Agent, and for two-way tests \(Agent to Agent and Voice Call tests\) whether the target Agent is a Cloud Agent or an Enterprise Agent. Any test run from or to a Cloud Agent will incur a cost in Units. When a test is run, the test's cost is deducted from the monthly Units purchased by the customer's organization, as specified in the customer's contract. Each month the account is reset to the number of Units that was contracted by the customer's organization.
 
@@ -16,11 +16,8 @@ For tests which incur Units, the cost in Units is based on the following:
 
 These settings are available for each test from the Test Settings page, on the Basic Configuration tab \(1 - 3\) and the Advanced Settings tab \(4\):
 
-IMAGE MISSING
-
+  
 The number of Units consumed by a test per hour is calculated according to the following formula:
-
-IMAGE MISSING
 
 The _**test interval**_ parameter is measured in minutes. The number of Units per test run is listed in the following table. The table assumes Enterprise Agents are using the metered model.
 

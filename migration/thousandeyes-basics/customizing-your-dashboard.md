@@ -1,24 +1,12 @@
-# Customizing your Dashboard - ThousandEyes Customer Success Center
+# Customizing your Dashboard
 
 In ThousandEyes, you can configure your Dashboard page to meet your own individual needs. If you have a role with the appropriate permissions, you can configure a Dashboard and make it available for other users in your own Account Group. It's pretty simple to customize as needed - just check out the details below.
-
-### Table of contents
-
-* [Dashboard configuration]()
-  * [Settings]()
-  * [Widgets]()
-* [Widget configuration]()
-  * [Alert List]()
-  * [Alert Grid]()
-  * [Agent Status]()
-  * [Tests]()
-  * [Color Grid]()
-  * [Report widgets]()
-* [Related information]()
 
 ## Dashboard configuration
 
 To view or configure new or existing Dashboards, start at the top of your Dashboards page.
+
+IMAGE MISSING
 
 1. Use the selector to choose one of the Dashboards shared within your Account Group or private dashboards you've created for yourself.
 2. Displays time since current dashboard was last refreshed.
@@ -33,6 +21,8 @@ To view or configure new or existing Dashboards, start at the top of your Dashbo
 ### Settings
 
  Select **View Dashboard Details** from Options menu to configure current Dashboard's settings:
+
+IMAGE MISSING
 
 * The **Dashboard Name** box displays the name of the Dashboard . Click in the box to edit the Dashboard name. The name of a Dashboard is shown when the Dashboard is used on the Dashboard page.  
 * The **Account Group Visibility** setting allows setting below sharing options:
@@ -50,9 +40,15 @@ Click the **Add/Manage Widgets** button to open the current Dashboard's widgets 
 
 At the top of the page, the available widget types will be shown in the **Add New Widgets** panel:
 
+IMAGE MISSING
+
 Click the **Dashboard Widgets** to display just the widgets which are available in Dashboards only:
 
+IMAGE MISSING
+
 Click the **Report Widgets** to display just the widgets which are common to Reports and Dashboards:
+
+IMAGE MISSING
 
 ## Widget configuration
 
@@ -68,6 +64,8 @@ Configuration specific to each widget type follows.
 
 Alert List widgets display a list of active and recently cleared alerts.
 
+IMAGE MISSING
+
 **Alert Type:** Configure the types of alerts to show. Various combinations can be configured, from BGP Routing, Cloud and Enterprise Agents, Devices, and Endpoint Agent classes of alert types.
 
 **Limit to:** Number of alerts to show. If the amount of alerts to show exceeds the configured limit, a **Show more alerts** link is provided.
@@ -80,6 +78,8 @@ Alert List widgets display a list of active and recently cleared alerts.
 
 Alert Grid widgets display alerts from tests, broken down by Agent or BGP Monitor.
 
+IMAGE MISSING
+
 **Alert Type:** Agents will display the Account Group's Agents across the top of the Alert Grid.  BGP will display BGP Monitors.
 
 **Filter all/any:** Enter one or more filter criteria.  Filter criteria will be displayed when you place focus on the text field.  With "all" the filter displays matches of the criteria that meet all the criteria in the text field.  With "any" the filter displays matches if any of the criteria are met.  For example, two Test Name criteria of "ThousandEyes" and "Support" would match the tests "My ThousandEyes", "ThousandEyes Support site" and "Linux support website" if the selection were "any".  If the selection were "all", then the only match would be "ThousandEyes Support site".
@@ -90,6 +90,8 @@ Alert Grid widgets display alerts from tests, broken down by Agent or BGP Monito
 
 Enterprise Agent Status widgets display Enterprise Agents on a world map, using the Agent IP address with the ThousandEyes geolocation database, or manually configured geographical information to place the Agent in the correct location on the map.
 
+IMAGE MISSING
+
 **Agents**: This selector allows the widget to display either Enterprise Agents or Endpoint Agents  
 **Show:** Owned Agents displays only those Agents that belong to the user's current Account Group \(i.e. Agents installed using the Account Group's token\).  All Assigned Agents\(Enterprise Agents only\) displays owned Agents plus any Agents shared to your Account Group from another Account Group in your Organization.
 
@@ -99,6 +101,8 @@ Enterprise Agent Status widgets display Enterprise Agents on a world map, using 
 
  Tests widgets display a list of tests.  Each test lists the name the test type, the test's alert status and a 12-hour trend graph of key metrics relevant to that test type.
 
+IMAGE MISSING
+
 **Filter all/any:** Enter one or more filter criteria.  Filter criteria will be displayed when you place focus on the text field.  With "all" the filter displays matches of the criteria that meet all the criteria in the text field.  With "any" the filter displays matches if any of the criteria are met.  For example, two Test Name criteria of "ThousandEyes" and "Support" would match the tests "My ThousandEyes", "ThousandEyes Support site" and "Linux support website" if the selection were "any".  If the selection were "all", then the match would only be "ThousandEyes Support site".
 
 **Exclude all/any:** Identical to Filter all/any above, except matches cause exclusion from display in the widget.
@@ -106,6 +110,8 @@ Enterprise Agent Status widgets display Enterprise Agents on a world map, using 
 #### Color Grid
 
 The Color Grid widget shows an array of colored cards, where each card's color depends on the configured scale.
+
+IMAGE MISSING
 
 **Data Source:** The data source indicates which platform service will be referenced within the widget. Current options include:
 
