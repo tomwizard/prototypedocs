@@ -10,13 +10,13 @@ However, there is an alternative approach available - reporting can be configure
 
 The following figure shows an [HTTP Server test results view](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmmvKAC_Using-the-HTTP-Server-view) with a configured Alert Suppression window \(2\):
 
-Figure 1: Test results with the Alert Suppression window visible
+IMAGE MISSING
 
  During the time period shown above, two outage events happened - the first one fired an alert \(1\) while the second one \(3\) happened during an \(at that time\) active Alert Suppression window, which prevented the alert rule from triggering.
 
 The next figure shows how the test data and the Alert Suppression configuration reflected in a report. The widgets on the left side \(1\) are based on test results data, while widgets on the right-hand side \(2\) use alert data:
 
-Figure 2: Test results-based and alert-based reporting comparison
+IMAGE MISSING
 
 The important difference is the presence of the second outage event in the widgets that are based on test results. This is clearly visible as an availability drop in the time-series widget \(3\) on the left side. Since there was no alert generated during the Alert Suppression window that covered the event, no similar dip can be found in the corresponding widget on the right-hand side.
 

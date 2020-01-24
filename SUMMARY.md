@@ -136,7 +136,7 @@
 * [Reports](migration/top-level/reports/README.md)
   * [Embedding report widgets in external web sites](migration/top-level/reports/untitled-3.md)
   * [Reports Snapshot message indicates widget configuration was corrupted](migration/top-level/reports/untitled-2.md)
-  * [Excluding periods of data from a report](migration/top-level/reports/untitled-1.md)
+  * [Excluding periods of data from a report](migration/reports/excluding-periods-of-data-from-a-report.md)
   * [Working with Reports](migration/reports/working-with-reports.md)
 * [Internet Insights](migration/top-level/internet-insights/README.md)
   * [Internet Insights: Overview and Views](migration/top-level/internet-insights/untitled.md)
