@@ -1,6 +1,8 @@
-# PagerDuty Integration - ThousandEyes Customer Success Center
+# PagerDuty Integration
 
 On our October 29, 2014 release, we introduced an integration with PagerDuty for Alert management.
+
+IMAGE MISSING
 
 In order to integrate with PagerDuty, you need the following components in place.
 
@@ -18,6 +20,8 @@ If you don't have an Escalation Policy defined for your alerts coming from Thous
 
 On the top nav, click Escalation Policies, then on the upper right side of the page, click New Escalation Policy. In an escalation policy, you can define who gets notified, how frequently, and using which methods. Depending on the configuration of your team, you can configure an On-Call Schedule - which allows users to rotate through an on-call schedule, allowing handoffs of active incidents, or a user-based Escalation Policy. If you want to configure your Escalation Policy to use a schedule, create this schedule \(Top Nav &gt; On-Call Schedules\) before attempting to create the Escalation policy.
 
+IMAGE MISSING
+
 1. Give your policy a name
 2. Add users or on-call schedules to the policy
 3. Determine how long before the alert gets escalated
@@ -33,11 +37,19 @@ There are two methods of PagerDuty service creation, but we'll only show our sid
 
 From ThousandEyes, under **Alert Settings**, open the rule you wish to link to PagerDuty, then click the **Notifications** tab.  Under the PagerDuty section, click the Edit Services link. 
 
+IMAGE MISSING
+
 If you already have one or more PagerDuty services configured, they will be shown in the list, otherwise click the Add New PagerDuty Service link to add a new service.
+
+IMAGE MISSING
 
 This will take you to an authorization page on the PagerDuty site, which will request your username and password, then log you in.
 
+IMAGE MISSING
+
 Once you've authenticated and authorized the integration, you can either select an existing PagerDuty service, or create your own based on the Escalation policy you created above.  In the example below, I've created a new service based on the TE Documentation Escalation policy.
+
+IMAGE MISSING
 
 Finally, click the "Finish Integration" button.  You can ignore the warning about being "almost done".  You're done, and alerts triggering on the basis of this alert rule will be routed to users in your escalation policy.
 
@@ -52,11 +64,9 @@ Once you've configured a PagerDuty service, and an alert is generated, the alert
 
 In most cases the alert must be acknowledged, at which point the escalation policy stops.  Users can add notes following an acknowledgement, and can clear the mark the alert as Resolved as required.  If the alert rule conditions are no longer met by your test \(or the alert rule is updated such that the conditions no longer meet the criteria of the alert\), the alert rule will be marked as cleared within PagerDuty via an incident update.
 
-_SMS alert notification example_
+IMAGE MISSING
 
-  
-_PagerDuty iPhone App example showing an active, unacknowledged alert_
+IMAGE MISSING
 
-  
-_PagerDuty iPhone App example showing an active acknowledged alert_
+IMAGE MISSING
 

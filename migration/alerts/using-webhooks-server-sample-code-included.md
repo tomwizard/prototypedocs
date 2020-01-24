@@ -6,38 +6,24 @@ With this data, users can create a customized workflow for the handling of alert
 
 In this Knowledge Base article, we'll describe the configuration of Alerts to use Webhooks. Additionally, for those unfamiliar with Webhooks or who will benefit from constructing a quick example, we provide information to [set up a test web service]() using [Heroku](https://www.heroku.com/).  For reference, we've also included [example POST body data]() at the end of this article.
 
-## Table of Contents
-
-* [Configuring Webhook notifications]()
-* [Authentication]()
-  * [Basic]()
-  * [Token]()
-  * [OAuth]()
-    * [Webhook server-side configuration]()
-    * [ThousandEyes-side configuration]()
-* [Setting up a Webhook server]()
-* [Webhook POST content]()
-* [Sample Webhook event payloads]()
-  * [WEBHOOK\_TEST]()
-  * [ALERT\_NOTIFICATION\_TRIGGER]()
-  * [ALERT\_NOTIFICATION\_CLEAR]()
-  * [AGENT\_ALERT\_NOTIFICATION\_TRIGGER]()
-  * [AGENT\_ALERT\_NOTIFICATION\_CLEAR]()
-* [Firewall exception requirements]()
-* [Related Articles]()
-
 ## Configuring Webhook notifications
 
 To configure notifications to a Webhook server, you'll need to define a Webhook in the Alert Rules interface \([Alerts &gt; Alert Rules](https://app.thousandeyes.com/settings/alerts/?tab=CloudAndEnterpriseAgent)\). Expand an Alert Rule and select the **Notifications** tab. Under the **Webhooks** section, click the **Configure Webhooks** link. If you already have configured Webhooks, click the **Edit webhooks** link:
 
+IMAGE MISSING
+
 Click the **Add New Webhook** link, then complete the New Webhook dialog:
+
+IMAGE MISSING
 
 Enter the **Name** of your Webhook, and the target **URL** \(note that HTTP redirects are not accepted, so be sure to provide the final URL\). Configure required [Authentication]() if required and click **Test** to check your configuration:
 
-  
+IMAGE MISSING  
 **NOTE: Encoded HTML URLs are currently not supported for Webhook configuration, please enter the URL in decoded form.**
 
 If the test succeeds, a Webhook test completed successfully message will be displayed:
+
+IMAGE MISSING
 
 Once you have tested your Webhook server successfully, click the **Add New Webhook** button, and select your Webhook from the list of configured Webhooks. 
 
@@ -49,9 +35,13 @@ Once you have tested your Webhook server successfully, click the **Add New Webho
 
 A **Username** and ****corresponding **Password** are necessary to configure Basic HTTP Authentication:
 
+IMAGE MISSING
+
 ### Token
 
  The Token Auth Type uses a **Bearer Token** to authenticate with the Webhook server:
+
+IMAGE MISSING
 
 ### OAuth 
 
@@ -59,20 +49,28 @@ A **Username** and ****corresponding **Password** are necessary to configure Bas
 
 Create a new OAuth endpoint for ThousandEyes Alerts with [https://app.thousandeyes.com/webhooks-oauth-callback/](https://app.thousandeyes.com/webhooks-oauth-callback/) as **redirect/call back** URL. Grab the newly created **Client ID** and Authorization Endpoint URL \(**Auth URL**\) for Webhook server to configure ThousandEyes side authentication. Below is an example Client OAuth configuration from ServiceNow: 
 
+IMAGE MISSING
+
 **NOTICE:** Ensure token has a sufficient lifespan to avoid manual regeneration on timeout.
 
 #### ThousandEyes-side configuration 
 
  Configure the Webhook **Name** and **URL** as explained in [Configuring Webhook notifications]() section. Click **OAuth** in **Auth Type.** Fill out the **Auth URL** and **Client ID** as per [Webhook server-side configuration]() section above. Click **Get Token**:
 
+IMAGE MISSING
+
   
 A new tab will be opened requesting for a consent to authorize ThousandEyes. Below is a snippet from ServiceNow application which we are using in this guide as an example:
 
-  
+IMAGE MISSING  
 Once the authorization is complete, a Token retrieved successfully message will be displayed, as shown in the following figure:
+
+IMAGE MISSING
 
   
 Now click the **Test** button to verify operability of your new Webhook:
+
+IMAGE MISSING
 
 ## Setting up a Webhook server
 

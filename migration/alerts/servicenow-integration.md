@@ -1,16 +1,6 @@
-# ServiceNow Integration - ThousandEyes Customer Success Center
+# ServiceNow Integration
 
 ThousandEyes supports routing alert notifications directly into [ServiceNow](https://www.servicenow.com/) [Incident Management Services](https://docs.servicenow.com/bundle/london-it-service-management/page/product/incident-management/concept/c_IncidentManagement.html) - a solution for streamlining the logging, classification, assignment, escalation, and reporting of incidents. The following guide describes the process of configuring ServiceNow and ThousandEyes [Alert Rules](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnBqCAK_How-Alerts-work) to send alert notifications directly into the ServiceNow platform. 
-
-### Table of Contents
-
-[Overview]()  
-[ServiceNow releases supported by ThousandEyes]()  
-[ServiceNow Configuration]()   
-[Creating a ServiceNow Integration within ThousandEyes]()  
-[Assigning ServiceNow Integrations to Alert Rules within ThousandEyes]()  
-[ServiceNow Alert Management]()  
-[Related Information]()
 
 ## Overview
 
@@ -54,13 +44,11 @@ These instructions assume the ServiceNow [Service Management Portal](https://doc
  1. Type sys\_properties.list in the filter navigator field then hit return. In the main window, the System Properties table will appear \(see [figure 1]() below\).  
 2. Using the table search feature field select the **name** filter, in the search field type `glide.oauth.state.parameter.required` and hit return \(see [figure 1]() below\).
 
-  
-[Figure 1. How to find the global system state parameter]()
+IMAGE MISSING
 
 3. Click `glide.oauth.state.parameter.required` to open the parameter's configuration, change the **Value** text field to `false`, then click **Update** \(See [figure 2]() below\).
 
-  
-[Figure 2. How to update the global system state parameter]()
+IMAGE MISSING
 
 ### 1\) Incident form design configuration
 
@@ -86,7 +74,8 @@ In this step the [**OAuth Application Registry**](https://docs.servicenow.com/bu
 
 **NOTE:** ThousandEyes recommends creating a dedicated ServiceNow user for integration management. This user should be assigned the `web_service_admin` role.
 
-* 
+IMAGE MISSING
+
 ## Creating a ServiceNow Integration within ThousandEyes
 
 A ServiceNow integration must be created before being assigned to Alert Rules.
@@ -95,15 +84,23 @@ A ServiceNow integration must be created before being assigned to Alert Rules.
 
 Start by selecting [Alerts &gt; Alert Rules](https://app.thousandeyes.com/settings/alerts/) within the menu pane. Then either expand any of the existing Alert Rules or click the **Add New Alert Rule** button:
 
+IMAGE MISSING
+
 Click the **Notification** tab to display the **Integrations** section:
 
+IMAGE MISSING
+
 Click **Configure Integrations** or **Edit Configurations** link depending on which is displayed. This will open a new dialog box.
+
+IMAGE MISSING
 
 Click the **Add New Integration** link.
 
 ### 2\) Configure ServiceNow integration settings
 
 The following figure depicts the dialog box for creating a new ServiceNow integration:
+
+IMAGE MISSING
 
 Within the dialog box, these fields can be configured:
 
@@ -134,6 +131,8 @@ Once created, ServiceNow integration can be assigned to any Alert Rule by openin
 * Select the desired ServiceNow integration from the drop-down
 * Click **Save Changes**
 
+IMAGE MISSING
+
 Here are some additional details to be aware of:
 
 * Integrations are available on an Account Group basis. An integration can be used by multiple Alert Rules in an Account Group.
@@ -144,6 +143,8 @@ Here are some additional details to be aware of:
 ## ServiceNow Alert Management
 
  Upon receiving a new notification from the ThousandEyes platform, ServiceNow will create a corresponding incident:
+
+IMAGE MISSING
 
 The following fields will be mapped upon creation of a new incident:
 

@@ -1,8 +1,10 @@
-# Alert Suppression Windows - ThousandEyes Customer Success Center
+# Alert Suppression Windows
 
 The ThousandEyes platform provides Alert Suppression Windows to suppress alerting for Tests during the periods such as planned maintenance.  Windows can be one-time events or recurring events to handle periodic occurrences such as monthly downtime for maintenance.
 
 The Alert Suppression Window will be displayed as a blue bar on the timeline of any test to which the Alert Suppression Window is assigned. Mousing over the bar displays the description:
+
+IMAGE MISSING
 
 ## Effects on Alerts and Notifications
 
@@ -19,6 +21,8 @@ Only tests to which an Alert Suppression Window is assigned are affected by an A
 ## Configuring Alert Suppression Windows
 
 To configure an Alert Suppression Window, navigate to **Alerts &gt; Alert Suppression** under the **SETTINGS** menu.  Click **+ Add New Alert Suppression Window** to configure a new Window, or click an existing window's row to change settings:
+
+IMAGE MISSING
 
 1. **Name:** The name of the Alert Suppression Window.
 2. **Tests:** Tests to which this Alert Suppression Window is assigned.
