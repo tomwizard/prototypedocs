@@ -2,26 +2,6 @@
 
 ThousandEyes Agents provide a variety of settings to customize their behavior to your needs. This article describes menu choices under the Cloud & Enterprise Agents and Endpoint Agent areas.
 
-## Table of Contents
-
-* [Cloud & Enterprise Agents]()
-  * [Enterprise Agents]()
-    * [Agents tab]()
-      * [Agent Settings]()
-        * [B]()[asic Configuration tab]()
-        * [Advanced Configuration tab]()
-        * [Agent Statistics tab]()
-        * [Adding an Enterprise Agent]()
-          * [Account Group Token]()
-    * [Clusters tab]()
-    * [Notifications tab]()
-      * [Creating a New Notification Rule]()
-    * [Kerberos Settings tab]()
-  * [Cloud Agents]()
-  * [Agent Labels]()
-  * [Proxy Settings]()
-* [Endpoint Agents]()
-
 ## Cloud & Enterprise Agents
 
 Cloud and Enterprise Agents can be configured When navigating to the [**Cloud & Enterprise Agents &gt; Agents Settings**](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) menu, you'll see some or all of the following menus, depending on your account's permissions and those of your organization. Agent configuration in the UI is organized as follows.:
@@ -39,6 +19,8 @@ Enterprise Agents are lightweight Linux-based software agents that run tests con
 
 If the Account Group has installed at least one Enterprise Agent, then navigating to the  [**Cloud & Enterprise Agents &gt;** ](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents)[ **Agent Settings &gt; Enterprise Agents**](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) menu will display a listing of the Enterprise Agents, under the **Agents** tab:
 
+IMAGE MISSING
+
 1. **Agents/Clusters/Notifications/Kerberos tab:** Click the tab to display listings of either individual Enterprise Agents, Enterprise Agent Clusters.  Select or configure Notification Rules and Kerberos Settings under these tabs.
 2. **Search box:** Enter a text string to search for your Agent\(s\).  The string can be either text or an IP address.  The Agent Name, Hostname and public and private IP address fields \(visible when an Agent's row is expanded\) will be searched.  Matches are displayed in the listing.
 3. **Total Agents:** The number of Enterprise Agents assigned to this organization.
@@ -46,7 +28,11 @@ If the Account Group has installed at least one Enterprise Agent, then navigatin
 5. **Agent Name:** Displays the name given to the Enterprise Agent, located in the Agent Name field. Click the column header to sort in one of two directions.
 6. **Hostname:** Displays the hostname given to the Enterprise Agent. The hostname is either a name or a domain name, taken from the 'hostname' command run on the Agent. Click the column header to sort in one of two directions.
 
-    To the left of the hostname are icons indicating the following:
+    To the left of the hostname are icons indicating the following:  
+   IMAGE AND BULLET MISSING  
+   IMAGE AND BULLET MISSING  
+   IMAGE AND BULLET MISSING  
+   IMAGE AND BULLET MISSING
 
 7. **Utilization:** The highest percentage of the currently active Agent Utilization queues \(visible when an Agent's row is expanded\). Utilization queues  measure the amount of test time slots used for various types of tests.  As utilization values near 100%, tests of the type measured by the queue are more likely to fail to run before the next round of tests commences, producing a "No data" result for the Agent running the test. Click the column header to sort in one of two directions.
 8. **Status/Last Contact:** The time since the Enterprise Agent last contacted the ThousandEyes collector. The Last Contact of the Agent--Collector connection is rendered with a green dot if the Agent status is "Online". If the Agent has not contacted the ThousandEyes collector for more than .5 hour, the status is set to "Offline" and rendered with a red dot.  If the Agent has been disabled, the status is set to "Disabled" and rendered in grey.  Click the column header to sort in one of two directions.
@@ -60,6 +46,8 @@ If the Account Group has installed at least one Enterprise Agent, then navigatin
 Click on the row of any Enterprise Agent to expand the row for access to the Agent Settings.  The Agent Settings will display three tabs: Basic Configuration, Advanced Settings and Agent Statistics. Additionally, panels on the right provide detailed Agent information and some administrative options. Note that the Basic Configuration will not be visible if the Agent is assigned to an Enterprise Agent Cluster, and other parts of the interface will change or to reflect the Agent's membership in the Cluster.  Information no longer available under the Agent will be available under the Agent's Cluster.
 
 **Basic Configuration**
+
+IMAGE MISSING
 
 1. **Agent Name:** _****_The name of the Agent. This can be modified in the ThousandEyes Agent settings UI by a user having a role with the _Edit agents_ permissions.
 2. **Country:** Obtained from a geolocation service based on the public IP address of the Agent. Can be overridden using the pull-down selector.
@@ -88,6 +76,8 @@ Click on the row of any Enterprise Agent to expand the row for access to the Age
 
 **Advanced Settings**
 
+IMAGE MISSING
+
 1. IPv6 **Policy:** Choose a name resolution policy for non browser based tests. Below are the available options:
    * IPv4 Only
    * Prefer IPv6
@@ -104,12 +94,16 @@ Click on the row of any Enterprise Agent to expand the row for access to the Age
 
 **Agent Statistics**
 
+IMAGE MISSING
+
 1. **Agent Uptime:** A graph of the Agent's connection to the ThousandEyes collector over the past 7 days.
 2. **Agent Utilization:** This section charts the Agent Utilization per Test type for the last 24 hours. Only those Test types which the Agent is running are displayed. [Utilization](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnjgCAC_Enterprise-Agent-Utilization) for a ThousandEyes Enterprise Agent means the amount of time slots in the test queue that are filled by running tests. A high utilization indicates that the Agent is barely managing to complete all tests assigned to it, each round.
 
 #### Adding an Enterprise Agent
 
-If you have a role with the _Edit agents_ permission, such as the default Account Admin or Organization Admin roles, you can add new Enterprise Agents. To add a new Agent, Navigate to Agents tab of [**Cloud & Enterprise Agents &gt; Agents Settings**](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) ****and click the **+ Add New Agent** button.  A side modal containing agent install methods with hyperlinks to respective Install Guide will open up classified in tabs based on Package Type.  
+If you have a role with the _Edit agents_ permission, such as the default Account Admin or Organization Admin roles, you can add new Enterprise Agents. To add a new Agent, Navigate to Agents tab of [**Cloud & Enterprise Agents &gt; Agents Settings**](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) ****and click the **+ Add New Agent** button.  A side modal containing agent install methods with hyperlinks to respective Install Guide will open up classified in tabs based on Package Type. 
+
+IMAGE MISSING
 
 #### Account Group Token
 
@@ -118,6 +112,8 @@ Click on the **Show Account Token for Installation** link, and copy the Account 
 ### **Clusters tab**
 
  If the Account Group has configured at least one Enterprise Agent Cluster, then navigating to the  **Settings &gt; Agents &gt; Enterprise Agents** menu will display a listing of the Enterprise Agent Clusters, under the **Agents** tab:
+
+IMAGE MISSING
 
 For more information about Agent clusters, refer to the ThousandEyes Knowledge Base article [Working with Enterprise Agent Clusters](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmngKAC). 
 
@@ -131,6 +127,8 @@ For an organization's Enterprise Agents, notifications can be generated on three
 
 Navigate to the **Cloud & Enterprise Agents &gt; Agents Settings &gt; Enterprise Agents &gt; Notification** tab and click the **Add New Notification Rule** button to add a new Rule or click on a row to expand the row and view the settings of an existing Rule.  As with any Alert or Notification Rule, some period of experimentation may be required to tune the criteria so that the Rule is neither too noisy nor failing to notify users of valuable events.
 
+IMAGE MISSING
+
 1. **Search:** Enter a text string to search for Notification Rules based on the name of the Rule.
 2. **Name:** The name of the Notification Rule.  Click the column title to sort in one of two directions.
 3. **Conditions:** Lists the conditions of the Notification Rule.
@@ -142,6 +140,8 @@ Navigate to the **Cloud & Enterprise Agents &gt; Agents Settings &gt; Enterprise
 ### Creating a New Notification Rule
 
 To add a new notification rule, Navigate to Notifications tab of [**Cloud & Enterprise Agents &gt; Agents Settings**](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) ****and click the **+ Add New Notification Rule** button to reveal the below side pane:
+
+IMAGE MISSING
 
 Configure appropriate values for below settings: 
 
@@ -158,9 +158,13 @@ For information on the Notifications tab, see the [Notifications section](https:
 
 The Kerberos Settings tab is where configurations for this method of authentication are listed.  Typically an Enterprise Agent authenticating to a Microsoft Windows Server will use this method.  Navigate to the **Cloud & Enterprise Agents &gt; Agents Settings &gt; Enterprise Agents &gt; Kerberos** tab to list or create a new configuration.  To setup new authentication schemes click the **Add Kerberos Configuration** button. Fill in Configuration Name, Realm, Username, Password, Kerberos Key Distribution Center \(KDC\) Host, KDC Port, Whitelisted IP address range or subnet.  Then add an associated Enterprise Agent.
 
+IMAGE MISSING
+
 ## Cloud Agents
 
 If your organization has access to ThousandEyes Cloud Agents, then the Cloud Agents menu will be present.  Navigate to **Cloud & Enterprise Agents &gt; Agents Settings &gt; Cloud Agents** to see this listing.  Our Cloud Agents are installed around the world in major cities and on six continents giving our customers access to performance data from local transit providers and last-mile ISPs to simulate end user performance.  Choose from this list to view the Name, Primary Provider, Country and number of tests using these agents.  To see a map of our existing Cloud Agents visit this [link](https://www.thousandeyes.com/product/cloud-agents) on the ThousandEyes website.
+
+IMAGE MISSING
 
 1. **Search:** Enter a text string to search for Cloud Agents based on the Agent name or location.
 2. **Agent Name:** Indicates the geographic location \(city and state or city and country\) as well as indicating an IPv6 Agent. 
@@ -175,9 +179,13 @@ If your organization has access to ThousandEyes Cloud Agents, then the Cloud Age
 
 Labels can be setup to organize resources listed in the ThousandEyes platform.  To organize Enterprise Agents under a particular group Navigate to the **Cloud & Enterprise Agents &gt; Agents Settings &gt; Agent Labels** tab.  Organizing more than one agent under a particular color and named label can expedite test and alert configuration by selecting the label then leafing through the list.
 
+IMAGE MISSING
+
 ## Proxy Settings
 
 List or configure proxy settings under the **Cloud & Enterprise Agents &gt; Agents Settings &gt; Proxy Settings** tab.  Add new settings by clicking the **Add New Proxy Configuration** button.  For a details description of proxy server settings refer to the article on [Enterprise Agent Proxy Configuration](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000LB2kCAG_Configuring-an-Enterprise-Agent-to-use-a-proxy-server).
+
+IMAGE MISSING
 
 ## Endpoint Agents
 
@@ -187,7 +195,7 @@ If your Account Group has access to ThousandEyes Endpoint Agents, then the Endpo
 
 1. Endpoint Agent listing and configuration tab
 2. Endpoint Proxy Settings list and configuration tab
-3. Endpoint Agent Labels list and label creation tab
+3. Endpoint Agent Labels list and label creation tab IMAGE MISSING
 4. **Endpoint Agents/Proxy Settings/Agent Labels:** Access agent list, add New Endpoint Agents.  Configure [Proxy Settings](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA02R000000HlqJSAS_Endpoint-Agent-proxy-configuration-for-Scheduled-tests) and create customer labels for your Endpoint Agents.
 5. **Filters:** Available filters for agent list include **Location**, **Status**, **Version**, **Platform**, **Agent Type**, **Label and Browser Extension Status**.
 6. **Search:** Search for Endpoint Agents based on the hostname, username, or OS version.

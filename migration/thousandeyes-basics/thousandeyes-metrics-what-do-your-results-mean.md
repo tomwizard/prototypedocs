@@ -1,17 +1,6 @@
 # ThousandEyes Metrics: What do your results mean?
 
-### ThousandEyes Metrics: What do your results mean?
-
-Last updated: Tue Jan 14 23:45:31 GMT 2020
-
 The following document explains each of the metrics captured by the ThousandEyes platform. These metrics are used across the platform, and may be of interest to those who are responsible for definition of Alert Rules.
-
-* [Network Layer]()
-* [Routing Layer]()
-* [DNS Layer]()
-* [DNS+ Layer]()
-* [Web Layer]()
-* [Voice Layer]()
 
 These metrics apply to scheduled tests run on Cloud and Enterprise Agents. For information on Endpoint Agent metrics, review the ThousandEyes Knowledge Base article [Data collected by Endpoint Agent](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmpbKAC_Data-collected-by-Endpoint-Agent).
 
@@ -22,7 +11,8 @@ These metrics apply to scheduled tests run on Cloud and Enterprise Agents. For i
 * _**Loss**:_ End-to-end packet loss. The percentage of packets lost is calculated by subtracting the number of reply packets the Agent receives from the target \(responses\) from the number of packets sent by the Agent, then dividing by the number of packets sent, then multiplying by 100.
 * _**Latency**:_ The average of the round-trip packet time. Round-trip packet time is the time from which a packet is sent by the Agent to the time the agent receives a reply.
 * _**Jitter**:_ The standard deviation of latency.  The standard deviation indicates how widely spread are the measurements around the average.  A larger standard deviation indicates a wider spread of the measurements.
-* _**Bandwidth:**_ ****Total available bandwidth between source and destination measured in Mbps. 
+* **Available Bandwidth:** Total available bandwidth between source and destination measured in Mbps. 
+* **Capacity**: This metric is present in the Available Bandwidth table. It represents an estimation of the link capacity in Mbps, also used to measure the Available Bandwidth as a subsequent step. 
 
 ### Path Visualization Metrics
 
@@ -134,7 +124,7 @@ These metrics apply to scheduled tests run on Cloud and Enterprise Agents. For i
 
 ### RTP Stream
 
-* _**Mean Opinion Score \(MOS\)**:_ A number indicative of the perceived voice call quality. MOS being highly subjective, individual transmission parameters are transformed into “impairment factors” such as codec characteristics, delay, loss/discard ratio to obtain the R Factor. The following table relates user opinion MOS and R Factor
+* _**Mean Opinion Score \(MOS\)**:_ A number indicative of the perceived voice call quality. MOS being highly subjective, individual transmission parameters are transformed into “impairment factors” such as codec characteristics, delay, loss/discard ratio to obtain the R Factor. The following table relates user opinion MOS and R Factor IMAGE MISSING
 * _**Loss:**_ **** A percentage of a stream of UDP encapsulated RTP packets that do not reach the destination.
 * _**Discards**_: A percentage of the packets that are delayed over the network and are no longer required when they reach the destination.
 * _**Latency**:_ The average time taken by the packets to reach the destination.
