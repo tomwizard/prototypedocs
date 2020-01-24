@@ -1,24 +1,4 @@
-# Working with Reports - ThousandEyes Customer Success Center
-
-## Table of contents
-
-* [Configuring Reports]()
-* [Creating a New Report]()
-* [Working with Report Widgets]()
-  * [Number widget]()
-  * [Table widget]()
-  * [Multi-Metric Table widget]()
-  * [Time Series widget]()
-  * [Stacked Bar Chart widget]()
-  * [Grouped Bar Chart widget]()
-  * [Pie Chart widget]()
-  * [Map widget]()
-  * [Box and Whiskers widget]()
-* [Report Snapshots]()
-  * [Creating a Report Snapshot]()
-  * [Working with Report Snapshots]()
-  * [Sharing Report Snapshots]()
-* [Related information]()
+# Working with Reports
 
 The ThousandEyes platform contains a reporting engine which provides both on-demand reports and scheduling of automatically generated reports.  Data from tests can be organized into highly customized layouts, presented numerically or in tables or graphs, and sent via email to users.
 
@@ -32,8 +12,10 @@ Report data can also be shared through embedded widgets, which allow a report's 
 
 The Reports page \(Reports &gt; Reports\) allows you to create, modify and delete reports, and create and schedule snapshots of existing reports. The figure below and the following list describe the Reports configuration tool on the Reports page.  Below the list is the [Creating a New Report]() section with steps for creating a report.
 
+IMAGE MISSING
+
 1. **Recent Snapshot Selector:** This drop-down menu provides a list of most recent snapshots for each report in account group.
-2. **Report selector:** This drop-down menu provides a list of existing reports, along with a Search field to search the list.  Select a report to view by clicking the report name. A watch icon  next to the name of a report indicates that report has scheduled snapshots. A shared by icon  next to the name of report indicates that report has been shared with other account groups in the same organization. A shared with icon next to name of report signifies the report belongs to a different account group in same organization. An option to perform **Bulk Actions** enables creating multiple report snapshots or deleting multiple reports at once.
+2. **Report selector:** This drop-down menu provides a list of existing reports, along with a Search field to search the list.  Select a report to view by clicking the report name. A watch icon  \(IMAGE MISSING\) next to the name of a report indicates that report has scheduled snapshots. A shared by icon \(IMAGE MISSING\) next to the name of report indicates that report has been shared with other account groups in the same organization. A shared with icon \(IMAGE MISSING\) next to name of report signifies the report belongs to a different account group in same organization. An option to perform **Bulk Actions** enables creating multiple report snapshots or deleting multiple reports at once.
 3. **Report Time Range selector:** Quickly select relative time ranges \(eg: Last 7 days, This Month\) or configure a custom time range. Time Ranges will be displayed using the time zone configured within the User's profile. By default, data for last 7 days is displayed. Widgets with configured **Fixed Time Span** option are unaffected by the Time Range selector.
 4. **Snapshots menu** provides the following options:
    * **Save a Snapshot:** The currently selected report will be saved as a snapshot, using the time range configured in the Time Range selector.
@@ -42,7 +24,7 @@ The Reports page \(Reports &gt; Reports\) allows you to create, modify and delet
 6. **Options button** provides the following options:
    * **Create New Report:** Creates a new blank report to be named and populated with widgets
    * **Duplicate Report:** Creates a copy of the currently viewed report, to be renamed and modified
-   * **View Report Details:** Allows a user to edit the currently viewed **Report Name**, **Account Group Visibility** and meta-data. The **Related Snapshots History** section shows list of most recent snapshots as seen in below screenshot.
+   * **View Report Details:** Allows a user to edit the currently viewed **Report Name**, **Account Group Visibility** and meta-data. The **Related Snapshots History** section shows list of most recent snapshots as seen in below screenshot. IMAGE MISSING
 
 * **Download as PDF:** Download the report as a PDF file. Timestamps will be displayed using the time zone configured for the Organization.
 * **Download as CSV:** Download the report as a CSV file. Timestamps will be displayed using the time zone configured for the Organization.
@@ -51,6 +33,8 @@ The Reports page \(Reports &gt; Reports\) allows you to create, modify and delet
 ### Creating a New Report
 
 Follow these steps to create a new report:  
+
+IMAGE MISSING
 
 1. On the Reports page, click on the **Options** button and select **Create New Report.**
 2. Enter a report name in the **Report Name** field.
@@ -61,9 +45,11 @@ Follow these steps to create a new report:
    * **Specific account groups:** make report visible to desired account groups which can be selected from resulting drop-down menu.
 5. **Set as my default:** Check this box to make this report the default report displayed for the current user.
 6. **Sat as default for account group:** Check this box to make this report the default report displayed for the current Account Group.  User Default takes priority over Account Group Default.
-7. Click **Create Report** to open up widget manager.
+7. Click **Create Report** to open up widget manager. IMAGE MISSING
 
 Reports are created in the widget manager which can also be used to modify a report.  Invoke the widget manager by clicking the **Add/Manage Widgets** button from the Reports page. The figure below and the following list describe the features of the widget manager.
+
+IMAGE MISSING
 
 1. **Widget picker:** Select a widget to add to your report by clicking on the type of widget desired and dragging it to the location within the report layout where you wish the data to appear. 
 2. **Widget name:**  The name of your widget, which will appear in your reports and snapshots.
@@ -73,6 +59,8 @@ Reports are created in the widget manager which can also be used to modify a rep
 6. **Return to Report:** Click this button to exit the widget manager and return to the Reports page. 
 
 To add widgets to the report, drag them down from the widget picker. Widgets can be dragged to different positions within the overall report page whenever the mouse pointer is moved over the header of a widget, causing the pointer to be displayed as a hand: 
+
+IMAGE MISSING
 
 Once the widget is added to the report, select appropriate values for each available option. Changes made in the widget manager are immediately saved, allowing for exit of the widget manager at any time with a single click.
 
@@ -96,6 +84,8 @@ Adding widgets to a report is done by clicking the **+Add/Manage Widgets** butto
 #### Number widget
 
 The image below shows an unconfigured Number widget.
+
+IMAGE MISSING
 
 Number widgets have the following settings:
 
@@ -150,6 +140,8 @@ By default, the timespan of the past data set is the timespan prior to the curre
 
 Below is an example of a configured Number widget and the resulting report output.
 
+IMAGE MISSING
+
 The configuration shows the widget configured with three numbers:
 
 1. Maximum Packet Loss for selected Agent to Server test.
@@ -159,6 +151,8 @@ The configuration shows the widget configured with three numbers:
 #### Table widget
 
 The image below shows an unconfigured Table widget.
+
+IMAGE MISSING
 
 Table widgets have the following settings:
 
@@ -240,6 +234,8 @@ By default, the timespan of the past data set is the timespan prior to the curre
 
 Below is an example of a configured Table widget and the resulting output.
 
+IMAGE MISSING
+
 1. The configuration shows Cloud & Enterprise Agents set as Data Source with Latency of Agent to Agent tests set as a reported Metric for the table. The widget is set to visualize Standard Deviation of a Latency metric in the Source To Target direction.
 2. Data is set to visualize with Tests forming the Rows and Agents forming the columns. Rows are sorted by a reported value, in the ascending order.
 3. The filter is set to include 2 of 3 available Agent to Agent Tests. The “+” icon can be used to put on additional filters.
@@ -247,6 +243,8 @@ Below is an example of a configured Table widget and the resulting output.
 #### Multi Metric Table widget
 
 The images below show an unconfigured Multi Metric Table widget.  The first image displays the Rows tab, and the second image displays the Column tab.
+
+IMAGE MISSING
 
 #### Rows tab
 
@@ -294,7 +292,7 @@ By default, the timespan of the past data set is the timespan prior to the curre
 * _Monitors:_ If the **Metric** is a BGP test or alert, a list of ThousandEyes BGP monitors.
 * _Countries:_ If the **Metric** is a DNS+ test or alert, a list of countries.
 * _Servers:_ For any Metric, a list of servers being tested.
-* _Location:_ For any Metric, a list of locations being tested.
+* _Location:_ For any Metric, a list of locations being tested. IMAGE MISSING
 
 ####  Columns tab
 
@@ -321,6 +319,8 @@ To add a column, click on the **Add New Column** link.  To delete a column, clic
 
 Below is an example of a configured Multi Metric Table widget entitled “HTTP Server statistics” and the resulting output.
 
+IMAGE MISSING
+
 The **Rows** setting is set to "Tests", indicating that the table's rows will be individual test names, and the **Sources** is set to filter on "Tests", where 3 tests of 501 are selected, creating a two-row table with the first column containing those two selected tests. Column 1 has "Availability" selected as the **Metric** and "Mean" as the Measure.  Each test row will display the mean of availability in the first column. Column 2 has "Response Time" selected as the **Metric** and "Maximum" as the Measure.  Each test row will display the largest of all response time values in the round, in the second column.
 
 Sort by is set to  "Default \(Tests\)", meaning that the sorting order of the rows will be the default \(the first column that's set by the **Rows**\).  The dark switch with the white up-arrow indicates that the value of the **Sort by** field will be sorted from low to high, alphabetically in this case.  The **Show Comparison** box is checked, producing the second, lower set of numbers along with up or down arrows to indicate whether the value rose or dropped, and a color code to indicate whether that rise or drop is an improving change from the previous period \(green\), a degrading change \(red\) or is ambiguous \(gray\).  **Fixed Time Span** is unchecked, indicating that the report uses the time frame that is set  at the top of the Reports page.  Limit To is set to 2 rows, thereby preventing one of the three tests from being displayed.
@@ -328,6 +328,8 @@ Sort by is set to  "Default \(Tests\)", meaning that the sorting order of the ro
 #### Time Series widget
 
 The image below shows an unconfigured Time Series widget.
+
+IMAGE MISSING
 
 Time Series widgets have the following settings:
 
@@ -405,6 +407,8 @@ For example, if Group By is "Countries" and Source type is "Tests", then all sel
 
 Below is an example of a configured Time Series widget  and the resulting output.
 
+IMAGE MISSING
+
 1. The above widget visualizes Maximum Packet Loss detected by an Agent to Server test. Data Source is configured to Cloud & Enterprise Agents.
 2. The data is aggregated by agent, resulting in each agent's data rendered on an indivudual chart line.
 3. The “Show Overall Maximum” box is checked and therefore the first displayed chart shows the overall maximum, across all agents.
@@ -414,6 +418,8 @@ Below is an example of a configured Time Series widget  and the resulting output
 #### Stacked Bar Chart widget
 
 The image below shows an unconfigured Stacked Bar Chart widget.
+
+IMAGE MISSING
 
 Stacked Bar Chart widgets have the following settings:
 
@@ -467,7 +473,7 @@ Either **X-Axis** or **Y-Axis** is displayed, based on the **Orientation** selec
 
 **Orientation:** The orientation of the bars--either horizontal or vertical. Selecting horizontal or vertical orientation sets the associated pull-down menu label to **X-Axis** or **Y-Axis.**
 
-**Sorty By:** For charts containing multiple bars, the Sort By setting will determine in what order the bars appear.  That is, the value of the Sort By setting is applied to the value in the X-Axis/Y-Axis setting.
+**Sort By:** For charts containing multiple bars, the Sort By setting will determine in what order the bars appear.  That is, the value of the Sort By setting is applied to the value in the X-Axis/Y-Axis setting.
 
 * _Default \(Highest\):_ Sort bars optimally, based on the settings for Metric and Show Comparison. The metric which is optimal for your settings is shown in parentheses.
 * _Alphabetical:_ Sort bars by ascending alphabetical order.
@@ -485,6 +491,8 @@ Either **X-Axis** or **Y-Axis** is displayed, based on the **Orientation** selec
 
 Below is an example of a configured Stacked Bar Chart widget and the resulting output.
 
+IMAGE MISSING
+
 1. The configured widget visualizes mean Response Time for HTTP Server tests based on Cloud & Enterprise Agents.
 2. Graph is configured to be oriented to extend from left to right with Y axis as Servers sorted alphabetically.
 3. The “Show Labels” box is checked and as a result Response Time labels can be seen in the graph.
@@ -493,6 +501,8 @@ Below is an example of a configured Stacked Bar Chart widget and the resulting o
 #### Grouped Bar Chart widget
 
 The image below shows an unconfigured Grouped Bar Chart widget.
+
+IMAGE MISSING
 
 Grouped Bar Chart widgets have the following settings:
 
@@ -570,7 +580,7 @@ Either **X-Axis** or **Y-Axis** is displayed, based on the **Orientation** selec
 * _Interfaces:_ Data from each Device Interface is aggregated into a single line.
 * _Interface Types:_ Data from each Device Interface Type is aggregated into a single line.
 
-**Sorty By:** For charts containing multiple bars, the Sort By setting will determine in what order the bars appear.  That is, the value of the Sort By setting is applied to the value in the X-Axis/Y-Axis setting.
+**Sort By:** For charts containing multiple bars, the Sort By setting will determine in what order the bars appear.  That is, the value of the Sort By setting is applied to the value in the X-Axis/Y-Axis setting.
 
 * _Default:_ Sort bars optimally, based on the settings for Metric and Show Comparison. The metric which is optimal for your settings is shown in parentheses.
 * _Alphabetical:_ Sort bars by ascending alphabetical order.
@@ -588,6 +598,8 @@ Either **X-Axis** or **Y-Axis** is displayed, based on the **Orientation** selec
 
 Below is an example of a configured Grouped Bar Chart widget and the resulting output.
 
+IMAGE MISSING
+
 1. The chart is configured to visualize Mean Receive Time from HTTP Server tests based on Cloud & Enterprise Agents.
 2. Graph is configured to extend horizontally with Servers as Y axis grouped by Agent Labels and sorted in a descending order.
 3. The “Show Labels” box is checked and as a result Receive Time labels are visible.
@@ -596,6 +608,8 @@ Below is an example of a configured Grouped Bar Chart widget and the resulting o
 #### Pie Chart widget
 
 The image below shows an unconfigured Pie Chart widget.
+
+IMAGE MISSING
 
 Pie Chart widgets have the following settings:  
  
@@ -654,6 +668,8 @@ Pie Chart widgets have the following settings:
 
 Below is an example of a configured Pie Chart widget and the resulting output.
 
+IMAGE MISSING
+
 1. The widget is configured to visualize Mean Page Load Time of Browser Sessions - Web collected by Endpoint Agents.
 2. Group By field is set to Networks and as a result data from each network is visualized as a separate pie chart.
 3. The data is not filtered and as a result all available data is visualized.
@@ -661,6 +677,8 @@ Below is an example of a configured Pie Chart widget and the resulting output.
 #### Map widget
 
 The image below shows an unconfigured Map widget.
+
+IMAGE MISSING
 
 Map widgets have the following settings:  
  
@@ -714,6 +732,8 @@ Map widgets have the following settings:
 
 Below is an example of a configured Map widget  and the resulting output.
 
+IMAGE MISSING
+
 1. The widget is configured to visualize Mean Packet Loss observed in an Agent to Server tests with Cloud & Enterprise Agents as Data Source.
 2. Group By field is set to Countries and hence data is aggregated based on Countries and coloured on the map accordingly.
 3. Widget is configured to visualize data from all 16 available tests.
@@ -723,6 +743,8 @@ Note in the upper-right corner the magnification selector, which allows you to z
 #### Box-and-Whiskers widget
 
 The image below shows an unconfigured Box-and-Whiskers widget.
+
+IMAGE MISSING
 
 Box-and-Whiskers widgets have the following settings:
 
@@ -785,9 +807,13 @@ For example, if Group By is "Countries" and Source type is "Tests", then all sel
 
 Below is an example of a configured Box-and-Whiskers widget entitled  and the resulting report output.
 
+IMAGE MISSING
+
 The configuration shows the widget's Metric as “Throughput".  The Group By selector is set to "Agents", which displays Cloud and Enterprise Agents on the map in their respective locations.  The source filter is set to "Tests" and "1 of 188 included", indicating that one test's data is being displayed.
 
 For each time on the horizontal axis, dots representing minimum and maximum values for that round of data are plotted, along with a dot for the median of all values in that round.  Additionally, a blue bar starts below the median at the value representing the end of the first quartile of the data, and extends above the median to the value representing the end of the third quartile.  Mousing over the points or bars will display a tooltip with the numeric values:
+
+IMAGE MISSING
 
 At 2019-01-27 we see that the data from all Agents had the following distribution:
 
@@ -806,7 +832,11 @@ Snapshots are reports that are saved with a fixed time period of data.  Snapshot
 
 To create an on-demand report snapshot, select the desired report in the Report name pull-down on the Reports page.  Then select the **Snapshot &gt; Save a Snapshot** link from the Reports page. The **Save a Snapshot** side pane will appear.  The dialog allows you to name the snapshot.  The current date range in the report date selector's To and From fields will be used to select the data in the snapshot. Options to anonymize data that can reveal a user's identity and creating a public share-link are also available here.
 
+IMAGE MISSING
+
 Report snapshots can be automatically generated at periodic intervals, such as each week or month.  To create or edit a snapshot schedule, select the desired report in the Report name pull-down on the Reports page.  Then select the **Snapshot &gt; Schedule Snapshots** link. The **Schedule Snapshots** side pane will appear, and allow you to select settings for the snapshot's schedule.
+
+IMAGE MISSING
 
 The following settings are available:
 
@@ -844,6 +874,8 @@ Clicking on the link of a snapshot will display the snapshot.  The snapshot may 
 ### Sharing Report Snapshots
 
 Snapshots of reports can be manually shared via a publicly accessible URL, similar to Snapshot Sharing of test data. To share a snapshot of a report, navigate to the desired Report and click on the gear icon on the right-hand side to open the report snapshot's additional options menu.
+
+IMAGE MISSING
 
 Here, click the **Link Share** switch and the public URL for viewing this report snapshot will be presented. You may copy the link to your clipboard and paste it into a document, an email, a chat or any other medium.
 
