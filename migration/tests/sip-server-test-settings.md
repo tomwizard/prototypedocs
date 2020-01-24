@@ -1,4 +1,4 @@
-# SIP Server test settings - ThousandEyes Customer Success Center
+# SIP Server test settings
 
 SIP Server tests facilitate network measurements, BGP data collection and, most importantly, SIP service availability and performance testing against SIP-based VoIP infrastructure. [Enterprise and Cloud Agents](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnvICAS_Comparison-of-Agent-Types) performing a SIP Server test will verify the SIP service availability by issuing a SIP OPTIONS request \(also known as the SIP "ping" request\) against it and validate the response. Optionally, the following SIP aspects can be configured:
 
@@ -8,15 +8,6 @@ SIP Server tests facilitate network measurements, BGP data collection and, most 
 
 In addition to testing conventional SIP services, support for [testing Skype for Business Online]() service is also available.
 
-## Table of contents
-
-* [NOTICE - SIP Server test is not a Voice Call test]()
-* [Basic configuration]()
-* [Advanced settings]()
-* [Testing Skype for Business Online]()
-  * [Creating a Skype for Business Online test]()
-* [Frequently asked questions]()
-
 ## NOTICE - SIP Server test is not a Voice Call test
 
 **SIP Server** test is not the test type that facilitates performing full voice calls between agents - that is what **Voice Call** test type is for. To read the documentation about Voice Call tests, head to the [Voice Call test settings](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000LB63CAG_Voice-Call-test-settings) article.
@@ -25,7 +16,7 @@ In addition to testing conventional SIP services, support for [testing Skype for
 
 A new SIP Server test can be created by visiting the [Settings &gt; Tests](https://app.thousandeyes.com/settings/tests/) section of the web portal, expanding the **Add New Test** dialog and selecting **Voice** layer and **SIP Server** test type. The following test creation dialog should appear:
 
-Figure 1: SIP Server test configuration - basic configuration
+IMAGE MISSING
 
 Available basic configuration settings:
 
@@ -45,7 +36,7 @@ Available basic configuration settings:
 
 The following screen capture is showing sample SIP Server test's advanced settings:
 
-Figure 2: SIP Server test configuration - advanced settings
+IMAGE MISSING
 
 #### SIP Server Timing
 
@@ -86,7 +77,7 @@ Microsoft customers can configure many aspects of their Skype for Business Onlin
 
 The following figure shows a stripped-down SIP Server test creation dialog containing only settings essential for creating a test for Skype for Business Online service:
 
-Figure 3: SIP Server test configuration - Skype for Business Online essentials
+IMAGE MISSING
 
 Description of shown input fields:
 

@@ -8,6 +8,8 @@ SSL certificate problem: unable to get local issuer certificate
 
 in the **Error Details** column of the test's Table tab, as shown below.
 
+IMAGE MISSING
+
 If the error occurs when the test is run from either ThousandEyes Cloud Agents or Enterprise Agents, the cause of the error is typically a misconfigured web server which fails to send all required intermediate digital certificates in the certificate chain.
 
 Alternatively, if the web server's SSL server certificate was issued by a non-trusted certification authority \(such as with private/internal PKI\) then the error is due to the Agents missing the certification authority's root certificate.
@@ -18,24 +20,17 @@ This article describes the concept of a certificate chain, lists the scenarios w
 
 This error has no relation to errors which can occur in an HTTP Server test when using client certificates for authentication and/or authorization.
 
-## Table of Contents
-
-* [Certificate chain basics]()
-  * [Displaying certificate chains]()
-* [Chain validation failure scenarios]()
-  * [Scenario \#1: Web server failing to send intermediate certificate\(s\)]()
-  * [Scenario \#2:]() [Server Certificate issued by non-trusted CA]()
-  * [Scenario \#3:]() [Enterprise Agent missing proxy certificate]()
-* [Work-arounds]()
-* [No errors with browsers or other ThousandEyes Web Layer tests]()
-
 ## [Certificate chain basics]()
 
 Web servers which provide content through https URLs must use an SSL server certificate in order to demonstrate to the client that the server is the legitimate provider of the content at the requested URL. SSL server certificates are issued by certification authorities \(CAs\) using the the CA's own certificates, and use a cryptographic technique called a digital signature.  Each SSL server certificate is digitally signed by the CA.
 
 SSL server certificates issued by public certification authorities \(such as DigiCert, Comodo or Let's Encrypt\) are typically signed by intermediate certificates, which may themselves be issued and signed by other intermediate certificates belonging to the CA. At the end of a chain of certificates is a root certificate \(also called a root CA certificate\). The root certificate is signed by itself \(unless cross-signed\).
 
+IMAGE MISSING
+
 An example, taken from the Firefox browser's Certificate Viewer, displays the certificate chain associated with the website www.thousandeyes.com:
+
+IMAGE MISSING
 
 This certificate chain is comprised of:
 
@@ -91,8 +86,20 @@ The most common cause of the "unable to get local issuer certificate" error is a
 
 #### Steps to fix
 
-1. 2. Identify which intermediate certificates are not sent by the server. The issuer of the last certificate in the chain is the first missing certificate. Check the issuer of each missing certificate until a root certificate is reached. You may be able to compare the output of Method 1 or 2 with Method 3 to identify the missing intermediate certificates.
+1. Display the certificate chain using one of the methods listed in the [Displaying Certificate Chains](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000LBCLCA4_Test-fails-with-SSL-Error-SSL-certificate-problem-unable-to-get-local-issuer-certificate#display_chain) section above.  Method 1 is preferable, and can confirm the diagnosis of a missing intermediate certificate\(s\). Use method 2 if the server is not accessible from the internet. Method 3 may obscure the missing certificates due to AIA fetching, as described in the section [No errors with browsers or other ThousandEyes Web Layer tests](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000LBCLCA4_Test-fails-with-SSL-Error-SSL-certificate-problem-unable-to-get-local-issuer-certificate#no_errors).
+2. Identify which intermediate certificates are not sent by the server. The issuer of the last certificate in the chain is the first missing certificate. Check the issuer of each missing certificate until a root certificate is reached. You may be able to compare the output of Method 1 or 2 with Method 3 to identify the missing intermediate certificates.
 3. Download the missing intermediate certificate\(s\) from the issuing CA using the table below or your CA's support site:
+
+   | CA Name | URL for Certificate Downloads |
+   | :--- | :--- |
+   | Comodo | [https://support.comodo.com/index.php?/Knowledgebase/List/Index/71/](https://support.comodo.com/index.php?/Knowledgebase/List/Index/71/root--intermediates) |
+   | DigiCert | [https://www.digicert.com/digicert-root-certificates.htm](https://www.digicert.com/digicert-root-certificates.htm) |
+   | GoDaddy | [https://certs.godaddy.com/repository/](https://certs.godaddy.com/repository/) |
+   | GlobalSign | [https://support.globalsign.com/customer/en/portal/topics/538410](https://support.globalsign.com/customer/en/portal/topics/538410-root-certificates/articles) |
+   | Let's Encrypt | [https://letsencrypt.org/2015/06/04/isrg-ca-certs.html](https://letsencrypt.org/2015/06/04/isrg-ca-certs.html) |
+   | Symantec | [https://knowledge.digicert.com/generalinformation/INFO4033.html](https://knowledge.digicert.com/generalinformation/INFO4033.html) |
+   | Verisign | [https://www.websecurity.symantec.com/theme/roots](https://www.websecurity.symantec.com/theme/roots) |
+
 4. Install the certificate\(s\) on the web server or SSL termination device, in accordance with the documentation
 
 ### [Scenario \#2: Server Certificate issued by non-trusted CA]()
@@ -124,6 +131,8 @@ Normally, if a proxy's signing certificate is not installed in an Enterprise Age
 ## [Work-arounds]()
 
 If the steps to correct any of the scenarios cannot be implemented, such as a web server configuration cannot be corrected because the web server is not maintained by your organization, then the verification check can be turned off for an HTTP Server test.  In the Test Settings page, select the HTTP Server test or Page Load test, and uncheck the **Verify SSL certificate** box under the test’s Advanced Settings tab.
+
+IMAGE MISSING
 
 Unchecking the **Verify SSL certificate** box will prevent the Agents assigned to the test from performing verification of the server certificate.
 
