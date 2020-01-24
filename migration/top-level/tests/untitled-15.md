@@ -4,6 +4,14 @@ The flow of a ThousandEyes transaction test is defined with JavaScript code. Sim
 
 This article briefly discusses differences between two main JavaScript code execution contexts and provides instructions on how to implement a transaction that executes custom JavaScript code in the context of the tested web application.
 
+### Table of contents
+
+* [BrowserBot vs. Chromium web browser]()
+* [Transaction control execution context]()
+* [Web application \(browser\) execution context]()
+* [Executing custom JavaScript in target web application]()
+* [Related information]()
+
 ## BrowserBot vs. Chromium web browser
 
 ThousandEyes Cloud and Enterprise Agents utilize [BrowserBot](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmnsKAC_What-is-BrowserBot) component for running transaction \(and page load\) tests. To be precise, the BrowserBot component actually consists of two parts:
@@ -49,8 +57,6 @@ Using your web browser, navigate to the target web application \(in our case [ht
 
 Here is an example of using custom code to trigger an alert dialog:
 
-IMAGE MISSING
-
 ## Executing custom JavaScript in target web application
 
 Let's suppose that we want to add a big text to the application that we are testing. Here is a sample JavaScript code that enables us to achieve that:
@@ -92,8 +98,6 @@ async function runScript() {
 It is important to note that the custom code to be executed in the web browser context is passed to the `executeScript()` method **as a string** \(regular text\).
 
 The added code above results in the following transaction screenshot:
-
-IMAGE MISSING
 
 Test results of the example above can be observed here: [https://yxlwlwf.share.thousandeyes.com](https://yxlwlwf.share.thousandeyes.com/)
 

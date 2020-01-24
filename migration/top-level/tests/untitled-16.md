@@ -1,6 +1,24 @@
-# Transaction Scripting Reference
+# Transaction Scripting Reference - ThousandEyes Customer Success Center
 
 This article contains a reference of all namespaces, classes, modules and methods that are available for creating [transaction tests](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000UFYvCAO_Transaction-scripting-guide).
+
+### Table of contents
+
+* [Example scripts]()
+* [Controlling the browser]()
+* [Interacting with page elements]()
+* Specific actions:
+  * [Waiting for events]()
+  * [Generating keyboard events]()
+  * [Taking screenshots]()
+  * [Handling credentials]()
+  * [Handling downloads]()
+* [Measuring transaction time\(s\)]()
+  * [Markers]()
+  * [Overall transaction time]()
+* [Element locators]()
+* [Assertions]()
+* [Further information]()
 
 ## Example scripts
 

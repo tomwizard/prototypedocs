@@ -4,38 +4,6 @@ This article will walk you through all available ThousandEyes test types. Enabli
 
 For the best reading experience, some general familiarity with ThousandEyes platform is welcome. If you are not yet familiar with ThousandEyes basics, watching the [Getting started with ThousandEyes](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmmaKAC_Getting-Started-with-ThousandEyes) video \(~6 minutes\) will provide enough information to get you started.
 
-## Table of Contents
-
-* [Classification of agent types]()
-* [Cloud and Enterprise Agent-based tests ]()
-  * [Routing Layer]()
-    * [BGP test]()
-  * [Network layer]()
-    * [Agent to Server test ]()
-    * [Agent to Agent Test]()
-  * [DNS Layer]()
-    * [DNS Server Test]()
-    * [DNS Trace Test]()
-    * [DNSSEC Test]()
-  * [DNS+ Layer]()
-    * [DNS+ Domain Test]()
-    * [DNS+ Server Latency Test]()
-  * [Web Layer]()
-    * [HTTP Server test]()
-    * [Page Load test]()
-    * [Transaction Test]()
-    * [FTP Server Test]()
-  * [Voice Layer]()
-    * [SIP Server Test]()
-    * [RTP Stream Test ]()
-    * [Voice Call Test]()
-* [Endpoint Agent-Based Tests]()
-  * [Unscheduled Tests]()
-  * [Scheduled Tests: ]()
-    * [Network- Agent to Server]()
-    * [Web- HTTP Server Test]()
-* [Related Articles]()
-
 ## Classification of agent types
 
 ThousandEyes collects data from various vantage points deployed around the internet and inside customer networks. For the most part, these vantage points are called "agents" - with a few exceptions outlined below. There are multiple types of agents available, each having a specific purpose:
@@ -51,7 +19,7 @@ To further understand differences between agent types, consult the [Comparison o
 
  ThousandEyes tests are classified into categories based on layers of operation, as shown in the following diagram: 
 
-### 
+IMAGE MISSING
 
 ## **Routing Layer**
 
@@ -75,6 +43,8 @@ As a quick start, a short video tutorial [Working with BGP Tests](https://www.yo
 
 The following figure is showing BGP path change detected by the St. Petersburg public BGP Monitor, where the network path through ASN20485 is replaced by a path through ASN9002:
 
+IMAGE MISSING
+
 To get a sensation of how interacting with collected BGP data feels like, you can review the contents of the test results depicted above interactively. To do so, visit the following [share-link](https://ascnkau.share.thousandeyes.com/).
 
 ## Network Layer
@@ -96,7 +66,9 @@ To get a sensation of how interacting with collected BGP data feels like, you ca
 
 #### Example Agent to Server test results:
 
- Below is Path Visualization for a test targeting google.com. Restricted access to Google results in 100% packet loss from Cloud Agent Beijing, China \(China Unicom\). The red circles signify nodes with forwarding loss. Hovering over a specific node will provide a modal with detailed information.  
+ Below is Path Visualization for a test targeting google.com. Restricted access to Google results in 100% packet loss from Cloud Agent Beijing, China \(China Unicom\). The red circles signify nodes with forwarding loss. Hovering over a specific node will provide a modal with detailed information. 
+
+IMAGE MISSING
 
  Here is a [sample test](https://iqvtkfni.share.thousandeyes.com/) to get your hands wet with an Agent to Server test.
 
@@ -130,6 +102,8 @@ To get a sensation of how interacting with collected BGP data feels like, you ca
 
 The below Agent to Agent test depicts a connection error between Cloud Agent Wellington, New Zealand and Cloud Agent Johannesburg, South Africa.
 
+IMAGE MISSING
+
 Visit this [share-link](https://poyrx.share.thousandeyes.com/) to feel an Agent to Agent test. 
 
 #### Other included tests:
@@ -156,6 +130,15 @@ Visit this [share-link](https://poyrx.share.thousandeyes.com/) to feel an Agent 
 
  The below example depicts an iterative query made to authoritative servers for google.com
 
+IMAGE MISSING
+
+To get your hands dirty with a DNS Server test visit this [share-link](https://gpehi.share.thousandeyes.com/).
+
+Other included tests: 
+
+* [BGP Test](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000fyi5CAA_ThousandEyes-Test-Types#bgp-test)
+* [Agent to Server Test](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000fyi5CAA_ThousandEyes-Test-Types#agent-to-server-test)
+
 ### DNS Trace Test
 
  Large DNS zones are divided into various smaller child zones with each child zone having dedicated authoritative DNS servers. When a DNS request is made the parent zone will refer the request to authoritative DNS server in the child zone. In this scenario ensuring DNS requests are correctly pointed to authoritative servers by a parent server and also the authoritative server being correctly configured to assert authority becomes crucial. The DNS Trace test helps validate this critical delegation A DNS Trace test will verify delegations from each parent zone to child zone. 
@@ -168,6 +151,8 @@ Visit this [share-link](https://poyrx.share.thousandeyes.com/) to feel an Agent 
 #### Example DNS Trace test results:
 
   Below is the test validating A record for [thousadeyes.com](http://www.thousadeyes.com/). 
+
+IMAGE MISSING
 
  Here is a [sample test](https://ggjkirvg.share.thousandeyes.com/) to feel a DNS Trace test. Complete trace can be obtained by clicking **View Trace** link in the above screenshot.
 
@@ -184,6 +169,8 @@ Visit this [share-link](https://poyrx.share.thousandeyes.com/) to feel an Agent 
 #### Example DNSSEC test results:
 
  Below is a sample DNSSEC test to A record for [dnssec-tools.org](http://dnssec-tools.org/). 
+
+IMAGE MISSING
 
  Visit this [share-link](https://eipqvw.share.thousandeyes.com/) to get a sensation of DNS Trace test. Click on **Details** to see the Trust Tree showing chain of trust and Data Chain showing actual resource records received during the test. 
 
@@ -203,6 +190,8 @@ Observe reachability of a domain over the world from the eyes of ThousandEyes va
 
 Below is a DNS+ Domain test analyzing availability of A record for [thousandeyes.com](http://www.thousandeyes.com/)
 
+IMAGE MISSING
+
 Here is a [sample test](https://qruwodrtc.share.thousandeyes.com/) to know DNS+ Domain test better.
 
 ### DNS+ Server Latency Test
@@ -216,6 +205,8 @@ Measure the performance of DNS resolutions across the globe.
 #### Example DNS+ Server Latency test results:
 
 Below is a DNS+ Server Latency test targeting [ns1.google.com](http://ns1.google.com/).
+
+IMAGE MISSING
 
 Here is a [sample](https://royzbbmrl.share.thousandeyes.com/) test.
 
@@ -251,6 +242,8 @@ When HTTP Server test detects an issue, the results pinpoint the phase of a requ
 
 Here is an HTTP Server view for a test measuring the availability of [https://thousandeyes.okta.com](https://thousandeyes.okta.com/) service: 
 
+IMAGE MISSING
+
 To interactively review the test results depicted above, visit the [share link](https://bnleq.share.thousandeyes.com/) and give it a go.
 
 #### Other included tests:
@@ -271,6 +264,8 @@ To interactively review the test results depicted above, visit the [share link](
 #### Example of Page Load test results:
 
  Below is a page load test targeting [Google](http://www.google.com/):
+
+IMAGE MISSING
 
  Visit this [share-link](https://kuvtvf.share.thousandeyes.com/) to feel a page load test.
 
@@ -296,7 +291,7 @@ To interactively review the test results depicted above, visit the [share link](
 1. Open google.com.
 2. click the Search box.
 3. type keywords to search for.
-4. Click Google Search.
+4. Click Google Search. IMAGE MISSING
 
  An error has been purposely inserted into this test to demonstrate screenshots produced when errors are encountered.   
 To view the screenshot:
@@ -319,6 +314,8 @@ To view the screenshot:
 #### Example FTP test results:
 
  Here is an FTP test to [speedtest.tele2.net:21](http://speedtest.tele2.net:21/).
+
+IMAGE MISSING
 
  Visit this [share-link](https://pewnnpen.share.thousandeyes.com/) to get a sensation of FTP Server test.
 
@@ -346,6 +343,8 @@ A SIP Server test will check the availability of Session Initiation Protocol VoI
 
 Here is a SIP Server test targeting an internal VoIP server.
 
+IMAGE MISSING
+
 Here is a [sample](https://puyxkx.share.thousandeyes.com/) SIP Server test.
 
 #### Other included tests:
@@ -371,6 +370,8 @@ RTP Stream test measures the quality of Real-Time Protocol Voice stream between 
 
 Here is an RTP Stream test between two Cloud Agents displaying Packet Delay Variation
 
+IMAGE MISSING
+
 Check out  this [sample](https://khyxaxgy.share.thousandeyes.com/) test to feel an RTP Stream Test.
 
 #### Other included tests:
@@ -393,7 +394,8 @@ ThousandEyes Voice Call test is a comprehensive test for VoIP. SIP Registers are
 
 Here is a Voice Call test targeting an internal VoIP server.
 
-  
+IMAGE MISSING
+
 Here is a  [sample](https://lrihr.share.thousandeyes.com/) Voice Call test.
 
 #### Other included tests:
@@ -405,6 +407,8 @@ Here is a  [sample](https://lrihr.share.thousandeyes.com/) Voice Call test.
 ## Endpoint Agent-Based Tests
 
 Endpoint Agent tests are classified in below manner: 
+
+IMAGE MISSING
 
 Video Tutorial: [Getting Started with Endpoint Agent](https://www.youtube.com/watch?v=v18ojnn9iS0&t=7s)
 
@@ -430,6 +434,8 @@ An Endpoint Agent offers various views for unscheduled tests as below:
 
 Below is a Browser Sessions view showing latency from an Endpoint Agent and visited domain details.
 
+IMAGE MISSING
+
 Visit this [share-link](https://distu.share.thousandeyes.com/) to feel an actual user sessions snapshot. 
 
 ## Scheduled Tests
@@ -453,6 +459,8 @@ An Agent to Server test measures round-trip network performance between an agent
 
 Here is an Endpoint based Agent to Server test targeting [thousandeyes.com](https://www.thousandeyes.com/) with ICMP probing. Links highlighted in blue are parts of MPLS tunnel.
 
+IMAGE MISSING
+
 Visit this [share-link](https://mhphxwbmc.share.thousandeyes.com/) to feel an Endpoint based Agent to Server test.
 
 ### Web- HTTP Server Test
@@ -467,6 +475,8 @@ An HTTP Server test measures the availability and performance of an HTTP service
 #### Example HTTP Server test results:
 
 Here is an Endpoint HTTP Server test to [youtube.com](http://www.youtube.com/).
+
+IMAGE MISSING
 
 Here is a [sample](https://dpzjmttew.share.thousandeyes.com/) Endpoint HTTP Server test.
 
