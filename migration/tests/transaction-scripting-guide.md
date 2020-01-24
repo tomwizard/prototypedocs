@@ -1,18 +1,8 @@
-# Transaction Scripting Guide - ThousandEyes Customer Success Center
-
-### Transaction Scripting Guide
+# Transaction Scripting Guide
 
 Welcome to the ThousandEyes Transaction Scripting Guide, a series of resources about a test type called **Transaction**. In short, transaction tests mimic user journeys through web applications, enabling you to make sure those journeys complete successfully and provide an insight into the user experience.
 
 **NOTICE:** This guide focuses on the [new generation transactions](https://blog.thousandeyes.com/introducing-internet-aware-synthetic-transaction-monitoring/). For content related to the previous generation transaction testing, scroll down to the **Previous generation transactions - Transaction \(Classic\)** section.
-
-### Table of contents
-
-* [Getting started]()
-* [Basics]()
-* [Advanced scenarios]()
-* [Previous generation of transactions - Transaction \(Classic\)]()
-* [Getting help]()
 
 ## Getting started
 

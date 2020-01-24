@@ -2,22 +2,13 @@
 
 On occasion, network layer testing may show packet loss in the [Network &gt; Overview](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmmtKAC_Using-the-Network-Overview-view) view, yet further examination in the [Network &gt; Path Visualization](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmmiKAC_Using-the-Path-Visualization-View) view does not pinpoint the forwarding loss in the network path. The reason for this situation often lies in the difference of the data collection approaches that are used to collect the data for the aforementioned views. If you want to know why, are you ready to go down the rabbit hole?
 
-### Table of contents:
-
-* [How end-to-end network measurement is performed]()
-* [How the network path is discovered]()
-* [Reasons for loss result variation]()
-* [Tips for further isolating network path issues]()
-* [Further reading]()
-
 ## How end-to-end network measurement is performed
 
  When performing end-to-end network tests, the agent sends up to 50 packets to the target. Then, depending on the test type, either target agent counts the received packets and measures the packet arrival timings \([Agent to Agent](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmmwKAC_Agent-to-Agent-Test-overview) test type\) or the agent that sent the probes counts the received acknowledgment responses \([Agent to Server](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000Cmo3KAC_Network-tests-explained) test type and similar\) and uses the count and timing data to calculate loss, latency and jitter values. This constitutes the basis of the end-to-end network measurement.
 
 If end-to-end measurement detects packet loss, the following figure demonstrates how said loss is presented to the user:
 
-  
-Figure.1: Packet loss detected in the end-to-end measurement
+IMAGE MISSING
 
 In the **Network &gt; Overview** view \(1\), the loss is presented on the timeline \(2\), noted in the details \(3\) and the agents that detected the loss are colored differently in the map view - the more loss is detected, the closer to the red the affected agents' colors are \(4\).  
 
@@ -25,7 +16,7 @@ In the **Network &gt; Overview** view \(1\), the loss is presented on the timeli
 
  The data collection for [Path Visualization](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmmiKAC_Using-the-Path-Visualization-View), however, operates very differently. When performing path discovery, the testing agent sends sets of probe packets with a sequentially increasing Time to Live \(TTL\) value in the IP header. Each “node” \(routing device\) between the testing Agent and the test target decrements the TTL by one. When a node receives packets with TTL set to 1 and decrements it to zero, the packet is discarded and the node responds to the packet sender with an ICMP type 11 \(Time to Live Exceeded in Transit\) message. Once the TTL has been increased high enough for the probe packet to reach the target, the target generates a response that makes the sending agent realize it has reached the end of the network path - the response is either a TCP SYN,ACK or a RST packet, ICMP type 0 \(Echo Reply\) message or a special UDP response for Agent-to-Agent tests. Then all path discovery-related information is collected and the data is presented to the user in the **Path Visualization** view:
 
-Figure.2: Path Visualization view
+IMAGE MISING
 
 As outlined above, paths from each agent \(nodes on the left-hand side\) towards the target \(the single node on the right-hand side\) are rendered and merged where appropriate. Forwarding loss, if it would be detected by the path discovery process, would be indicated with a red ring around the relevant node in the Path Visualization graph.
 

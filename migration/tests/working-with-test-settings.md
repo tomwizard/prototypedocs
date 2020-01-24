@@ -1,22 +1,6 @@
-# Working with Test settings - ThousandEyes Customer Success Center
+# Working with Test settings
 
 The ThousandEyes platform enables customers to test networked assets owned by the organization, and test SaaS-based assets to which the organization subscribes.  This article describes how to create and work with tests using the Tests Settings page.
-
-## Table of Contents
-
-* [Without Tests configured]()
-* [Adding tests]()
-* [With tests configured]()
-* [Filtering tests]()
-* [Updating tests]()
-* [Test details]()
-  * [Network Layer tests]()
-  * [Routing Layer tests]()
-  * [DNS Layer tests]()
-  * [DNS+ Layer tests]()
-  * [Web Layer tests]()
-  * [Voice Layer tests]()
-* [Related Articles]()
 
 Click on the [**Cloud & Enterprise Agents &gt; Test Settings**](https://app.thousandeyes.com/settings/tests/?tab=settings), where you can view a list of the tests that have been configured in the Account Group.
 
@@ -24,9 +8,13 @@ Click on the [**Cloud & Enterprise Agents &gt; Test Settings**](https://app.thou
 
 Upon initial login into a new ThousandEyes account, no test will have yet been created and an empty Dashboard will be displayed:
 
+IMAGE MISSING
+
 ## Adding tests
 
 To begin adding tests, select [**Cloud & Enterprise Agents &gt; Test Settings**](https://app.thousandeyes.com/settings/tests/?tab=settings) in the left-hand navigation pane.  The Tests Settings page will appear, with the **Add New Test** section visible:
+
+IMAGE MISSING
 
 Highlighted areas on the page are documented in the following list:
 
@@ -59,16 +47,25 @@ Once you click the **Create New Test** button, the test will be added and will b
 
 If the account has at least one Agent available, then the interface will show a list of tests configured under the account. The image below shows a sample list of tests:
 
+IMAGE MISSING
+
 Each test entry in a list depicted above can be expanded. When expanded, the test's configuration is revealed. Here is an example of a Page Load test configuration:
+
+IMAGE MISSING
 
 A user with appropriate privileges is able to enable or disable any test listed under the Account Group.  Disabling a test will not delete the test data, but the data will expire on a daily rolling basis \(see the ThousandEyes Knowledge Base article [How long does ThousandEyes retain customer data?](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000Cmn0KAC) for more information about data retention periods\). Disabled tests do not consume [Cloud Units](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmmoKAC).
 
-Clicking the "..." icon will show you additional test options. You can delete the test from that menu by clicking the **Delete** button.  
- 
+Clicking the "..." icon will show you additional test options. You can delete the test from that menu by clicking the **Delete** button.
+
+IMAGE MISSING
 
 The deleted tests are available to be recovered for 31 days after deletion. They can be found in the [Cloud & Enterprise Agents &gt; Test Settings](https://app.thousandeyes.com/settings/tests/?tab=settings) page, then clicking the Trash Bin icon highlighted in the following image:
 
+IMAGE MISSING
+
 Deleted tests can be recovered by clicking on the **Recover** button, as shown below.
+
+IMAGE MISSING
 
 ## Filtering Tests
 
@@ -77,7 +74,7 @@ Use the "Add a filter" link to filter the test listing by various criteria. The 
 1. Select "Add a filter" link 
 2. Select "Enabled" from the drop down menu
 3. A new drop down will appear with the options Yes/No \(It is possible to select either or both\)
-4. For the purposes of this example Select "No" to show tests that are disabled.
+4. For the purposes of this example Select "No" to show tests that are disabled. IMAGE MISSING IMAGE MISSING
 
 ##  Updating Tests
 
