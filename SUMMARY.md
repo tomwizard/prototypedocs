@@ -106,7 +106,7 @@
   * [Scheduled v/s instant tests](migration/tests/scheduled-v-s-instant-tests.md)
   * [HTTP Server test fails with SSL Error: OpenSSL SSL\_connect: SSL\_ERROR\_SYSCALL](migration/tests/http-server-test-fails-with-ssl-error-openssl-ssl_connect-ssl_error_syscall.md)
   * [Using Round-robin test scheduling](migration/top-level/tests/untitled-18.md)
-  * [Guide to ThousandEyes test types](migration/tests/guide-to-thousandeyes-test-types.md)
+  * [Guide to ThousandEyes test types](migration/top-level/tests/untitled-17.md)
   * [Transaction Scripting Reference](migration/top-level/tests/untitled-16.md)
   * [Transactions - Executing custom JavaScript code](migration/top-level/tests/untitled-15.md)
   * [Transactions \(Classic\) - resolving "Element is not clickable at point \(X, Y\)" error condition](migration/top-level/tests/untitled-14.md)
