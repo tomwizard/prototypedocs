@@ -22,7 +22,5 @@ Reports are now displaying data correctly but some Report Snapshots that were ge
 
 "This snapshot widget’s configuration was corrupted.  The data displayed is not aggregated as originally specified."
 
-IMAGE MISSING
-
 This indicates that the data was aggregated by "Test" rather than by "All" even though the Report configuration was using the latter setting. 
 

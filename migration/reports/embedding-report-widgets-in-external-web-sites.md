@@ -26,9 +26,15 @@ For example, with an HTTP Server test as the source of data, and a Report widget
 
 To create the HTML code for an embedded widget, select a report widget in a report, and click the menu on the upper right corner of the widget. Then select the Embed Widget option from the menu that pops up.
 
+IMAGE MISSING
+
 Before you create the HTML code for an embedded widget, you'll need to check a box that acknowledges that anybody can embed this code in an external site.  Embedded widgets are managed using a unique, randomly generated key, similar to how we handle share links.  Any user who possesses the code with the link to the widget can access the data -- there are no IP address restrictions, and access does not require authentication.  It is important that users understand the impact of making their data available outside of the system before accepting these risks.
 
+IMAGE MISSING
+
 Once you accept the option, you'll be shown a dialog that lists the content used by the embedded widgets.
+
+IMAGE MISSING
 
 1. **Widget code:** The HTML iframe code to embed this content in an external site.
 2. **Data range:** Change the data range displayed in the embedded widget to be different from the source widget's range. You can show as much as 90 days of data or as little as 1 hour of data.  Keep in mind that the widget self-updates as new data is available, so this accounts for a rolling number of days/hours of data for the tests configured in the widget.
@@ -39,6 +45,8 @@ Once you accept the option, you'll be shown a dialog that lists the content used
 The ThousandEyes platform provides an iframe code snippet which can be inserted into the source code of a web page.  This iframe is configured to use 100% of both the height and width of the parent container. The iframe is typically inserted into a an HTML div element of a page.  
 
 Each widget will contain a header line, which contains the widget name, and the ThousandEyes logo.  This header is 75px in height, and is only shown once per widget.
+
+IMAGE MISSING
 
 If you have groupings defined \(for example, one pie chart per continent\), then you may have multiple charts to render, which will increase the minimum height of a particular widget.
 
@@ -54,9 +62,7 @@ Recommended minimum container sizing is as follows:
   * Width: As wide as possible.  The x-axis scales with the widget width, so a wider time series chart makes for an easier-to-read chart.
   * Height: 225px per chart, plus the header
 * **Bar and Column Chart widgets**
-  * The chart sizes for bar charts will vary based on the orientation of data.  Irrespective of the type of chart chosen, the chart will scale to the width allowed by the container.  You can have a small available area with smaller columns, or a wider area, which will impact the size of the columns.
-* >
-
+  * The chart sizes for bar charts will vary based on the orientation of data.  Irrespective of the type of chart chosen, the chart will scale to the width allowed by the container.  You can have a small available area with smaller columns, or a wider area, which will impact the size of the columns. IMAGE MISSING IMAGE MISSING IMAGE MISSING
   * For bar charts \(horizontal orientation\)
     * Width: 610px
     * Height: 370px
