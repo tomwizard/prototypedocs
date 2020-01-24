@@ -1,4 +1,4 @@
-# Working with Instant Tests - ThousandEyes Customer Success Center
+# Working with Instant Tests
 
 ### Working with Instant Tests
 
@@ -30,7 +30,7 @@ The Instant Test feature can be used to troubleshoot problems without waiting fo
 2. Click the **Add New Test** button to display the form
 3. Select the **Layer** and **Test Type**
 4. Set the **Basic Configuration** and **Advance Settings.** For more information review [Working with Test settings](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000Cmn7KAC).
-5. Select **Run Once** to run the Instant Test
+5. Select **Run Once** to run the Instant Test IMAGE MISSING
 
 Note that for users assigned to the **Regular User** role or to a custom role without the **Edit tests** permission enabled an Instant Test can be run as follows:
 
@@ -38,7 +38,7 @@ Note that for users assigned to the **Regular User** role or to a custom role wi
 2. Click the **Run Test** button to display the form
 3. Select the **Layer** and **Test Type**
 4. Set the **Basic Configuration** and **Advance Settings.** For more information review [Working with Test settings](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000Cmn7KAC).
-5. Select **Run Test** to run the Instant Test
+5. Select **Run Test** to run the Instant Test IMAGE MISSING
 
 ### From Test Settings using an existing test
 
@@ -51,15 +51,19 @@ Note that for users assigned to the **Regular User** role or to a custom role wi
 
 **Note:** When **Run Once** is selected, any modified configuration will be used only for the Instant Test unless the changes to the test settings are saved by clicking **Save**.
 
+IMAGE MISSING
+
 ### From the Test View
 
  Similar to running from the Test Settings page, you may also run an Instant Test from viewing the results of an existing test. Follow these steps to run an Instant Test using an existing test's configuration from the Test View:
 
 1. Navigate to **Cloud & Enterprise Agents &gt; Views** and select the name of the test
-2. Click the **Run Now** button
+2. Click the **Run Now** button IMAGE MISSING
 3. Select "Without changes" to run immediately, or select "With changes" and adjust test parameters then click the **Run Now** button
 
 **Note:** Any modified configuration will be used only for the Instant Test, and the scheduled test settings will revert back to their original state.
+
+IMAGE MISSING
 
 ## Viewing Instant Test results
 
@@ -72,7 +76,7 @@ The information seen in this view is not retained permanently.  Data that you wi
 3. **Test Round:** A round of data that represents one Instant Test run
 4. **Round Timestamp:** The date and time the highlighted round was run
 5. **Save Button:** Create a Saved Event to retain the Instant Test data.  For more information, see [Retaining data beyond the 90-day limit](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000Cmn3KAC).
-6. **Share button:** Create a Share Link to share the Instant Test data.  For more information, see [Sharing Test Data](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmmyKAC).
+6. **Share button:** Create a Share Link to share the Instant Test data.  For more information, see [Sharing Test Data](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmmyKAC). IMAGE MISSING
 
 ## Notes
 

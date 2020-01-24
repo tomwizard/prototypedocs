@@ -8,7 +8,13 @@ The ThousandEyes Path Visualization will show changes to a DCSP value for links 
 
 Within the Path Visualization View choose Info under the "**Selecting**" Category to view any DSCP changes in your network tracing.
 
+IMAGE MISSING
+
 In this example clicking "3 links with DSCP changes" \(1\) will highlight link\(s\) where these occurred and will detail the specifics of the change \(2\). A change indicates how traffic is reprioritized.
+
+IMAGE MISSING
+
+IMAGE MISSING
 
 ## More about DSCP
 
