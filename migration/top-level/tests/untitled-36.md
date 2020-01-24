@@ -1,5 +1,7 @@
 # Custom User-Agent strings in a Web test
 
+### Custom User-Agent strings in a Web test
+
 The User-Agent string in an HTTP request header specifies the type of client which sent the HTTP request.  ThousandEyes Web layer tests send a default User-Agent string based on the test type, but you may instead configure a custom User-Agent string.
 
 ## Default User-Agent strings
@@ -22,23 +24,15 @@ The exact User-Agent string can change periodically, as ThousandEyes updates the
 
 Customers may wish to specify your own User-Agent string in a ThousandEyes Web test, rather than accept the default string. For example, an application may differentiate desktop from mobile clients via the User-Agent string and redirect those clients to content formatted for the appropriate display. A ThousandEyes Web test allows you to set a custom HTTP User-Agent string using the **User Agent** selector in the **HTTP Request** section, under the Advanced Settings tab of the test's configuration page.
 
-IMAGE MISSING
-
 The User Agent selector contains predefined User-Agent strings and a "Custom" option to enter your own.  Select "Custom" and a text box will appear beneath the selector to allow you to enter your custom User Agent string.
 
 ### Verification
 
 You can verify the User-Agent string being sent by clicking on an Agent in the results table of the test's result's page.  For an HTTP Server test, click **Headers** link.  Under the **Request Headers** tab, you can see the User-Agent string that was sent.
 
-IMAGE MISSING
-
 For Page Load and Transaction tests, check the **Show HTTP headers in waterfalls box** in the Advanced Settings tab of the test configuration to enable HTTP header data for the test:
 
-IMAGE MISSING
-
 then click the Headers icon to the right of the Object name in the Waterfall tab of the results table.  The Headers icon appears when you mouse over the row belonging to the Object, between the Object's name and the Provider name.
-
-IMAGE MISSING
 
 ## Additional Information
 

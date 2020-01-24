@@ -1,6 +1,4 @@
-# How Alerts work - ThousandEyes Customer Success Center
-
-Last updated: Thu Jan 02 21:56:36 GMT 2020
+# How Alerts work
 
 The ThousandEyes platform allows customers to configure highly customizable Alert Rules and assign them to tests, in order to highlight or be notified of events of interest.  For customers who want simplicity in alert configuration and management, the ThousandEyes platform ships with default Alert Rules configured and enabled for each test.
 
@@ -27,6 +25,8 @@ Current and past alerts can be viewed on the [Alerts page](https://app.thousande
 
 ### Active Alerts
 
+IMAGE MISSING
+
 The Active Alerts tab shows all alerts currently active in your Account Group. The Active Alerts tab will auto-refresh every two minutes.
 
 1. **Search**:  Search for alerts based on the following criteria: **Alert ID, Alert Rule Name,  Alert Type, Test ID, Test Name, Test Type or Status**. Entering text followed by the return/enter key will execute a search and display results in the table below. To filter events by more than one criteria, click either **All** or **Any** links to specify whether the table rows must match all \(AND\) or any \(OR\) of the selected criteria.  
@@ -39,6 +39,8 @@ The Active Alerts tab shows all alerts currently active in your Account Group. T
 5. **Alert ID**: When gathering details for an Alert via ThousandEyes API, use the Alert ID to reference a particular Alert.
 
 ### Alert History
+
+IMAGE MISSING
 
 The Alerts History tab tabulates triggered Alerts which are currently in "cleared" or "inactive" state or are "disabled". To interact with the Alert History page,
 
@@ -59,6 +61,8 @@ Once you have created an Alert Rule it can be assigned to any test which has the
 Each rule has a name, a series of tests against which it is enabled, a scope of locations to which the Alert Rule applies, Boolean criteria defining the alert conditions, and the number of locations from which the alert conditions must be met in order to trigger an alert.  The rule also can include a notification mechanism, such as a list of email recipients \(recipients need not be users of ThousandEyes in order to receive email notifications\), a PagerDuty Service or one or more Webhooks.
 
 The image below displays the configuration options of a new Alert Rule.
+
+IMAGE MISSING
 
 1. **Alert Type Layer:** test layers available to your organization.
 2. **Alert Type:** available alert types for the selected test layer.
@@ -92,7 +96,11 @@ The image below displays the configuration options of a new Alert Rule.
 
      will alert when the test's Error Details text is "SSL certificate problem: certificate has expired":
 
-     because the regular expression "certificate\s\*\w\*:" matches the sub-string "certificate problem:".
+     because the regular expression "certificate\s\*\w\*:" matches the sub-string "certificate problem:".  
+     IMAGE MISSING  
+     will alert when the test's Error Details text is "SSL certificate problem: certificate has expired":  
+     IMAGE MISSING  
+     because the regular expression "certificate\s_\w_:" matches the sub-string "certificate problem:".
 
    The operators available per type of Alert Rule are also shown in the table below.
 
@@ -103,6 +111,8 @@ The image below displays the configuration options of a new Alert Rule.
 DNS Server Alert Rules
 
 DNS Server Tests differ from other ThousandEyes tests in that multiple servers can be explicitly targeted in a single test.  As a result, DNS Server Alert Rules are evaluated on a per-server basis; each server in the **DNS Servers** field of the test configuration will have the Alert Conditions evaluated separately from all other servers in the **DNS Servers** field. For example, consider an Alert Rule that has the following Alert Conditions:
+
+IMAGE MISSING
 
 When assigned to a DNS Server test with two servers configured as the targets, each server will be evaluated separately against the above Alert Condition.  To trigger the Alert Rule, at least four Agents must receive an Error against same DNS server.  The Alert Rule would not be triggered if, for example, three Agents received an Error when testing the first DNS Server and a fourth Agent received an Error when testing the second DNS server.
 
@@ -117,6 +127,8 @@ The BGP Alert Rules have a parameter named "Prefix Length", which is used to det
 #### Notifications tab
 
 In addition to presenting the Alert in the app.thousandeyes.com UI, the ThousandEyes platform can deliver notifications of alerts through a number of services. The image below displays the Notifications configuration options of a new Alert Rule.
+
+IMAGE MISSING
 
 1. **Send emails to:** A list of addresses to which an alert email will be sent when the Alert Rule is first triggered.  Addressees need not be users of the ThousandEyes platform.
 2. **Edit emails:** Click this link to add email addresses to the Notifications address book.
@@ -269,6 +281,8 @@ The following metrics currently support dynamic baselines:
 
  The image below shows an example alert configuration using a dynamic baseline. The alert condition states that if the response time exceeds two standard deviations above the average value over the last four hours, the alert will fire.
 
+IMAGE MISSING
+
 **Important Note:**
 
  The time window for the alert must be at least three times the length of the interval of any tests it is attached to, in order to fire. For example, if a test runs every five minutes, the time window for the alert must be at least fifteen minutes in order to gather the three data points required.
@@ -276,6 +290,8 @@ The following metrics currently support dynamic baselines:
 ## Additional Information
 
 Cloud Agents displaying a _Local Problems_ message on a test results page are excluded from alert calculations:
+
+IMAGE MISSING
 
 This is equivalent of having the Alert Rule's Agents field set to "All agents except" the Cloud Agent with the _Local Problems_ message.
 
