@@ -1,7 +1,5 @@
 # Agent to Agent Test overview
 
-### Agent to Agent Test overview
-
 The Agent to Agent Network test allows users of ThousandEyes to have ThousandEyes Agents at both ends of a monitored path, enabling testing of the path in either or both of two directions: Source to Target or Target to Source.  The Agent to Agent test can have multiple source Agents monitoring the target Agent. Similarly, the target Agent monitors each of the source Agents.  By monitoring in both directions, asymmetrical paths between source and target Agents can be visualized, and data for both paths is available.
 
 The Agent to Agent test produces standard Network metrics: packet loss, latency, jitter, and optionally throughput--an improved form of the bandwidth metric--along with Path Visualization and path MTU. Metrics are produced for either or both directions, depending on test configuration. The Agent to Agent test can be configured to use either TCP or UDP.  Payload size can be specified in bytes, or can be determined automatically, based on path MTU discovery.  
@@ -19,6 +17,8 @@ Throughput test duration can be configured for between 5 seconds \(default is 10
 
 For performing Path Visualization and measuring Forwarding loss, the mechanism is not changed from the Agent-to-Server test.
 
+IMAGE MISSING
+
 In the above picture the upper paths travel from the Agent on the left to the Agent on the right, while the lower paths travel in the opposite direction. The direction is indicated by the arrows connecting the nodes on the paths. Using the Direction selector, you can display only the Source to Target, Target to Source, or both directions.  
  
 
@@ -32,9 +32,7 @@ When selecting a target Agent and one or more source Agents, there are three pos
 
 A test can have both Cloud and Enterprise Agents as source Agents.
 
-For targeted Agents behind a NAT, c
-
-onsult the ThousandEyes Knowledge Base article [NAT Traversal for Agent to Agent tests](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmnWKAS).  In general, for Enterprise Agents in the Agent to Agent test, check your [firewall rules](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnBtCAK), NAT and/or port forwarding configuration to ensure that test packets are permitted and that any needed IP address and port translations are performed.
+For targeted Agents behind a NAT, consult the ThousandEyes Knowledge Base article [NAT Traversal for Agent to Agent tests](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmnWKAS).  In general, for Enterprise Agents in the Agent to Agent test, check your [firewall rules](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnBtCAK), NAT and/or port forwarding configuration to ensure that test packets are permitted and that any needed IP address and port translations are performed.
 
 ### Agent to Agent test costs
 
@@ -43,6 +41,8 @@ In Agent to Agent tests, the cost of a test round in Cloud Units depends on whet
 ## Agent to Agent test Settings
 
 The Basic Configuration tab for an Agent to Agent test is shown below.
+
+IMAGE MISSING
 
 * **Test Name:** Name of the test
 * **Target Agent**: Select the target agent for the test
@@ -58,6 +58,8 @@ The Basic Configuration tab for an Agent to Agent test is shown below.
 
   
 The Advanced Configuration tab for an Agent to Agent test is shown below.
+
+IMAGE MISSING
 
 * **Server Port**: Port number on the target Agent to which a source Agent sends packets.
 * **Payload Size**: Size of the payload in the packets sent for measurements.

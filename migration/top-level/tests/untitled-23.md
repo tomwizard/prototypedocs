@@ -1,4 +1,4 @@
-# Sharing Test Data
+# Sharing Test Data - ThousandEyes Customer Success Center
 
 The ThousandEyes platform provides the **Sharing** menu for users to share test data, either with other users of the ThousandEyes platform or with people who are not users of the platform. You can collaborate with the same graphical view of test results, allowing you to troubleshoot with colleagues, partners or providers, regardless of whether they subscribe to the ThousandEyes platform.
 
@@ -12,11 +12,7 @@ For sharing data with people regardless of whether they are subscribed to the Th
 
 To create a Snapshot, go to the results page of the test you would like to share.  On the timeline, click on a test round that begins, ends or is in the middle of the data of interest, then select the **Share** button at the upper right corner of the page:
 
-IMAGE MISSING
-
 Clicking on the **Share** button will display the sharing panel, with the Snapshot Sharing tab active:
-
-IMAGE MISSING
 
 1. Select the length of the data window to be shared, up to two days.
 2. Select the location in time of the data window you selected in the previous step.  Options are "starting at", "around", and "ending at".
@@ -29,11 +25,7 @@ Recipients of the Share Link will see the timeline set to the same round and Vie
 
 To remove a Share Link created by a user in your Account Group, navigate to **Sharing &gt; Snapshots**. On the **Shared by users in my account group** tab, locate the row with the name of the test that was shared.  Click the Trash icon to invalidate the link.  You will be prompted to confirm deletion, since the deletion cannot be undone.
 
-IMAGE MISSING
-
 If a test has multiple Snapshots \(such as test "ThousandEyes Customer Success Center", above\), then expand a row and compare the Share Link URL you want to delete to the Share Link listed under in the expanded row, or use the Snapshot Date range column, in order to identify which of the rows is the desired Snapshot to be deleted:
-
-IMAGE MISSING
 
 Once the deletion is confirmed, people who possess the Share Link will no longer be able to view the data.
 
@@ -54,7 +46,7 @@ Clicking on a row to expand it will display the following:
 
 * The Snapshot's Share Link \(URL\)
 * **Most recent visits**: This section displays the most recent accesses of the Snapshot.  The date of the visit is displayed in hours since the visit.  If the user is a ThousandEyes user and has recently logged in, the user's ThousandEyes name and login ID \(email address\) are displayed, along with the IP address of the visitor's client.
-* **Allow only ThousandEyes users to comment:** This box can be checked to prevent Share Link users who do not have ThousandEyes accounts from using the Comments feature. Snapshot recipients can make comments and communicate with the Snapshot creator via the Messenger panel, available on the Snapshot page. Click on the Messaging tool icon in the upper right corner of a Snapshot page to display the Messenger panel: IMAGE MISSING
+* **Allow only ThousandEyes users to comment:** This box can be checked to prevent Share Link users who do not have ThousandEyes accounts from using the Comments feature. Snapshot recipients can make comments and communicate with the Snapshot creator via the Messenger panel, available on the Snapshot page. Click on the Messaging tool icon in the upper right corner of a Snapshot page to display the Messenger panel:
 
 When Snapshot recipients leave comments, the Snapshot's creator will receive email notification.
 
@@ -68,23 +60,17 @@ If the desired recipient of your data is a ThousandEyes customer but not a user 
 
 To create a Live Share for other ThousandEyes users, or to accept a Live Share, go to the [Test Settings](https://app.thousandeyes.com/settings/tests/) page:
 
-IMAGE MISSING
-
 1. Click the "Pending Shares" link at the top of the Test Settings page to display a panel listing all Live Shares other ThousandEyes users have sent to you, awaiting your acceptance. You may accept them or decline them.
 2. A listing of Account Groups within your Organization, if your Organization has multiple Account Groups \(the link will not be displayed if your Organization has only one Account Group\).  Check the box next to an Account Group you want to grant access to the Live Share. The link will indicate the number of Account Groups with access to the Live Share, out of the total number of Account Groups in your Organization.
-3. For users outside your Organization, click the "Share with other customers" link to display a panel which will allow you to email your desired recipient.  Use the email address which is used by them as their ThousandEyes login.  The link will change to "X other customers" where X is the number of Organizations which have received and accepted the Live Share.  All Account Groups within the Organization will have access to the Live Share. IMAGE MISSING
+3. For users outside your Organization, click the "Share with other customers" link to display a panel which will allow you to email your desired recipient.  Use the email address which is used by them as their ThousandEyes login.  The link will change to "X other customers" where X is the number of Organizations which have received and accepted the Live Share.  All Account Groups within the Organization will have access to the Live Share.
 
 To delete Live Shares that you provided to another Account Group, click on the "X of  Y account groups" link per step 2 above to display the listing of Account Groups.  Uncheck the box of the Account Group you no longer wish to have access to the Live Share.
 
 To delete Live Shares that you provided to a different Organization, click on the "X other customers" link per step 3 above to display a panel to edit and delete your LIve Share recipients:
-
-IMAGE MISSING
 
 Click the Trash icon to delete a recipient. The Live Share will no longer be available to that Organization.
 
 ### Exporting Data
 
 Another method to provide access to your data is to use the ThousandEyes API.  Clicking the **Share** button on a test results page ****displays the sharing panel, which contains the **Snapshot Sharing** tab and the **Export Data** tab.  The latter tab allows you to select a period of data \(up to 1 hour\) to display, making a query to the ThousandEyes API automatically, and opening a new browser window to display the results. The data is rendered in either JSON or XML format You can copy the results to your clipboard and paste into a document, or saved as a file via your browser's Save menu option.
-
-IMAGE MISSING
 
