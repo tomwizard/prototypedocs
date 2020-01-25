@@ -6,9 +6,7 @@ Welcome to September!  Time flies when you're having fun and working hard - and 
 
 ## Dashboard: Instant filter
 
-The tests widget in the dashboard now supports the use of an instant filter, to allow users to quickly reduce the number of tests shown.  Enter a search string, which searches the test name column \(combining the test name and target\), and the contents of your results widget will be instantly filtered based on the search criteria. 
-
-IMAGE MISSING
+The tests widget in the dashboard now supports the use of an instant filter, to allow users to quickly reduce the number of tests shown.  Enter a search string, which searches the test name column \(combining the test name and target\), and the contents of your results widget will be instantly filtered based on the search criteria.  
 
 Note: filtered results do not persist, but can be configured using either the Widget Settings or Dashboard Settings links.
 
@@ -18,8 +16,6 @@ We've expanded our HTTP Server test sets to support POSTing data to a target sit
 
 To create an HTTP Server test using the POST request method, simply expand the advanced options section of the new test interface, and change the request method to POST.  Next, insert the application/x-www-form-urlencoded POST body into the field which appears for this use.  A sample image showing the instant test interface can be found below:
 
-IMAGE MISSING
-
 Note, this feature is not yet supported by the ThousandEyes API, however it is supported by both the HTTP Server test interface, and by HTTP server instant tests.
 
 ## API changes
@@ -27,8 +23,6 @@ Note, this feature is not yet supported by the ThousandEyes API, however it is s
 ### Basic authentication now supported
 
 Beginning with this week's release, users can now use either the token-based authentication method, or a basic authentication \(username/password\) to obtain data using the ThousandEyes API.  Using Basic authentication increases the security of your token, by not including it in the URL  As a reminder, your authToken is the same as a password, and personally identifies you with our system. All actions taken using your authToken are logged under your specific user account, so your authToken should never be disclosed to \(or shared with\) anyone, including ThousandEyes personnel.
-
-IMAGE MISSING
 
 When prompted, your User name is the email address you use to log in to ThousandEyes, and your password is your authToken.  This applies to both organizations using Single Sign On \(SSO\), and to those using traditional authentication.
 

@@ -14,6 +14,8 @@ Puppet documentation can be found on the [Puppet Labs](https://www.puppetlabs.co
 
 Beginning tonight, organizations can \(optionally\) enforce a password expiry option within their organization. Organization administrators can optionally define a password expiration rule forcing password expiry every 3, 10, 30, 60 or 120 days. For organizations using Single Sign On \(SSO\), this applies to ThousandEyes passwords, and not to passwords managed by your SSO provider.  To change the organization's password settings, open [Account Settings](https://app.thousandeyes.com/account), and under the profile tab, check the box to enable password expiration for your organization, and then set the expiration period.  See the image below.
 
+IMAGE MISSING
+
 Note: this option can only be set by a user with Organization Admin privileges.  
  
 
@@ -24,6 +26,8 @@ Have you ever had a problem reported by users, where a user is looking at a prev
 With today's release, users can define a content verification expression as part of an HTTP Server test. Content is verified based on the entire content of the page, including comments, script, headers and HTML markup.  This will facilitate measurement of time required for CDNs to update, and validation that all sites are running expected versions of the content.
 
 To add content verification to an HTTP Server test, open [test settings](https://app.thousandeyes.com/test-settings) for the test you wish to modify, and expand the advanced options section.  In this section, enter a POSIX extended regular expression.  Upon save, the next iteration of this test will validate the content found in the target page against the regular expression defined in advanced options.  A screenshot for this field \(labelled **Verify Page Content**\) is shown below:
+
+IMAGE MISSING
 
 Refer to these links for more details on using POSIX Extended Regular Expressions in ThousandEyes:
 
@@ -42,7 +46,11 @@ For tests with content verification enabled, a new element "Content" will appear
 
 You'll see the reason for the error shown in the error details column -- in most cases, reflecting **Page content did not match "{your regexp}"**.  See the image below for an example.
 
+IMAGE MISSING
+
 **Note**: Since content validation affects the availability metric, users may want to adjust alert rules assigned to HTTP Server tests which are based on availability, to reflect special handling of content errors. To exclude content errors from availability tests, simply add a rule line for _Error Type is not Content_.
+
+IMAGE MISSING
 
 ## Deep Path Analysis: Demystifying transit MPLS tunnels
 
@@ -52,13 +60,19 @@ We've always shown some unique information on MPLS tunnel information, but with 
 
 We've always displayed explicit MPLS tunnels \(tunnels not obscured using router configuration\), with the links between each hop of an MPLS network being shown, complete with label information.  When an MPLS hop is detected in the path, the quick selection link will identify links which are part of MPLS networks, and display the label stack, when hovered over an affected link.  Explicit tunnels remain unchanged.
 
+IMAGE MISSING
+
 ### Implicit Tunnel
 
 When devices are configured not to send MPLS stack entries, we can still infer that the link is part of an MPLS tunnel, and attempt to infer the hop number of the tunnel.  This will be represented in ThousandEyes as **Hop X in an MPLS Tunnel**.  While no label information may be available \(due to provider router configuration\), having the source IPs of the transit network may allow a service provider to cross-reference the externally-visible map against internal documentation, to find the true path taken.
 
+IMAGE MISSING
+
 ### Opaque Tunnel
 
 In circumstances where a single MPLS label is encountered but the IP TTL is reset at the ingress router, ThousandEyes will show the single hop, as an **X-hop MPLS tunnel**. This information can be helpful when diagnosing network connectivity issues while transiting a service provider's network, since some hops may be obscured from the path visualization output, inferring a sometimes incorrect one-hop transit across the MPLS network.
+
+IMAGE MISSING
 
 ## API Enhancements
 
@@ -131,6 +145,8 @@ Attempts to assign an incompatible alert rule to a test will result in an error 
 ### Page and Step-level detail for Transactions
 
 A new API endpoint has been introduced to provide more detail on page- and step-level detail for transactions, which is shown on the transactions view \(example below\):
+
+IMAGE MISSING
 
 Due to the volume of data retrieved using these queries, the data must be requested on an agent-by-agent basis, for each round.  To access this endpoint, provide test, agent and round IDs in the request:
 
