@@ -35,9 +35,13 @@ The process, as it is intended will be as follows:
 
 We've added a configurable timeout on page load tests.  To modify the timeout value, change the slider position.  Page load timeout must be higher than the target page load time, and target page load time must be higher than the target HTTP response time.  An excerpt of the settings can be found below.
 
+IMAGE MISSING
+
 ## Timeline change: Cloud Agent reference metrics
 
 Sometimes, an agent can trigger an alert, because the agent itself is experiencing connectivity problems.  This release we've added the concept of agent reference metrics, and are testing our own agent infrastructure with our own agent network.  When an agent fails to respond to the reference tests, a grey bar will be shown on the reference line below the timeline.  Hovering over this bar will show that a particular agent is having problems, and provide details around the specific agent.  A sample of the grey bar and detailed text can be found below:
+
+IMAGE MISSING
 
 ## Alert rules 
 
@@ -45,14 +49,20 @@ Sometimes, an agent can trigger an alert, because the agent itself is experienci
 
 How about some good news for a change?  You can now modify your alerts to include email notification when an alert clears, and is returned to a non-triggered state.  To enable this option, check the check the option in alerts to notify when alert clears.
 
+IMAGE MISSING
+
 1. Notify when alert clears will send an email once the alert is returned to a healthy state.
 2. Add personal notes which will be included in the alert.  This may include contact instructions for a NOC, or otherwise.  A sample of an alert email with notes included can be found below:
+
+IMAGE MISSING
 
 _Remember_: Default alert rules cannot be modified.  Default alert rules do not include notification when the system is returned to a known good state.
 
 ### New option: DNS Server Mapping alert
 
 Alerts can now be configured to alert when a mapping returned by a DNS server test is not in a list of customer-provided mappings.  Enter each IP address in a separate entry for the alert condition, or specify an entire subnet, in the form 192.168.1.0/24.
+
+IMAGE MISSING
 
 ### Prefix-based DNS+ Mapping alert
 

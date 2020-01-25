@@ -8,8 +8,6 @@ We delayed our release last week to bring some very new and cool features to the
 
 We have added buttons to the timeline to allow navigation between rounds of testing. These buttons will take the currently selected round of testing, and navigate one step backward or forward, using the previous \(&lt;\) and next \(&gt;\) buttons, respectively. This is particularly useful when looking at the Path Visualization and BGP Route Visualization views, in order to understand changes captured at the network level for each test.  In the image below, each of the timeline zoom and navigation controls has been identified:
 
-IMAGE MISSING
-
 1. Context selection - choose either to show 14 days or 24 hours of context in the timeline.  This selection controls the behavior of the Zoom Out button \(\#2 below\)
 2. Zoom out - click here to zoom out to the level of context selected in \#1 above.  For example, if 14d is selected, clicking Zoom Out will show the entire 14 days of data in the timeilne.
 3. Previous button - click here to step back one testing interval on the timeline.  For example, if your test runs every 15 minutes, clicking the previous button will jump back on the timeline by 15 minutes.
@@ -20,17 +18,11 @@ IMAGE MISSING
 
 Sharing your test results has never been easier: we've renamed the classic share link feature to shared snapshots. This feature is the same as it was under the share link nomenclature, and is now accessible by navigating to the new top navigation menu \(Sharing\), and drilling down to snapshots. We've also added a new feature, called _**Live Sharing,**_ which allows you to share a live view of your test with another ThousandEyes customer. When the recipient of the live sharing link receives the authorization link, the test will be added to that user's account, and will be represented in the dashboard and other areas of the application with a paperclip.  This is particularly useful when working with an external vendor, but you are unable to provide that vendor with access to your own virtual agents.
 
-IMAGE MISSING
-
 1. When looking at the dashboard as the recipient of a Live Share, a paperclip icon denotes a shared test.
 
 To create a live share, click the "Share this Screen" link in the upper right corner of the test view, and click the "Live Sharing" tab, and enter the recipient's email address.  Clicking the share button will send an email to the user with a one-time authorization code, to enable the test to be shown within their list of tests.  Once the recipient has clicked on the authorization link, the test will be added to their account as a shared test.
 
-IMAGE MISSING
-
 If at any time you wish to revoke access to the share link, simply browse to Sharing &gt; Live, and click the Shared by me tab. The status of each share link will be shown, and the live share can be revoked by clicking the trash can icon.
-
-IMAGE MISSING
 
 1. Each share is shown in a table; the account name of the recipient of the share will be shown, as well as the user who initiated the live share, and how long the share has been active.
 2. When _pending_ is shown under the test name, this is an indication that the recipient of the Live Share has not yet clicked on the authorization link.
@@ -44,8 +36,6 @@ When you log in, you'll notice a new pop-out menu on the left hand side of the p
 
 To activate the mini-dashboard, click one of the icons on the left hand side of the page. The dashboard will pop out, and you will be able to view any relevant alerts, Enterprise Agent problems, and activity on your account. The number of alerts for the messages and Enterprise Agent components will be shown in an orange badge to the upper right corner of the icon.  Below, a sample of each expanded section is shown.
 
-IMAGE MISSING
-
 ### Locations are now known as Agents
 
 Since the 'location' nomenclature didn't aptly describe a Enterprise Agent, we've switched the name location to "Agent". Agents still have location identification \(based on geolocated IP addresses, by default\), but servers acting as ThousandEyes will henceforth be known as agents, rather than locations.
@@ -53,8 +43,6 @@ Since the 'location' nomenclature didn't aptly describe a Enterprise Agent, we'v
 ### Instant tests get richer!
 
 Many of you have used the instant test capability of the platform to run traceroutes from a specific location to your target, which was extremely useful. With this release, we have improved on the instant traceroute test, by adding Path Visualization to the results of the test. Below, an example is shown, running an instant traceroute test to www.reuters.com:80:
-
-IMAGE MISSING
 
 ### Bandwidth Estimation \(Beta\)
 
@@ -147,8 +135,6 @@ The /dnsp/.../{testId}/{countryId}/network/{asn} call returns the list of the se
 The ThousandEyes virtual appliance has been updated. First, we've added a setup wizard to the virtual appliance configuration webpage. This wizard will take you through initial configuration of the virtual appliance, making sure to verify the various settings along the way.
 
 The steps in the virtual appliance configuration run through the steps to get your Virtual Appliance configured, including Network Configuration, Time Server configuration, hooking the agent up to your account, and then verifies your settings to ensure optimal operation.  An image is shown below of the ThousandEyes virtual appliance configuration wizard.  The configuration wizard is the first page opened on the virtual appliance after authentication.
-
-IMAGE MISSING
 
 We've also added IPv6 support to the ThousandEyes Virtual Appliance, which can be configured using the Network tab of the configuration page.
 
