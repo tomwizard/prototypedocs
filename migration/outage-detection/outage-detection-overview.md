@@ -1,13 +1,4 @@
-# Outage Detection - Overview - ThousandEyes Customer Success Center
-
-## Index <a id="recommended-reading-order"></a>
-
-* Overview \(see below\)
-* [Traffic Outage Detection in ISPs \(i.e. data plane\)](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmsjKAC)
-* [Routing Outage Detection \(i.e. control plane / BGP\)](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmsmKAC)
-* [Terminal Interface Context](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmsiKAC)
-
-## Outage Detection Overview
+# Outage Detection - Overview
 
 ThousandEyes aggregates and analyzes de-identified data generated from its users to understand when and where Internet outages may be occurring. The resulting insights help operators rapidly diagnose incidents and determine whether they are part of a broader Internet outage. By better understanding the root cause of an outage, you can improve decision-making and efficiently resolve performance issues affecting your organization.
 
