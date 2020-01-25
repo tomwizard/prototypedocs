@@ -25,13 +25,19 @@ Many customers use routers which contain multiple interfaces. Due to this, we've
 
 With managed interfaces, the concept is very simple: create a grouping of IP addresses which are represented as a single node on a path visualization. This would allow us to converge three IP addresses into a single element on the path visualization.
 
+IMAGE MISSING
+
 When multiple interfaces are grouped together, they appear as a slightly larger version of a node in path visualization, and allow a simplified path visualization view, similar to the image below.
+
+IMAGE MISSING
 
 The interface grouping management can be turned on or off, by using the group interfaces feature, which is now checked by default. This can be found above the origin and endpoint complexity controls on the path visualization page. Click [here](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmmiKAC) to view the article on working with the path visualization layout.
 
 ## Pass the SSH please
 
 Our Virtual Appliance now supports SSH! This means it'll be easier to debug situations where the agent has network connectivity problems. Don't worry, it's safe; to enable SSH, you need to provide an SSHv2 public key, then log in with the passphrase used to generate the SSH key. To work with the SSH controls, simply open the "Appliance Access" tab of the page, copy in an SSH public key. Instructions for generating, adding and using the SSH key can be found at this [article](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmnrKAC).
+
+IMAGE MISSING
 
 ## Agent connectivity notification
 
@@ -48,7 +54,7 @@ With this release, we have expanded agent connectivity notification: see this [a
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"></th>
+      <th style="text-align:left">IMAGE MISSING</th>
       <th style="text-align:left">
         <p>We&apos;re changing the style of the help interface! Click the Help? icon
           in the lower right of any page in the interface to initiate an online chat
@@ -67,7 +73,9 @@ With this release, we have expanded agent connectivity notification: see this [a
     </tr>
   </thead>
   <tbody></tbody>
-</table>Of course, no release would be complete without some bug squashing and minor enhancements.
+</table>## A few minor enhancements
+
+Of course, no release would be complete without some bug squashing and minor enhancements.
 
 * "No routes" message - When you enter path visualization, a "no routes" method could appear under certain circumstances, while the path visualization data is rendered.  This has been replaced to show a message indicating that the visualization is being generated.
 * Internet Explorer 10 - We have resolved several issues related to compatibility with Internet Explorer 10.
