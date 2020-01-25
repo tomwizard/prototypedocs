@@ -19,7 +19,10 @@ The Internet Insights Overview Screen is accessible by navigating to **Internet 
 3. **Affected Interface Map Nodes**: Hover over each map node to view a sublist by region.  Select outages listed and this will navigate to the outage view on the selected network.
 4. **Summary screen**: Lists the total number of outages, Locations of those outages displayed, Tests in the account that are affected, and Alerts
 5. **Timeline**:  A 24 hour timeline of outages overall is expressed in a histogram at the bottom of the view.
-6. **Map Zoom**: Use the Plus \(+\) or Minus \(-\) icons to Zoom in and out of the Map.  Zooming in on a region will show more geographic distinction between sites of Affected Interfaces. IMAGE MISSING IMAGE MISSING
+6. **Map Zoom**: Use the Plus \(+\) or Minus \(-\) icons to Zoom in and out of the Map.  Zooming in on a region will show more geographic distinction between sites of Affected Interfaces.
+
+Example of a Zoom Map  
+
 
 ### Views Screen
 
@@ -27,23 +30,17 @@ Under the Topology Tab users will see a path visualization similar to test resul
 
 1. Sources are displayed as aggregated by location only.  IP and domain is not displayed.  The number of agents are tabulated in the menu that appears when hovering over the source node.
 2. Intermediate nodes are displayed showing the Autonomous System Number \(ASN\).  The menu that appears when hovering over the node will show the number of affected destinations and provide a link that will show the list of affected tests in a pop up window.  Affected AS are determined from Public rDNS on the target IP and not target domain.
-3. Targets show ASN and the number of affected in the view.  The menu that appears when hovering over the node will show the number of affected destinations and provide a link that will show the list of affected tests in a pop up window.  Another link is available that will Show only outages affecting the destinations relevant to that node. IMAGE MISSING
+3. Targets show ASN and the number of affected in the view.  The menu that appears when hovering over the node will show the number of affected destinations and provide a link that will show the list of affected tests in a pop up window.  Another link is available that will Show only outages affecting the destinations relevant to that node.
 
 Under the Topology Tab there are Filtering and Grouping options available.  Filter aspects of the Topology Visualization by clicking on the **Showing** &gt; "**Add a filter**” drop down menu pictured below.  
 
-IMAGE MISSING
-
 Note that **Grouping** can be displayed by similar filtering options.  The figure below shows all three drop down options.  
-
-IMAGE MISSING
 
 Nodes with outages are tallied under **Highlighting**.  
 
 ### Catalog Settings View
 
-The Internet Insights Catalog Screen is accessible by navigating to **Internet Insights &gt; Catalog Settings**
-
-IMAGE MISSING  
+The Internet Insights Catalog Screen is accessible by navigating to **Internet Insights &gt; Catalog Settings**  
 
 
 ## Screen Navigation
@@ -55,28 +52,26 @@ This section briefly points out areas of navigation in the Outages and View Scre
  Viewing Outages from the Overview screen Internet Insights &gt; Overview
 
 Step 1. Click the Listed links  
-IMAGE MISSING  
+  
 Step 2. View the Details for that Outage Or Click the Nodes and Listed Links  
-IMAGE MISSING  
+  
 Step 1. Click the Listed links when hovering over the red nodes  
-IMAGE MISSING
+
 
 To view all outages Click the "View all" link
 
-Step 1. Click "**View All**"   
-IMAGE MISSING
+Step 1. Click "**View All**" 
 
-Step 2. Select Network from the drop down.   
-IMAGE MISSING
+Step 2. Select Network from the drop down. 
 
 ###  View Screen Navigation
 
 1. The Internet Insights Overview Screen is accessible by navigating to **Internet Insights &gt; Overview.**  Screen previously pictured [above]().
 2. The Internet Insights Views Screen is accessible by navigating to **Internet Insights &gt; Views.**  Screen previously pictured [above]().
-3. **Internet Insights &gt; Views &gt; Internet Insights/Network &gt; Network View** will have these Metrics.  IMAGE MISSING
-4. **Internet Insights &gt; Views &gt; The Map Tab** shows affected Interfaces and Tests   IMAGE MISSING
-5. **Internet Insights &gt; Views &gt; The Topology Tab** shows Network Outage Visualization   IMAGE MISSING
-6. **Internet Insights &gt; Views &gt; The Table Tab** lists Network/ISP with ASN of Tests, Locations and Interfaces.  IMAGE MISSING
+3. **Internet Insights &gt; Views &gt; Internet Insights/Network &gt; Network View** will have these Metrics. 
+4. **Internet Insights &gt; Views &gt; The Map Tab** shows affected Interfaces and Tests   
+5. **Internet Insights &gt; Views &gt; The Topology Tab** shows Network Outage Visualization   
+6. **Internet Insights &gt; Views &gt; The Table Tab** lists Network/ISP with ASN of Tests, Locations and Interfaces. 
 7. Navigate to the Views Screen **Internet Insights &gt; Catalog Settings**. Screen pictured [previously]().
 
 ### Related Articles:
