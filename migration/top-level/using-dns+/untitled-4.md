@@ -8,8 +8,6 @@ The DNS+ Server Latency view leverages the ThousandEyes DNS+ layout, documented 
 
 The example below shows DNS+ Server Latency View for a root nameserver. 
 
-IMAGE MISSING
-
 ## View Specifics
 
 The DNS+ Server Latency view shows two different data views, depending on whether or not a country is selected.
@@ -18,14 +16,11 @@ The DNS+ Server Latency view shows two different data views, depending on whethe
   <thead>
     <tr>
       <th style="text-align:left">
-        <p>With no country selected
-          <br />The computed averages area shows worldwide average server latency, calculated
+        <p>The computed averages area shows worldwide average server latency, calculated
           from the number of vantage points in different countries tested during
-          the selected date/time.
-          <br />IMAGE MISSING</p>
+          the selected date/time.</p>
         <p>Timeline shows average server latency, calculated globally over time.
-          An example of a timeline with no country selected is shown below:
-          <br />IMAGE MISSING</p>
+          An example of a timeline with no country selected is shown below:</p>
         <p>The Detailed metrics section contains the following three tabs:</p>
         <ul>
           <li>Map: Shows worldwide average server latency measurements along with total
@@ -47,15 +42,11 @@ The DNS+ Server Latency view shows two different data views, depending on whethe
           or from the Country dropdown menu.</p>
       </th>
       <th style="text-align:left">
-        <p>With a country selected
-          <br />The computed averages area computes the average server latency from vantage
-          points tested in the selected country during the selected date/time.
-          <br
-          />IMAGE MISSING</p>
+        <p>The computed averages area computes the average server latency from vantage
+          points tested in the selected country during the selected date/time.</p>
         <p>The timeline shows average server latency measurements within the country
           as line graph plotted over the worldwide average server latency data. An
-          example of a timeline with a country selected is shown below.
-          <br />IMAGE MISSING</p>
+          example of a timeline with a country selected is shown below.</p>
         <p>The Detailed metrics area, broken into two tabs shows the following:</p>
         <ul>
           <li>
@@ -84,6 +75,4 @@ The DNS+ Server Latency view shows two different data views, depending on whethe
   </thead>
   <tbody></tbody>
 </table>Any view of a network, or Autonomous System \(AS\) is based on a list of registered Autonomous Systems, or telecommunications provider present in that country.  Autonomous System \(AS\) details can be seen by hovering over the AS link, shown in the network name column of the network tab.  An example of this AS information can be found below, showing Telecom Argentina S.A., AS 7303.
-
-IMAGE MISSING
 
