@@ -10,11 +10,11 @@ Within the ThousandEyes Path Visualization view, a node circled in red indicates
 
 A terminal interface is likely what you’d expect: an interface where at least one path trace has terminated, meaning that for that specific trace it was the last known interface to have replied to our probes. A terminal interface is roughly equivalent to seeing asterisks in the output of a traceroute. Below is a traceroute-style output from the Tokyo Cloud Agent with a terminal interface at hop 16.
 
-IMAGE MISSING
+![](https://lh4.googleusercontent.com/MJvGTQ8TrujGKBXYV0jO23kt4QwH0Lz8pyZ7uRT1SjlhvcNK7sby__xc4_u0_M1lKR3vx9saFDRAZeOilMEOvQtPOwwzg70KvIWVpYuoFfMy0L5RJan0KvzkVmKmAcdlSc0raT8k)
 
 See the older style of mouseover in which we showed information for a terminal interface:
 
-IMAGE MISSING
+![](https://lh3.googleusercontent.com/dbHpLOL5cPhOGgp51Wyj8K9GvzZT6MAScG1xqIUoHQGsY38cVJUSM1l1Ue1i_J6JBPidJPB3WXw9V3CQR9qNkmq0tVAbca74FU8BCcGc9wQLIiwochEP4ieO9HOGhlB-rzrppqNR)
 
 There are various reasons for the appearance of terminal interfaces, including unexpected issues like routing changes, network congestion, and hardware failures, or for reasons of design due to router or firewall configurations.
 
@@ -24,7 +24,7 @@ When terminal interfaces are observed together with associated application-level
 
 To help you evaluate the scope and mitigation plan for such a scenario, we’ve expanded the context to include more information about a given terminal interface.
 
-IMAGE MISSING
+![tic-1.png](https://lh3.googleusercontent.com/51wUC-TMeaDfsAITREU8LgE4NlbnLspgDi0BrpPRY06bHtY94xmDYy98lP4GEpB7UkKYXdqrDPWBbjRHSwIIHYEVjTQl1Aiabzf2GiO4r_LtzkcEgkSzEc9JQ2sNj7ZYrKbQtd9L)
 
 The terminal interface context includes the following information:
 
@@ -35,7 +35,7 @@ The terminal interface context includes the following information:
 * Loss Frequency \(2\) is a low, medium or high value that indicates how “noisy” an interface is in terms of loss. For example, if an interface’s loss frequency is low, that means that the interface is typically very stable and generally doesn’t see much loss. In this case you’ll want to pay close attention when you do see paths terminating at that interface, because it’s an infrequent condition. If an interface has a high loss frequency, any loss you’re seeing may need to be taken with a grain of salt.
 * You may also see a ‘Part of Outage’ line item \(3\), which will only be present if the loss you’re observing on that interface has been deemed to be part of a [larger outage in an Internet service provider](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmskKAC). In this case, you can look to the top left corner of the Path Visualization window and click the ‘Outage Detected’ dropdown to get more information about the outage.
 
-IMAGE MISSING
+![](https://lh4.googleusercontent.com/MZ9ildxwI6ZRejJdh_0hW17Bg3E3qvUXiZHymGaLf5vDI0RhhjLRCg7Wh0dywycAMkZca3Di5CfFdRM5MzUHhAQNNH-A0JFwpweP8JZak01Y7XVp1FrBB-lS-hacF0qNFi7sRQfH)
 
 There are a couple of key points to consider when looking at the Terminal Interface Context:
 
@@ -68,7 +68,7 @@ In cases where a node in your Path Visualization is a transit for more than just
 
 In those cases, ThousandEyes detects and presents context about such outages with [Outage Detection](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmskKAC). When outages are detected, you’ll not only get context about the scope of tests affected at this interface, but you’ll also see information about the specific outage that this terminal interface is associated with:
 
-IMAGE MISSING
+![tic-2.png](https://lh4.googleusercontent.com/FDXP_P0bWERLFdEpL1Nueg4G3_eIh6ij-3rF7brHzDiwfe5MBq4jxpENVvmjRlWeKwLNK8k5RbsO_G6n4YXNsK8TnZY3_6Ao2ZX8n1pGO5MWeKDiFgsNUeOOG8j2730l3_fuqTiw)
 
 If you see the ‘Part of Outage’ line \(1\), it’s very likely that the issue you’re experiencing is having impacts beyond your network. Investigate the breadth of the detected outage by exploring the ‘Outage Detected’ dropdown \(2\) near the top left corner of the Path Visualization.
 

@@ -6,11 +6,11 @@ Routing Outage Detection continuously analyzes the entire ThousandEyes data set 
 
 For the time periods during which the thresholds for a BGP reachability outage are met, purple indicators \(1\) will appear in the swimlane of the timeline in the Routing test view.
 
-![o34.png](https://lh4.googleusercontent.com/j995imPXlzmrTziJBG7E6kS-bu8tjZVnSD7EHz7NrHiBt_DD8ewL5gRpyuBMbtH67Tkf4vB55nh27Zbp8Haal55zJP9GfYREl6N33QwE4bXMnJQSQi7j0D4wH7b9ACtFuZ0U_OzT)
+IMAGE MISSING
 
 When an affected time period is selected, a dropdown with the label, ‘Outage Detected,’ will appear at the top left corner of the BGP Route Visualization, along with a link to select all of the affected BGP route monitors.
 
-![o35.png](https://lh5.googleusercontent.com/C-JW0QOz-beQp09rn6w7RtOaR3s_XGJNUecyXn6AfpGWEm2CBo6C7TvPqmffkISUNvnFIe6Ta32Qit0313I1u5YmstcEcC3VRPZkKexAYIqfF5QRPZ21obYHH_R0TPA97XkHNiFX)
+IMAGE MISSING
 
 The ‘Outage Detected’ dropdown shows the country where the BGP outage is occurring, and also the network that is inferred to be the most likely location of the root cause. The dropdown also provides information both specific to the current account group and also aggregated over the ThousandEyes routing data set:
 
@@ -26,7 +26,7 @@ In addition, the root cause analysis shown in the second tab is computed in the 
 
 The networks with the highest % Routes are shown in descending order with respect to % Routes \(2\). These are the networks that are inferred to be the most likely sources of routing issues, with the topmost network most likely to be responsible for the routing issues.
 
-![o36.png](https://lh3.googleusercontent.com/nN6oEmyKqqkIyNED5oxjLMZcvJ7Bk6nhj1guzT7UpkpUqAx_cRId8jNjUWtxuXd7CZcMYzFF3ngI2k4pCcgS438dvV1vD-7g71ugjeVO8sYpJNufk2Ug3p55iqxKcKCYMUsHl-_1)
+IMAGE MISSING
 
 Routing Outage Detection helps diagnose reachability-related BGP outages, understand the scope of the outage both globally and as it relates to you, and determine the network\(s\) most likely to be responsible for the routing issues. Use this information to optimize your mitigation strategy, whether it’s calling your provider when they’ve made a mistake in their routing tables, or proactively routing around issues that arise.
 
