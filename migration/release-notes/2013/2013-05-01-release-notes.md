@@ -8,6 +8,8 @@ Our team has been hard at work again, making tweaks to the system to make sure t
 
 Our team has modified the timeline, to make it more functional, and to enable some fun new features as follows:
 
+IMAGE MISSING
+
 ### All new event timeline
 
 Prior to this release, a test which showed errors from one or more location \(primarily related to web tests\) would show a red dot on the bottom of the chart for completion.  These dots have been moved below the chart, to allow users to see data in the chart more clearly, and you can hover over the event timeline to show the errors. When no agent is selected, if an error is present, the mouseover text will show the number of agents excluded from the aggregated values.  When an agent is selected, the mouseover text will show the detailed error message which caused the error to to appear on the event timeline.
@@ -23,6 +25,8 @@ Note: when entering a new view using the top nav, or by selecting another test, 
 ## Detailed metrics shows agent details
 
 Each location being used for a test will now show full network details and source IP information.  Public and Enterprise Agents show up using different icons:  for public, and   for Enterprise Agent.  When you hover over the agent, the full network information will be shown for the agent, as shown below:
+
+IMAGE MISSING
 
 ## More API developments
 
