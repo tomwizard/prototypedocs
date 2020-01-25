@@ -8,8 +8,6 @@ Hard to believe it's November already! With four more releases to go in 2013, ou
 
 We've released a new dashboard widget, and made it appear by default on all user dashboards. The alerts widget provides a matrix view of your tests and agents over the trailing 24 hours, showing alerting trends, and allowing users to pinpoint trends on an agent-by-agent or test-by-test basis. In the absence of alerts occurring over the previous 24 hours, no content will be shown in the widget.  An example screenshot the alerts grid widget can be found below:
 
-IMAGE MISSING
-
 In the widget, the size of the circle indicates the duration of the alert \(larger size means longer duration\).  A red circle indicates that the alert is still active, and orange indicates that the alert was active in the past 24h, but is no longer active.  Presence of an empty square in the grid indicates that the agent is assigned to the test, but that no alert has been active in the previous 24h.
 
 ### Saved events
@@ -18,11 +16,10 @@ This release introduces a new way of preserving an event, in the form of Saved E
 
 To save an event, click the  menu item, shown just above the timeline.  This will open a dialog prompting for the timing of the event; choose how much time around the event to preserve, then click the save button.  The name of the event will be used in the test selector, in the upper left corner of each view.
 
-IMAGE MISSING
-
 To review the saved events available to your organization, click the [Saved Events](https://app.thousandeyes.com/settings/events) option under the settings menu.  A list of saved events will be shown, per the screenshot below:
 
-IMAGE MISSING
+  
+_Saved events page_
 
 ## API updates
 

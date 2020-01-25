@@ -20,3 +20,5 @@ BGP tests can still be manually created for CDN target networks; however, they w
 
 Beginning with today's release, our instant Bandwidth Tests now support the use of the ICMP protocol.   To run a bandwidth test using ICMP, select an agent, enter your target and choose ICMP as the query type.  A port number is not required when running a test using ICMP.
 
+IMAGE MISSING
+
