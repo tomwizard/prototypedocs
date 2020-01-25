@@ -1,10 +1,8 @@
-# Discovering Device Layer Devices
+# Discovering Device Layer Devices - ThousandEyes Customer Success Center
 
 ### Discovering Device Layer Devices
 
-ThousandEyes' Device Layer monitoring utilizes Enterprise Agents to poll your network devices using the Simple Network Management Protocol \(SNMP\). The Enterprise Agents must complete an initial device discovery process prior to monitoring the desired devices. Credentials for one or more devices must first be configured before the discovery of devices.
-
-IMAGE MISSING  
+ThousandEyes' Device Layer monitoring utilizes Enterprise Agents to poll your network devices using the Simple Network Management Protocol \(SNMP\). The Enterprise Agents must complete an initial device discovery process prior to monitoring the desired devices. Credentials for one or more devices must first be configured before the discovery of devices.  
  
 
 ## [Prerequisites]()
@@ -26,15 +24,11 @@ Before the initial device discovery, perform the following steps:
 ## [Configuring device credentials]()
 
 Device Layer requires your devices' SNMP credentials to discover the devices. Navigate to the Device Settings page and select the Device Credentials tab. Click the **Add New Credentials** button to add a new set of credentials.  
- IMAGE MISSING
+ 
 
 Give the credentials a meaningful name and select the SNMP version.
 
-IMAGE MISSING
-
 SNMPv2 credentials consist of a single community string, which serves as a plain-text password.
-
-IMAGE MISSING
 
 SNMPv3 requires:
 
@@ -61,14 +55,12 @@ To start a one-time device discovery, select the Devices tab and click the **Fin
 
 On the Basic Configuration tab of the form, configure the following settings:
 
-IMAGE MISSING
-
 * **Targets:** Specify which devices the Enterprise Agent should attempt to discover. Enter the hostname, IP address, IP address range \(e.g. 192.168.1.1-192.168.1.10\) or subnet \(CIDR notation, e.g. 192.168.1.0/24\).
 * **Monitoring Agent:** Select an Enterprise Agent or an Enterprise Agent cluster to perform the discovery. Note the following:
   * When selecting an Enterprise Agent cluster as the **Monitoring Agent**, as with all other testing performed by clusters, Device Layer testing will be performed by a single member of the cluster. The member is selected by the cluster load balancing algorithm. If the Agent performing the Device Layer testing is removed from a cluster, the Device Layer testing is reassigned to another cluster member.
   * If an individual Enterprise Agent which is already performing Device Layer testing is moved into an existing cluster, the Device Layer view data collected prior to joining the cluster will be no longer available. Device Layer data found on the Path Visualization view will continue to be available.
 * **Credentials:** From the configuring device credentials step, select all the Credentials used by devices in the **Targets** field.
-* **Save as scheduled discovery:** If checked, the following additional fields appear to allow saving the discovery for automatic running: IMAGE MISSING
+* **Save as scheduled discovery:** If checked, the following additional fields appear to allow saving the discovery for automatic running:
 * **Discovery Name:** The name of the saved Discovery, which will appear in the listing of the Device Discoveries tab.
 * **Interval:** The time interval between automatic runs of the Discovery.
 * **Notification Rules:** The names of Device Notifications assigned to this Discovery.
@@ -76,7 +68,7 @@ IMAGE MISSING
 #### Advanced Settings
 
 On the Advanced Settings tab of the form, configure the following settings:  
-IMAGE MISSING 
+ 
 
 * **Whitelist:** Specify devices within the **Targets** setting and from discovery which the Enterprise Agent should attempt to poll. Enter the IP address, IP address range \(e.g. 192.168.1.1-192.168.1.10\) or subnet \(CIDR notation, e.g. 192.168.1.0/24\). Hostnames are not permitted.
 * **Blacklist:** Specify devices within the **Targets** setting and from discovery which the Enterprise Agent should not attempt to discover. Enter the IP address, IP address range \(e.g. 192.168.1.1-192.168.1.10\) or subnet \(CIDR notation, e.g. 192.168.1.0/24\). Hostnames are not permitted. Blacklists take priority over whitelists if the lists overlap.
@@ -93,8 +85,6 @@ To start a scheduled device discovery, select the Device Discoveries tab and cli
 
 On the Basic Configuration tab of the form, configure the following settings:
 
-IMAGE MISSING
-
 * **Discovery Name:** A name for the discovery.
 * **Targets:** Specify which devices the Enterprise Agent should attempt to discover. Enter the hostname, IP address, IP address range \(e.g. 192.168.1.1-192.168.1.10\) or subnet \(CIDR notation, e.g. 192.168.1.0/24\).
 * **Credentials:** From the configuring device credentials step, select all the Credentials used by devices in the **Targets** field.
@@ -105,8 +95,6 @@ IMAGE MISSING
 #### Advanced Settings
 
 On the Advanced Settings tab of the form, configure the following settings:
-
-IMAGE MISSING
 
 * **Whitelist:** Specify devices within the **Targets** setting and from discovery which the Enterprise Agent should attempt to poll. Enter the IP address, IP address range \(e.g. 192.168.1.1-192.168.1.10\) or subnet \(CIDR notation, e.g. 192.168.1.0/24\). Hostnames are not permitted.
 * **Blacklist:** Specify devices within the **Targets** setting and from discovery which the Enterprise Agent should not attempt to discover. Enter the IP address, IP address range \(e.g. 192.168.1.1-192.168.1.10\) or subnet \(CIDR notation, e.g. 192.168.1.0/24\). Hostnames are not permitted. Blacklists take priority over whitelists if the lists overlap.
@@ -119,11 +107,7 @@ IMAGE MISSING
 
 Upon completion of discovery, new devices will be displayed at the top of the list, above a solid horizontal line. Additionally, the count of new devices is displayed to the left of the **Find New Devices** button.
 
-IMAGE MISSING
-
 Click on a row to view the details of that device:
-
-IMAGE MISSING
 
 * **Name:** The SNMP name of the device. The **Name** field is populated from the discovered device's SNMP name, but can be changed.
 * **Type:** The type of network device. The **Type** field is populated from the discovered device's SNMP device type, but can be changed. This setting controls the device's icon in the Topology view, but does not affect data collection.
