@@ -19,6 +19,8 @@ We've made some substantial updates to the behavior of our alerting.  In our las
 
 Beginning with this release, users will now see alerts show up on the reference line below the timeline.  Shown in an orange bar \(similar to agent reference problems, shown in grey\), users will see the alert rule triggered, and if the alert is for a view which is not being shown in context, will see a link to the appropriate view. See the image below, where the timeline shown for an HTTP server rule shows a network alert triggered for that test.  Note the _Jump to Network_ link, which will open the End-to-End Metrics view, with the error in context.
 
+IMAGE MISSING
+
 ###  BGP Alerts for Network Tests
 
 BGP Alerting is now possible on Network, Web \(HTTP Server and Page Load\), as well as DNS Server tests.  Prior to this release, BGP Alerts only applied to BGP tests.  The Default BGP rule \(Reachability &lt; 100%\) will now apply by default to any newly created tests which include network measurements.
@@ -35,6 +37,8 @@ We've added a third alert status in this release.  Prior to this release, alerts
 * Removing an agent from a test while it has triggered an active alert
 
 When an alert goes into the disabled state, the reason that the alert was marked as disabled can be found in the column labeled **Metrics @ Alert End**.  See below for a screenshot of an alert which has entered the disabled state.
+
+IMAGE MISSING
 
 ## Account management changes
 
@@ -55,6 +59,8 @@ We've had a few reports of Enterprise Agents reporting excessive utilization whe
 ## Instant test changes
 
 Starting today, advanced options available in HTTP Server and Page Load tests are now available in the instant tests interface.
+
+IMAGE MISSING
 
 ## API changes
 

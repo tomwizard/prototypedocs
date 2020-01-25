@@ -12,23 +12,15 @@ We've converted our classic dashboard to a widget-based dashboard in tonight's r
 
 This is the same as the classic dashboard - lists each test, test type, alert status, trending and current values - just wrapped into a widget, rather than containing the entire dashboard page.  You'll also notice a gears icon, which appears when hovering over a test in the updated dashboard, for users with Account Admin privileges or higher.  As previously announced, the presence of the paperclip icon \(1\) beside a test name indicates a test shared by live share.  Click the gears icon \(2\) to jump to test settings, and edit the settings for that particular test.
 
-IMAGE MISSING
-
 ### New widget: Enterprise Agent routes
 
 This feature generates data used by the agent reference metrics data, released last week.  With the Enterprise Agent routes widget, you'll now see a path from each Enterprise Agent to the primary ThousandEyes agent collector for your account.  You'll see the very familiar path visualization view, for each agent testing connectivity to the primary agent collector, along with a summary of currently configured agents.  An example of the Enterprise Agent routes data is shown below.  Notice that this shows notification that one of my Enterprise Agents is offline.
-
-IMAGE MISSING
 
 ### Dashboard configuration
 
 The Dashboard Settings link, found on the upper right corner of the page, where the "Share this Screen" option normally sits, allows you to configure which components should be included on the dashboard.  Click the link \(1\) to expand a menu and choose the widgets you want included in the dashboard display \(2\).
 
-IMAGE MISSING
-
 In the near future, each widget will be configurable, and will show a link in the upper right corner of the widget to allow configuration of the widget's settings.
-
-IMAGE MISSING
 
 ## API updates
 
