@@ -1,4 +1,4 @@
-# DNS+ Vantage Point addition
+# DNS+ Vantage Point addition - ThousandEyes Customer Success Center
 
 During our maintenance update on May 14, 2014 we will be updating our validation rules for DNS+ Vantage Points, to remove a constraint which was unnecessarily causing a number of open resolvers used in DNS+ to be removed from the list.
 
@@ -10,7 +10,8 @@ This may affect global results somewhat, given the number of new caches being ad
 
 If you have alerts configured for DNS+ tests which are not tied to the reference metrics, we strongly recommend a review of those alert rules.  As a reminder, availability alerts can be configured to be bound to both the Availability and Reference availability metrics, such that alerts are triggered only when availability of your target domain name drops by a certain percentage relative to the reference availability.
 
-IMAGE MISSING
+  
+_DNS+ Availability alert rule_
 
 If you have any questions related to this change, [contact the ThousandEyes Customer Success team.](mailto:support@thousandeyes.com)
 

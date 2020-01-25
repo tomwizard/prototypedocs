@@ -8,6 +8,8 @@ These tests are designed to allow users to monitor the global performance of tar
 
 The image below shows a sample DNS+ Server Latency view for a root nameserver which is showing higher response time than expected in certain areas of the world - notably, India, South America, and Australia.  By identifying the areas which are not meeting expectations from a performance perspective, changes can be made in geographical load balancing techniques, as well as augmenting or changing infrastructure. 
 
+IMAGE MISSING
+
 In a DNS+ Server latency test, vantage points will send a query for a random domain name ending in **dnste.net**.  When the server responds, since it is not authoritative for the dnste.net zone, it must respond with a REFUSED, NXDOMAIN, or SERVFAIL response.  The server latency metric represents the round trip time from the vantage point to the authoritative server for this query.  
  
 
