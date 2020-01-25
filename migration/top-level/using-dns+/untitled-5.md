@@ -8,8 +8,6 @@ The DNS+ Resolution Time view leverages the ThousandEyes DNS+ layout, documented
 
 The example below shows DNS+ Resolution View of a DNS+ Domain Trace test against thousandeyes.com MX record.
 
-IMAGE MISSING
-
 ## View Specifics
 
 The DNS+ Resolution Time view shows two different data views, depending on whether or not a country is selected.
@@ -18,14 +16,11 @@ The DNS+ Resolution Time view shows two different data views, depending on wheth
   <thead>
     <tr>
       <th style="text-align:left">
-        <p>With no country selected</p>
         <p>The computed averages area computes the worldwide average resolution time,
           and shows the number of vantage points and number of countries tested during
           the selected date/time.</p>
-        <p>IMAGE MISSING</p>
         <p>The timeline area plots average response time, calculated globally over
           time, as shown below.</p>
-        <p>IMAGE MISSING</p>
         <p>The Detailed metrics area, broken into two tabs shows the following:</p>
         <ul>
           <li>
@@ -52,15 +47,12 @@ The DNS+ Resolution Time view shows two different data views, depending on wheth
           or from the Country dropdown menu.</p>
       </th>
       <th style="text-align:left">
-        <p>With a country selected</p>
         <p>The computed averages area computes the average resolution time, and shows
           the number of vantage points in the selected country tested during the
           selected date/time.</p>
-        <p>IMAGE MISSING</p>
         <p>The timeline area plots the average resolution time results for the selected
           country as a line graph over the plot for the average resolution time results
           from countries worldwide.</p>
-        <p>IMAGE MISSING</p>
         <p>The Detailed metrics area, broken into two tabs shows the following:</p>
         <ul>
           <li></li>
@@ -86,6 +78,4 @@ The DNS+ Resolution Time view shows two different data views, depending on wheth
   </thead>
   <tbody></tbody>
 </table>Any view of a network, or Autonomous System \(AS\) is based on a list of registered Autonomous Systems, or telecommunications provider present in that country.  Autonomous System \(AS\) details can be seen by hovering over the AS link, shown in the network name column of the network tab.  An example of this AS information can be found below, showing Telecom Argentina S.A., AS 7303.
-
-IMAGE MISSING
 
