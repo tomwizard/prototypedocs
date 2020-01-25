@@ -6,6 +6,8 @@ It's been a while since our last update, so we wanted to let you know that we've
 
 Have you ever had an idea for something cool that you could do with your data, or something was missing from a view in ThousandEyes? We've added a feature to the footer of our user interface to allow you to submit your requests; just enter your suggestion and our system will notify the product team!
 
+IMAGE MISSING
+
   
 _Wish for your favorite feature using the Make a Wish button in the footer_
 
@@ -15,23 +17,20 @@ A few minor changes \(largely based on suggestions from our Customers\) have rec
 
 * You can now set the minimum number of successive periods required in order to trigger an alert, in order to account for alert blips that don't need action. Set the number of required periods on the [alert rules interface](https://app.thousandeyes.com/alerts/settings), between the number of agents, and the email addresses to notify.   Valid options are from 1-4 successive alert violations.
 
-  
-  _Successive alert violations configuration_
+  IMAGE MISSING
 
 * Emails coming from our system for alerts now link to the appropriate view for an alert, rather than to the alerts page. The target for the link is defined by the alert rule being violated, rather than the test type; for example, if a network alert rule is triggered on a page load test, clicking the link in your email will take you to the end to end metrics view, rather than the page load view. 
 * Available bandwidth is now available as an alert-able metric for tests which run from Enterprise Agents; simply select available bandwidth from the metric list, and define the appropriate threshold for your test.
 * The Minimum and Maximum latency options have been removed from the alert rule options, and have been replaced with the ability to run automatic alerts based on latency.  To configure an automatic alert based on network latency, select the Latency option in metrics, then select the auto checkbox.  When this option is configured, an alert will be triggered when the network latency exceeds the norm by 1.5 standard deviations.
 * We've added alert information to each of the standard views, which will show active alerts for your selected test;  When reviewing test results in our standard views, active alert information is now shown in the leftmost section of the page; an example is shown below, where one alert is active:
 
-  
-  _HTTP Server test showing an active alert_
+  IMAGE MISSING
 
 ## Customize your Virtual Appliance
 
 The latest addition to our Enterprise Agent suite allows faster deployment of virtual appliances by reducing the number of steps required for deployment in an enterprise. Purpose-built for organizations deploying virtual appliances to clients, or for wide-scale deployment within your own enterprise, the custom virtual appliance allows the creator to build a virtual appliance and preconfigure the account token, proxy settings and SSH keys used for management of the appliance.
 
-  
-_New Custom Virtual Appliance configuration page_
+IMAGE MISSING
 
 To generate a custom virtual appliance, click the add &gt; New Agent link, and select the **Custom Virtual Appliance** tab. Give the appliance a name, select a format per the below list, and add SSH keys as applicable.
 

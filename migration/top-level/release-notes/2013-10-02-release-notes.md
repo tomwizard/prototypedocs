@@ -8,13 +8,7 @@ Welcome to the October 2013 release update!  We've got changes in various areas 
 
 We've updated the timeline component in the Path Visualization and BGP views, to be more consistent with the other views of ThousandEyes.  With this release, you can overlay an agent's \(or monitor's\) measurements for the view atop the aggregate values across all agents.
 
-IMAGE MISSING
-
 To add an agent values to the timeline, click the **Show on Timeline** link from the information box that appears when hovered over an agent \(or monitor, in BGP view\). To remove the agent overlay, hover over the agent, and click **Remove from Timeline**, or select a different agent. The agent selection carries over between views, so if you're looking at data for London in the Page Load view, it will carry over into the Path Visualization view.
-
-IMAGE MISSING
-
-IMAGE MISSING
 
 Note: the timeline can only accommodate a single agent's values at a time, so choosing to Show on Timeline for any other agent will override the agent data being shown.
 
@@ -28,11 +22,7 @@ Historically, if you've deleted a test, then added it back, the test would be ad
 
 When you delete a test, measurements will stop being collected, and it will move into the Recycle Bin.  To find the Recycle Bin, go to the [test settings](https://app.thousandeyes.com/test-settings/) page, and note the link for "**X recently deleted tests**".  Clicking the link causes a pane to open showing a list of deleted tests, categorized by test type.  Recently deleted tests are available for 14 days, after which they are permanently purged from test results.
 
-IMAGE MISSING
-
 Clicking the Recover link opens the Add New Test dialog, and will allow you to change the test name, agent settings, interval and other options, then re-enable your test.  The test will show a measurement gap between when it was deleted and when it was re-enabled, but legacy measurements for the test will be maintained.
-
-IMAGE MISSING
 
 Creating a new test with the same target will no longer pull in previously gathered data for that test, and will instead begin gathering data anew.
 
@@ -47,8 +37,6 @@ If you have a minimal number of agents assigned to your tests, you should review
 ### New DNS+ Domain Alerts option: Reference metrics
 
 We've added a new option to the alert rules interface, specifically for DNS+ availability metrics. When creating a DNS+ Alert rule for the availability metric, the rule will now include a reference availability component.  Create a rule which shows availability dipping below a certain percentage, while reference availability remains above this percentage.
-
-IMAGE MISSING
 
 When selecting this option, the Reference availability metrics \(as well as the Availability metrics\) for countries violating the alert rule will be provided in the alert notification.  Existing DNS+ Availability based rules will remain unchanged, however they will be updated if users attempt to change the metric upon which the rules are based.
 
