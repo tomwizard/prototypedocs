@@ -46,6 +46,7 @@
 
 ## Migration
 
+* [Migration Status](migration/migration-status.md)
 * [Getting Started](migration/top-level/getting-started-1/README.md)
   * [Where are Cloud Agents available?](migration/getting-started-1/where-are-cloud-agents-available.md)
   * [Notification of upgrades, maintenance and outages](migration/getting-started-1/notification-of-upgrades-maintenance-and-outages.md)
@@ -278,7 +279,7 @@
   * [Installing Endpoint Agent Pulse for Mac OS X](migration/top-level/endpoint-agent-installation/untitled-1.md)
   * [Installing Endpoint Agent Pulse for Windows](migration/top-level/endpoint-agent-installation/untitled.md)
 * [Using DNS+](migration/top-level/using-dns+/README.md)
-  * [Using the DNS+ Availability view](migration/using-dns+/using-the-dns+-availability-view.md)
+  * [Using the DNS+ Availability view](migration/top-level/using-dns+/untitled-6.md)
   * [Using the DNS+ Resolution Time view](migration/top-level/using-dns+/untitled-5.md)
   * [Using the DNS+ Server Latency view](migration/top-level/using-dns+/untitled-4.md)
   * [How DNS+ Server Latency tests work](migration/top-level/using-dns+/untitled-3.md)

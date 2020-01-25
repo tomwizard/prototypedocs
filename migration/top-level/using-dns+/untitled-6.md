@@ -8,8 +8,6 @@ The DNS+ Availability view leverages the ThousandEyes DNS+ layout, documented he
 
 The example below shows a view of a DNS+ Availability test against the faluninfo.net domain's A record.
 
-IMAGE MISSING
-
 ## View Specifics
 
 The DNS+ Availability view shows two different data views, depending on whether or not a country is selected.
@@ -18,15 +16,15 @@ The DNS+ Availability view shows two different data views, depending on whether 
   <thead>
     <tr>
       <th style="text-align:left">
-        <p>With no country selected</p>
         <p>The computed averages area computes the worldwide average availability,
           and shows the number of vantage points and number of countries tested during
           the selected date/time.</p>
-        <p>IMAGE MISSING
+        <p>
           <br />Timeline shows average percentage availability for the test target, calculated
           globally over time. An example of a timeline with no country selected is
           shown below:
-          <br />IMAGE MISSING</p>
+          <br />
+        </p>
         <p>The Detailed metrics section consists of the following tabs:</p>
         <ul>
           <li>Map: Shows worldwide average percentage availability measurements along
@@ -49,16 +47,14 @@ The DNS+ Availability view shows two different data views, depending on whether 
           or from the Country dropdown menu.</p>
       </th>
       <th style="text-align:left">
-        <p>With a country selected
-          <br />The computed averages area computes the average availability, and shows
+        <p>The computed averages area computes the average availability, and shows
           the number of vantage points in the selected country, tested during the
           selected date/time.</p>
-        <p>IMAGE MISSING
+        <p>
           <br />The timeline shows average percentage availability for test target within
           the country as a line graph plotted over the worldwide average percentage
           availability graph. An example of a timeline with a country selected is
           shown below.</p>
-        <p>IMAGE MISSING</p>
         <p>The Detailed metrics section consisits of the following tabs:</p>
         <ul>
           <li>Map: Shows for the selected country average percentage availability measurements
@@ -84,6 +80,4 @@ The DNS+ Availability view shows two different data views, depending on whether 
   </thead>
   <tbody></tbody>
 </table>Any view of a network, or Autonomous System \(AS\) is based on a list of registered Autonomous Systems, or telecommunications provider present in that country.  Autonomous System \(AS\) details can be seen by hovering over the AS link, shown in the network name column of the network tab.  An example of this AS information can be found below, showing Telecom Argentina S.A., AS 7303.
-
-IMAGE MISSING
 
