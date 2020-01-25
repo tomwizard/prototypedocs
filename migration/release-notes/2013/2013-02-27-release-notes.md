@@ -18,11 +18,19 @@ An immensely complex topic, this effectively means that we are reducing the numb
 
 The net result is a reduction in the complexity of path visualizations showing white nodes, per the two very simple examples below:
 
+IMAGE MISSING
+
 becomes
+
+IMAGE MISSING
 
 and this:
 
+IMAGE MISSING
+
 becomes
+
+IMAGE MISSING
 
 Not to worry:
 
