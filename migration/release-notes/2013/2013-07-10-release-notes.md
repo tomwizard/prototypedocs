@@ -17,6 +17,8 @@ We've adjusted the charts shown
 
 Dashboard views have been adjusted to show the last complete round of data in the trending value graphs, as well as the most recent data.  This was introduced to avoid showing partially completed round data.
 
+IMAGE MISSING
+
 While the change to the dashboard will not be obvious, the values shown in the charts will now reflect the last complete round of data, rather than partially completed rounds.  
 
 1. Clicking the availability chart will open the HTTP Server view, and show the availability metric, and show the data for the round selected on the timeline.
@@ -27,11 +29,15 @@ While the change to the dashboard will not be obvious, the values shown in the c
 
 New users will now see a revised Getting Started page, complete with our inaugural screencast, which runs through agent installation and test deployment in ThousandEyes.
 
+IMAGE MISSING
+
 We'll also be updating the Help & Support section on the left to show more ThousandEyes screencasts, as they become available.
 
 ## Network tests now support ICMP protocol
 
 Beginning with today's release, we now support configuration of all network tests using ICMP.  Previously, ICMP was only supported on instant ping tests.
+
+IMAGE MISSING
 
 To create a new network test using the ICMP protocol, use the test type selector, and select the ICMP button.  When you choose ICMP as the test type, the TCP Port field will disappear.  The key use case for this would be to trace the path to network devices.
 
@@ -45,6 +51,8 @@ As with our classic TCP network tests, the Path Visualization and BGP Route Visu
 ##  Single Sign-On 
 
 ThousandEyes now accepts configuration of a SAML provider to enable Single-Sign on \(SSO\).  SSO settings apply for an entire organization, and must be configured by an Organization Admin user.  To open SSO settings, click click the **Settings** \| **Account** option in the navigation menu, then click the **Single Sign-O**n tab.
+
+IMAGE MISSING
 
 Please refer to [this article](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmnKKAS) for instructions before enabling SSO on ThousandEyes.
 
