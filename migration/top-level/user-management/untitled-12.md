@@ -18,10 +18,10 @@ Configuration is normally simple. Here's what you need:
 
 ## Identity provider configuration  
 
-1. Log in to the Bitium Admin Console, and go to **Manage ThousandEyes &gt; Manage Apps**  IMAGE MISSING
-2. If the ThousandEyes app is not installed, click the **Add an App** button, search for **ThousandEyes** and click the **ThousandEyes app** to get it installed. If prompted, select **Single Sign-On with SAML Authentication**. IMAGE MISSING
-3. From the **Manage ThousandEyes &gt; Manage Apps** page, select ThousandEyes from the list of installed apps, then click on the **Single Sign-On** tab and select **SAML Authentication** from the drop-down menu. IMAGE MISSING
-4. The following screenshot highlights the values which will be used in the ThousandEyes **Security & Authentication** tab, as explained in the following sections. Copy these values. IMAGE MISSING
+1. Log in to the Bitium Admin Console, and go to **Manage ThousandEyes &gt; Manage Apps** 
+2. If the ThousandEyes app is not installed, click the **Add an App** button, search for **ThousandEyes** and click the **ThousandEyes app** to get it installed. If prompted, select **Single Sign-On with SAML Authentication**.
+3. From the **Manage ThousandEyes &gt; Manage Apps** page, select ThousandEyes from the list of installed apps, then click on the **Single Sign-On** tab and select **SAML Authentication** from the drop-down menu.
+4. The following screenshot highlights the values which will be used in the ThousandEyes **Security & Authentication** tab, as explained in the following sections. Copy these values.
 5. Depending on the type of single sign-on configuration that you would like to use, download the related file:
 
 * for [ThousandEyes Static Configuration](): download the **X.509 Certificate** file.
@@ -48,7 +48,7 @@ Follow these steps to configure your ThousandEyes organization to use single sig
    | **Service Provider Issuer** | https://app.thousandeyes.com |
    | **Verification Certificate** | The X.509 certificate downloaded at Step 5 in the **Identity Provider configuration** section above |
 
-6. To test the configuration use the instructions provided [here](). IMAGE MISSING
+6. To test the configuration use the instructions provided [here]().
 
 **IMPORTANT:** Ensure that the **Service Provider Issuer** field reflects the value set by the identity provider in the AudienceRestriction element of the SAML response. Any mismatch, including a protocol mismatch \(http vs https\) will cause the request to be rejected.
 
@@ -64,7 +64,7 @@ Follow these steps to configure your ThousandEyes organization to use single sig
 4. Click the **Imported Metadata Configuration** button.
 5. Click the **Import File** button and upload the **Metadata XML File** downloaded at Step-5 of the **Identity Provider configuration** section. The configuration section should populate with the SSO parameters \(see screenshot below\).
 6. Click the **Save** button.
-7. To test the configuration use the instructions provided [here](). IMAGE MISSING
+7. To test the configuration use the instructions provided [here]().
 
 ### Dynamic Configuration
 
@@ -76,12 +76,12 @@ Follow these steps to configure your ThousandEyes organization to use single sig
 4. Click the **Dynamic Configuration** button.
 5. In the **IdP Metadata URL** box paste the **Metadata URL** obtained at Step-5 of the **Identity Provider configuration** section. The configuration section should populate with the SSO parameters \(see screenshot below\).
 6. Click the **Save** button.
-7. To test the configuration use the instructions provided [here](). IMAGE MISSING
-
+7. To test the configuration use the instructions provided [here]().
+8. 
 ### Test the configuration
 
-1. In the ThousandEyes **Security & Authentication** tab, click the **Run Single Sign-On Test** button: IMAGE MISSING
-2. If the SSO is configured properly, you should get a message indicating success, as shown in this screenshot: IMAGE MISSING
+1. In the ThousandEyes **Security & Authentication** tab, click the **Run Single Sign-On Test** button:
+2. 3. If the SSO is configured properly, you should get a message indicating success, as shown in this screenshot:
 
 ### Logging in using SSO
 
