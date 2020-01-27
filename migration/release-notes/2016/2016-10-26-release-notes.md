@@ -1,7 +1,5 @@
 # Release Notes: 2016-10-26
 
-### Release update 2016-10-26
-
 The Internet is a fantastic platform which has given rise to a massive amount of technological growth over the last 30 years... But, every rose has it's thorn, and there are people in the dark corners of the internet focused on doing bad deeds.  DNS Provider Dyn had its day last Friday, and was hit by said bad apples, with over 1 terabit of traffic per second.  Our team has done some analysis, and Nick Kephart published [this blog post](https://blog.thousandeyes.com/dyn-dns-ddos-attack/) today - we'll be following this post up with more this week, so stay tuned to the blog!
 
 ## Endpoint Agent

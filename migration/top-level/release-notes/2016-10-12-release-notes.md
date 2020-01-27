@@ -40,8 +40,6 @@ We've made an update to how our system processes assertions from registered iden
 
 And now, the part I'm especially excited for: our team has been busy integrating the Customer Success Center \(CSC\) into the application, which will allow our teams to streamline internal processes, make content available without authentication, and improve your experience overall when interacting with the support team.  So, how are things better?
 
-IMAGE MISSING
-
 First, if you're a subscriber to our release notes content, you'll probably notice that this message is in a slightly different format than usual.  This is because it's coming from the new system.
 
 ### New look and feel
