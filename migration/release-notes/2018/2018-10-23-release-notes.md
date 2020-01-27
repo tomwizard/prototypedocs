@@ -1,12 +1,27 @@
 # Release Notes: 2018-10-23
 
-### Release Update 2018-10-23
-
 Welcome to tonight's release!
 
 Here in the USA, Election day is on its way. If the state of you is seeing red and feeling blue, then don't wait to feel great: migrate to Cloud State!
 
+IMAGE MISSING
+
 We're very pleased to be hosting [Cloud State 2018](https://www.thousandeyes.com/cloud-state-2018) in San Francisco on November 7th. ThousandEyes will be releasing their first Public Cloud Performance Benchmark Report, comparing the major IaaS providers: Amazon AWS, Google's GCP and Microsoft's Azure. Shake off that election night hangover and come get the scoop on the report from its author, ThousandEyes' Senior Product Marketing Manager, Archana Kesavan. She'll be followed by a slate of great speakers:
+
+| ![User-added image](https://success.thousandeyes.com/servlet/rtaImage?eid=ka02R000000USBf&feoid=00NE0000006OT0r&refid=0EM44000000EFmM) | [Kira Makagon, EVP of Innovation at RingCentral](https://www.ringcentral.com/whyringcentral/leadership/kira-makagon.html) |
+| :--- | :--- |
+| ![User-added image](https://success.thousandeyes.com/servlet/rtaImage?eid=ka02R000000USBf&feoid=00NE0000006OT0r&refid=0EM44000000EFmM) | [Paul Chapman, CIO of Box](https://www.cio.com/author/Paul-Chapman/) |
+| ![User-added image](https://success.thousandeyes.com/servlet/rtaImage?eid=ka02R000000USBf&feoid=00NE0000006OT0r&refid=0EM44000000EFmM) | [Leo Laporte, founder of the TWiT Netcast Network](http://twit.tv/people/leo-laporte) |
+
+They'll discuss their experiences migrating their organizations' IT into the cloud, their lessons learned once there, and more. [Registration](https://www.thousandeyes.com/cloud-state-2018#form) is free and open now! Not convinced you should attend? Check out Archana's blog post, [Why You Must Attend Cloud State 2018](https://blog.thousandeyes.com/why-you-must-attend-cloud-state-2018/)!  
+  
+Down-blog, we have Technical Marketing Manager Ameet Naik, who gives us [Visualizing BGP Routing for Better Network Operations](https://blog.thousandeyes.com/visualizing-bgp-routing-better-network-operations/)--an in-depth walk-through of ThousandEyes' recently updated BGP Route Visualization view. We think it'll win your vote as a tool for your network operations.  
+  
+And in service to the public, Senior Product Marketing Manager Angelique Medina offers [Now in Service at ThousandEyes: Native ServiceNow Integration](https://blog.thousandeyes.com/native-servicenow-integration/), a thorough investigation of ThousandEyes' new native ServiceNow Integration option for Alert Notifications.  
+  
+And in case you missed the DNS party, Angelique's blog post [Measuring All the DNS Things](https://blog.thousandeyes.com/measuring-all-the-dns-things/) reviews ThousandEyes' recently released [2018 Global DNS Performance Benchmark Report](https://www.thousandeyes.com/resources/2018-global-dns-performance-benchmark-report).  
+  
+And now for the release details...
 
 ## Cloud Agents
 
@@ -24,7 +39,7 @@ In with the new, out with the old...
 We have new bulk actions for Enterprise Agents:
 
 * Adding, modifying and removing Labels, with the new **Labels** button
-* Adding, modifying and removing Agent Notifications, using the **Edit** button to select "Edit Agent Notifications".
+* Adding, modifying and removing Agent Notifications, using the **Edit** button to select "Edit Agent Notifications". IMAGE MISSING
 
 Check boxes next to the Enterprise Agents which are the target of the bulk action, and select an action in the bulk actions menu bar which appears once an Agent is checked.
 
@@ -51,7 +66,7 @@ Snapshots \(Saved Events and Share Links\) can now be created via the API with t
  The new view has two tables:
 
 * **Endpoint Table:** Displays metrics of each Endpoint Agent. The BSSID and metrics listed apply to the first BSSID membership during the test round.
-* **BSSID Table:** Displays performance of each BSSID, with aggregated metrics from all Endpoint Agents that report data on this BSSID during a test round. Shows a sum of throughput, and an average of retransmission rates and wireless signal quality. Each Endpoint Agent will report data on one BSSID per round, so BSSIDs where an Endpoint Agent joins and leaves during a round may not be represented in this list.
+* **BSSID Table:** Displays performance of each BSSID, with aggregated metrics from all Endpoint Agents that report data on this BSSID during a test round. Shows a sum of throughput, and an average of retransmission rates and wireless signal quality. Each Endpoint Agent will report data on one BSSID per round, so BSSIDs where an Endpoint Agent joins and leaves during a round may not be represented in this list. IMAGE MISSING
 
 Currently we support these new metrics in snapshots \(Shared Events and Live Shares\). We do not yet support these metrics in Reports or the API.
 
