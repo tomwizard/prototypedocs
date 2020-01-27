@@ -7,7 +7,7 @@ This release covers two major feature releases that our team has been working on
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">IMAGE MISSING</th>
+      <th style="text-align:left"></th>
       <th style="text-align:left">
         <p>We&apos;re making a whale of a splash with Docker support for Enterprise
           Agents in this release.</p>
