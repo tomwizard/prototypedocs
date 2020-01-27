@@ -2,7 +2,11 @@
 
 Welcome to our most recent release! Here in the US, April 15th was the deadline for paying our taxes. If you're one of those folks who waited in line at the post office to get your returns postmarked before midnight, this release is for you... But before the details of the release, some announcements.
 
+IMAGE MISSING
+
  Connect New York City is coming! Join us on May 9th at the Dream Midtown Hotel--steps away from Central Park, Carnegie Hall, the Theater district and Times Square. Time for a working vacation, maybe? Write off those show tickets and come on down! Meet fellow ThousandEyes users and learn from our great guest speakers how ThousandEyes is the basis for gains in performance and reductions in costs. Itemize them, you say?
+
+IMAGE MISSING
 
 [Registration](https://www.thousandeyes.com/events/connect/new-york-2019) is free and open now! And if you prefer a ThousandEyes Connect event in an offshore haven, don't miss [Connect London](https://www.thousandeyes.com/events/connect/london-2019), coming in June!
 
@@ -18,11 +22,15 @@ Ok, no more withholding... Here's the details of the release. Many happy returns
 
 For organizations which need to limit consumption of units by Account Groups, or for setting limits for an entire organization, we have created a new quota feature. The new Quotas tab under the Account Settings page displays the units allotted monthly to an organization under the organization's contractual plan, and permits setting quotas on Account Groups within the organization.
 
+IMAGE MISSING
+
 Review the ThousandEyes Knowledge Base article [Working with Account settings](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmnGKAS_Working-with-Account-settings) for more information on the Quotas tab.
 
 ## New Alert List widget
 
 In additon to the Alert Grid widget, users can now get a tabular listing of their Alerts and related information with the new Alert List widget.
+
+IMAGE MISSING
 
 Users can click on the specific test \(alert source\) to quickly navigate to the test and view the collected test data. The list can be filtered by several critieria, including Tests, Agents and status \(active/inactive\). The timespan of the alerts list can also be selected.
 
@@ -36,8 +44,9 @@ This release brings a number of new features and enhancements for Tests, as well
 
 ### Proxy Settings
 
-As part of our ongoing efforts towards implementation of proxy settings on a per-test basis, we have moved the Proxy Settings tab to the Agents Settings of the Cloud And Enterprise Agents, up from its previously nested location.  
- 
+As part of our ongoing efforts towards implementation of proxy settings on a per-test basis, we have moved the Proxy Settings tab to the Agents Settings of the Cloud And Enterprise Agents, up from its previously nested location.
+
+IMAGE MISSING
 
 Proxy configurations applied to Cloud Agents will be applied on a per-test basis.
 
@@ -45,11 +54,15 @@ Proxy configurations applied to Cloud Agents will be applied on a per-test basis
 
  The SIP Server test type now supports testing the Skype for Business Online service.
 
+IMAGE MISSING
+
 Setting **Server Type** to "Skype for Business Online" will result in additional authentication options being displayed at the bottom of the Basic Configuration tab.
 
 ### Test Description field
 
  Test settings now provide a Test Description field, so that users can provide a short text description associated with the test.
+
+IMAGE MISSING
 
  The free-form search tool on the Test Settings page allows users to search for tests by Test Description.
 
@@ -64,6 +77,8 @@ We've made a few of changes to the process of Endpoint Agent configuration, and 
 ### Proxy settings
 
 The Endpoint Agent's Agent Settings page now has its own Proxy Settings tab, similar to the existing tab of the same name under the Agent Settings of the Cloud and Enterprise Agents page.
+
+IMAGE MISSING
 
 ### Downloads modal now a side panel
 
