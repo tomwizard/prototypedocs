@@ -1,9 +1,5 @@
 # Release Notes: 2017-05-24
 
-Summer's just around the corner, along with some big changes for our product and big benefits for our customers.  Until then, a mild spring release night, tonight.  Here's the details...  
-  
-Network World recently [published a version](http://www.networkworld.com/article/3194890/internet/comparing-the-performance-of-popular-public-dns-providers.html) of a blog post by ThousandEyes' Product Marketing Manager, Young Xu.  [Entitled 2017 Update: Comparing the Performance of Popular Public DNS Providers](https://blog.thousandeyes.com/comparing-performance-popular-public-dns-providers-2017/), the blog post provides updated data from [the first blog post](https://blog.thousandeyes.com/comparing-latency-top-public-dns-providers/) on this topic by Microsoft's Mehmet Akcin, published in 2015.  Read one, read them all. 
-
 ## Bug fixes & minor features
 
 Here's the bux fixes and minor features in this week's release:

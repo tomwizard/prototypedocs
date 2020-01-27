@@ -4,6 +4,8 @@ Welcome to tonight's release. But first a word from our sponsor...
 
 ThousandEyes Connect this week, in the heart of Silicon Valley!
 
+IMAGE MISSING
+
 Still [time to register](https://www.thousandeyes.com/events/connect) and drop by if you're in the area. Come meet the ThousandEyes team, other ThousandEyes users and hear some great speakers from eBay, Intuit and Netflix, as well as ThousandEyes CEO Mohit Lad. Oh yeah, and [t-shirts](https://www.thousandeyes.com/tshirt). We know what you really really want.
 
 Nick Kephart's latest blog post is entitled [Monitoring IPv6 Networks](https://blog.thousandeyes.com/monitoring-ipv6-networks/), and contains some interesting data on who's doing what in terms of IPv6 traffic. IPv6 is the future, and the future is almost now. Have a read.
