@@ -1,10 +1,10 @@
 # Release Notes: 2019-10-29
 
+### Release Update 2019-10-29
+
 Welcome to our latest release!
 
 Before the details of the release, a quick plug for...
-
-IMAGE MISSING
 
 The second annual Cloud State Live will be held on November 13th. Join us for an hour [via live stream](https://www.thousandeyes.com/cloud-state-live) \(or if you're in Austin, Texas, in person at [Pershing](https://thepershing.com/)\) for the unveiling of this year's Cloud Performance Benchmark report. In this year's report, we've added Alibaba to last year's cloud provider trio of AWS, GCP and Azure. Plus, hear some other recent big news on the state of ThousandEyes.
 
@@ -21,8 +21,6 @@ We've added two enhancements to tests, based on popular demand.
 ### Packet transmission rate
 
 For test types which perform Network measurements \(except RTP Stream tests\) users can choose the rate at which the packets for those measurements are set. Under the test's Advanced Settings tab, look for the **Transmission Rate** checkbox, and move the slider to select a packet-per-second rate between 10 and 100 pps:
-
-IMAGE MISSING
 
 Adjusting transmission rate can be helpful when the default setting \(send as fast as possible\) triggers a network device which enforces rate limits.
 

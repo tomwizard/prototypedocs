@@ -47,7 +47,7 @@
 ## Migration
 
 * [Migration Status](migration/migration-status.md)
-* [Changelog](migration/top-level/release-notes/2020-01-08-release-notes.md)
+* [Changelog](migration/2020-01-08-release-notes.md)
 * [Getting Started](migration/top-level/getting-started-1/README.md)
   * [Where are Cloud Agents available?](migration/getting-started-1/where-are-cloud-agents-available.md)
   * [Notification of upgrades, maintenance and outages](migration/getting-started-1/notification-of-upgrades-maintenance-and-outages.md)
@@ -301,8 +301,8 @@
   * [2019](migration/top-level/release-notes/2019/README.md)
     * [Release Notes: 2019-12-10](migration/top-level/release-notes/2019/2019-12-10-release-notes.md)
     * [Release Notes: 2019-11-26](migration/top-level/release-notes/2019/2019-11-26-release-notes.md)
-    * [Release Notes: 2019-11-12](migration/release-notes/2019/2019-11-12-release-notes.md)
-    * [Release Notes: 2019-10-29](migration/release-notes/2019/2019-10-29-release-notes.md)
+    * [Release Notes: 2019-11-12](migration/top-level/release-notes/2019/2019-11-12-release-notes.md)
+    * [Release Notes: 2019-10-29](migration/top-level/release-notes/2019/2019-10-29-release-notes.md)
     * [Release Notes: 2019-10-15](migration/top-level/release-notes/2019/2019-10-15-release-notes.md)
     * [Release Notes: 2019-10-03](migration/top-level/release-notes/2019/2019-10-03-release-notes.md)
     * [Release Notes: 2019-09-17](migration/top-level/release-notes/2019/2019-09-17-release-notes.md)

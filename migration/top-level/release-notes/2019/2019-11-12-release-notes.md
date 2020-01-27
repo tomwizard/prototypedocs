@@ -1,8 +1,8 @@
 # Release Notes: 2019-11-12
 
-Welcome to our latest release!
+### Release Update 2019-11-12
 
-IMAGE MISSING
+Welcome to our latest release!
 
 The second annual Cloud State Live launch event will be held on November 13th in Austin, Texas, at Pershing. Join us in person or via live stream for the unveiling of this year’s Cloud Performance Benchmark report, as well as another exciting ThousandEyes announcement!
 
@@ -38,11 +38,7 @@ The response payloads for both endpoints will be identical; the content is speci
 
 In Scheduled Tests, we've removed the "TCP" option from the **Protocol** selector, and added the **TCP Connect** checkbox.
 
-IMAGE MISSING
-
 A new metric, "Connection failures" has been added to the test's Network view, which is the count of TCP connection failures across Agents running the test. Additionally, the Table tab of the test's Network views now displays a TCP Connect column which indicates the status of this portion of the test.
-
-IMAGE MISSING
 
 The TCP Connect message is also available in the tooltip displayed when hovering over an Agent in the Path Visualization.
 
@@ -61,3 +57,4 @@ Here are the bug fixes and minor enhancements in this week's release. Version nu
 
 Got questions or feedback for us? [Send us an email](mailto:support@thousandeyes.com?subject=2019-11-12+Release+Update)!
 
+* 
