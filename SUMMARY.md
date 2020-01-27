@@ -230,7 +230,7 @@
   * [Users in multiple organizations](migration/user-management/users-in-multiple-organizations.md)
   * [Working with Account settings](migration/user-management/working-with-account-settings.md)
   * [What is an Account Group?](migration/user-management/untitled-2.md)
-  * [Role-Based Access Control explained - ThousandEyes Customer Success Center](migration/user-management/untitled-1.md)
+  * [Role-Based Access Control explained](migration/user-management/role-based-access-control-explained.md)
   * [ThousandEyes support for SCIM - ThousandEyes Customer Success Center](migration/user-management/untitled.md)
 * [API](migration/api/README.md)
   * [Obtaining a list of ThousandEyes Agent IP Addresses](migration/api/untitled-3.md)

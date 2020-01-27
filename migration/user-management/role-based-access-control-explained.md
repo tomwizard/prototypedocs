@@ -1,28 +1,10 @@
-# Role-Based Access Control explained - ThousandEyes Customer Success Center
-
-### Role-Based Access Control explained
+# Role-Based Access Control explained
 
 The ThousandEyes platform provides a Role-based Access Control \(RBAC\) model for user and user group management.  RBAC provides two principal benefits: First, RBAC eliminates the hierarchical relationships between users, account groups and organizations. Under RBAC, users may belong to more than one Account Group. Second, RBAC provides the flexibility to configure permissions that were previously fixed within the three predefined roles. With RBAC you can create Roles for users which will allow them to do everything which is needed via the UI or API and no more.  
 
 For example, an employee who needs to administer their company’s ThousandEyes users in multiple accounts was previously required to have the Organization Admin role, which provided permissions not only to administer all users in every account but also permissions to access billing information for all accounts.  Under RBAC, you may assign Roles which have permissions for only user administration tasks in only the Account Groups needed, and not grant permissions for billing or other tasks within those account groups.
 
-For a complete list of all available Permissions, their descriptions and what Permissions are assigned to each of the built-in Roles see the [Roles and permissions table]().
-
-## Table of contents
-
-* [Terminology in RBAC]()
-* [Working with RBAC]()
-  * [Default built-in Roles]()
-  * [Managing Roles]()
-    * [Example custom Role]()
-  * [Managing Account Groups]()
-  * [Add new Account Group]()
-  * [Edit Account Groups]()
-  * [Managing Users]()
-  * [Adding User\(s\)]()
-  * [Edit User]()
-* [Roles and permissions table]()
-* [Related articles]()
+For a complete list of all available Permissions, their descriptions and what Permissions are assigned to each of the built-in Roles see the [Roles and permissions table]()
 
 ## Terminology in RBAC
 
@@ -70,8 +52,7 @@ The permissions assigned to a user with a **Regular Users** role \(or similar\) 
 
 Roles and Permissions settings are all contained under the [Account Settings &gt; Users & Roles &gt; Roles](https://app.thousandeyes.com/account-settings/users-roles/?section=roles) tab. To create a new Role choose the **Add New Role** button or to customize an existing role choose the pencil icon; both options will place you in Role edit mode. Once you are finished editing your Role ensure you use the **Save Changes** button to save your changes. A reminder on editing default built-in Roles: you have to duplicate a built-in Role using the duplicate icon before you can customise it.
 
-  
-_Figure 1: Roles tab page and features_
+IMAGE MISSING
 
 1. Search bar: Allows searching using a string such as "email" or "alert" for matching permissions.  The number in parentheses is the number of Permissions currently displayed.  Additionally, there are two buttons:
    * All - displays the full list of permissions that match the search string
@@ -132,6 +113,8 @@ _Figure 1: Roles tab page and features_
 
 Account Groups settings are all contained under the [Account Settings &gt; Users & Roles &gt; Account Groups](https://app.thousandeyes.com/account-settings/users-roles/?section=accountgroups) tab. 
 
+IMAGE MISSING
+
 1. Add New Account Group button: Click the button to enter **Add New Account Group** mode and display the **Add New Account Group** panel.
 2. Search bar: Allows searching the Account Groups for a text string or substring.
 3. Account Group column:  Alphabetized list of Account Groups in the organization.  Click the triangle icon to reverse the sort order.  Click the triangle next to an Account Group's name to enter **Add New Account Group** mode for that Account Group.
@@ -143,6 +126,8 @@ Account Groups settings are all contained under the [Account Settings &gt; Users
 
 To add a new Account Group open the **Add New Account Group** panel located on the [Account Settings &gt; Users & Roles &gt; Account Groups](https://app.thousandeyes.com/account-settings/users-roles/?section=accountgroups) tab, provide an Account Group Name, select any Enterprise Agents you would like to belong to the new group then finally use the Add New Account Group button. 
 
+IMAGE MISSING
+
 1. Account Group Name: The name of the new Account Group.
 2. Enterprise Agents: Select Enterprise Agents assigned to this Account Group \(optional\).
 3. Add New Account Group/Cancel: Click the **Add New Account Group** button to save the new Account Group or **Cancel** to exit without saving.
@@ -150,6 +135,8 @@ To add a new Account Group open the **Add New Account Group** panel located on t
 ### Edit Account Groups
 
 To edit Account Groups, click on the triangle next to an Account Group's name.  The **Edit Account Group** panel will appear:
+
+IMAGE MISSING
 
 1. Account Group Name: The name of the Account Group.
 2. Enterprise Agents: Select Enterprise Agents assigned to this Account Group \(optional\).
@@ -159,6 +146,8 @@ To edit Account Groups, click on the triangle next to an Account Group's name.  
 ###  Managing Users
 
 Add or edit the users and assign to one or more Account Groups.  Users are added or modified under the Users tab.
+
+IMAGE MISSING
 
 1. Mode indicator: Displays the current mode--either Edit Users mode or Add New Users mode.
 2. Add New Users button: Click the button to enter **Add New Users** mode and display the **Add New Users** panel.
@@ -173,6 +162,8 @@ Add or edit the users and assign to one or more Account Groups.  Users are added
 
 To add new users, click on the **Add New Users** button.  The **Add New Users** panel will appear:
 
+IMAGE MISSING
+
 1. Emails: Enter one or more email addresses which will be used by the users as logins to the ThousandEyes platform.  Use a comma as a delimiter to add multiple emails addresses \(typically by pasting text from your clipboard\).  An email with instructions to complete registration will be automatically sent to each address.
 2. Account Groups: Select the Account Group\(s\) to which the user will belong using the Account Groups pull-down menu. Multiple Account Groups are permitted. The selection affects all users listed in the **Emails** field.
 3. Roles: Click within the text field to display and select the Roles that the user\(s\) will have within the scope of the associated Account Group. Multiple Roles are permitted.
@@ -185,6 +176,8 @@ To add new users, click on the **Add New Users** button.  The **Add New Users** 
 ### Edit User
 
 In the Users tab click any user entry in the table to expand all the editable options as per screenshot below.
+
+IMAGE MISSING
 
 1. Registration pending: A red triangle icon indicates that the user has not yet completed the registration process as provided for in the registration email sent from the ThousandEyes platform. Note: One registration email can be sent per 24 hours using the Resend registration email link. If you attempt to send more than one in the 24h period a warning message will appear "A registration email has been sent to this user in the past 24 hours."
 2. Name: The name of the user.  This will be blank if the user has not completed registration.
