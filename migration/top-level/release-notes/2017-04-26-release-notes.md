@@ -17,7 +17,7 @@ We've added support for \(among other features\):
 * Reports widgets in the Dashboards interface
 * half-width widget support
 
-IMAGE MISSING
+Sample Dashboard, showing last 7 days of data vs last 12h of data, along with test options below.
 
 Why is this helpful? The simple concept here is to allow users to aggregate their data as they see fit. If you have 10 tests targeting various servers which make up a single customer-facing service, why not aggregate them to show the service availability as a whole, without taking up a ton of space on the dashboard?
 
