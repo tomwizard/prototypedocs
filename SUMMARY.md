@@ -268,7 +268,7 @@
   * [Endpoint Agent Views - Network Topology](migration/top-level/endpoint-agent/untitled-3.md)
   * [Endpoint Agent Views - Scheduled Tests](migration/top-level/endpoint-agent/untitled-2.md)
   * [Step by step guide to troubleshooting Endpoint Agent problems](migration/top-level/endpoint-agent/untitled-1.md)
-  * [Creating scheduled tests on Endpoint Agents](migration/top-level/endpoint-agent/untitled.md)
+  * [Creating scheduled tests on Endpoint Agents](migration/endpoint-agent/creating-scheduled-tests-on-endpoint-agents.md)
 * [Endpoint Agent Installation](migration/top-level/endpoint-agent-installation/README.md)
   * [Installing Endpoint Agent for Windows via Group Policy](migration/top-level/endpoint-agent-installation/untitled-8.md)
   * [Deleting an Endpoint Agent from the ThousandEyes platform](migration/top-level/endpoint-agent-installation/untitled-7.md)

@@ -4,18 +4,6 @@ Endpoint Tests are tests run from [Endpoint Agents](https://success.thousandeyes
 
 This article provides information on creating and running Endpoint Tests, including the dynamic assignment of tests to Endpoint Agents. Unlike [Cloud and Enterprise Agents](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnvICAS_Comparison-of-Agent-Types), Endpoints Agents are not typically online at all times. To address this issue and maximize the amount of data, test assignment to specific Endpoint Agents is dynamic.
 
-## Table of contents
-
-* [Prerequisites]()
-* [Test creation]()
-* [Dynamic Agent assignment using Labels]()
-* [Creating a scheduled test]()
-  * [Creating a Network test]()
-  * [Creating an HTTP Server test]()
-    * [Advanced configuration]() 
-* [Viewing results]()
-* [Frequently asked questions]()
-
 ## Prerequisites
 
 The only prerequisite for running scheduled tests on an Endpoint Agent is the Endpoint Agent software version must be 0.96 or later. Versions prior to 0.96 will not be able to run scheduled tests.
@@ -40,7 +28,11 @@ Because Endpoint Agents are deployed on workstations that may frequently be offl
 
 To create a new Endpoint Agent Label, head to the [Agent Labels](https://app.thousandeyes.com/endpoint/agent-settings/?section=labels) tab, under the Agent Settings page, and click on the **Add New Label** button:
 
+IMAGE MISSING
+
  The new Endpoint Agent Label creation dialog will appear:
+
+IMAGE MISSING
 
 Enter the **Label Name** \(1\), select the **Label Color** \(2\) and use the **Filter** \(3\) setting to select the criteria that will determine which Endpoint Agents run a test with this Label. If multiple filters are selected, the Endpoint Agent must match all criteria \(logical AND\) in order to be assigned this Label.
 
@@ -54,6 +46,8 @@ Once the Endpoint Agent Label has been configured, proceed to the test creation.
 
 Head to [Endpoint Tests](https://app.thousandeyes.com/endpoint/test-settings/?tab=tests) tab under the Test Settings page, and click the **Create New Test** button:
 
+IMAGE MISSING
+
 Currently, two test types are available:
 
 * Agent to Server \(Network Layer\)
@@ -62,6 +56,8 @@ Currently, two test types are available:
 ### Creating an Agent to Server test
 
 In the scheduled Endpoint test creation dialog, choose **Network** layer \(1\) and **Agent to Server** test type \(2\):
+
+IMAGE MISSING
 
 In the **Basic Configuration** tab, the following configuration settings are available:
 
@@ -80,6 +76,8 @@ Once you are satisfied with your test configuration, click on the **Create New T
 ### Creating an HTTP Server test
 
 In the scheduled endpoint test creation dialogue, choose **Web** layer \(1\) and **HTTP Server** test type \(2\) to start creating a new HTTP Server test:
+
+IMAGE MISSING
 
  In the **Basic Configuration** tab, the following configuration settings are available:
 

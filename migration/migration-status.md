@@ -14,14 +14,6 @@ Reports
 
 Internet Insights
 
-User Management
-
-API
-
-Advanced Troubleshooting
-
-Endpoint Agent Installation
-
 Using DNS+
 
 Outage Detection
@@ -52,5 +44,13 @@ Release Notes 2020
 
 Enterprise Agents
 
+User Management
+
+API
+
+Advanced Troubleshooting
+
 Endpoint Agent
+
+Endpoint Agent Installation
 
