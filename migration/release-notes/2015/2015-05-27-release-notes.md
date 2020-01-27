@@ -1,7 +1,5 @@
 # Release Notes: 2015-05-27
 
-### Release update 2015-05-27
-
 As we eke our way into June, here's a list of things that we've been having fun working on over the course of the next month.
 
 ## New cloud agent locations
@@ -19,11 +17,15 @@ These agents are immediately available to paying customers.  Please note that ac
 
 With a focus on optimization of user experience, we've replaced the disabled built-in group for both tests and agents, in favor of adding a third state in the selector for enabled items.
 
+IMAGE MISSING
+
 Found in the Test settings, Alert settings, Alert Suppression Window and Reports interfaces, the selector will now allow users to filter only on enabled targets.
 
 ## Enterprise Agent notifications
 
 To allow users to standardize on notifications for their Enterprise Agents, we've changed how we notify when an agent goes an extended period without a check-in with our collector, or when there is a time synchronization problem.
+
+IMAGE MISSING
 
 Notifications are configured in a similar manner to Alert rules, where users select the criteria and thresholds required to trigger the notifications, and configure notification targets. To configure an agent notification, navigate to _Settings_ &gt; _Agent Notifications_, and create a rule based on any combination of Last Contact and Clock Offset.
 
@@ -41,6 +43,8 @@ In addition to the configuration of rules, we've added the ability to configure 
 ### Binding notifications to agents
 
 Users can bind Enterprise Agents to Agent notification rules via either the Agent settings page or the Agent Notifications settings page.
+
+IMAGE MISSING
 
 ### Upgrade behavior
 
