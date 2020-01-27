@@ -6,6 +6,8 @@ Before the big new news, some quick announcements.
 
 ## ThousandEyes Connect
 
+IMAGE MISSING
+
 ThousandEyes Connect in New York City is November 9th. [Registration](https://www.thousandeyes.com/events/connect/new-york-2017) is open.
 
 Can't make it to New York? Maybe we'll be at an [event in your area](https://www.thousandeyes.com/events).
@@ -17,6 +19,12 @@ We're also very excited for ThousandEyes' appearance on the [Packet Pushers podc
 ## Device Layer
 
 Device Layer uses SNMP polling by ThousandEyes Enterprise Agents installed on your network to automatically discover network devices. Provide some basic configuration, and Device Layer will automatically find and monitor whatever SNMPv2c- or SNMPv3-capable device you want--routers, switches, firewalls, load balancers, wireless access points, and more! The data from Device Layer is provided to the Device Layer view, and is added to the Path Visualization view on any test with a Path Visualization that's run from an Enterprise Agent configured for Device Layer monitoring. Switch from the Path Visualization view to Device Layer view with a single click on a device.
+
+IMAGE MISSING
+
+Existing customers will have immediate access to Device Layer, with access from five monitored devices. Contact your ThousandEyes Account Manager for additional capacity.  
+  
+Documentation for [configuring Device Layer](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmpmKAC) and for [interacting with the Device Layer data](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmpqKAC) can be found in our Knowledge Base.
 
 ## Renamed view
 
