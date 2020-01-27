@@ -370,7 +370,7 @@
     * [Release Notes: 2017-03-02](migration/top-level/release-notes/2017-03-02-release-notes.md)
     * [Release Notes: 2017-02-16](migration/top-level/release-notes/2017-02-16-release-notes.md)
     * [Release Notes: 2017-02-01](migration/top-level/release-notes/2017-02-01-release-notes.md)
-    * [Release Notes: 2017-01-18](migration/top-level/release-notes/2017-01-18-release-notes.md)
+    * [Release Notes: 2017-01-18](migration/release-notes/2017/2017-01-18-release-notes.md)
     * [Release Notes: 2017-01-04](migration/top-level/release-notes/2017-01-04-release-notes.md)
   * [2016](migration/release-notes/2016/README.md)
     * [Release Notes: 2016-12-21](migration/top-level/release-notes/2016-12-21-release-notes.md)
