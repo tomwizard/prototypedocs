@@ -1,7 +1,5 @@
 # Release Notes: 2017-09-13
 
-### Release Update 2017-09-13
-
 Welcome to the last release of the summer \(or winter, for our friends in the southern hemisphere\)!
 
 If you're in the neighborhood of Sheffield, England, today was the start of the UK Network Operators Forum. If you're attending [UKNOF38](https://indico.uknof.org.uk/event/40/), ThousandEyes is a sponsor and presenter, so feel free to seek out one of our folks and say hello. If you missed it, the presentation slides for [Decoding Major Internet Outages in 2017](https://indico.uknof.org.uk/event/40/contribution/16) by ThousandEyes Solutions Engineer Nitin Nayar are available online. Click that link to see how ThousandEyes saw major events affecting Amazon Web Services, Marketo and other big logos.

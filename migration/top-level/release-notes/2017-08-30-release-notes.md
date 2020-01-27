@@ -20,8 +20,6 @@ Our newest IPv6 Cloud Agent is Helsinki, Finland. Raise your glass of glögi in 
 
 In a bidirectional Agent to Agent test \(**Direction** setting is "Both Directions\) where an Enterprise Agent is NAT'ed, it is possible that the source IP address in the outbound direction is not the same as the destination IP address in the inbound direction. Previously we only displayed the Enterprise Agent's icon with the source IP address. Now we display two Enterprise Agent icons to indicate different IP addresses, as in the example below, with the Enterprise Agent "Dallas, TX NAT":
 
-IMAGE MISSING
-
 ## Bug fixes & minor features
 
 * Added units of Mbps and Gbps for Throughput metric in Views and widgets.
