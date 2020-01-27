@@ -8,6 +8,8 @@ Additionally, the Path Visualization and BGP Route Visualization Views can be co
 
 When creating a new test, the Voice Call test configuration is available under the Voice Layer of the Test Settings page.
 
+IMAGE MISSING
+
 * **Test Layer:** Voice
 * **Test Type:** Voice Call
 * **Test Name:** __The test's name. When no name is configured, the name in the **Target Agent** field is used.
@@ -31,6 +33,8 @@ Settings for the Target Agent and the Source Agent or Agents are configured in s
 
 Note that the SIP credentials \(username and password\) for both target and source of the call should be unique within a ThousandEyes Account Group.
 
+IMAGE MISSING
+
 * **SIP User:** Name used to register with the SIP server. The username should be unique within a ThousandEyes Account Group.
 * **SIP Server:** SIP server used by the agent for registration, specified as a domain name or IP address.
 * **SIP Proxy:** \(Optional\) A SIP proxy that is distinct from the SIP server, specified as a domain name or IP address. Check the **Enable** box if a SIP proxy will be used to send SIP communication to the target, and configure the SIP proxy's domain name or IP address in the field below.  The proxy port will be the same as the value in the **Port** field.  Loose routing is used in the SIP messages.
@@ -42,6 +46,8 @@ Note that the SIP credentials \(username and password\) for both target and sour
  Once the target Agent's SIP settings have been configured, configure the **SIP Credentials for Target and Source Agent** section. All source Agents will use these settings.
 
 ### Advanced Settings
+
+IMAGE MISSING
 
 ### SIP Timing
 
