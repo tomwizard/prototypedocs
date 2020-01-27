@@ -26,6 +26,8 @@ Be sure to check the [developer reference](http://developer.thousandeyes.com/v6/
 
 We now support BGP Alert Rules evaluating covered prefixes. Check the **Alert on covered prefix data** box on the Alert Rule’s settings.
 
+IMAGE MISSING
+
 ## Cloud Agents
 
 Three new broadband ISP locations have been added to our Cloud Agent portfolio:
@@ -37,6 +39,8 @@ Three new broadband ISP locations have been added to our Cloud Agent portfolio:
 ## User management
 
 Basic Authentication and OAuth bearer token information has been moved back to the [Profile](https://app.thousandeyes.com/settings/account/?section=profile) tab under Account Settings.
+
+IMAGE MISSING
 
 ## Bug fixes & minor features
 
