@@ -16,25 +16,19 @@ A new addition to the Cloud Agent family: Lisbon, Portugal \(both IPv4 and IPv6\
 
 We've completed our refresh of the user interface for Enterprise Agent settings. This release adds the finishing touches with the new-look Agents and Clusters tabs. For example, clicking in the listing of Enterprise Agents or clusters will now display details in a sliding modal window instead of expanding a row in the list.
 
-IMAGE MISSING
-
 And warnings previously supplied by hovering over triangular red icons now are available from the yellow or red colored dots in the **Status/Last Contact** column.
-
-IMAGE MISSING
 
 ## Endpoint Agent Page Speed metric
 
 We've added a new metric to the Visited Pages view of the Endpoint Agent's Browser Sessions. The Page Speed metric is a qualitative ranking of how fast a user would perceive the page load. Values are "Very fast", "Fast", "Average", "Slow" and "Very Slow", with accompanying green-yellow-red icons.
 
-IMAGE MISSING
+## 
 
 The Overview tab displays the scores of each page browsed during the session, and the Pages and Sessions tabs provide an Average Page Speed column which provides the mean value of the session's scores.
 
 ## Device Manager CPU and Memory metrics
 
 Device Manager can now collect CPU and memory percentage used from devices which provide that information.
-
-IMAGE MISSING
 
 The Memory and CPU metrics are displayed in the rightmost columns under the **Device Table** tab of the Network view.
 
