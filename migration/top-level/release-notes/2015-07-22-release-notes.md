@@ -18,8 +18,6 @@ These agents are immediately available to paying customers. Please note that acc
 
 As mentioned above, Enterprise Agent clusters allow administrators to group agents in a single location into a single selectable entity under test selection, and distribute load across all cluster members in order to scale testing from a single location.
 
-Check out our Knowledge Base article on [Working with Enterprise Agent clusters](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmngKAC) for more information.
-
 ## Dashboard
 
 We've removed the Path Visualization capability of the Enterprise Agent status dashboard widget, and added some components to the map view:
