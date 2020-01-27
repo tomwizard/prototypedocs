@@ -422,7 +422,7 @@
     * [Release Notes: 2015-02-18](migration/top-level/release-notes/2015-02-18-release-notes.md)
     * [Release Notes: 2015-02-04](migration/top-level/release-notes/2015-02-04-release-notes.md)
     * [Release Notes: 2015-01-21](migration/top-level/release-notes/2015-01-21-release-notes.md)
-    * [Release Notes: 2015-01-07](migration/top-level/release-notes/2015-01-07-release-notes.md)
+    * [Release Notes: 2015-01-07](migration/release-notes/2015/2015-01-07-release-notes.md)
   * [2014](migration/release-notes/2014/README.md)
     * [Release Notes: 2014-11-12](migration/top-level/release-notes/2014-11-12-release-notes.md)
     * [Release Notes: 2014-10-29](migration/top-level/release-notes/2014-10-29-release-notes.md)

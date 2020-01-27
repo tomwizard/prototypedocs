@@ -1,7 +1,5 @@
 # Release Notes: 2015-01-07
 
-### Release update 2015-01-07
-
 Happy New Year to you from the team at ThousandEyes! We enjoyed our break over the holidays and hope that everybody is now back at work and fully refreshed.  
 
 The list below shows what we were working on leading up to \(and in some cases, during\) the break.  
@@ -16,9 +14,8 @@ Please note: these agents are available only on paid accounts.  Trial accounts u
 
 On December 17th, we significantly increased the number of DNS+ Vantage Points from which we measure. This increase allowed us to expand our coverage area from around 1550 vantage points in 29 countries, to over 3100 in 70 countries.  
 
-| _DNS+ Availability View prior to 12/17/2014_ | _DNS+ Availability View after 12/17/2014_ |
-| :--- | :--- |
-
+IMAGE MISSING  
+IMAGE MISSING
 
 Please note: DNS+ is sold as a premium service feature to our customers.  If you do not have access to use DNS+ in your account, contact your account representative.
 
@@ -27,6 +24,8 @@ Please note: DNS+ is sold as a premium service feature to our customers.  If you
 ### Activity Log
 
 We've released a new feature to allow organizations to view activity on their account.  Activity includes such items as user logins, test, and alert configuration changes, among other things.  The Activity Log interface is available through the Accounts interface \(**Settings** &gt; **Account** &gt; **Activity Log**\), and allows users to see various activities conducted by users on the account. [This article](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmnNKAS) covers using the Activity Log feature set.
+
+IMAGE MISSING
 
 Please note that the Activity Log will begin accumulating data as of the deployment of code tonight, and will not contain data prior to tonight's release.
 
@@ -40,11 +39,9 @@ We've continued development on our new reporting interface and refined some of t
 
 We've expanded the size of the legend for time series widgets, which will allow the legend to show on multiple lines, and group into columns. We've also added some warnings on configuration of these time series widgets, in order to make the readability of the charts more usable. The widget will warn you when more than 30 lines will be generated, and will prevent a configuration containing more than 200 lines from being created.
 
-  
-_Time series widget showing expanded legend space_
+IMAGE MISSING
 
-  
-_Time series widget line count warning_
+IMAGE MISSING
 
 ## Getting help
 
