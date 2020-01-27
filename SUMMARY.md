@@ -228,7 +228,7 @@
   * [How to configure Single Sign-On with PingOne](migration/user-management/untitled-6.md)
   * [How to configure Single Sign-On \(SSO\): Metadata](migration/user-management/untitled-5.md)
   * [Users in multiple organizations](migration/user-management/users-in-multiple-organizations.md)
-  * [Working with Account settings - ThousandEyes Customer Success Center](migration/user-management/untitled-3.md)
+  * [Working with Account settings](migration/user-management/working-with-account-settings.md)
   * [What is an Account Group?](migration/user-management/untitled-2.md)
   * [Role-Based Access Control explained - ThousandEyes Customer Success Center](migration/user-management/untitled-1.md)
   * [ThousandEyes support for SCIM - ThousandEyes Customer Success Center](migration/user-management/untitled.md)
