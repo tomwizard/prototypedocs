@@ -1,5 +1,7 @@
 # Release Notes: 2018-02-14
 
+### Release Update 2018-02-14
+
 Welcome to tonight's release, on the eve of [Valentine's Day](https://en.wikipedia.org/wiki/Valentine%27s_Day)!
 
 We hope you'll love the latest couple of ThousandEyes blog posts. Senior Solutions Engineer Nitin Nayar describes monitoring of cloud-based proxy servers with ThousandEyes, and shows how to troubleshoot an actual performance degradation event in his article entitled [Monitoring Zscaler Web Secure Gateways](https://blog.thousandeyes.com/monitoring-zscaler-web-secure-gateways/).
@@ -35,8 +37,6 @@ In addition to the aforementioned new Cloud Agents, we are changing the heuristi
 ## Virtual Appliance diagnostic for NTP
 
 Time synchronization is important for full and proper function of Enterprise Agents. In most cases, Agents should be configured to obtain time via the Network Time Protocol. The Virtual Appliance now includes a check for NTP functionality in its Diagnostics:
-
-IMAGE MISSING
 
 A warning will be shown when some of the NTP servers configured do not provide an NTP response. An error will be shown when all configured servers do not provide an NTP response.
 

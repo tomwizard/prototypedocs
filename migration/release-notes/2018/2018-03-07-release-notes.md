@@ -1,8 +1,8 @@
 # Release Notes: 2018-03-07
 
-### Release Update 2018-03-07
-
 Welcome to last night's release. Apologies for the delay in getting out the Release Update. We had a technical glitch affecting email distribution; one that we can't check for with the ThousandEyes app.
+
+IMAGE MISSING
 
 ## ThousandEyes Connect
 
