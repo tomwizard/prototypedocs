@@ -1,7 +1,5 @@
 # Release Notes: 2015-04-01
 
-### Release update 2015-04-01
-
 No jokes, but it's April Fool's day!  Check out the notes below, and let us know if you have any questions!
 
 ## Custom Headers on Browserbot tests
@@ -10,6 +8,8 @@ We've added the ability to add custom headers to Page Load and Transaction Tests
 
 Set your custom headers using the Advanced Settings tab of the test's settings, under the HTTP Request heading:
 
+IMAGE MISSING
+
 It's important to note that the custom header is only set on the main page request \(for each main page request in a transaction\), but not in components subsequently loaded each page \(including iFrame requests\).  We recommend setting the option to show HTTP headers in the event that there is an adverse impact on content rendering.
 
 ## Alert Suppression Windows: set in your own time
@@ -17,6 +17,8 @@ It's important to note that the custom header is only set on the main page reque
 We introduced Alert Suppression Windows a few weeks back: this feature allows users to suppress alerts during a fixed period of time, which can be either a single point in time or scheduled on a recurring basis.  We released just before daylight savings time kicked in, and realized: hey, what If I just want maintenance to occur every other Tuesday, at 6pm local time, instead of adjusting time relative to UTC when the clock changes?
 
 With tonight's release, you can now set your Alert Suppression Window to be based on a specific time zone's time.  The system will default to UTC, but simply select your time zone, and save your Alert Suppression Window.  The system will maintain the setting relative to your local time zone, rather than shifting based on UTC settings.
+
+IMAGE MISSING
 
 This is our first - but certainly not our last - step into timezone support.  Stay tuned for more :\)
 

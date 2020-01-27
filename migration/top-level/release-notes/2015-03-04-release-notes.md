@@ -1,5 +1,7 @@
 # Release Notes: 2015-03-04
 
+### Release update 2015-03-04
+
 Pheew! With role-based access control in the bag \(see our release notes from February 18\), we're keeping the new feature train rolling with Alert suppression windows.  That, and a few other changes make this a release that you'll want to pay attention to.
 
 ## Alert suppression windows
@@ -10,11 +12,7 @@ To manage Alert Suppression Windows, navigate to Settings &gt; Alert Suppression
 
 Using this feature is simple: create a suppression window, and assign it to specific tests. You can even create recurring windows, to handle planned maintenance that occurs on a regular basis. Each test whose results meet alerting conditions during an alert suppression window will not trigger an alert until the window has closed.
 
-IMAGE MISSING
-
 While a suppression window is active, when viewing tests to which this alert suppression window is assigned, users will see a blue bar on the alerting timeline, showing the name of the window. 
-
-IMAGE MISSING
 
 For more information, check out [this article](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmmYKAS) which discusses how to use the Alert Suppression Window feature of the ThousandEyes platform.
 
