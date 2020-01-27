@@ -1,7 +1,5 @@
 # Release Notes: 2017-07-19
 
-### Release Update 2017-07-19
-
 Welcome to our midsummer night's release!
 
 No new posts this release for the ThousandEyes blog. Even our dedicated bloggers get to take summer vacations. But if you miss reading the usual blog post or two with your Release Update, consider a trip to the ThousandEyes Knowledge base, instead? Check out a new article, such as [HTTP Server test fails with SSL Error: SSL certificate problem: unable to get local issuer certificate](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000LBCLCA4). We in Customer Success are often asked about this error, and the article explains the resolution while providing some of the theory behind digital certificate use on the Internet. Let us know what you think of the article!
