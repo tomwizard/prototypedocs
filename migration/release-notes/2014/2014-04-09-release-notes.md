@@ -12,8 +12,7 @@ At this time we do not have any known exposure to the vulnerabilities described 
 
 We've been listening to your requests: **Access 30 days of data**.  **Better zoom controls**.  Our new timeline includes all of these features, and more.  Let's look at the new timeline:
 
-  
-_Image shows 1.5 days of data around March 30._
+IMAGE MISSING
 
 The new two-part timeline is divided into two parts: an upper and lower timeline.
 
@@ -21,8 +20,7 @@ The new two-part timeline is divided into two parts: an upper and lower timeline
 
 The upper timeline shows a zoomed in view of the selected metric, allowing quick selection and identification of large spikes.  The behavior of this timeline is similar to the behavior of the classic ThousandEyes timeline - except that the old 24h \| 14d links will now show 24h \| 7d \| 14d, to change zoom controls.  The visible area on the upper timeline is controlled by the lower timeline, and the selected round will be identified by shading the entire round in a grey color.  
 
-  
-_Image shows a 15-minute data collection interval \(or, round\). with the upper timeline zoomed to show 90 minutes of data._
+IMAGE MISSING
 
 The higher the zoom level, the more evident the size of the round will be.  The upper timeline still supports the click and drag to zoom capabilities you're familiar with.
 
