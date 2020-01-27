@@ -1,7 +1,5 @@
 # Release Notes: 2018-04-11
 
-### Release Update 2018-04-11
-
 Welcome to tonight's release! We hope you had a great [Poisson d'Avril](https://en.wikipedia.org/wiki/April_Fools%27_Day#April_fish), [aprillipäivä](https://en.wikipedia.org/wiki/April_Fools%27_Day#Nordic_countries), [April Fool's Day](https://en.wikipedia.org/wiki/April_Fools%27_Day) or whatever you called your day of pranks, earlier this month.
 
 No joke--our Technical Marketing Manager, Ameet Naik, has a great blog post for businesses considering migrating to Office 365 applications, or needing monitor Office 365 after migration. Entitled [Monitoring Office 365](https://blog.thousandeyes.com/monitoring-office-365/), Ameet delves into some details of Office 365's network architecture, the differences between some of the specific apps such as Exchange and Sharepoint, and explains how ThousandEyes can provide organizations with the benchmarks and network intelligence needed to ensure performance and availability of their critical applications.
@@ -42,6 +40,8 @@ In the future, we will be adding Cloud Agents in China regions.
 
 We're introducing pagination for the Path Visualization of the Network and Network Topology views. Pagination makes Path Visualizations much easier to read and much faster to load when large numbers of nodes are present. Instead of a single page to view all nodes, we now display groups of 8 nodes. More than 8 groups of nodes results in a new page of nodes. Pagination uses the **Grouping** setting, and can be used in conjunction with filters at the page and view levels. Filters will be applied across the pages of the paginated view.
 
+IMAGE MISSING
+
 When pagination occurs, the next page will be indicated at the bottom of the page with nodes labeled "Next sources" or "Next destinations" or both, as needed. The number of nodes not displayed on the current page is the number within the node. Clicking on a "Next" nodes displays the next page, either using sources or destinations, depending on which node was clicked. To return to the previous page, click on the "Previous sources" or "Previous destinations" nodes which appear at the top of the page.
 
 ## SAML Logout
@@ -51,6 +51,8 @@ For organizations using Single Sign-On, the app now supports logout when a user 
 ## Agent to Agent test Throughput
 
 Network Agent-Agent tests have a throughput measurement option for tests created between two Enterprise Agents. Checking the **Enable Througput** box will now incur a charge for Enterprise Agents using the metered billing model. The cost is proportional to the Duration setting of the Throughput measurement.
+
+IMAGE MISSING
 
 ## Bug fixes & minor features
 
