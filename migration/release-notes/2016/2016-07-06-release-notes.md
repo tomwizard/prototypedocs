@@ -1,12 +1,10 @@
 # Release Notes: 2016-07-06
 
-### Release update 2016-07-06
-
 And, with that, we're halfway through the year! Hopefully everybody who's stateside, \(as well as our counterparts north of the border\) have managed to shake off their post-holiday weekend cobwebs.
 
 We've been busy, and have some nice features to show as a part of this week's release.
 
-##  Agent installation
+## Agent installation
 
 ### Virtual appliance for Cisco IOS XE Containers
 
@@ -22,17 +20,23 @@ We now also support installation of the Enterprise Agent package on Ubuntu 16.04
 
 We've added a feature to toggle node labels in the Path Visualization view. On the upper left of the controls, a checkbox controls whether or not node labels are shown in the visualization. Simply check this box to show node labels \(which will show the IP address or interface group name\) for the node.
 
+IMAGE MISSING
+
 If a node name is too long to display without obscuring the visualization, the label will be truncated - on a middle-out basis.
 
 ## Alerting changes
 
 We've enhanced our alerting options to allow triggering of alerts based on a longer period of time. Previously, users could alert when a minimum threshold of either agents or monitors met alert criteria up to 10 rounds in a row. This feature was great for alert dampening, but could fail to trigger under certain conditions \(such as a flapping condition\).  To set this condition, simply modify your alert rule criteria to set the minimum number of occurrences out of the number of rounds.
 
+IMAGE MISSING
+
 Note for users accessing the ThousandEyes API to pull alert rule metadata: these fields are represented as "roundsViolatingRequired" and "roundsViolatingOutOf", respectively. If you have different values for these fields, then the roundsBeforeTrigger value will not be shown in versions of the API prior to v6.
 
 ## DNS server metrics
 
 We've split the tables associated with the Server Metrics view of DNS Server tests has been split into two tabs - one for Servers, and one for Agents.
+
+IMAGE MISSING
 
 For those unfamiliar with DNS Server tests, you can take a refresher by reading [this KB article](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmmrKAC). In a nutshell, a DNS Server test is essentially a matrix that runs a test to each server in a list from each agent assigned to the test - so, you'll end up with two sets of data to pivot against:
 

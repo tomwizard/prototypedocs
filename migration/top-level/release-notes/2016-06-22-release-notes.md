@@ -4,11 +4,8 @@
 
 Almost halfway through the year, we're finally into summer!  Bring out the shorts, and welcome, event season!
 
-IMAGE MISSING
-
+  
 We'll be at Velocity Santa Clara on June 22nd.  Be sure to stop by our booth \#707 and say hello!
-
-IMAGE MISSING
 
 We'll also be attending Cisco Live in Las Vegas!  Booth \#2244 is where it's at! \(and as usual, we'll have a fresh batch of t-shirts\)
 
@@ -22,17 +19,19 @@ And, without further ado, our release updates for this week.
 
 We've added the ability to limit the number of rows for widgets which support sorting of results based on value.  This applies to bar chart \(both stacked and grouped versions\), table, and multi-metric table widgets.
 
-IMAGE MISSING
+  
+_Image showing the limit to option, present in table, multi-metric table, and bar chart \(stacked and grouped\) widgets_
 
 ### Widget size configuration
 
 We've made it easier to configure a widget as half-size by adding a control to the right hand side of the widget when viewing in Add/Remove Widgets mode.  Click the &gt; to expand a widget to full width, and &lt; to collapse a widget to half-size.
 
-IMAGE MISSING
+  
+_Image showing expand and collapse controls for report widgets._
 
 See [this article](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmnTKAS) for more information on working with reports.
 
-## Test settings changes
+##  Test settings changes
 
 ### User-Agent option changes
 
