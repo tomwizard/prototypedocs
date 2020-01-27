@@ -1,7 +1,5 @@
 # Release Notes: 2017-12-13
 
-### Release Update 2017-12-13
-
 Welcome to tonight's release--the last release of 2017. We'll have the next release in January, to give our team time with family and friends during the holidays.
 
 No new posts from the [ThousandEyes blog](https://blog.thousandeyes.com/) to announce \(but maybe a good time to catch up on some missed posts\) or December [ThousandEyes events](https://www.thousandeyes.com/events).  We promise we'll be back in the new year with more good stuff. But for tonight, we have some great presents in the form of new features. Let's open 'em up!
@@ -39,6 +37,8 @@ We're very happy to announce that ThousandEyes Virtual Appliances are now availa
 
 We've updated the user interface for specifying the time range of a report to make report creation faster and easier. More preconfigured time ranges can be selected with a single click, and relative ranges are available such as "This Month" and "Previous Month" which automatically use the correct number of days in the indicated month.
 
+IMAGE MISSING
+
 Note that a week is defined as Sunday through Saturday.
 
 Also, a Reports stocking-stuffer: we've added two DNS Trace test metrics to the list of reportable metrics: Query Count and Query Time.
@@ -51,8 +51,9 @@ Note that if an individual Enterprise Agent is already performing Device Layer t
 
 ## Path Visualization
 
-Users can now select the number of packets sent in parallel, when path tracing is performed for the Path Visualization view, using the "No. of Path Traces" setting of a test:  
- 
+Users can now select the number of packets sent in parallel, when path tracing is performed for the Path Visualization view, using the "No. of Path Traces" setting of a test:
+
+IMAGE MISSING
 
 Additional path trace packets can be useful for identifying sporadic or small amounts of forwarding loss, or for use in networks with many distinct, active paths to a target. Lowering the number could also help in situations where security devices with low thresholds misidentify the path traces as malicious traffic.
 

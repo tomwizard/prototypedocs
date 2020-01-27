@@ -6,8 +6,6 @@ Speaking of things which cause disorientation... If you're in the USA and a user
 
 And if you want to have a fun time connecting...
 
-IMAGE MISSING
-
 If you're in the New York City metro area, there's still time to sign up and come on down to ThousandEyes Connect on Thursday, November 9th! Great speakers, great t-shirts and great \(human\) networking await you. [Registration](https://www.thousandeyes.com/events/connect/new-york-2017) is still open.
 
 And now, on to tonight's release!
@@ -18,17 +16,15 @@ If you're currently signed up for a trial account of ThousandEyes, a quick heads
 
 ## New Reports snapshots scheduling interface
 
-We're updating the interface for scheduling snapshots of Reports. Here's the new look and feel:
+We're updating the interface for scheduling snapshots of Reports. Here's the new look and feel:  
+ 
 
-IMAGE MISSING 
-
+  
 No radical changes, but a bit more flexibility of configuration options, better organization and clarity. For example, we're now displaying the date and time of the next scheduled snapshot, based on the user's selections.
 
 ## Endpoint Agent
 
 We've added the hop slider to the Network Topology view:
-
-IMAGE MISSING
 
 We've also applied the hop slider setting to all the elements that can appear in a path, such as VPN and DNS servers.
 
