@@ -1,8 +1,8 @@
 # Adding user indicates email address "is valid but cannot be added at this time"
 
-Occasionally, attempting to add a new user via the Users tab to an organization in the ThousandEyes platform results in an error message indicating that the email address "is valid but cannot be added at this time":
+### Adding user indicates email address "is valid but cannot be added at this time"
 
-IMAGE MISSING
+Occasionally, attempting to add a new user via the Users tab to an organization in the ThousandEyes platform results in an error message indicating that the email address "is valid but cannot be added at this time":
 
 The error is caused by the email address having previously been used to set up a Trial organization in ThousandEyes. An email address can be used in multiple organizations if all organizations have Standard or Pro plans \(paid subscriptions\), but an email address can only be used once if used in an unpaid organization \(Trial, or the Lite plan that Trial plans become upon trial period expiration\).
 
@@ -25,8 +25,6 @@ The error is caused by the email address having previously been used to set up a
 ### Deleting the Trial or Lite organization
 
 To delete the Trial or Lite organization, log into ThousandEyes using the email address that generated the error.  Open the [Account Settings](https://app.thousandeyes.com/settings/account/?section=usage) page and navigate to the **Usage** tab.  Click the **Delete** button to delete the account permanently.
-
-IMAGE MISSING
 
  Once the account has been deleted, you cannot recover the account, nor open a new Trial or Lite account using the same email address.
 
