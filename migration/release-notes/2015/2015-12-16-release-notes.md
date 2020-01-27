@@ -1,7 +1,5 @@
 # Release Notes: 2015-12-16
 
-### Release Update 2015-12-16
-
 HO HO HO! Happy holidays from the team at ThousandEyes!  Yep, the holidays are upon us, but we'll spare you the wassailing in this week's update. Instead, Santa's loaded up his sleigh early this year, in order to bring the gift of several new features - some of which have been in development for quite some time. Check out the list below, and let us know if you have any questions.  
  
 
@@ -23,6 +21,8 @@ On November 11th, we updated some of our test names. Network tests became "Agent
 
 With this feature, we're enabling the ability for users to visualize both directions of a communication flow between agents, using either TCP or UDP. Set DSCP and payload values, and show the throughput of your network connections by modifying advanced settings of the test.
 
+IMAGE MISSING
+
 Throughout the beta phase, this feature will be available free of charge to customers running tests between enterprise agents. The feature is restricted to enterprise agents on both ends - this is to ensure that customers do not incur usage costs for using the beta.  Access to use this feature with cloud agents will be introduced once we move this feature into general availability.
 
 We've introduced new alert rule types which can be applied to these tests as well: check out [this Knowledge Base article](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnBqCAK_How-Alerts-work) for more details.
@@ -31,14 +31,16 @@ We've introduced new alert rule types which can be applied to these tests as wel
 
 With any completely new feature, we're bound to have some loose ends to tie up.  See the following list for items that will come during the beta phase, prior to general availability.
 
-* * API access for Agent-to-Agent tests is unavailable.
-  * Reporting for metrics gathered by Agent-to-Agent tests are unavailable.
-  * Only Agent-to-Agent alert rules are assignable to Agent-to-Agent tests.
-  * When reviewing an Agent-to-Agent test using Internet Explorer 11, the arrows will be... pretty big.  We're working on a way to work around this issue, but are hampered by a bug in Internet Explorer at the moment \(https://connect.microsoft.com/IE/feedback/details/781964/\).
+* API access for Agent-to-Agent tests is unavailable.
+* Reporting for metrics gathered by Agent-to-Agent tests are unavailable.
+* Only Agent-to-Agent alert rules are assignable to Agent-to-Agent tests.
+* When reviewing an Agent-to-Agent test using Internet Explorer 11, the arrows will be... pretty big.  We're working on a way to work around this issue, but are hampered by a bug in Internet Explorer at the moment \(https://connect.microsoft.com/IE/feedback/details/781964/\).
 
 ### Alerts list update
 
 We've rewritten the alerts list page to improve performance and optimize user experience. Beginning in tonight's release, when either clicking through an alert notification users will be directed to a multi-tabbed page showing a list of currently active alerts. Click through to a second tab to show the alert history over the prior 90 days, and use our new search widget to find alerts by rule name, alert ID, name, type, affected test, or status.  Check out [this Knowledge Base Article](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnBqCAK_How-Alerts-work) for more information on the alerts list.
+
+IMAGE MISSING
 
 ### Multi-organization login
 
@@ -60,6 +62,8 @@ There are a number of important changes that affect how security works in the co
 ### Updated usage tab
 
 We've also rewritten the usage tab \(found in account settings for users with permissions to view organization usage\), taking into account user feedback received.  We've simplified the interface to show more clearly the cloud units and enterprise agents allocated to the organization on a month-to-month basis, as well as the breakdowns shown for each of the sections.  Check out this Knowledge Base article for more information on [Displaying and Alerting for Cloud Unit consumption](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000Cmn9KAC).
+
+IMAGE MISSING
 
 ##  Holiday support hours
 

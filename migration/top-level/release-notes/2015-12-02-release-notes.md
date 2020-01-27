@@ -10,19 +10,13 @@ That release comes later this month. Today brings a more modest bounty. But it d
 
 Our Reports now offer the pie chart widget, in addition to all the other widgets you know and have come to love.  The pie widgets support metrics similar to those of the stacked bar chart widget, but allow for greater visual contrast.
 
-IMAGE MISSING
-
 ## Path Visualization View: Improved label positioning
 
 Love the Path Visualization view, but hate when labels for Agents overlap with nodes and links?  We do too.  So we've improved the algorithm that positions the various graphical elements in order to eliminate as much overlap as possible.  Here's a sample:
 
 **Before:** When expanding the path from Atlanta, Hong Kong and Tokyo, we overlapped elements.
 
-IMAGE MISSING
-
 **After:** No overlap!
-
-IMAGE MISSING
 
 ## Bugs squashed
 
