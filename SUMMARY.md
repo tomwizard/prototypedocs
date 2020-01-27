@@ -236,7 +236,7 @@
   * [Obtaining a list of ThousandEyes Agent IP Addresses](migration/api/untitled-3.md)
   * [How to use the ThousandEyes API](migration/top-level/api/untitled-2.md)
   * [Writing JSON to API produces HTTP 406 response code](migration/top-level/api/untitled-1.md)
-  * [Create/Update/Delete tests using the ThousandEyes API](migration/top-level/api/untitled.md)
+  * [Create/Update/Delete tests using the ThousandEyes API](migration/api/untitled.md)
 * [Advanced Troubleshooting](migration/top-level/advanced-troubleshooting/README.md)
   * [How to generate a HAR file](migration/top-level/advanced-troubleshooting/untitled-10.md)
   * [Identifying traffic from ThousandEyes Agents](migration/top-level/advanced-troubleshooting/untitled-9.md)
