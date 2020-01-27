@@ -8,6 +8,8 @@ Young Xu's latest ThousandEyes blog post summarizes a talk by Donovan Fritz of N
 
 ## ThousandEyes Connect
 
+IMAGE MISSING
+
 For folks in the Northeast US, or anyone who wants to visit the Big Apple, ThousandEyes Connect in New York City will be November 9th on historic 42nd Street! Like the city that never sleeps, registration is open 24 hours a day. There'll be great customer presentations from McGraw Hill Education and Viacom discussing how ThousandEyes helps keep their customers happy. You can also hear and meet our CEO, Mohit Lad, as well as other ThousandEyes employees--a great opportunity to provide feedback.
 
 ThousandEyes will be making the rounds of many great industry events \(Cisco Connect, ONUG, WAN Summit\) this fall. Looking for an event near you? Check out our [Events calendar](https://www.thousandeyes.com/events).
@@ -34,9 +36,13 @@ A new IPv4 Cloud Agent location: Quebec City, Quebec, Canada. Bienvenue! And wel
 
 When viewing a tooltip containing Cloud and Enterprise Agent information, we now display IP addresses of both the IPv4 and IPv6 interfaces if the Agent has active interfaces from both address families, rather than displaying a single IP address family. This will assist customers in easily creating IP address-based whitelists, among other uses.
 
+IMAGE MISSING
+
 ## Reports
 
 We've added a new metric in the Alerts category, called "All Alerts". This metric includes all types of alerts: Agent alerts, BGP and DNS+ test alerts.
+
+IMAGE MISSING
 
 ## API
 

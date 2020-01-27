@@ -1,8 +1,8 @@
 # Release Notes: 2017-09-27
 
-Welcome to the first release of the fall season!
+### Release Update 2017-09-27
 
-IMAGE MISSING
+Welcome to the first release of the fall season!
 
 ### ThousandEyes Connect
 
@@ -71,8 +71,6 @@ For the introduction of this new permission, those roles that have the existing 
 ### Map widgets
 
 We've improved the iconography for displaying status of multiple Enterprise Agents in a single geographic region. We now display online, offline and disabled Enterprise Agents on a map widget using green, red and grey arcs \(respectively\) on the border of the dot which displays the location and number of the Enterprise Agents. The length of the arc is proportional to the number of Agents in each of the three categories. For example:
-
-IMAGE MISSING
 
 In the region above, there are 8 Enterprise Agents. One is online \(green\), four offline \(red\) and three disabled \(grey\). Mousing over the dot will display a tooltip with the detailed listing of Enterprise Agents, grouped by the status.
 
