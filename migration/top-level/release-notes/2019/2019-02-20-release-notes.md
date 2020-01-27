@@ -1,5 +1,7 @@
 # Release Notes: 2019-02-20
 
+### Release Update 2019-02-20
+
 Welcome to our latest release! We hope you had a lovely Valentine's Day, this past week.
 
 Some heartwarming news, via the ThousandEyes blog. With ThousandEyes' recent announcement of our Series D round of funding, CEO Mohit Lad [takes a blog moment](https://blog.thousandeyes.com/series-d-raising-funds-and-making-new-mistakes/) to reflect on the ThousandEyes journey to date. Mohit discusses mistakes made, lessons learned and on what lies ahead, and also gives a shout out to our investor partners. And for all the folks who showed us some love and D-votion as customers, business partners, social media followers, supportive significant others or whatever role you've played to help make ThousandEyes what it is today... Much love back to y'all!

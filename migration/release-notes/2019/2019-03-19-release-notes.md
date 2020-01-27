@@ -1,7 +1,5 @@
 # Release Notes: 2019-03-19
 
-#### Release Update 2019-03-19
-
 Welcome to today's release! The equinox is nearly upon us; a time of transitions from old to new, and tonight's release will have a bit of each.
 
 But first... There's always something new springing up at the ThousandEyes blog.
@@ -44,6 +42,8 @@ To ensure that customers are aware of Enterprise Agents running on operating sys
 
 The red triangle warning icon will contain a warning with a link to the relevant documentation. The General Info panel will display a brief text message with the relevant date:
 
+IMAGE MISSING
+
 ### Docker image updated
 
 The Docker image for Enterprise Agent installation we provide is now based on Ubuntu 18.04 LTS \(a.k.a. "Bionic Beaver" or just "Bionic"\).
@@ -56,19 +56,23 @@ We will be making the transition to the new menus starting in this release, in w
 
 The upcoming release on April 2nd will see the full transition to the new menus. Here's a sneak preview, comparing the classic Menu Panel to the new Menu Panel.
 
+IMAGE MISSING
+
 We'll also be publishing an article in our Knowledge Base in the next release to help users navigate the new menus.
 
 ## Number widget improvements
 
 We've made a number of improvements to Number widgets in Dashboards and Reports. Each card in a widget now can be colorized from red to green based on the data in the card. Users can set their own ranges for the color spectrum, or allow the widget to automatically calculate ranges.
 
-  
+IMAGE MISSING
+
 Additionally, we've made the card's title and description more prominent, and added more detailed error messages when a widget is unable to populate with data.
 
 ## Waterfall search
 
-For browser-based tests \(Page Load and Transaction\) the Waterfall tab now includes a search box to find objects in the waterfall listing.  
- 
+For browser-based tests \(Page Load and Transaction\) the Waterfall tab now includes a search box to find objects in the waterfall listing.
+
+IMAGE MISSING 
 
 Search by object name, domain name or any other portion of the object's URL.
 
