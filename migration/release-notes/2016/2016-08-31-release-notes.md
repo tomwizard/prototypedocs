@@ -1,7 +1,5 @@
 # Release Notes: 2016-08-31
 
-### Release update 2016-08-31
-
 Hi everybody!
 
 Lots to announce in this week's release, so will jump into it without further ado.
@@ -10,7 +8,11 @@ Lots to announce in this week's release, so will jump into it without further ad
 
 With tonight's release, FTP moves into general availability status and out of Beta.  With FTP server tests, users can validate throughput \(both upload and download\), or validate server listings and content, running tests against servers running FTP, FTPS \(FTP over SSL\), and SFTP \(FTP over SSH\).
 
+IMAGE MISSING
+
 We've also added support for FTP server tests in version 6 of the ThousandEyes API. For more information on using the ThousandEyes API, refer to the ThousandEyes developer reference at http://developer.thousandeyes.com.
+
+For more information on configuring FTP Server tests, read [this article](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000Cmn7KAC).  For more information on results from FTP Server tests, read [this article](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmmzKAC) and [this article](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmmWKAS).
 
 ## Crash reporting for Agents
 
@@ -23,6 +25,8 @@ For more information on the new crash reporting feature, review [this article](h
 ### Hipchat and Slack integration
 
 We've added direct third-party integrations for Slack and HipChat, to go along with our PagerDuty integrations. These integrations can be used to notify your teams when there's something of interest for your tests.
+
+IMAGE MISSING
 
 You can check out details on how to enable these integrations in your alerts - review the [article here](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA044000000Cn2FCAS). 
 
