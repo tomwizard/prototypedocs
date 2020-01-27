@@ -23,8 +23,6 @@ Note: this notification will process once a new version of the agent is availabl
 
 We've added a new field for Target address/hostname to agent settings. Intended for use in Voice and other agent-to-agent tests \(coming soon!\), this option determines the target address of a test which targets the agent.
 
-IMAGE MISSING
-
 For example, if my agent has internal IP 192.168.1.223 and public IP 50.184.189.59, I would determine how to set this field based on how I wanted to target the agent in an agent-to-agent test. If attempting to reach the agent from the cloud, I would configure the Target for Tests field to reflect the public IP \(50.184.189.59\). In the event I needed to configure tests from inside my network, I would configure it to use the private IP \(192.168.1.223\).  In the event that tests are required from both inside and outside the network, I would configure DNS in a split-horizon method, where DNS inside my network points to 192.168.1.223 and outside my network points to 50.184.189.59.
 
 The Target for Tests field is configured with the agent's public IP address by default.

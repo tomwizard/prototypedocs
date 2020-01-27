@@ -1,5 +1,7 @@
 # Release Notes: 2015-07-08
 
+### Release update 2015-07-08
+
 This week's release is chock full of updates, including a new user interface, and many other improvements.  Below, find a summary of these updates.
 
 ## ThousandEyes has a fresh new look
@@ -14,8 +16,6 @@ We've also reorganized the user menu, mini-dashboard icons and the help and supp
 
 ### Views
 
-IMAGE MISSING
-
 All of your test results can now be found in the Views menu item.
 
 1. To open your test results, click Views, and select your test from the picker in the upper left of the page.  As you navigate between tests, the view you currently have selected will be maintained.
@@ -26,8 +26,6 @@ Refresh no more: Views will now seamlessly auto-refresh every 2 minutes.
 
 We've also added an enhanced search interface to the Path Visualization and BGP Route Visualization interfaces. Using this interface, users can now search not only by network and country, but also by IP address, rDNS name, or network prefix.
 
-IMAGE MISSING
-
 ### Dashboard and Reports
 
 Our new dashboard incorporates a responsive design: it now takes up the full size of your browser window, auto-expanding widgets to take up the full width of the page.  The dashboard, along with Reports, is among the application's first pages to do so.
@@ -36,17 +34,11 @@ Our new dashboard incorporates a responsive design: it now takes up the full siz
 
 A save button for saving an event \(1\), and a share button \(2\) for sharing a snapshot are now at the top of the views page.
 
-IMAGE MISSING
-
 To control live sharing \(sharing either with another account in your organization \(1\), or with another ThousandEyes customer \(2\)\), go to Test settings and pick recipients from the sharing panel on the right hand side of the page.
-
-IMAGE MISSING
 
 ### Getting Help & Support
 
 If you're looking for help, don't worry: our team is here for you. Navigate to the question mark icon in the top navigation menu to access Help & Support. From the enhanced Page Guide, to the Customer Success center, we're working to provide you with all the resources you need.
-
-IMAGE MISSING
 
 If you need to engage our team to ask a question, just open a live chat and we'll be happy to assist.
 
@@ -69,8 +61,6 @@ We've added the ability to test a service-provider initiated single-sign-on atte
 ### Adding new users
 
 We've added better error logging when adding new users.  When attempting to add multiple users at once, if a user already exists in another account, an error message will indicate which user was unable to be added, and why.
-
-IMAGE MISSING
 
 ### Custom virtual appliance
 
