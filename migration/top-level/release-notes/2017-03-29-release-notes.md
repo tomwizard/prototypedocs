@@ -2,8 +2,6 @@
 
 A reminder as gentle as an April shower:
 
-IMAGE MISSING
-
 The next ThousandEyes Connect event will be held in Bellevue, Washington, on April 20th, 2017.  Still time to [save yourself a spot](http://www.thousandeyes.com/events/connect).
 
 The third article by Young Xu in her series on application and network monitoring in China, [Monitoring DNS in China](https://blog.thousandeyes.com/monitoring-dns-in-china/), is available on the ThousandEyes Blog.
@@ -17,8 +15,6 @@ Instant Tests now provide the RTP Stream, Agent to Agent and Voice Call \(availa
 **Enterprise Agent**
 
 In the [February16th release](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CntvCAC), we added the capability to unlock a Virtual Appliance if customers required \(unsupported\) modifications to the underlying Linux operating system.  We now show unlocked status in the General Info section of an unlocked Agent, in the Enterprise Agents page:
-
-IMAGE MISSING
 
   
 **Endpoint Agent**

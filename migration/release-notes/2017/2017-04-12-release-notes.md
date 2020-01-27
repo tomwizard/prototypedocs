@@ -1,8 +1,8 @@
 # Release Notes: 2017-04-12
 
-### Release Update 2017-04-12
-
 Don't forget...
+
+IMAGE MISSING
 
 The next ThousandEyes Connect event will be held in Bellevue, Washington, on April 20th, 2017.  A great time to be in Seattle, with Earth Week festivities starting the day after ThousandEyes Connect.  [Save your spot](http://www.thousandeyes.com/events/connect) for Connect.  And after Connecting, head outdoors to enjoy the festivities and the great Northwest, perhaps sporting your new [ThousandEyes t-shirt](https://www.thousandeyes.com/tshirt).
 
