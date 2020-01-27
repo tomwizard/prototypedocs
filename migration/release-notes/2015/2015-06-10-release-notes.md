@@ -1,7 +1,5 @@
 # Release Notes: 2015-06-10
 
-### Release update 2015-06-10
-
 Almost every day, we get questions from customers on the subject of alerting; Questions along the lines of alert thresholds, alerting granularity, and how to manage things like latency alerts that vary on a regional basis. This week's release focuses largely on increasing the capabilities of our alerting system, which will allow users to more effectively manage their alerting granularity.  
  
 
@@ -13,11 +11,13 @@ We've made a number of changes to alerting: check out the KB article on [How Ale
 
 We've added a new category of alert rule based on the results of Path Trace. Users can configure alerts on specific hops from either the source or destination, based on network latency, reverse DNS, AS Name, Prefix, or IP address.  To add a path trace alert, choose the **Network** layer, and alert type **Path Trace**, then add criteria to alert based on specific hops in the path.
 
+IMAGE MISSING
+
 ### Agent location filters
 
 Beginning today, users can configure alert rules with Agent location filters; This will allow users to configure alert rules on a regional basis, allowing users to set rules which are region and/or location-specific. In conjunction with the Path Trace alerts above, this can be used to effectively manage alerting on both Anycast and Unicast destinations, as well as handle regional variations in latency for test results coming from Agents located around the world.
 
-Agent location filters can be inclusion or exclusion-based.
+IMAGE MISSING
 
 When defining alert rules with location filters, we recommend creating generic alert rules which will apply to a specific country, or region.  Tests leveraging these alerts will self-select based on the intersection of the agents assigned to the test, and on the agents in a specific location.
 
