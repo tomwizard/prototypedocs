@@ -45,8 +45,6 @@ And now for the details of the latest release.
 
  We've added an Overview page to the other pages under the Endpoint Agents menu. The Overview provides a dashboard-style view of Agent activity, with a variety of widgets highlighting data for Browser Sessions, Scheduled Test and our new Experience Score. Check it out!
 
-IMAGE MISSING
-
 ### Browser Session View improvements
 
  We've improved the Browser Sessions View to better represent the experience of a user interacting with a web application.
@@ -54,8 +52,6 @@ IMAGE MISSING
 ### Anonymize IP addresses in Endpoint Agent snapshots
 
 When creating a snapshot of Endpoint Agent data, the **Anonymize data that identifies users** checkbox will now anonymize IP addresses within the networks of the organization with the Endpoint Agents.
-
-IMAGE MISSING
 
 The Network Layer of the Wireless Topology, as well as the Path Visualizations of the Network Sessions and the Scheduled Tests are anonymized.
 
@@ -75,15 +71,13 @@ Endpoint Agent's Scheduled tests now support IPv6 and support TCP as the protoco
 * Filters have been added to the Device Layer, enabling users to view slices of data with any number of Agents, devices or interfaces. The filter works in all Views \(present and future\) as well as in elements within a View, such as the topology graph and tables. Search boxes in the tables have been removed.
 * The Device and Interface selectors have been moved into the filter.
 * Tooltips have been redesigned.
-* The timeline has been redesigned to display Metrics which have two related values, such as Throughput \(input and output directions\) in an above-below manner:  IMAGE MISSING
+* The timeline has been redesigned to display Metrics which have two related values, such as Throughput \(input and output directions\) in an above-below manner: 
 * The Topology graph can now display sections \("islands"\) discovered by multiple Agents. Devices not included in an island are faded in the display.
 * The Topology graph will paginate automatically when a large number of islands are viewed.
 
 ### User-defined IP addresses
 
  In a device's Advanced Settings, users can now supply a user-defined IP address for the device:
-
-IMAGE MISSING
 
 This setting can be helpful for adding addresses to devices like load balancers or routers where the address is not associated with a specific interface and cannot be obtained by Device Layer discovery. The user-defined address\(es\) will be used to match devices in the Path Visualization in order to render single devices with multiple IP addresses, rather than rendering multiple devices.
 
