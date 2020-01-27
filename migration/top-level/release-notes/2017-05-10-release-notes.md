@@ -1,5 +1,7 @@
 # Release Notes: 2017-05-10
 
+### Release Update 2017-05-10
+
 Welcome to tonight's program!
 
 Headed to Interop in Las Vegas next week? Stop by our booth and introduce yourself if you're a new ThousandEyes customer, or renew acquaintances if you're a long-standing ThousandEyes users. Either way, you'll probably get a t-shirt for your efforts.
@@ -16,13 +18,9 @@ Agent utilization is a common subject of support cases. We've added two new feat
 
 We've changed the way Agent Utilization is reported by clustered Enterprise Agents. Previously, we reported utilization of the cluster members, rather than the cluster itself. We've now switched: utilization of clusters is now reported under a new **Cluster Statistics** tab, and the individual Agents no longer display the **Agent Statistics** tab, as long as they remain in the cluster.
 
-IMAGE MISSING
-
 ### Cross-Account Group Test Management
 
 To more quickly address high utilization, we've added a utility for managing tests assigned to Enterprise Agents and Enterprise Agent clusters. A new **Manage** link is available on the Agent Utilization graph under the Agent Statistics tab \(individual Enterprise Agents\) or on Cluster Utilization graph under the Cluster Statistics tab \(Enterprise Agent clusters\). Clicking the link will display a list of the test queues for which the Agent has at least one test assigned.
-
-IMAGE MISSING
 
 In the above image, the Enterprise Agent has utilization graphs for four queues:
 
@@ -35,11 +33,7 @@ In the above image, the Enterprise Agent has utilization graphs for four queues:
 
 Clicking on one of the queues displayed by the **Manage** link will open the Manage Utilization window. The window displays a list of Account Groups and the number of tests from each Account Group that the Agent is running. Expand an Account Group and select an individual test, or all tests by selecting the Account Group. Then click the **Remove** button to remove these tests from the Agent.
 
-IMAGE MISSING
-
 When the **Send email notifications to users who made the last change on removed tests** box is checked, an email with a subject of "Tests removed for agent - &lt;Agent name&gt;" is sent to the login email address \(as configured in the user's Profile tab of the Account Settings\) of said user:
-
-IMAGE MISSING
 
 ## Bug fixes & minor features
 
