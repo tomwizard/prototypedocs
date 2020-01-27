@@ -134,21 +134,21 @@ To delete an user, open the Application from Okta,
 
 From the home page, go to Applications &gt; Applications
 
-![](https://lh5.googleusercontent.com/Vg9ot6DnKEQfdg3KC1AlbCRI8hHImM29KI9RxztX8svreZOKXo-n5LdW-FW35p0Knz9-kKDeUw6fTYRsbkIgw3us6-zyAzQ9wje6kWELUfXNQ22Kw8QBVHhitrdG-raSUnkAcB0a)
+IMAGE MISSING
 
 Then click in the newly added app:
 
-![](https://lh6.googleusercontent.com/2BmHRop9_NvXuKuvJdYAi6jdL3A87wh0PWdeekEIAELjwc0wl17yzdVb8v9_pwYPAKxp5XMjhS39cIH_u3Nqu2PHun1v9UnuI4O_XS5ySMKhrhRD7vE1lVk0u8S20dsK3j48KSnd)
+IMAGE MISSING
 
 Now click on the “X” button next to the user you want to delete:
 
-![](https://lh4.googleusercontent.com/ot42yC0zqchNyf5d3AAxlE0QdvSlDHiwxlI7tyP5hVduCiJhdEsMMw2NmquSbwYyhtnxPmLp5wza8kX9xkRW3YmeIaOxoxBQnw165x9vOsfk2s-WnXJtSFHE3I84bZrLb0rSrNDF)
+IMAGE MISSING
 
 Confirm the prompt to verify that the user will be unassigned from the Application:
 
-![](https://lh5.googleusercontent.com/HA-FFG6G6T5iyzZlP8IaQH1IYGS7HtXp5b6pr3xK97avsj-89o60oMG_3KnNoofT0vdjXLGjTERHw6VJdxWQFcZguKZxcnr9fkOq4WcmcBltFdT1HSOqIqdZqh6Qj46REFoynOha)
+IMAGE MISSING
 
 The user should be shortly deleted from ThousandEyes. This is also verifiable within the Users section within Account Settings
 
-![](https://lh3.googleusercontent.com/PsxZwFVp-xRxLucDL3-vbap1lgh644VYicrYDqaBO2s1HWdMX1L36zKp4z2jJQ_DrAgBf-KVbpHN1pvzvz5YvKY5ROHj_mSTJk2lb4PMCJFMUD2TJeJRNZtIc8WuKExhkqWYsJwm)
+IMAGE MISSING
 
