@@ -1,7 +1,5 @@
 # Release Notes: 2014-07-09
 
-### Release update 2014-07-09
-
 Hard to believe, but we're already halfway through the year!  Some interesting updates have come through, but as Mr. Sinatra once said, the best is yet to come... We've made some changes in the product in this week's release; check out the list below.
 
 ## Agent nomenclature change
@@ -18,7 +16,7 @@ Built-in Agent groups have been updated to reflect the new agent Labels. This do
 
 We've added the ability to toggle BGP data collection on or off for tests which include network measurements. Previously, BGP data collection was enabled for all tests which include network measurements, unless the target was a CDN-hosted domain. With tonight's change, you can now select whether or not you want BGP data to be collected against your target domain - and can individually select which BGP monitors will be polled for reachability, path changes and updates. This flag will default to enabled for all tests, with the exception of those testing CDN-hosted targets. CDN-hosted targets will have the option disabled by default, but can be overridden.  
 
-_Advanced network settings option_
+IMAGE MISSING
 
 As a reminder, BGP data is not collected from ThousandEyes Agents; we aggregate information from public BGP aggregators, or private BGP peers, and monitor the availability of your target prefixes from each of those peers.
 

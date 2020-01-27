@@ -1,27 +1,22 @@
 # Release Notes: 2014-07-23
 
-### Release update 2014-07-23
-
 Wow, end of July already! During tonight's maintenance window, we cut our datacenter over to a new power system, in order to avoid a prolonged outage later this month - as a result, our maintenance ran a little longer than expected.  Check out some of the recent updates and see what's important to you.  
 
 ## Browser compatibility
 
 We've updated the platform to prevent access to incompatible browsers, and display an appropriate warning message. Users using versions of Internet Explorer prior to version 9 \(or those using the compatibility mode option\) will now see the following page when attempting to authenticate into the platform. Our supported browser list includes current versions of Google Chrome, Safari, FireFox and Internet Explorer 9+.
 
-  
-_Internet Explorer 7 view when hitting any ThousandEyes page_
+IMAGE MISSING
 
 ## ThousandEyes Recorder 
 
 We've deprecated the legacy version of the ThousandEyes recorder.  For versions that were not sourced from the Chrome store, users will begin seeing an icon atop the recorder icon in the toolbar, similar to the one below:
 
-  
-_Recorder Upgrade notification_
+IMAGE MISSING
 
 When clicking the link, users will see the recorder open, with a warning shown at the top of the window that there is an upgrade available.  Click the Install Now link to download the latest version of the ThousandEyes Recorder from the Chrome Store.  
 
-  
-_ThousandEyes recorder showing upgrade notification_
+IMAGE MISSING
 
 Note for users with saved tests: your test data will be retained when upgrading to the new version of the ThousandEyes recorder.  Once you've installed the latest version of the recorder, it will self-update from the Chrome Store as we publish updates.
 
