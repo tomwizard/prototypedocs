@@ -14,10 +14,6 @@ Reports
 
 Internet Insights
 
-API
-
-Endpoint Agent Installation
-
 Using DNS+
 
 Outage Detection
@@ -50,7 +46,11 @@ Enterprise Agents
 
 User Management
 
+API
+
 Advanced Troubleshooting
 
 Endpoint Agent
+
+Endpoint Agent Installation
 
