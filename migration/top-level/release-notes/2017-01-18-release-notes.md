@@ -10,8 +10,6 @@ If you're in the London area, come and visit our UK team at UKNOF, taking place 
 
  We’ve revamped the Instant Tests feature to make it accessible from more locations in the application, and easier and more flexible to configure Instant Tests, based on configuration of existing scheduled tests. Moreover, Instant Tests now look and feel more like scheduled tests. You can now save and share data produced by Instant Tests.
 
-IMAGE MISSING
-
 Check out the Knowledge Base article [Working with Instant Tests](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnaUCAS) for more information.
 
 ## Minor changes and features
