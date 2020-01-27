@@ -1,7 +1,5 @@
 # Release Notes: 2017-03-02
 
-### Release Update 2017-03-02
-
 Welcome to March!  February said goodbye in spectacular fashion, with a major Amazon Web Services \(AWS\) outage of their Simple Storage Service \(S3\), this past Tuesday.  The outage caused many cloud-based applications built on S3 to come crashing to earth, and left users of those apps searching for an explanation that did not involve supernatural evil forces.
 
 Fortunately, ThousandEyes was not one of those affected cloud-based applications.  So while we here in the ThousandEyes office couldn’t swap photos of each other \(taken at our week-long company kick-off meeting\) via Slack, we could still use our own product to figure out why almost everything we use was having issues.
@@ -18,9 +16,15 @@ We’ve added IPv6 cloud agents in Oakland and New York City, bringing us up to 
 
 ### Test Views
 
-The world map on the Map tab of test Views now displays Agents which failed to collect data distinctly from Agents that collect data which represent error conditions. A red dot will indicate error conditions:  
+The world map on the Map tab of test Views now displays Agents which failed to collect data distinctly from Agents that collect data which represent error conditions. A red dot will indicate error conditions: 
+
+IMAGE MISSING
 
 Also, we've introduced a new filter for the Endpoint Data. The "Network" filter allows users to select Endpoint Agents by the network owner, as determined by Whois. As an example, you can quickly view Endpoint Agents using a particular Internet Service Provider when trying to determine if Endpoint Agents with bad metrics have a common ISP:
+
+IMAGE MISSING
+
+IMAGE MISSING
 
 The Network filter is also available in the list of filters for Reports widgets, so that you can filter by service provider when creating reports.
 
