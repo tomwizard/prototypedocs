@@ -15,7 +15,8 @@ All that, and our product team has been busy too. Without further ado, please se
 
 We've long-touted the ability to conduct active synthetic testing from our cloud agents. Today's release adds the ability to instrument the target of your tests by deploying an enterprise agent in line with your test targets, and provide bidirectional network data back to your destination.
 
-IMAGE MISSING
+  
+_In this image, you can see both directions of a path between two enterprise agents._
 
 Whether it's helping to understand and diagnose asymmetric routing issues \(is my loss on the forward or reverse path?\), or providing additional data around your critical services, Agent to Agent tests will provide an unparalleled look at the flow of packets in your network infrastructure.  In addition, we're now including a feature known as NAT Traversal, which allows bidirectional communication between an Enterprise Agent behind a firewall and a Cloud Agent.
 
@@ -35,7 +36,8 @@ For more information on the various aspects of Agent to Agent tests, see the fol
 
 Not major from a functionality perspective, but a significant change to how the views look, we've changed the representation of the BGP Route Visualization view to render BGP monitors as diamonds, rather than circles. This is largely in view of differentiating BGP Route Visualization from Path Visualization.
 
-IMAGE MISSING
+  
+_New representation of monitors in BGP Route Visualization \(diamond shapes instead of circles\)_
 
 ## Reporting enhancements
 

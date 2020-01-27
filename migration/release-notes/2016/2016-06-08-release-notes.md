@@ -1,7 +1,5 @@
 # Release Notes: 2016-06-08
 
-### Release update 2016-06-08
-
 As always, our product marketing team has been busy blogging about interesting happenings in the world of networking.  On deck this week are pieces from Archana Kesavan covering [Network Visibility in NAT Environments](https://blog.thousandeyes.com/network-visibility-nat-environments/), and [Network Visibility for Reverse Path](https://blog.thousandeyes.com/network-visibility-for-the-reverse-path/) of connections - two new features exposed by our Agent to Agent test capability, released last month.
 
 In addition, we've got a great summary and video for Ivan Shepherd \(leader of the Network and Technical Security team at AIM Specialty Health\) presenting at our ThousandEyes Connect NYC event last month.  In this piece, he talks about [Visibility into Service Delivery for Telecommuters at AIM Specialty Health](https://blog.thousandeyes.com/visibility-telecommuter-services-aim-speciality-health/)
@@ -14,26 +12,25 @@ Without further ado, let's get to the updates for this week's release!
 
 We've released a new reporting widget, called a Box & Whiskers chart. This chart plots 5 data points per time series value, plotting minimum, maximum, median, and first quartile \(25th percentile\) and third quartile \(75th percentile\) values, all on the same chart.  A sample of a Box & Whiskers report widget, reporting on HTTP Throughput can be found below:
 
-_Box & Whiskers report widget sample_
+IMAGE MISSING
 
-Good for representing multiple metrics in a single chart, this shows minimum, maximum and spread data, with emphasis on the middle quartile of data. Add this widget to your reports by dragging in the icon that looks like this: 
+Good for representing multiple metrics in a single chart, this shows minimum, maximum and spread data, with emphasis on the middle quartile of data. Add this widget to your reports by dragging in the icon that looks like this:  IMAGE MISSING
 
 ### Increased label column width
 
 Coming from customer feedback, we've increased the width of the leftmost column in table widgets, and the label area in bar charts, to accommodate longer test names, when tests are aggregated by user-entered fields.
 
-  
-_New rendering of bar charts, with more room for test names_
+IMAGE MISSING
 
-  
-_Prior rendering of bar charts_
+IMAGE MISSING
+
+As always, refer to our [KB Article on Working with Reports](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmnTKAS) for more information!
 
 ## Agent settings
 
 We've changed the look & feel of the Agent Settings page, adding a set of tabs representing various options on the agent.
 
-  
-_Figure: New agent settings view_
+IMAGE MISSING
 
 Under the **Basic Configuration** tab, you'll find the agent name, notifications, account groups and tests configuration options.  
 Under the **Advanced Settings** tab, you'll find the "Behind a NAT" setting, as well as the "Target for Tests" option.    
@@ -55,8 +52,7 @@ HTTP Server tests will run with a default User-Agent string of curl/7.48.0-DEV \
 
 Users can always override the User-Agent string used by their tests by modifying the User-Agent setting in the Test's advanced settings.
 
-  
-_User Agent selection found in Advanced test settings_
+IMAGE MISSING
 
 For users wishing to filter ThousandEyes traffic from ThousandEyes should do so based on the presence of the X-ThousandEyes-Agent header.  See [this article](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmnyKAC) for more details.
 
