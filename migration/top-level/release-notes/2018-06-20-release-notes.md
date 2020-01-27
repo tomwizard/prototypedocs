@@ -1,10 +1,10 @@
 # Release Notes: 2018-06-20
 
+### Release Update 2018-06-20
+
 Welcome to tonight's release!
 
 Summer in the northern hemisphere is nearly here, and winter is coming to the south. Which means it's almost time for...
-
-IMAGE MISSING
 
 The full schedule has just been posted for [ThousandEyes Connect](https://www.thousandeyes.com/events/connect/santa-clara-2018) in Silicon Valley on July 12th. In the morning session, we've got great talks by some impressive speakers, including:
 
@@ -57,8 +57,6 @@ In the [previous release](https://success.thousandeyes.com/PublicArticlePage?art
 ### Download in PDF format
 
 Reports can now be downloaded in Adobe Portable Data Format \(PDF\) format. On the Reports page, select a report using the **Current** report selector, and then click the **Download** link.
-
-IMAGE MISSING
 
 ### Filters for Report Snapshots
 
