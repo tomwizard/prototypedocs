@@ -2,6 +2,8 @@
 
 Today, we held ThousandEyes Connect SF 2016 in San Francisco. Between great presentations from Microsoft, RichRelevance, Zendesk and Cisco, and advanced & essentials workshops, we had some fantastic discussion. For those who couldn't make it, we'll be posting some of the content up on the [ThousandEyes Blog](https://blog.thousandeyes.com/), so be sure to keep an eye out for updates.
 
+IMAGE MISSING
+
 And... without further ado, here are tonight's release updates.
 
 ## Cloud agent provider information
@@ -10,18 +12,15 @@ Provider information for cloud agents will now be shown in circumstances where a
 
 * in Cloud Agent settings
 
-  
-  _Settings &gt; Cloud Agents page showing provider list_
+  IMAGE MISSING
 
 * in the Agent picker in test settings and Instant tests
 
-  
-  _Test settings / Instant test settings agent picker, filtered for Cogent_ 
+  IMAGE MISSING
 
 * in Views which contain a table tab, when hovering over the cloud icon next to the agent name
 
-  
-  _End-to-End metrics view, hovered over the cloud icon, showing that the agent resides in the AxcelX Technologies LLC network, but uses Level3 as a majority provider_
+  IMAGE MISSING
 
 In order to keep this list of providers short, we are leveraging custom names \(ie, _Level 3_ instead of _Level 3 Communications, Inc._\), and only showing providers where a majority next hop provider is identified from BGP information for the agent.  If you're unclear on the specific network where traffic is routing through, check the path trace information for your tests.  In this case, a minimum threshold of 30% must be seen in order to show a provider.  Up to 2 providers will be shown.
 
