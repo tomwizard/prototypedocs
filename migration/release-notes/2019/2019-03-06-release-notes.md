@@ -1,7 +1,5 @@
 # Release Notes: 2019-03-06
 
-### Release Update 2019-03-06
-
 Welcome to our latest release!
 
 Two new yet related blog articles to plug from our VP of Product Marketing, Alex Henthorne-Iwane. Alex dives into the DevOps world to demystify the latest buzzword: AIOps. In [What is the Point of AIOps?](https://blog.thousandeyes.com/what-is-the-point-of-aiops/) and [Solving the Visibility Gaps AIOps Leaves](https://blog.thousandeyes.com/solving-the-visibility-gaps-aiops-leaves/), Alex provide framework for discussing DEM in today's cloud-centric world.
@@ -24,8 +22,9 @@ When a Report or a Dashboard is edited concurrently by more than one user, we no
 
 ## Device Layer
 
-We've improved the user experience for Device Layer setup. Users who have yet to configure any Device Layer monitoring will now see a "Get Started With Devices" wizard on the Device Settings page, which will walk users through the configuration to monitor devices.  
- 
+We've improved the user experience for Device Layer setup. Users who have yet to configure any Device Layer monitoring will now see a "Get Started With Devices" wizard on the Device Settings page, which will walk users through the configuration to monitor devices.
+
+IMAGE MISSING
 
 Also, we've modified the modal which appears when clicking the **Find New Devices** button on the Device Settings page. The new modal is a slide-out, and provides some additional options and instructions, when discovering new devices.
 
