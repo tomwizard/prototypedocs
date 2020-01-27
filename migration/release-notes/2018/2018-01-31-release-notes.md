@@ -28,8 +28,11 @@ As [announced back in September](https://success.thousandeyes.com/PublicArticleP
 
 ## Public BGP Monitors
 
-For Routing - BGP tests and for other tests with **Collect BGP data** checked in the Advanced Settings, we are making a change to the way Public BGP Monitors are assigned to tests. In order to facilitate future improvements, users will now select either all of the Public Monitors or none:  
- 
+For Routing - BGP tests and for other tests with **Collect BGP data** checked in the Advanced Settings, we are making a change to the way Public BGP Monitors are assigned to tests. In order to facilitate future improvements, users will now select either all of the Public Monitors or none.
+
+IMAGE MISSING
+
+IMAGE MISSING
 
 Private BGP Monitors will continue to be individually selectable.
 
@@ -45,8 +48,9 @@ When creating or updating a test that uses BGP monitoring, use the new {"usePubl
 
 ## BGP Path Visualization
 
-We've enhanced the information we provide on path changes to the BGP Path Visualization. Along with the number of changes, we now list the AS path of the changes and the timestamps. Mouse over a BGP monitor in the Path Visualization to display the tooltip, and a **View details of path changes** link will be available. Clicking the link will display a modal which lists the changes:  
- 
+We've enhanced the information we provide on path changes to the BGP Path Visualization. Along with the number of changes, we now list the AS path of the changes and the timestamps. Mouse over a BGP monitor in the Path Visualization to display the tooltip, and a **View details of path changes** link will be available. Clicking the link will display a modal which lists the changes:
+
+IMAGE MISSING
 
 This information is particularly helpful when a series of changes happens within a round \(15-minute span\) such that the initial path and final path are the same, as with the example above. Now users can see the sequence of changes.
 
@@ -54,7 +58,8 @@ This information is particularly helpful when a series of changes happens within
 
 An Endpoint Agent can now be moved to a new Account Group. On the **Agents &gt; Endpoint Agents** page, click the More Actions icon and select Transfer Ownership.
 
-  
+IMAGE MISSING
+
 A role with the Edit endpoint agent settings permission is required in both the source and target Account Groups.
 
 ## New Transaction test command
