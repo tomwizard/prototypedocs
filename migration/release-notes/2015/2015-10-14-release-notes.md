@@ -6,11 +6,15 @@ It's a relatively light release for us feature-wise as summer grinds to a halt a
 
 In the Path Visualization view, when you hover over an agent, you're used to seeing a plethora of information about the agent: The IP address, which network it's hosted in, geolocation information, as well as the detailed network metrics associated with the end-to-end measurements we've taken in the network component of a test.  We've added destination IP and a link to the BGP Route Visualization view for the specific IP being hit by the agent in the context of the current test.  In the figure below, we're hovering over the New York agent on the left, and showing the destination IP as 199.16.156.38.  When clicking the BGP View link, BGP Route visualization will open in the context of this test, and in the context of the most specific prefix we've detected advertising this IP.
 
+IMAGE MISSING
+
 This can be tremendously useful when attempting to correlate application failures to BGP events, particularly in a geographic server load load balancing \(GSLB\) situation where multiple IPs are seen in different prefixes.
 
 ## Reset virtual appliance password
 
 We've been shipping a script with the ThousandEyes Virtual Appliance \(te-va-webpwdreset\) for some time which allows you to reset the password on the appliance.  Until now, it's always reset the password back to the default - but with today's update, you can now call it with a password parameter to set the password of your own choosing.  In order to do so, you require SSH access to the Virtual Appliance.  To reset the password without SSH access, users can now press the R key from the VA console in order to reset the password.
+
+IMAGE MISSING
 
 ## Transaction steps read/write support via API
 

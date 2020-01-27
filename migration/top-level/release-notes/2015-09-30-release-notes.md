@@ -1,16 +1,20 @@
 # Release Notes: 2015-09-30
 
+### Release Update 2015-09-30
+
 It's been another busy couple of weeks for the team here at ThousandEyes.  We're introducing a number of changes in user interface behavior this week, as well as changes to improve the performance of various components of the platform.  Check out our notes below, and let us know if you have any questions!
 
 ## Search behavior in path visualization
 
 A few minor behavioral updates to how search works in Path Visualization and BGP visualization interfaces.  When entering search criteria into the search box, elements matching the search will be emphasized on the visualization, by dimming other elements in the visualization.  This will make it simpler to scan the visualization and find matching elements.  We've removed the yellow highlight that was traditionally used to emphasize the elements in the visualization matching the search criteria.
 
-IMAGE MISSING
+  
+_Example search for "digital", which matches on AS Name "Digital Ocean" of several nodes shown in the path visualization._  
 
 When one or more objects is found by the search, the number of objects matching the search will be shown below the search box; click this link in order to select the highlighted objects in the visualization.
 
-IMAGE MISSING
+  
+_Searched objects identified and selected.  Click the Deselect All link beside the Quick Selection selector, or double click in whitespace in the visualization to clear the selection._
 
 ## Reports
 
@@ -20,9 +24,11 @@ We've added some major features to our reporting capabilities this week: Stacked
 
 Stacked bar charts are generally useful for composite metric data \(such as HTTP response or fetch time\), and comparing values between multiple tests, or comparing values on a country basis. The following two examples use the same four HTTP server tests and show data breakdown on using different groupings:
 
-IMAGE MISSING
+  
+_Stacked bar chart representing fetch time, grouped by test \(oriented horizontally\)_
 
-IMAGE MISSING
+  
+_Stacked bar chart representing fetch time, grouped by continent \(oriented horizontally\)_
 
 At present, users can report on representing multi-metric timings, such as:
 
@@ -36,7 +42,8 @@ Both options can be oriented either vertically or horizontally, however our gene
 
 Grouped bar charts can operate either as column \(vertical\) or bar \(horizontal\) charts, in order to represent your data.  As with stacked charts, grouped charts allow breakdown on a regional basis as well, but represent all data as single bars. The example below shows a the same data as in the stacked charts, but breaks down the data on both a test and continent basis.
 
-IMAGE MISSING
+  
+_Grouped bar chart representing fetch time, grouped by continent \(oriented horizontally\)_
 
 For more information on using Bar Charts in reporting, [refer to this article.](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmnTKAS)
 
