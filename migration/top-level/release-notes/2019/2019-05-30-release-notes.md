@@ -18,8 +18,6 @@ A more-or-less final warning: Enterprise Agents running on Ubuntu 14.04 LTS \(a.
 
 So, check your [Enterprise Agents Settings page](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents), and look for a red triangle warning icon \(\) in an Agent row. Hovering over the icon produces an **Agent OS is Unsupported** warning. Also, the General Info panel for the Agent will display additional details:
 
-IMAGE MISSING
-
 If any of your Enterprise Agents are in this state, review the ThousandEyes Knowledge Base article [How to plan for Enterprise Agent upgrades](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA02R000000Q52FSAS_How-to-plan-for-Enterprise-Agent-Upgrades). Feel free to contact the Customer Success team for further advice.
 
 ## Enterprise Agent targets using privileged ports
