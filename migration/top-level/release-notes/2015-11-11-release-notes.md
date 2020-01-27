@@ -18,8 +18,6 @@ These changes have made it into alert rule configuration, test settings, and the
 
 ## Reports: adios, pastels!
 
-IMAGE MISSING
-
 We've made the base colors of the time series report type consistent with the bar and column graphs. This will make it simpler to differentiate between time series values.
 
 ## SSLv3 decommissioned
