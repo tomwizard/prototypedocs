@@ -1,10 +1,10 @@
 # Release Notes: 2018-09-26
 
+### Release Update 2018-09-26
+
 Welcome to tonight's release! The first of the new season, to go along with explosions of green or multi-colored leaves, depending on your latitude. Ch-ch-ch-changes...
 
 As we say goodbye to summer in the northern hemisphere, and to winter in the south, why not say "Hello" to ThousandEyes staff and fellow users at an event near you? 
-
-IMAGE MISSING
 
 ### ThousandEyes Connect
 
@@ -33,28 +33,21 @@ We've got an explosion of new IPv6 Cloud Agents in this release cycle. You'll se
 
 We've updated the BGP Route Visualization view to be more scalable, easier to read and easier to interact with. The Route Visualization now has a linear layout with monitors \(diamonds\) on the left, transit ASNs \(blue ovals\) in the center and origin ASNs \(green ovals\) on the right. We also now visualize prefixes \(green circles\) on the far right.
 
-IMAGE MISSING
-
 Monitors can now be grouped by network or shown individually. Monitors are paginated, and pages are sorted by the selected Metric. For example, Monitors with path changes will be on the first page, when Path Changes is the selected metric. The **Undo** button allows the user to move back through the pagination or to remove any previous selection.
 
 Transit nodes also now have the option to **Show only routes passing through this AS** in the tooltip that appears when mousing over the node. Filters now include **Paths active for more than**, which will help reduce the noise from short-lived BGP flaps.
 
 ## Reports
 
-We've updated the interface for the Number widgets in reports, replacing the horizontal tabbed style of displaying the Card Descriptions with a vertical left-side listing.
-
-IMAGE MISSING
+We've updated the interface for the Number widgets in reports, replacing the horizontal tabbed style of displaying the Card Descriptions with a vertical left-side listing.  
+ 
 
 ## Roles
 
   
 The [Roles tab](https://app.thousandeyes.com/settings/account/?section=roles) of the Account Settings page has been updated. Scrolling performance is improved, and we've added tooltips which provide descriptions of the individual Roles when hovering over the name of the Role.
 
-IMAGE MISSING
-
 Additionally, we've added features for ease of use, such as a drop-down filter which can quickly display groups of related permissions:
-
-IMAGE MISSING
 
 These filters work in conjunction with text entered in the search field.
 
