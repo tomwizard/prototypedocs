@@ -14,29 +14,33 @@ Endpoint Agent is custom-built for each account. Access to the Endpoint Agent in
 ## Downloading the Endpoint Agent Installer
 
 1. Navigate to [Endpoint Agents &gt; Agent Settings](https://app.thousandeyes.com/endpoint/agent-settings/?section=agents)
-2. Click **Add New Endpoint Agent**
-3. Download the appropriate Installer file based on your operating system architecture. Click **Download - x86 Windows MSI** or **Download - x64 Windows MSI** to start downloading the MSI installer file. Depending on your security settings, you may see a warning that the file can harm your computer, per the image below. Clicking the **Allow anyone with the link to download** switch reveals public links to each installer file. Select the **Keep** option to continue the download.
-4. Once downloaded, double click the file in the receiving folder and select Run to start the installation.
+2. Click **Add New Endpoint Agent** IMAGE MISSING
+3. Download the appropriate Installer file based on your operating system architecture. Click **Download - x86 Windows MSI** or **Download - x64 Windows MSI** to start downloading the MSI installer file. Depending on your security settings, you may see a warning that the file can harm your computer, per the image below. Clicking the **Allow anyone with the link to download** switch reveals public links to each installer file. Select the **Keep** option to continue the download. IMAGE MISSING
+4. Once downloaded, double click the file in the receiving folder and select Run to start the installation. IMAGE MISSING
 
 ## Installing the Endpoint Agent  
 
-1. Launch the installer.  You'll be guided by the wizard through the installation steps.  Click the **Next** button.
-2. Read the End-User License Agreement.  Click the checkbox to accept the terms and then click the **Next** button.
-3. Choose an installation folder.  Click the **Next** button.
-4. Install the Endpoint Agent. Click the **Install** button.
-5. You may receive a warning about the installation.  Check that the verified publisher is "ThousandEyes, Inc."  If so, click the **Yes** button or similar button to continue.
+1. Launch the installer.  You'll be guided by the wizard through the installation steps.  Click the **Next** button. IMAGE MISSING
+2. Read the End-User License Agreement.  Click the checkbox to accept the terms and then click the **Next** button. IMAGE MISSING
+3. Choose an installation folder.  Click the **Next** button. IMAGE MISSING
+4. Install the Endpoint Agent. Click the **Install** button. IMAGE MISSING
+5. You may receive a warning about the installation.  Check that the verified publisher is "ThousandEyes, Inc."  If so, click the **Yes** button or similar button to continue. IMAGE MISSING
 6. Installation will complete. If you have Google Chrome installed, it will open and prompt to enable the extension in Chrome.  Click the **Add to Chrome** button to continue. \(If you do not have Google Chrome installed, proceed to step 9.\)   
-   * Clicking on **Add to Chrome,** makes a request to Google Web Store. If access to Google Web Store is blocked, please allow the following URL to be available -- https://chrome.google.com/webstore/detail/thousandeyes-endpoint-age/ddnennmeinlkhkmajmmfaojcnpddnpgb
+   * Clicking on **Add to Chrome,** makes a request to Google Web Store. If access to Google Web Store is blocked, please allow the following URL to be available -- https://chrome.google.com/webstore/detail/thousandeyes-endpoint-age/ddnennmeinlkhkmajmmfaojcnpddnpgb IMAGE MISSING
 
-  7. Acknowledge the security dialog and click the **Add extension** button to continue.
+  7. Acknowledge the security dialog and click the **Add extension** button to continue.  
+IMAGE MISSING
 
-  8. Once complete, a balloon will appear in the upper right corner of the page, indicating that the Endpoint Agent has been installed. Restart Chrome once this completes.
+  8. Once complete, a balloon will appear in the upper right corner of the page, indicating that the Endpoint Agent has been installed. Restart Chrome once this completes.  
+IMAGE MISSING
 
-9. Next, open Internet Explorer \(if installed\).  On first launch, it will prompt to enable the add-on. Click the Enable button in the banner at the bottom of the page to enable the add-on. If there is no such prompt, go to **Settings &gt; Manage Add-Ons** &gt; **right click on Start/Stop Recording with Endpoint Agent &gt; select Enable.**
+9. Next, open Internet Explorer \(if installed\).  On first launch, it will prompt to enable the add-on. Click the Enable button in the banner at the bottom of the page to enable the add-on. If there is no such prompt, go to **Settings &gt; Manage Add-Ons** &gt; **right click on Start/Stop Recording with Endpoint Agent &gt; select Enable.**  
+IMAGE MISSING
 
 10. Restart Internet Explorer once the add-on is enabled, in order to add it to the appropriate context menus and toolbars.
 
-11. Click the **Finish** button to complete the installation.
+11. Click the **Finish** button to complete the installation.  
+IMAGE MISSING
 
 ## Collecting data using the Endpoint Agent
 
