@@ -2,6 +2,8 @@
 
 ThousandEyes Connect in the Great Northwest!
 
+IMAGE MISSING
+
 Our next ThousandEyes Connect event will be held in Bellevue, Washington, on April 20th, 2017.  Swim on by, and hear some great speakers from Microsoft discuss how ThousandEyes makes their lives a little sunnier.  Learn more and save your spot [here](https://www.thousandeyes.com/events/connect).
 
 Also, check out Young Xu's latest in her series blog posts on China, [Monitoring Application Delivery in China](https://blog.thousandeyes.com/monitoring-application-delivery-china/).
