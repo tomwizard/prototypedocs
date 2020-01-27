@@ -238,7 +238,7 @@
   * [Writing JSON to API produces HTTP 406 response code](migration/top-level/api/untitled-1.md)
   * [Create/Update/Delete tests using the ThousandEyes API](migration/top-level/api/untitled.md)
 * [Advanced Troubleshooting](migration/top-level/advanced-troubleshooting/README.md)
-  * [How to generate a HAR file](migration/advanced-troubleshooting/how-to-generate-a-har-file.md)
+  * [How to generate a HAR file](migration/top-level/advanced-troubleshooting/untitled-10.md)
   * [Identifying traffic from ThousandEyes Agents](migration/advanced-troubleshooting/identifying-traffic-from-thousandeyes-agents.md)
   * [Reasons for failure of private peering with ThousandEyes](migration/top-level/advanced-troubleshooting/untitled-8.md)
   * [Excluding ThousandEyes Agents from Google Analytics](migration/top-level/advanced-troubleshooting/untitled-7.md)
