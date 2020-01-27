@@ -6,7 +6,7 @@ This article gives a quick overview of how to use the ThousandEyes platform and 
 
 Check out this helpful video on getting started with the ThousandEyes platform.
 
-https://fast.wistia.net/embed/iframe/wg6nb5sqdq?fullscreenButton=true
+VIDEO MISSING
 
 ## Getting help
 
