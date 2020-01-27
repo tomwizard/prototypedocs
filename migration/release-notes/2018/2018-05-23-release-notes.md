@@ -2,6 +2,8 @@
 
 Welcome to tonight's release! Some quick announcements before the details of the release.
 
+IMAGE MISSING
+
 We're excited to open registration for [ThousandEyes Connect](https://www.thousandeyes.com/events/connect/santa-clara-2018) in Silicon Valley. Join us on July 12th to meet industry peers, share insights and learn from networking experts. Past speakers have included leaders from Cisco, Intuit, Oracle, and Zendesk. And if that's not enough, we'll give you a cool [t-shirt](https://www.thousandeyes.com/tshirt) for attending!
 
 Lots of great new [ThousandEyes blog](https://blog.thousandeyes.com/) posts to tell you about.
@@ -26,7 +28,7 @@ Previously, when a test performed TCP-based end to end loss measurements for the
 
 * **Prefer SACK**: The previous behavior: try SACK mode and fall back to SYN mode if needed. This is the default.
 * **Force SACK**: Use SACK mode only
-* **Force SYN**: Use SYN mode only
+* **Force SYN**: Use SYN mode only IMAGE MISSING
 
 Not all targets will support TCP SACK. If a test is configured to use **Force SACK** mode but the target does not support selective acknowledgements, then the test will display the error "Target doesn't support SACK mode" and will not transmit 50 packets to the target.
 
@@ -44,11 +46,13 @@ The new Billing tab has information on the customer's subscription, including to
 
 ### Bulk Actions
 
-In order to make easy the management of large numbers of devices, we're adding a feature to perform bulk actions for Device Layer devices.  
- 
+In order to make easy the management of large numbers of devices, we're adding a feature to perform bulk actions for Device Layer devices.
 
-  
-Each device entry on the Devices tab of the Device Settings page now has a checkbox. When one or more devices' boxes are checked, a bar at the bottom of the page will appear, providing the ability to configure all checked devices. Configuration options include M**onitor** and **Unmonitor** buttons, and an **Edit Devices** button which provides the following actions:  
+IMAGE MISSING 
+
+Each device entry on the Devices tab of the Device Settings page now has a checkbox. When one or more devices' boxes are checked, a bar at the bottom of the page will appear, providing the ability to configure all checked devices. Configuration options include M**onitor** and **Unmonitor** buttons, and an **Edit Devices** button which provides the following actions:
+
+IMAGE MISSING  
  
 
 ### Notifications for Slack and Hipchat
