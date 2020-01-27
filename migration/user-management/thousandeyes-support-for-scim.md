@@ -1,4 +1,4 @@
-# ThousandEyes support for SCIM - ThousandEyes Customer Success Center
+# ThousandEyes support for SCIM
 
 ThousandEyes is now able to add, update and delete users from identity providers who support the [SCIM 2.0 and 1.1](http://www.simplecloud.info/) standards, dramatically decreasing time to provision users into ThousandEyes and perform ongoing user management.
 
@@ -13,7 +13,8 @@ ThousandEyes has made available two SCIM API endpoints to receive user addition,
 
 The operation of SCIM is simple: a Service Provider is able to map attributes from its local user database, and generate SCIM API calls to one of our endpoints in order to generate, update or delete the users on ThousandEyes end:
 
-  
+IMAGE MISSING
+
 The structure of those calls must be compliant to the SCIM 1.1 or 2.0 protocol and schema, and also need to be compliant with our currently supported operations, discussed below.
 
 ## Requirements
@@ -28,6 +29,8 @@ In order to leverage ThousandEyes SCIM API endpoints, a ThousandEyes user having
 Both SCIM 1.1 and 2.0 Endpoints require the user to authenticate either with HTTP Basic Authentication using your Basic Authentication Token or an OAuth Bearer Token, both which can be created in the [Security & Authentication](https://app.thousandeyes.com/settings/account/?section=security) tab of ThousandEyes' Account Settings page.
 
 By default, users added through SCIM to ThousandEyes will be assigned the "Regular User" role in all Account Groups of the organization where they are created. This default assignment can be changed in the SCIM Settings Section of the [Security & Authentication](https://app.thousandeyes.com/settings/account/?section=security) tab of ThousandEyes Account Settings. Once the users have been created in ThousandEyes, their individual roles can be freely modified in the [Users](https://app.thousandeyes.com/settings/account/?section=users) tab of Account Settings.
+
+IMAGE MISSING
 
 In this particular example, the "SCIM API User Role" under the "Support" Account Group will be granted to all the newly pushed SCIM users. All Roles and Account Groups can be used, as long as the API user making the SCIM API calls has permissions to grant them. Lacking those privileges will cause the SCIM provisioning process to fail.
 
