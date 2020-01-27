@@ -1,6 +1,8 @@
-# Network tests explained
+# Network tests explained - ThousandEyes Customer Success Center
 
 When you create any test with network measurements enabled, such as Agent to Server network test, HTTP Server, Page Load, or a DNS server test, you get access to the network layer data in the [Overview](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmmtKAC) and [Path Visualization](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmmiKAC) views for the test. This article describes the network measurement details and how gathered metrics are presented in the network layer views.
+
+## Table of Contents
 
 ## Dual origin of network test results
 
@@ -24,7 +26,7 @@ On the other hand, the **Network &gt; Path Visualization** view combines the dat
 
 In the figure below, an example of Path Visualization view is depicted. Green rectangles mark the areas where end-to-end data is presented, whereas sections enclosed in orange display data collected by the path visualization measurement:
 
-IMAGE MISSING
+Figure 1: Path Visualization view
 
 When switching from Overview to the Path Visualization view, the time series visualization does not change and keeps showing the end-to-end data over time. The network path visualization graph under the time series is where path visualization data is displayed and where the merging of the data from both network measurements happens:
 
@@ -57,7 +59,7 @@ Back on the agent performing the measurement, when response packets are received
 
 The following figure demonstrates the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) analysis of ICMP-based network measurement packet capture. The target of this ICMP network test was Google's public DNS service IP address 8.8.8.8:
 
-IMAGE MISSING
+Figure 2: ICMP-based measurement packets in Wireshark
 
 In addition to demonstrating the visualization of ICMP-based probe packets and responses, the figure above is showing that the responses may not be received in the same order as probe packets were sent out.
 
@@ -67,7 +69,7 @@ Conceptually, TCP-based agent to server network measurement does not differ much
 
 The following figure depicts how a TCP-based agent to server measurement looks like on a packet level. The target here is TCP port 53 of the Cloudflare's 1.1.1.1 DNS service:
 
-IMAGE MISSING
+Figure 3: TCP-based measurement packets in Wireshark
 
 It can be observed above that during the execution of the measurement, up to 50 TCP connections are attempted to be established. After the measurement is concluded, each initiated TCP connection is closed with a corresponding RST packet \(RST packets are not shown in the figure above\).
 
@@ -81,7 +83,7 @@ A high-level overview of the agent to agent tests is available in the "How Thous
 
 The following screenshot visualizes how agent to agent measurement looks like on a packet level:
 
-IMAGE MISSING
+Figure 4: Agent to agent network measurement packets
 
 In the figure above, the 3 initial packets constitute the TCP three-way handshake, followed by a clock synchronization preamble of 10 packets \(5 in each direction\). Finally, the actual measurement probes are sent - always 50 packets \(partially shown in the figure above\) and always in one direction only.
 
@@ -107,11 +109,15 @@ By default, ThousandEyes agents perform 3 parallel path traces from each agent t
 
 In the following figure, a Wireshark analysis of ICMP-based path trace is shown. Shown are the echo request packets with TTL=1 and TTL=2 and the corresponding TTL exceeded packets:
 
-IMAGE MISSING
+![Screen\_Shot\_2014-10-19\_at\_7.42.15\_AM.png](https://lh4.googleusercontent.com/YUPMP4GSXiXzx24um-W_ne8yfZC-rsvbkfIjzDeNk83S0umavuk_LvSSS_UkwYWxlRUA68lD8rw17HJsGpgvl9nKVAwV8NPTOaXEyttvJzlC7fzMjAf8UU-vUrUOCyPk7A)
+
+Figure 5: ICMP-based path trace
 
 In the next figure, TCP-based path trace is analyzed, showing the initial 3 TCP SYN packets and the corresponding Time-To-Live exceeded responses:
 
-IMAGE MISSING
+![Screen\_Shot\_2014-10-19\_at\_3.10.25\_PM.png](https://lh5.googleusercontent.com/G8p2AQkXzb35TbozTRINjtvcbN0_26nRJjr-ODoi0IVCBugkvKyZtrYWLAF5WLIH27jdEoSS_PvZR_wJA8B9D4dNJruqXYqLevHTcSR65iULVTneB7IsJ4uHRYkSgKMQ3A)
+
+Figure 6: TCP-based path trace
 
 If at any point during the measurement, the agent receives an [ICMP destination unreachable](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol#Destination_unreachable) or a TCP RST packet, the path discovery process is interrupted and the node that generated such response is marked as a terminal node.
 

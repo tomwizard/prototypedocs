@@ -234,7 +234,7 @@ You can also use [bgplay](http://bgplay.routeviews.org/) on the RouteViews site 
 
 When BGPlay starts, a query window opens us where you can enter the prefix to monitor and the time interval in UTC. Press OK to open up an animation window as shown below. Below the figure, a numbered list corresponding to the callouts on the figure, explains each field in the image.
 
-![bgplay\_2.png](https://lh5.googleusercontent.com/NCmOv0YYH3LmE8XjlVxhKwsNsN-bdTc1tuoIW8eOIyPN3Zaln0O_P1ATjdxG-lwg9kns7jwB7_XykxBpMniUVxkAXPY0Xo_DbT-cTWNxpAmifdZAeOgFUQDBU7eyvdcy8w)
+IMAGE MISSING
 
 Let us break the picture into different parts for better understanding
 
