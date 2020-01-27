@@ -8,6 +8,8 @@ If you follow our [blog](http://blog.thousandeyes.com/), you know that we're a b
 
 With the new Alert Settings page, users will experience a familiar browsing experience to that in place for test settings: simply select the layer you're interested in, the type of alert, and create a set of alert conditions.  Configure notifications rules \(number of consecutive periods where alerting state is true, custom messages to send\) in the notifications tab
 
+IMAGE MISSING
+
 We've also added one alert criterion to the alert rule options: the ability to specify a specific HTTP response code.  To review our current list of supported alert criteria, check out the article listed [here](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnBqCAK_How-Alerts-work).
 
 For detailed instructions on creating and editing Alert Rules, please review this knowledge base [article](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmmhKAC).  
@@ -25,7 +27,9 @@ Enterprise Agents will:
 * New group is available for disabled enterprise agents
 * Only count against billing when enabled
 
-This is ideal in circumstances where an organization needs to deploy agents to specific sites, but doesn't require the use of those agents on an ongoing basis.  This will facilitate the deploy &gt; use &gt; disable &gt; enable &gt; use &gt; disable workflow, allowing faster activation during future troubleshooting efforts, without complicating enterprise agent status widgets.  Disabled agents are shown in the Agent Settings page, with a  icon next to the agent name.
+This is ideal in circumstances where an organization needs to deploy agents to specific sites, but doesn't require the use of those agents on an ongoing basis.  This will facilitate the deploy &gt; use &gt; disable &gt; enable &gt; use &gt; disable workflow, allowing faster activation during future troubleshooting efforts, without complicating enterprise agent status widgets.  Disabled agents are shown in the Agent Settings page, with a  IMAGE MISSING icon next to the agent name.
+
+IMAGE MISSING
 
 To disable an Enterprise Agent, uncheck the "Agent Enabled" checkbox in the agent settings page.  _Note: an Enterprise Agent must be online in order to disable it, since the agent acknowledges an instruction to stop testing until reactivated._
 
@@ -35,6 +39,8 @@ We've added a built-in group for disabled agents to allow fast identification of
 ## BGP Private Peering
 
 As described in our Inside-Out BGP Visibilty article, the BGP Private peering capability has been moved from Beta into Production.   This means that all customers who maintain an edge router and want visibility from their own organization into Autonomous System availability are now able to take advantage of this feature.  Users with Organization Admin privileges can find this menu item in the Settings &gt; [BGP Private Peers](https://app.thousandeyes.com/settings/bgp-sessions) menu item.
+
+IMAGE MISSING
 
 Check out [this article](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmmjKAC) for more details on using the feature.  
  

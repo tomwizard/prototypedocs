@@ -16,8 +16,6 @@ Our Voice testing capability is currently provided for existing under our Beta p
 
 We've updated the HTTP server test metrics available for selection in the interface. Prior to this change, the available metrics were Availability, Response time, and Fetch time. We have replaced the Fetch Time metric with Throughput, since this metric is more relevant for customers attempting to access larger objects.
 
-IMAGE MISSING
-
 Both Fetch Time and Throughput are still shown and available in the detailed metrics shown below the world map, as well as using the ThousandEyes API. It is important to note that Throughput metrics may in some circumstances not show a value; this may include instances where the target is so small that the receive time is insignificant. If you have a test configured for a target which shows this behavior, and throughput is an important metric for your use case, please [contact our Customer Success team](mailto:support@thousandeyes.com?subject=missing%20Throughput%20metric).
 
 ## Multi-homed agent connectivity
@@ -44,7 +42,7 @@ Both Fetch Time and Throughput are still shown and available in the detailed met
           results, and communicate with the ThousandEyes agent collector over the
           interface bound to the Internet.</p>
       </th>
-      <th style="text-align:left">IMAGE MISSING</th>
+      <th style="text-align:left"></th>
     </tr>
   </thead>
   <tbody></tbody>
@@ -64,12 +62,12 @@ New versions of the API will be released with a notification made available on o
 
 This means that the following timeline applies:
 
-* Upon release of new API version v\(X\), for first 90 days:
-  * Current version: v\(X-1\)
-  * Supported versions: v\(X-2\)-v\(X\)
-* After 90 days post-release of new API version:
-  * Current version: v\(X\)
-  * Supported versions: v\(X-1\)-v\(X\)
+* * Upon release of new API version v\(X\), for first 90 days:
+    * Current version: v\(X-1\)
+    * Supported versions: v\(X-2\)-v\(X\)
+  * After 90 days post-release of new API version:
+    * Current version: v\(X\)
+    * Supported versions: v\(X-1\)-v\(X\)
 
 This versioning policy goes into effect upon release of version 5 of the ThousandEyes API, anticipated for release during Q4 of 2014.  Until this time, our existing version support policy is in place, supporting current plus 2 prior versions.
 
