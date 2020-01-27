@@ -15,7 +15,8 @@ We've given our agent settings interface a makeover.  With the new agent setting
 
 Similar to the Agent groups capability added in the [June 6, 2014 release](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmloKAC), we've introduced test groups in this week's release.  Check out [this article](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmmfKAC) for more information.  A quick look can be found in the image below.
 
-IMAGE MISSING
+  
+_New Test Groups interface, available in **Settings** &gt; **Groups** &gt; **Tests**_
 
 ## Path Visualization updates
 
@@ -23,10 +24,13 @@ We've added two new options to the Path Visualization interface.
 
 * **Traceroute-style output**: to obtain a traceroute-style output from the path visualization interface, hover over an agent, and click the 'Show Traceroute-style Output' link in the information window that opens.  This will open a dialog that shows the results from a Path trace from a particular agent to the destination.  This can be used to provide information to service providers who insist on having classic traceroute responses during diagnosis.
 
-  IMAGE MISSING  
-  IMAGE MISSING
+  
+  _Information dialog that opens while hovered over an agent in the path visualization view_
 
-* **Forwarding loss packet count added** to intermediate nodes showing loss.  In addition to showing the percentage loss allocated to each hop found in the Path Visualization interface, we now show the number of packets dropped at each intermediate node.  In the image example below, the packet count \(6 of 9 packets\) used in calculation of loss is added. IMAGE MISSING
+  
+  _Dialog which opens when clicking 'Show Traceroute-style output"_
+
+* **Forwarding loss packet count added** to intermediate nodes showing loss.  In addition to showing the percentage loss allocated to each hop found in the Path Visualization interface, we now show the number of packets dropped at each intermediate node.  In the image example below, the packet count \(6 of 9 packets\) used in calculation of loss is added.
 
 ## Alert Settings
 
