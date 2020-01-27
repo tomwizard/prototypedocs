@@ -1,4 +1,4 @@
-# Transactions \(Classic\) - Web Transaction tests for Salesforce.com
+# Transactions \(Classic\) - Web Transaction tests for Salesforce
 
 | Notice of obsolescence |
 | :--- |
@@ -7,6 +7,8 @@
 Many ThousandEyes customers employ the SaaS application Salesforce.com as an integral part of their business.  In order to ensure maximum availability or conformance to service-level agreements, ThousandEyes customers often wish to configure Web Transaction tests that target the Salesforce.com \(SFDC\) application.
 
 For increased security, customers often configure Salesforce.com’s client IP address-based authentication feature.  This feature requires that any login to SFDC come from an IP address that has been entered into a whitelist in the SFDC application. If an Agent or client IP address is not whitelisted, then after login the Salesforce.com application will display a page similar to this:
+
+IMAGE MISSING
 
 ##  ThousandEyes Agent access to Salesforce.com
 

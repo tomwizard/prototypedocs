@@ -105,8 +105,6 @@ First, download WireShark.  This will install both the WireShark app and winpcap
 
 Once you've downloaded WireShark, install it and launch.  The great thing about Wireshark is that everything is controllable from a single interface.  Under the Capture menu, select Options. 
 
-IMAGE MISSING
-
 Select the interface you wish to capture by checking the appropriate box, choose appropriate name resolution options \(defaults are fine\), and ensure that the option for 'use pcap-ng format' is unchecked.  Once you're ready to start capturing packets, click the Start button.
 
 Once you click the start button, WireShark will begin capturing packets, and display them in real time.  This will be a very busy, color-coded interface, which is moving fast.
