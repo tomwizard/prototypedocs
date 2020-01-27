@@ -2,8 +2,7 @@
 
 ### Release update 2014-10-01
 
-Here's a list of what our teams have been working on over the last few weeks.  We're also on the cusp of releasing some updates to some of our beta programs.  We'll be in contact with customers who participate in our beta programs over the course of the next two weeks, in order to communicate those updates.  
- 
+Here's a list of what our teams have been working on over the last few weeks.  We're also on the cusp of releasing some updates to some of our beta programs.  We'll be in contact with customers who participate in our beta programs over the course of the next two weeks, in order to communicate those updates.
 
 ## New Cloud Agent locations
 
@@ -21,8 +20,7 @@ We've made some changes to our alerting subsystem, in order enhance the user exp
 
 The alert grid dashboard widget now supports filtering. Users can filter based on Agent, Test type and name.  To configure the Alert grid widget, either click the gear icon on the upper right hand corner of the widget, or update the dashboard configuration.
 
-  
-_Alert grid filter configuration options_
+IMAGE MISSING
 
 ### Page Load alerts allow component rules
 
@@ -45,8 +43,7 @@ Refer to the [How Alerts Work](https://success.thousandeyes.com/PublicArticlePag
 
 Similar to the Test Settings interface, the Alert Settings page now contains a duplicate button. Click this button to create a copy of the alert rule.
 
-  
-_Duplicate button shown in Alert Rule dialog_
+IMAGE MISSING
 
 ### Creation/Modification metadata
 
@@ -56,4 +53,6 @@ Creation/Modification metadata is now shown for alert rules.  We now show the us
 ## Path Visualization
 
 The Path Visualization interface will now render network nodes found on the same local network as an Enterprise Agent in dark blue. This has been added to the [Using the Path Visualization View](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmmiKAC) knowledge base article.
+
+IMAGE MISSING
 
