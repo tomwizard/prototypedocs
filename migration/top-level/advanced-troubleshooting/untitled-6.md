@@ -1,12 +1,12 @@
 # Cisco ASA breaks Path Visualization
 
+### Cisco ASA breaks Path Visualization
+
 When a TCP-based Path Visualization view displays forwarding loss at a node representing a Cisco ASA firewall, and white nodes or no nodes beyond the Cisco ASA firewall, a possible cause is the ASA's feature set which attempts to prevent TCP SYN floods and similar denial-of-service \(DoS\) attacks. The forwarding loss and missing nodes in Path Visualization can be corrected through the use of the ASA's TCP State Bypass feature.
 
 ## Reasons for breaking Path Visualization
 
 The TCP synchronization \(SYN\) packets sent in the Path Visualization portion of a test use the same source and destination IP addresses and source and destination TCP port numbers \(a "four-tuple"\), but each has an initial sequence numbers \(ISN\) which is incremented by one with each increment of the Time to Live \(TTL\) field in the IP header \(the standard traceroute mechanism\). The Wireshark packet capture image below shows an Agent sending Path Visualization packets from source IP address 10.100.10.208 and source port 49221 to the target destination IP address 108.174.10.10 and destination TCP port 80:
-
-IMAGE MISSING
 
 As shown in the **Info** column, the first SYN packet \(with **Time to Live: 1** in the IP header\) has an initial sequence number of 1642740607. Each subsequent SYN packet increments the IP TTL and ISN by one. For example, the next SYN packet has an IP TTL of 2 and an ISN of 1642740608.
 
