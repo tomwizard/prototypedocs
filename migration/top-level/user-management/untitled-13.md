@@ -1,5 +1,7 @@
 # How to configure Single Sign-On with miniOrange
 
+### How to configure Single Sign-On with miniOrange
+
 For the security of your SaaS-based infrastructure and the convenience of users in your organization, the ThousandEyes service offers login via single sign-on \(SSO\). ThousandEyes supports SAML2-based identity providers for single sign-on. There are two steps to set up single sign-on: the service provider configuration, which is done within ThousandEyes, and the identity provider configuration, done within your SSO system.  In this configuration example, we use [miniOrange](http://miniorange.com/) as the identity provider.
 
 ## Prerequisites
@@ -25,8 +27,6 @@ Follow these steps to configure your ThousandEyes organization to use single sig
    | **Service Provider Issuer** | http://www.thousandeyes.com |
    | **Verification Certificate** | see the **Download certificate** section, below |
 
-IMAGE MISSING
-
 **IMPORTANT:** Ensure that the **Service Provider Issuer** field reflects the value set by the identity provider in the AudienceRestriction element of the SAML response. Any mismatch, including a protocol mismatch \(http:// vs https://\) will cause the request to be rejected.
 
 **NOTE:** The **Logout Page URL** is optional. If used, the URL should point to the page you wish your users to see when logging out of ThousandEyes.  
@@ -36,9 +36,9 @@ IMAGE MISSING
 ### Download certificate
 
 1. Log in to the MiniOrange Admin Console, and go to the **View Policy** tab of the **Policies &gt; App Authentication Policy** page
-2. Download the verification certificate by clicking on the link, as indicated below IMAGE MISSING
+2. Download the verification certificate by clicking on the link, as indicated below
 3. Log in to ThousandEyes and go to the **Security & Authentication** tab of the **Settings &gt; Account** page
-4. In the **Setup Single Sign-On** section, click the **Browse** button to select and upload the certificate IMAGE MISSING
+4. In the **Setup Single Sign-On** section, click the **Browse** button to select and upload the certificate
 5. Click the **Save** button to save the settings
 
 ### Create a policy for ThousandEyes
@@ -54,13 +54,13 @@ IMAGE MISSING
    | **First Factor Type** | PASSWORD |
    | **Enable Second Factor** | checked |
 
-3. IMAGE MISSING Click the **Save** button button to save the settings
+3. Click the **Save** button button to save the settings
 
 ### Add users to miniOrange
 
 1. Log in to the miniOrange Admin Console, and go to the **Users &gt; End User List** page[ ](https://auth.miniorange.com/moas/downloadcsv)
 2. Click the **New User** button
-3. Fill in the fields with the user's information IMAGE MISSING
+3. Fill in the fields with the user's information
 4. Click the Save button button to save the settings
 
 ###  Register users in miniOrange
@@ -69,17 +69,13 @@ IMAGE MISSING
 2. From **Users** menu, select **Onboarding Status**, then select users to send activation mail
 3. Click on the **Send Activation Mail** button to send an activation email to the selected users
 
-IMAGE MISSING
-
 ## Logging in using SSO
 
-1. To log in to ThousandEyes, go to https://[app.thousandeyes.com](https://app.thousandeyes.com/) and click the **SSO** link IMAGE MISSING
+1. To log in to ThousandEyes, go to https://[app.thousandeyes.com](https://app.thousandeyes.com/) and click the **SSO** link
 2. Enter the SSO-enabled email address, and click the **Log In** link
-3. When the miniOrange authorization page appears, click the **Login** button IMAGE MISSING
+3. When the miniOrange authorization page appears, click the **Login** button
 
 Alternatively, users can access the ThousandEyes application through the user's miniOrange dashboard. After logging in to a user's miniOrange account, a button named ThousandEyes should be available to provide access to ThousandEyes.
-
-IMAGE MISSING
 
 ## Connection details for troubleshooting
 
