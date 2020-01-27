@@ -1,5 +1,7 @@
 # How to configure Single Sign-On with Okta
 
+### How to configure Single Sign-On with Okta
+
 ThousandEyes supports use of any SAML2-based identity provider for single-sign on.  There are two parts to an SSO configuration - the service provider configuration, which is what you set inside ThousandEyes, and the Identity Provider configuration, which you set in your SSO system.  In this configuration example, we use Okta as the Identity provider.
 
 ## How to Configure ThousandEyes for SSO
@@ -72,11 +74,7 @@ To configure the system for Single Sign-on, configuration must be done on both t
 
 When you visit ThousandEyes for the first time on your computer, enter your username into the Email Address field, and click the SSO link, indicated with the number \(1\) in the image below:
 
-IMAGE MISSING
-
 This will redirect to your SAML provider's login page, and validate the login, then will redirect back to ThousandEyes, and your user will be logged in.  After logging in for the first time successfully, a cookie is written to your system, indicating that you are an SSO user - and in the future, you will be taken to a special SSO-only login page, shown below.
-
-IMAGE MISSING
 
 ## To return to the normal login page
 
