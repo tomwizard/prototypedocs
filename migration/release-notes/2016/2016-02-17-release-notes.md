@@ -1,7 +1,5 @@
 # Release Notes: 2016-02-17
 
-### Release update 2016-02-17
-
 Don't forget about ThousandEyes Connect, coming up in both [San Francisco](https://www.thousandeyes.com/events/connect/san-francisco-2016) and [New York City](https://www.thousandeyes.com/events/connect/new-york-2016).  We've got an exciting group of customer presenters lined up - and it'll be a great opportunity to network \(yes, pun kind of intended\) with your peers.   
 
 Our team has been busy working through getting some new features ready for your consumption.  Check out the list below, and let us know if you have any questions.  
@@ -10,7 +8,7 @@ Our team has been busy working through getting some new features ready for your 
 
 We've modified the look of our login page somewhat. It still works the same, but it's a lot prettier.
 
-_New login page styling_
+IMAGE MISSING
 
 ## Reports
 
@@ -20,27 +18,25 @@ We've added some new features to reporting in this release:
 
 Users can now report on individual DNS server metrics, at either the DNS or network layer.  Simply choose to group by server to get your widgets configured.
 
-  
-_Report widget showing packet loss by server on a DNS server test._
+IMAGE MISSING
 
 ### Custom percentile
 
 Users can now configure a custom percentile option in reporting. Add a measure using a percentile value, select a metric, and choose the 'nth Percentile' measure, then add the percentile value.  The 98th percentile option has been removed from the list of selectable measures, and replaced with this option.
 
-  
-_Metric and measure selection in a Card report widget showing 98th percentile measure selection_
+IMAGE MISSING
 
 ### Pie charts have tooltips
 
 We've also added tooltips to pie charts; when hovering over a section of a pie chart \(or the legend\), you'll see the values for the particular pie segment the mouse is hovered over.
 
-_Tooltip when hovered over the wait time area of a pie chart_
+IMAGE MISSING
 
 ### Renaming report widgets
 
 We've changed the method to rename a widget. Prior to this release, users would click the pencil icon beside the widget label to rename the widget. Beginning today, click the menu option \(in the upper right corner of the widget\), select 'rename' from the context menu and give your widget a new name.
 
-_Rename your widget by clicking the menu in the upper right of a widget_
+IMAGE MISSING
 
 ## Agent-to-Agent beta updates
 

@@ -25,8 +25,7 @@ In addition to being able to alert on specific counts of agents or monitors fail
 
 New rules will default to 30% when a percentage measure is used.
 
-  
-  _Select % of agents to add an alert rule based on a percentage, instead of raw number of alerting agents_
+IMAGE MISSING
 
 When used in conjunction with location filters \(Specific agents / All agents except\), only the agents in common between the alert rule and the test will be used to calculate the percentage of locations failing \(rather than using all agents to calculate the percentage\).
 
