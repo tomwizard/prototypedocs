@@ -2,11 +2,11 @@
 
 The Activity Log provides a history of actions by the ThousandEyes users in your organization. Activity data is retained for 2 years.  The Activity Log is accessed from the **Activity Log** tab under the [Account Settings](https://app.thousandeyes.com/settings/account/?section=activityLog) menu. Events such as test creation, updates, deletions, login, logout, and other activities are tracked. Timeout events \(i.e. when a user's login session times out\) are not tracked by the Activity Log. Timestamp and User metadata are also displayed for each event.
 
-## Table of Contents
-
 ## Activity Log
 
 The following figure shows an example of what you might see when accessing the Activity Log:
+
+IMAGE MISSING
 
 There are three main components in this view:
 
@@ -38,7 +38,11 @@ The entries displayed in your view of the Activity Log depend on your role withi
 
 The Time Range Selector allows you to set the period for which you wish to view events in the table. As can be seen in the following screenshot, there are quick selectors for the `Last 24 hours, Last 7 days, Last 1 month`, etc.
 
+IMAGE MISSING
+
 You may also select a specific range of time with the Custom Time Range box. The following screenshot shows the Custom Time Range:
+
+IMAGE MISSING
 
 Clicking inside the gray box under Custom Time Range \(1\) will display a dialog. You can select a range of time using the **From** and **To** fields. Once you have specified your desired range, click the **Apply** button to display the results.
 
@@ -55,11 +59,15 @@ Filters allow you to select specify what information you wish to see in the Acti
 
  When selected, each filter type will populate with selections which are available in the Activity Log for that particular filter:
 
+IMAGE MISSING
+
 As can be seen in the above screenshot, when selecting the **Event** filter type you will get a list of the available Events in the Activity Log. Selecting one of these Events will display only the Events in the Activity Log which meets these criteria. You can also add additional filters using the **Add a filter** link
 
 **4\)**  **Download a the Activity Log as a list**
 
 To export the Activity log as a listing, click the **Download** Button and select **Download as a CSV** file.
+
+IMAGE MISSING
 
 ## Advanced Topics
 

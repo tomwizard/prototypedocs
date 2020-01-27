@@ -1,5 +1,7 @@
 # ThousandEyes user session timeouts and terminations
 
+### ThousandEyes user session timeouts and terminations
+
 ThousandEyes application can be accessed by navigating to [https://app.thousandeyes.com/](https://app.thousandeyes.com/) URL using your preferred web browser. To enter the application, authentication is required and a successful login event creates an active browser session. For security reasons, active browser sessions are automatically terminated after a period of **inactivity** or due to certain administrative events. This article explains various scenarios that lead to the termination of the browser session.
 
 ### How many concurrent browser sessions can a user have?
@@ -31,8 +33,6 @@ An active user session is immediately terminated in the following cases:
 ### What does the “Keep me logged in” login option do?
 
 At login time, checking the “Keep me logged in” option allows the user to be taken back to where he/she was when the automatic logout is enforced.
-
-IMAGE MISSING
 
 ## Related information
 
