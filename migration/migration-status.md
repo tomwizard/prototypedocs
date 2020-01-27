@@ -26,6 +26,8 @@ Release Notes 2012
 
 Release Notes 2013
 
+Release Notes 2014
+
 ## To Do:
 
 Enterprise Agents
@@ -39,8 +41,6 @@ Advanced Troubleshooting
 Endpoint Agent
 
 Endpoint Agent Installation
-
-Release Notes 2014
 
 Release Notes 2015
 

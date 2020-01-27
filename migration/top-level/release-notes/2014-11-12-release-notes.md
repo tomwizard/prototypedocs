@@ -19,7 +19,7 @@ The full list of Cloud agent locations is available on our website, at https://w
 
 Note: Trial accounts are assigned access to Cloud agents from a separate pool of locations, and do not have access to production agents.
 
-## Webhooks
+##  Webhooks
 
 We've added the ability to use push-based alerting in this week's release.  When using Webhooks, our platform will trigger a notification to your system when an alert triggers or clears.  This allows for third party system integration, and customized handling of events detected in ThousandEyes.  Check out [this article](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmmVKAS) for information on using Webhooks, and for a sample Webhook server implementation.
 
