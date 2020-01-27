@@ -8,11 +8,7 @@ Our other new blog post tells a tale of the tale-tellers. Content Marketing Dire
 
 And speaking of ThousandEyes Connect...
 
-IMAGE MISSING
-
  If you're located in the Great Northwest of the US, or fancy a visit, come to the city that has the computers and the coffee and [Connect Seattle](https://www.thousandeyes.com/events/connect/seattle-2019)! Join ThousandEyes at the world-famous Space Needle \(no joke!\) on October 3rd, see Seattle from on high, and hear some great speakers \(TBD\). [Registration](http://www.thousandeyes.com/events/connect/seattle-2019) is free and open now!
-
-IMAGE MISSING
 
 Pass your camel through that, get a free ThousandEyes t-shirt! 
 
@@ -30,8 +26,6 @@ When Kerberos is configured to perform reverse DNS lookups, an SPN hostname is r
 
 To prevent these authentication failures, we have added the ability to disable Kerberos reverse lookups. For Agent configuration in the app, under the Advanced Kerberos Options section, check the **Disable reverse DNS lookup** box to prevent the reverse lookup check.
 
-IMAGE MISSING
-
 For customers managing Agent configuration locally, set kerberos-rdns=1 in the /etc/te-agent.cfg file. Don't forget to restart the Agent process or reboot the Agent after making the change.
 
 ## Bug fixes & minor enhancements
@@ -42,7 +36,7 @@ Here are the bug fixes and minor enhancements in this week's release:
 * The API's /alert-rules endpoint now provides the minimumSources field for the minimum percentage of sources meeting an Alert Rule's conditions in order to trigger the rule.
 * When displayed in a Dashboard or Reports widget, the Device Througput metric is now colored on a "neutral" scale of blue to green rather than red to green.
 * The Endpoint Agent Waterfall incorrectly displayed "Object Incomplete" when receiving a response with a "Transfer-Encoding: chunked" header. We now provide an accurate description.
-* When viewing the details of a page visit in the Visited Pages view of Endpoint Agent, we now display the Response Time metric next to the VISITED SITE icon: IMAGE MISSING
+* When viewing the details of a page visit in the Visited Pages view of Endpoint Agent, we now display the Response Time metric next to the VISITED SITE icon:
 * Fixed an issue in the Endpoint Agent's Overview which caused a null Experience Score to be displayed as 0%.
 * Increased timeout threshholds for Endpoint Agent Scheduled Tests.
 * Endpoint Agents now can check in with the ThousandEyes platform after receiving 302 status code responses from Microsoft IWA proxies.
