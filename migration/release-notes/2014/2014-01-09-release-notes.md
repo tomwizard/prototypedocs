@@ -16,7 +16,11 @@ Live Sharing allows users of ThousandEyes to share a live view of a test with ot
 
 To share a test with another account inside your organization, simply click the **Share this Screen** link at the top of the view you're using.  A dialog will open.  Select the **Live Sharing** tab.  If your organization contains more than one account, you'll see two buttons: **Outside My Organization** and **Inside My Organization**.  Select the Inside my Organization option to show a list of accounts in your organization.
 
+IMAGE MISSING
+
 Once you've selected the account  you want to share your test data with, add a message \(optional\), and click the **Share** button.  This will initiate the share acceptance process, which requires that a user with Account Administrator privileges accept the share; An email is sent to all account admin level users in that account, and once accepted, the share will show up in the list of tests for members of that account, shown in the dashboard and main views with a paperclip icon next to the test name, to indicate that the test has been shared with that account.
+
+IMAGE MISSING
 
 Users will be directed to this tab when attempting to Live Share tests with other members of their team.
 
@@ -46,13 +50,15 @@ We've released three new Screencasts, available from the Help & Support menu fou
 * "Working with Network Tests"
   * End-to-End Metrics, Path Visualization, and BGP Route Visualization views
 
-In some views, the Video is shown above your test results.  Once you've seen the video, it can be dismissed by using the X in the upper right corner of the Video frame.  
+In some views, the Video is shown above your test results.  Once you've seen the video, it can be dismissed by using the X in the upper right corner of the Video frame. 
+
+IMAGE MISSING
 
 Instructional videos, along with other useful resources, are always accessible via the Help & Support tab on the right hand side of the page.
 
 ## API 
 
-Organization Admin users can now change account context while using v3 of the ThousandEyes API, by specifiying an aid= parameter on their queries.  Prior to making this change, users could only query the API in the context of their primary account.  With the introduction of the /accounts endpoint, which lists each account, Users with Organization Admin privileges can access any test in any account inside their organization.
+Organization Admin users can now change account context while using v3 of the ThousandEyes API, by specifying an aid= parameter on their queries.  Prior to making this change, users could only query the API in the context of their primary account.  With the introduction of the /accounts endpoint, which lists each account, Users with Organization Admin privileges can access any test in any account inside their organization.
 
 Our developer reference site http://developer.thousandeyes.com has been updated to reflect changes made in tonight's release. 
 
