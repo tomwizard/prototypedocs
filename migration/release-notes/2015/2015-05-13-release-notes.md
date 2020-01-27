@@ -1,7 +1,5 @@
 # Release Notes: 2015-05-13
 
-### Release update 2015-05-13
-
 Our teams have been busy over the last little while, working through dotting Is and crossing Ts this week as we worked up our voice testing release.
 
 ## Voice Launch
@@ -15,6 +13,8 @@ Existing customers interested in a demonstration of our Voice testing capabiliti
 ## User-Agent selection for web tests
 
 By popular demand, we've added popular User-Agent strings for selection on web tests. To select a User-Agent string, in the HTTP request section of advanced test settings, select a specific user-agent from the list of available options. We've added predefined options for the most popular browsers on Windows, Mac OS X, and Ubuntu Linux.
+
+IMAGE MISSING
 
 In addition to our default and predefined User-Agent strings, users can define their own User-Agent strings as needed, by using the "Custom" option from the dropdown list. The list of predefined options can be found below:
 

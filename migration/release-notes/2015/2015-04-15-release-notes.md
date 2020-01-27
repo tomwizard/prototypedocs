@@ -6,6 +6,8 @@ For those of you in the United States, Happy Tax Day! Hope you're spending your 
 
 By popular demand \(seriously, our \#1 most requested feature of all time\), we've introduced support to show results in your local time zone. Users can select their local time zone, which is detected based on locale settings - and users with management permissions can set defaults for their organization. Emails from the system will be sent in the organization's default time zone.
 
+IMAGE MISSING
+
 We've published an article that outlines time zone selection and support [here](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmmSKAS).
 
 ## New cloud agent locations
