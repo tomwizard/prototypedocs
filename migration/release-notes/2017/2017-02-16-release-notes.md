@@ -1,7 +1,5 @@
 # Release Notes: 2017-02-16
 
-### Release Update 2017-02-16
-
 For those of you traveling to [Cisco Live Berlin](https://www.ciscolive.com/emea.html) next week \(Feb 21 - Feb 23\), come by the ThousandEyes booth E55 \(Hall 3.2 - World of Solutions\), chat with the product team and grab yourself one of our new “go ahead, blame the network” t-shirts.  
 
 Also, check out [Archana Kesavan's](https://blog.thousandeyes.com/author/archana/) latest blog post analyzing the implications of VPN performance on end-user experience, and how to monitor VPN-oriented networks using ThousandEyes Endpoint Agents.  You can read more on the ThousandEyes blog, [here](https://blog.thousandeyes.com/how-virtual-private-networks-impact-performance/).
@@ -33,6 +31,8 @@ BrowserBot, the component of Cloud and Enterprise Agents that runs Page Load and
 ### Dual-stack networking support
 
 We've added support for dual-stack \(IPv6 and IPv4 address families\) Agents in this release.  With this update, users will be able to assign an Agent that has addresses in both families to tests that have IPv6 or IPv4 targets. The behavior of a test assigned to the Agent is based on the **IPV6 SETTING** option in the Agent Settings.  An image of the option from the Advanced Settings tab of the Agent Settings page is shown below:
+
+IMAGE MISSING
 
 The policy option allows the user to select one of three options:
 

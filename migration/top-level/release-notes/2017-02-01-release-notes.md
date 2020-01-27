@@ -1,5 +1,7 @@
 # Release Notes: 2017-02-01
 
+### Release Update 2017-02-01
+
 ## Meet us in Washington, DC for NANOG 69!
 
 Here in most of the U.S. the dark, cold depths of winter are upon us.  If you're feeling the need to get away, these days there's no place more interesting than our nation's capital. Meet us in Washington, DC for [NANOG 69](https://archive.nanog.org/meetings/nanog69/home)! Come by the ThousandEyes table at lunch on Tuesday and grab one of our new t-shirts.
