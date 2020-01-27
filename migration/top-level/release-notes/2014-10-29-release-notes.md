@@ -1,5 +1,7 @@
 # Release Notes: 2014-10-29
 
+### Release update 2014-10-29
+
 October, October.  The leaves are turning color across the country, Halloween is approaching, and the Fall Classic is winding up, hopefully with our hometown Giants on top for the third time in just five years.  It's a good month.  Here at ThousandEyes, we've been hard at work and have some exciting updates to announce, particularly in the area of alerting.  Check the release notes below for details.
 
 ## New Agent Locations
@@ -13,8 +15,6 @@ HTTP Server tests now support setting a Desired Response code. Useful for servic
 
 To set the desired response code, uncheck the **Default \(2xx or 3xx\)** option and set the response code, using **Test Settings &gt; Advanced Settings &gt; HTTP Response** section of the test settings interface. The desired response code must be a single response code; neither ranges nor wildcards are supported.
 
-IMAGE MISSING
-
 Note: this setting is independent of the Alert Settings option for specific response.  The default alerting condition for HTTP Server tests "ERROR is ANY" will respect the Desired Status Code entered here.  
  
 
@@ -27,8 +27,6 @@ This is the first of two releases covering significant changes in our alerting. 
 Our alerting has long supported the concept of consecutive alerts before notification. In this release we've changed the behavior of this option, and moved it from the notification rule logic into the alert triggering logic.  This change was made to reduce alerting noise in the system, and make alert notifications.
 
 Now, you can set the number of locations, and the number of times they must meet this criteria before the alert is triggered in the alert settings page.
-
-IMAGE MISSING
 
 For accounts who were using the Consecutive Violations before Notification setting \(which has been removed in light of this new option\), we have moved the value used in notification into the alert rule triggering criteria.  
 
@@ -65,8 +63,6 @@ Based on the reverse DNS name of layer 3 devices found in the path between agent
 | n/a | SONET  |
 | n/a | SONET Bundle  |
 | n/a | Vlan  |
-
-IMAGE MISSING
 
 ## API
 
