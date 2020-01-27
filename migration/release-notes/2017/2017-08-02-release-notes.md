@@ -1,7 +1,5 @@
 # Release Notes: 2017-08-02
 
-### Release Update 2017-08-02
-
 Welcome to tonight's release!
 
 Normally, in this portion of the Release Update, we provide you with information and links to our latest ThousandEyes blog posts. In our previous release, we had none to give--a consequence of summer vacations and other factors. Tonight, we're making up for that shortfall with four terrific new blog posts.
@@ -30,7 +28,11 @@ Another addition to the US-based IPv4 Cloud Agents: Baltimore, Maryland. Crab ca
 
 Similar to the Reports widgets, you can now embed Dashboard widgets in your web portals. Click the **Add/Manage Widgets** button in the Dashboard containing the widget you wish to embed, and select Embed Widget from the **More Actions** menu:
 
+IMAGE MISSING
+
 Click the **Allow anyone to embed this widget onto external sites** box. The window expands to display the embed's HTML code snippet, which uses an &lt;iframe&gt; tag. The window also displays a preview of the widget.
+
+IMAGE MISSING
 
 A role with one of the Edit Dashboards... permissions is required to access the Embedded Widget feature.
 
@@ -49,12 +51,8 @@ A role with one of the Edit Dashboards... permissions is required to access the 
 * Fixed an issue with the Path Visualization in Endpoint Data that would cause some Agents to be grouped as "Unknown Network"
 * Fixed an issue with the Path Visualization in Endpoint Data that would incorrectly display a link as having a loop.
 * Fixed Instant Test issue which caused errors when attempting to run valid Web Layer tests that have username and password configured.
-* We've added an option to the Instant Test's Run Now button in Test views to optimize clicks and make clearer that users can choose whether to modify the configuration before running the Instant Test:
-* We've changed the orientation and wording of the active and cleared or disabled alerts indicators on Alert Grid widgets in the Dashboard to better reflect what these two categories represent:
-
-Previous style:
-
-New style:
+* We've added an option to the Instant Test's Run Now button in Test views to optimize clicks and make clearer that users can choose whether to modify the configuration before running the Instant Test: IMAGE MISSING
+* We've changed the orientation and wording of the active and cleared or disabled alerts indicators on Alert Grid widgets in the Dashboard to better reflect what these two categories represent: IMAGE MISSING IMAGE MISSING
 
 ## ​Questions and comments
 
