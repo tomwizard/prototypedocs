@@ -2,7 +2,7 @@
 
 Some great stuff coming your way in this release, but first a quick recap of last week's big conference.
 
-IMAGE MISSING 
+##  
 
 Thanks to everyone who came to visit the ThousandEyes booth at Cisco Live!  We hope you said hi, picked up a tee shirt or maybe took in a presentation on the new features of the product.  Cisco was very gracious in lending us the services of Project Manager Andrea Di Lecce to help us roll out the new ThousandEyes Enterprise Agent for their **Cisco IOS XE** platform.  We're very proud to be the first 3rd-party application for the Cisco ISR-series and ASR-series routers!  For those of you unable to make it to the conference, you can read about this new Enterprise Agent platform on the [Cisco Communities blog](https://community.cisco.com/t5/network-architecture-blogs/first-3rd-party-application-running-on-an-isr/ba-p/3659062).
 
@@ -23,8 +23,6 @@ To facilitate creating presentations and similar tasks, we've added the ability 
 ## Path Visualization
 
 We've updated the styling of Path Visualization's tooltips to make them clearer and easier to use.  For example, we include a legend at the top to identify what type of object is being displayed and the object's state--no more needing to remember the meaning of node colors! When you mouse over a node or a link, you'll see the new tooltip:
-
-IMAGE MISSING
 
 We've also changed the behavior of the slider which displays the number of nodes \(hops\) in the path from the Agent and from the target. Previously, the slider settings were not retained when refreshing the page or logging out. Now the settings are retained, even across browsing sessions.
 

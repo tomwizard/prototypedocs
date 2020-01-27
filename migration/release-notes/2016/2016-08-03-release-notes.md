@@ -2,6 +2,8 @@
 
 Welcome to August! Time for a field day!
 
+IMAGE MISSING
+
 ThousandEyes will be one of ten presenting sponsors at the Tech Field Day conference’s Networking Field on Friday, August 12th.  You can stream the presentation live from 10 AM to 12 PM PDT from the [Networking Field Day page](), with a recording available later via YouTube.  If you're not familiar with Networking Field Day, we encourage you to check it out. Click the link for all the details.
 
 Now, on to this week's product updates...
@@ -10,7 +12,7 @@ Now, on to this week's product updates...
 
 As part of our ongoing effort to add functionalities for our new FTP Test type, we now provide reporting capability for FTP Tests \(API access will be coming in the next release\). Additionally, we now support secure FTP transfer through both the FTPS \(FTP over SSL/TLS\) and SFTP protocols.  An example of an SFTP test being configured:
 
-![](https://lh5.googleusercontent.com/HzYaAF94m7FTKCD5wWGWUo7GEJgTQZIyUidjPA2fW4AH0RphqZ1kmbg9Z9V5BUej7nF9dILlusuyEbi1Bq4CJWQy4kvCneGnxmIeZow5ae71erOKK_4Hfb5K27Q0wwqqZmR7sRyv)
+IMAGE MISSING
 
 Username and password are required.
 
