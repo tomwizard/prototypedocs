@@ -32,6 +32,12 @@ Release Notes 2015
 
 Release Notes 2016
 
+Release Notes 2017
+
+Release Notes 2018
+
+Release Notes 2020
+
 ## To Do:
 
 Enterprise Agents
@@ -46,11 +52,5 @@ Endpoint Agent
 
 Endpoint Agent Installation
 
-Release Notes 2017
-
-Release Notes 2018
-
 Release Notes 2019
-
-Release Notes 2020
 

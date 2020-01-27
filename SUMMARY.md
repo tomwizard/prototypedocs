@@ -321,7 +321,7 @@
     * [Release Notes: 2019-02-06](migration/top-level/release-notes/2019/2019-02-06-release-notes.md)
     * [Release Notes: 2019-01-08](migration/top-level/release-notes/2019/2019-01-08-release-notes.md)
   * [2018](migration/top-level/release-notes/2018/README.md)
-    * [Release Notes: 2018-12-18](migration/release-notes/2018/2018-12-18-release-notes.md)
+    * [Release Notes: 2018-12-18](migration/top-level/release-notes/2018/2018-12-18-release-notes.md)
     * [Release Notes: 2018-11-27](migration/top-level/release-notes/2018/2018-11-27-release-notes.md)
     * [Release Notes: 2018-11-13](migration/top-level/release-notes/2018/2018-11-13-release-notes.md)
     * [Release Notes: 2018-10-23](migration/top-level/release-notes/2018-10-23-release-notes.md)
