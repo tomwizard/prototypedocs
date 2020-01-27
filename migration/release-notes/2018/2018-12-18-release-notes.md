@@ -1,8 +1,8 @@
 # Release Notes: 2018-12-18
 
-### Release Update 2018-12-18
-
 Welcome to today's release! The holiday season is upon us. Time to gather together, light candles, eat, drink, sing or do whatever brings you joy. Whether or whatever you're celebrating, we hope our last release of 2018 will provide you with something to bring you good cheer.
+
+IMAGE MISSING
 
 [Registration is now open](https://www.thousandeyes.com/events/connect/atlanta-2019) for the next ThousandEyes Connect in Atlanta on January 15th! We've got great guest speakers lined up to tell us how their companies use ThousandEyes. If you're in the Atlanta area, or need a break from the cold weather, come connect with us!
 
@@ -33,6 +33,8 @@ Per our [announcement on October 23rd, 2018](https://success.thousandeyes.com/Pu
 ### Path Visualization pagination
 
 The Path Visualization for Cloud and Enterprise Agent tests will now be paginated, similar to the Endpoint Agent's Path Visualization and the BGP Route Visualization. A maximum of 45 Agent or Agent groups can be shown per page.
+
+IMAGE MISSING
 
 Users will now see a "Next Nodes" icon when pagination occurs. The icon displays the number of nodes not shown in the current page.
 
