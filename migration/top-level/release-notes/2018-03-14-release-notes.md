@@ -2,8 +2,6 @@
 
 Welcome to tonight's release! We had a release last week, but we're sneaking an extra release into our normal bi-weekly release schedule, in honor of  [Pi Day](https://en.wikipedia.org/wiki/Pi_Day). We'll revert to the usual every-other-week release, hereafter. Next release: March 26th.
 
-IMAGE MISSING
-
 ## ThousandEyes Connect
 
 A quick reminder that our next ThousandEyes Connect event will take place in London on March 21st, and an update that our Chief Technology Officer, Ricardo Olivera, will join his ThousandEyes co-founder and CEO Mohit Lad at the speaker's podium. Check out the [full details](https://www.thousandeyes.com/events/connect/london-2018) and register for free!

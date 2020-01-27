@@ -1,7 +1,5 @@
 # Release Notes: 2018-03-28
 
-### Release Update 2018-03-28
-
 Welcome to tonight's release! It's a big one, feature-wise and fix-wise.
 
 But before those details, a quick shout out to Solutions Engineer Tim Hale, for the latest ThousandEyes blog post. The first in a two-post series, [Modern Wide Area Network Monitoring: Migrating from MPLS](https://blog.thousandeyes.com/modern-wide-area-network-monitoring-migrating-from-mpls/) looks at migrations from MPLS to Internet- and cloud-centric networks, including reasons why companies are making this change and the change to SD-WAN; pitfalls in these migrations; and how to use network monitoring to ensure success in migration projects.
@@ -33,6 +31,8 @@ For BrowserBot-based tests \(Page Load and Transaction tests\) the Waterfall dat
 
 Additionally, new waterfall timings are introduced with HTTP 2.0, such as those for the Server Push message:
 
+IMAGE MISSING
+
 Additionally, BrowserBot now supports [SPDY](https://en.wikipedia.org/wiki/SPDY) \(the precursor to HTTP 2.0\) and [QUIC](https://en.wikipedia.org/wiki/QUIC), a UDP-based implementation for secure web communication.
 
 Customers who see changes in test data can check which protocol was used to request an object:
@@ -41,11 +41,17 @@ Customers who see changes in test data can check which protocol was used to requ
 
 Click the \[Headers\] link in the Response Code column of the Table tab:
 
+IMAGE MISSING
+
 In the **Response Headers**, check the protocol string for "HTTP/2".
+
+IMAGE MISSING
 
 ### Page Load and Transaction
 
 Mouse over an object in the Object column of a waterfall to display a tooltip, which includes the Protocol field:
+
+IMAGE MISSING
 
 Possible values are:
 
@@ -60,15 +66,21 @@ Possible values are:
 
 For tests which included TCP-based Network Measurements \(under the Advanced Settings tab of the test configuration\) we now provide a choice of TCP or ICMP protocol:
 
+IMAGE MISSING
+
 ### SIP over TLS
 
 SIP Server tests now support TLS-encrypted SIP:
+
+IMAGE MISSING
 
 On the Map tab, the test's Status by Phase will include an SSL phase.
 
 ### Map tab Agent icons
 
 [Previously](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0440000009S1OCAU_Release-Update-2017-09-27#Map_widgets), we introduced a new icon for representing Agents on a Map widget for the Dashboard. We're now expanding the use of that icon to the Map tab for both Cloud and Enterprise Agents, in tests which have Availability as a Metric \(HTTP, FTP, SIP and DNS Server tests\). The legend will also go digital, replacing the gradient-style legend:
+
+IMAGE MISSING
 
 ### Geolocation
 
@@ -79,6 +91,8 @@ We've improved our geolocation algorithm for placing nodes in path traces on the
 ### Device Discovery
 
 We have added an **Enabled** checkbox for saved device discoveries, which allows for enabling and disabling of a scheduled device discovery. Previously customers could only delete a scheduled device discovery.
+
+IMAGE MISSING
 
 Additionally, we've improved discovery of devices with non-unique identifiers. Thus, customers may see new devices being discovered for the first time, after their Enterprise Agents download tonight's update.
 
