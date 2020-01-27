@@ -2,8 +2,6 @@
 
 A quick plug before our standard Release Note content: our marketing team has been busy putting things together for our next major event, ThousandEyes Connect NYC. Join us and hear what our panel of customers has to say! The event will occur on May 19, 2016 in Bryant Park in New York, and we're excited to announce presenters from Nasdaq, AIM Specialty Health and VeriSign.
 
-IMAGE MISSING
-
 Registration is free; click [this link](https://www.thousandeyes.com/events/connect/new-york-2016) to register.
 
 Now back to your regular Release Notes.
