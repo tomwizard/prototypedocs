@@ -36,6 +36,8 @@ Release Notes 2017
 
 Release Notes 2018
 
+Release Notes 2019
+
 Release Notes 2020
 
 ## To Do:
@@ -51,6 +53,4 @@ Advanced Troubleshooting
 Endpoint Agent
 
 Endpoint Agent Installation
-
-Release Notes 2019
 

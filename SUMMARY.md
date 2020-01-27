@@ -47,7 +47,7 @@
 ## Migration
 
 * [Migration Status](migration/migration-status.md)
-* [Changelog](migration/2020-01-08-release-notes.md)
+* [Changelog](migration/top-level/release-notes/2020-01-08-release-notes.md)
 * [Getting Started](migration/top-level/getting-started-1/README.md)
   * [Where are Cloud Agents available?](migration/getting-started-1/where-are-cloud-agents-available.md)
   * [Notification of upgrades, maintenance and outages](migration/getting-started-1/notification-of-upgrades-maintenance-and-outages.md)
@@ -233,7 +233,7 @@
   * [Role-Based Access Control explained - ThousandEyes Customer Success Center](migration/top-level/user-management/untitled-1.md)
   * [ThousandEyes support for SCIM - ThousandEyes Customer Success Center](migration/top-level/user-management/untitled.md)
 * [API](migration/top-level/api/README.md)
-  * [Obtaining a list of ThousandEyes Agent IP Addresses](migration/top-level/api/untitled-3.md)
+  * [Obtaining a list of ThousandEyes Agent IP Addresses](migration/api/untitled-3.md)
   * [How to use the ThousandEyes API](migration/top-level/api/untitled-2.md)
   * [Writing JSON to API produces HTTP 406 response code](migration/top-level/api/untitled-1.md)
   * [Create/Update/Delete tests using the ThousandEyes API](migration/top-level/api/untitled.md)

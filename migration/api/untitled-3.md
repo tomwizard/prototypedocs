@@ -30,7 +30,11 @@ https://username:API_token@api.thousandeyes.com/agents
 
 Your API token can be found in the **User API Token** section of the **Profile** tab of the [Account Settings](https://app.thousandeyes.com/settings/account/?section=profile) page:
 
+IMAGE MISSING
+
 For users with access to multiple Account Groups, be sure to use to the correct Account Group context to obtain the correct set of results from the API. The current context is displayed in the menu bar to the right of the User icon. For example, the current context in the example below is the "Support" Account Group:
+
+IMAGE MISSING
 
 If you need to query a non-default Account Group you have access to, you will need to use the [Account Group context](https://developer.thousandeyes.com/v6/#/accountcontext) parameter.
 
@@ -44,6 +48,8 @@ curl "https://api.thousandeyes.com/agents" -u noreply@thousandeyes.com:g351mw5xq
 
 A section of the resulting output in XML format:
 
+IMAGE MISSING
+
 The image above shows a portion of the response listing some of the Singapore Cloud Agent IP addresses. The "agentType" parameter identifies them as type "Cloud". Enterprise Agents will be identified as type "Enterprise". If your output's format is missing the whitespace and/or line termination, you can use any publicly available web-based tool to [format the XML](http://www.freeformatter.com/xml-formatter.html) \(or [format the JSON](https://jsonformatter.curiousconcept.com/) below\) to present the output in a similar fashion as shown in the image above.
 
 Alternatively, similar curl command can be used to receive a JSON-formatted response. The only adjustment that is needed is the addition of the **.json** suffix to the API endpoint URL:
@@ -54,7 +60,8 @@ curl "https://api.thousandeyes.com/agents.json" -u noreply@thousandeyes.com:g351
 
 The command above will generate output in JSON format, which is \(arguably\) easier to read for humans:
 
-  
+IMAGE MISSING
+
 For more information on querying the ThousandEyes API, consult the documentation available at [https://developer.thousandeyes.com](https://developer.thousandeyes.com/).
 
 **NOTE:** ThousandEyes does not provide and does not recommend using CIDR blocks as a shortcut to enumerating each of the Agent IP addresses. Most user interfaces of filtering devices provide the capacity to create groups of objects such as a "ThousandEyes Cloud Agents" group. Once created, the effort required to maintain such a list is minimal. In contrast, attempting to use whois information or assuming a CIDR mask that fits the existing IP addresses of an Agent is liable to be error-prone as Agent IP addresses are updated, and is less secure.
