@@ -1,8 +1,7 @@
 # Release Notes: 2019-01-08
 
-Welcome to today's release! Our first release of 2019; we'll try not to break any resolutions...
-
-IMAGE MISSING 
+Welcome to today's release! Our first release of 2019; we'll try not to break any resolutions...  
+ 
 
 [Registration is open](https://www.thousandeyes.com/events/connect/atlanta-2019) for the next ThousandEyes Connect in Atlanta on January 15th! Check out the guest speakers, who'll be telling us how their companies use ThousandEyes. Take a day trip to Atlanta and come connect with the ThousandEyes community!
 
@@ -40,9 +39,8 @@ Customers with Enterprise Agents installed via the Linux package can identify Re
 
 ### Identifying end-of-lifecycle Agents
 
-To identify Enterprise Agents running on a particular version of Linux \(including Enterprise Agents which are part of a cluster\), navigate to the [Enterprise Agents Settings page](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents), then add **OS Version** to the Current Filter, and enter a text string appropriate for the version of Linux desired. For example, the filter below displays all Ubuntu 14-based Agents:
-
-IMAGE MISSING
+To identify Enterprise Agents running on a particular version of Linux \(including Enterprise Agents which are part of a cluster\), navigate to the [Enterprise Agents Settings page](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents), then add **OS Version** to the Current Filter, and enter a text string appropriate for the version of Linux desired. For example, the filter below displays all Ubuntu 14-based Agents:  
+ 
 
 Users with permission to view Enterprise Agents in all of an organization's Account Groups can set the **Account Group** filter to "All" to view a complete list of matching Agents within their organization.
 
@@ -52,7 +50,7 @@ Users with permission to view Enterprise Agents in all of an organization's Acco
 
 Under the **Edit** button on the Enterprise Agents Settings page, we've added a new bulk action: Edit Tests. This action can be used to assign or remove tests across multiple Agents. Saves a lot of clicks!
 
-IMAGE MISSING
+## 
 
 Swipe up or down to scroll through the list of tests or access the slider.
 
@@ -60,7 +58,7 @@ Swipe up or down to scroll through the list of tests or access the slider.
 
 Under the Endpoint Agents' Network Access view, we've changed the timeline of the Network Topology layer. Previously, the timeline displayed the number of network probes sent to targets of the probes, such as DNS servers, proxies, access points, etc. Now we display the number of Agents sending probes, to match the Wireless layer.
 
-IMAGE MISSING
+## 
 
 ## Reports
 
