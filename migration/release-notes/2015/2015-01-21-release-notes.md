@@ -18,9 +18,13 @@ When one or more agents is selected in the visualization, use the "Show selected
 
 In BGP Route Visualization, the "Show only monitors with path changes" checkbox has been converted to a quick selection link. Clicking this link will select monitors showing path changes in the current interval, and the "Show selected monitors" option \(next to the monitor selector\) will change which monitors are shown in the visualization.
 
+Refer to our Knowledge Base articles entitled [Using the BGP Route Visualization View](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmmpKAC) and [Using the Path Visualization View](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmmiKAC) for more details on these views.
+
 ## HTTP Server redirect timing
 
 We've added redirect timing to the HTTP Server view. Redirect timing is shown in the summary pane \(\#1 below\) when an agent is selected, and in the detailed table view below the table, for all agents \(\#2\) when showing the Availability metric.
+
+IMAGE MISSING
 
 ## API changes
 
