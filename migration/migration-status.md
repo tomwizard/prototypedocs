@@ -14,6 +14,8 @@ Reports
 
 Internet Insights
 
+User Management
+
 API
 
 Advanced Troubleshooting
@@ -49,8 +51,6 @@ Release Notes 2020
 ## To Do:
 
 Enterprise Agents
-
-User Management
 
 Endpoint Agent
 

@@ -1,12 +1,18 @@
 # ThousandEyes view layouts
 
+### ThousandEyes view layouts
+
+Last updated: Tue Sep 17 23:47:09 GMT 2019
+
 This article describes how to navigate to and interact with the ThousandEyes Views.  This document describes the two primary View layouts \(standard and DNS+\) used throughout the user interface of the application, and makes reference to two other interactive Views.
+
+[Jump to Standard layout]()  
+[Jump to DNS+ layout]()  
+ 
 
 ## Navigation Bar and Menu
 
 ThousandEyes uses a standard top navigation bar throughout the entire application. The top nav layout is documented in the figure below.
-
-IMAGE MISSING
 
 1. **Menu toggle:** Toggle displaying or hiding the Menu on the left side of the page.
 2. **Page name:** Displays the current page name.
@@ -23,27 +29,23 @@ IMAGE MISSING
 The Menu appears on the left side of the application window, unless your window width is below a minimum size, in which case it will be hidden until the Menu toggle \(\#1 above\) is clicked.  The Menu provides access to the top-level pages of the application for configuration of tests, displaying of test results, and other major functions.  The top-level entries on the Menu are described below.  
  
 
-| IMAGE MISSING | **Cloud & Enterprise Agents:** Views of tests from, and settings for Cloud Agents, Enterprise Agents and BGP Monitors. |
+|  | **Cloud & Enterprise Agents:** Views of tests from, and settings for Cloud Agents, Enterprise Agents and BGP Monitors. |
 | :--- | :--- |
-| IMAGE MISSING | **Endpoint Agents:** Views of tests from, and settings for Endpoint Agents. |
-| IMAGE MISSING | **Devices:** Views of data from, and settings for Monitored Devices. |
-| IMAGE MISSING | **Dashboard link:** Dashboards in the current Account Group. |
-| IMAGE MISSING | **Alerts:** Alert information for your Account Group and Alert Rule settings, including Suppression Windows. |
-| IMAGE MISSING | **Reports:** Reports for your Account Group and Report Settings. |
-| IMAGE MISSING | **Sharing:** Snapshots, Saved Events and Embedded Widgets for your Account Group. |
-| IMAGE MISSING | **Account Settings:** Administrate User Profiles, Permissions, Account Groups.  Browse Usage, Billing, Quotas and view the Activity Log.  Administrate Organization security configurations including SCIM, SSO, Security Profile and Timezone configurations. |
+|  | **Endpoint Agents:** Views of tests from, and settings for Endpoint Agents. |
+|  | **Devices:** Views of data from, and settings for Monitored Devices. |
+|  | **Dashboard link:** Dashboards in the current Account Group. |
+|  | **Alerts:** Alert information for your Account Group and Alert Rule settings, including Suppression Windows. |
+|  | **Reports:** Reports for your Account Group and Report Settings. |
+|  | **Sharing:** Snapshots, Saved Events and Embedded Widgets for your Account Group. |
+|  | **Account Settings:** Administrate User Profiles, Permissions, Account Groups.  Browse Usage, Billing, Quotas and view the Activity Log.  Administrate Organization security configurations including SCIM, SSO, Security Profile and Timezone configurations. |
 
 ## System Notifications
 
 Occasionally, a system notification may appear, announcing major new features or changes, or other system information.  Each notification is only shown one time per user account, and can be dismissed either by clicking the link contained in the notification, or by clicking the X icon to the right of the notification.  Notifications are always linked to an article posted in the Customer Success Center, so don't worry--if you dismiss it accidentally, just log in to [https://support.thousandeyes.com](https://support.thousandeyes.com/) to get the current notification.  An example of a notification can be found below: 
 
-IMAGE MISSING
-
 ## ThousandEyes standard layout
 
 The ThousandEyes standard view is used across all Network, DNS, Voice and Web tests.  It provides a consistent layout when working with test results.  The ThousandEyes standard view layout is documented in the figure below, with numbered callouts.  Below the figure is a numbered list corresponding to the callouts, explaining each part of the layout. 
-
-IMAGE MISSING
 
 1. **Test selector:** Use this control to change which test is being displayed in the standard layout.  All tests of this type will be shown, including disabled tests.
 2. **Views**: This menu lists views available for the test type selected.  When switching views, the test selected and date/time selected in the timeline \(\#5\) are persisted in the new view.
@@ -53,11 +55,7 @@ IMAGE MISSING
 6. **Current round:** Indicates the time and date of the currently selected round in the timeline. 
 7. **Detailed Metrics tabs:** __In the lower section of the layout, one or more tabs are available to show the world map, detailed metrics and data specific to the selected test type. Refer to the knowledge base article [ThousandEyes Metrics: What do your results mean?](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmmzKAC_ThousandEyes-Metrics-What-do-your-results-mean) for more information regarding each metric shown.
 8. **Averages:** Based on the selected location, averages are computed for the selected metric for the time indicated by the date/time.  The content shown in the averages fvaries widely by view.
-9. **World map:** Uses geo-location data for agents to place agents on the map. The world map is zoomable using the conrols to the right of the map or via mouse scrolling.  Individual agents can be selected using this view, having the same effect as the Agent selector \(\#4\). 
-   * BULLET AND IMAGE MISSING
-   * BULLET AND IMAGE MISSING
-   * BULLET AND IMAGE MISSING
-   * IMAGE MISSING
+9. **World map:** Uses geo-location data for agents to place agents on the map. The world map is zoomable using the conrols to the right of the map or via mouse scrolling.  Individual agents can be selected using this view, having the same effect as the Agent selector \(\#4\).  
 10. **Save button:** Click the **Save** button to permanently save a period of data of up to two days.
 11. **Share button:** Click the **Share** button to create Share Links or export data in XML or JSON format.
 12. **Run Now:** Run an Instant Test using this test as a base configuration. 
@@ -66,9 +64,8 @@ IMAGE MISSING
 
 The ThousandEyes DNS+ view is used for all DNS+ tests.  DNS+ provides visibility into worldwide DNS data, from thousands of vantage points, in the form of open resolvers present on the Internet.  DNS+ is an optional module that is built to provide DNS visibility over and above the agent-based insight provided by the ThousandEyes platform, and as such, not all organizations will have access to the DNS+ test suite.  
 
-The ThousandEyes DNS+ view layout is documented in the figure below, with numbered callouts by section.  Below the figure is a list of sections, with a numbered list corresponding to the callouts on the figure, explaining each section of the layout. 
-
-IMAGE MISSING
+The ThousandEyes DNS+ view layout is documented in the figure below, with numbered callouts by section.  Below the figure is a list of sections, with a numbered list corresponding to the callouts on the figure, explaining each section of the layout.   
+ 
 
 1. **Test selector:** Use this control to change which test is being displayed in the DNS+ layout.  All tests of this type will be shown, including disabled tests.
 2. **Views**: This menu lists views available for the test type selected.  When switching views, the test selected and date/time selected in the timeline \(\#6\) are persisted in the new view.
@@ -81,12 +78,12 @@ IMAGE MISSING
 9. **World map**: unlike the standard layout, which marks agent locations on the map, the DNS+ view charts entire countries in color, according to either the response time, availability, or number of mapping density, based on their percentage of vantage points, using open resolvers available worldwide. World map is zoom interactive.  Individual countries can be selected using this view, having the same effect as \#4.
 10. **Detailed metrics:** this list is somewhat more interactive than the list shown in the standard layout.  Each tab’s behavior is documented below:
     * **Countries tab** – this tab lists all countries, and shows the percentage of vantage points mapping to the selected mapping \(\#5\), and number of covered networks.  Number of networks is hyperlinked to open the network tab and select only those networks which are responsive to that metric.  Selecting a country by clicking on the map, or by using the country selector will have the following effects:
-      * Change the color of the selected country \(yellow in mappings view, blue in availability and response time views\)
-      * Change the chart shown in the timeline \(\#6 above\), to chart the selected country’s default measurement against the worldwide percentage of same.
-      * Changes the computed averages section to be based on the selected country’s context
-      * Reduces the number of networks shown in the network tab to only those contained within the selected country.
-      * Hides other countries from the geography tab, and enables the View all countries button. 
-    * **Network tab** – this tab lists all networks which are accessible, in the current context.  When a specific country is selected, only those networks contained within that country are shown.  Each network will show a mapping percentage statistic, and the number of vantage points, otherwise known as open resolvers, which reside on that network.  Each network shown is a registered Autonomous System, or telecommunications provider present in that country.  Autonomous System \(AS\) details can be seen by hovering over the AS link, shown in the network name column of the network tab.  An example of this AS information can be found below. IMAGE MISSING
+      1. Change the color of the selected country \(yellow in mappings view, blue in availability and response time views\)
+      2. Change the chart shown in the timeline \(\#6 above\), to chart the selected country’s default measurement against the worldwide percentage of same.
+      3. Changes the computed averages section to be based on the selected country’s context
+      4. Reduces the number of networks shown in the network tab to only those contained within the selected country.
+      5. Hides other countries from the geography tab, and enables the View all countries button. 
+    * **Network tab** – this tab lists all networks which are accessible, in the current context.  When a specific country is selected, only those networks contained within that country are shown.  Each network will show a mapping percentage statistic, and the number of vantage points, otherwise known as open resolvers, which reside on that network.  Each network shown is a registered Autonomous System, or telecommunications provider present in that country.  Autonomous System \(AS\) details can be seen by hovering over the AS link, shown in the network name column of the network tab.  An example of this AS information can be found below.   
 
 ## Other views
 
@@ -122,5 +119,5 @@ The following table shows a list of tests and links to articles describing how t
 | DNS+ Resolution Time | DNS+ | DNS+ Domain | [https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmpjKAC](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmpjKAC) |
 | DNS+ Mappings  | DNS+ | DNS+ Domain | [https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmpdKAC](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmpdKAC) |
 | DNS+ Server Latency | DNS+ | DNS+ Server Latency | [https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmpiKAC](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmpiKAC) |
-| 1 When the **Perform network measurements** |  |  |  |
+| 1 When the **Perform network measurements** option is selected in the Advanced Settings tab of the test configuration    |  |  |  |
 
