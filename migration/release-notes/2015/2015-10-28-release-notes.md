@@ -1,7 +1,5 @@
 # Release Notes: 2015-10-28
 
-### Release Update 2015-10-28
-
 Has it been two weeks already?  When we last left our superheroes, we were preparing for [ThousandEyes Connect's inaugural New York City meeting](https://blog.thousandeyes.com/connect-nyc-2015-summary/), and we've tracked a pretty interesting east-coast centric outage on October 15th with [Neustar's UltraDNS service](https://blog.thousandeyes.com/ultradns-outage-october-2015/).  In case you missed some of those sessions, keep an eye on the ThousandEyes Blog at http://blog.thousandeyes.com - we'll be publishing each of the presentations in due course.
 
 Most of today's changes are transparent, but we've made a few visible updates to the reporting interface.  Check out the updates below.
