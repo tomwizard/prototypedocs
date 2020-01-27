@@ -1,7 +1,5 @@
 # Release Notes: 2018-11-13
 
-### Release Update 2018-11-13
-
 Welcome to tonight's release. The holiday season is upon us--starting with Halloween, through New Year's Day, we'll all be celebrating, giving thanks, remembering, honoring, looking back, looking forward, and lighting candles. Whatever traditions or holidays you may be celebrating, may your candles burn brightly.
 
 In ThousandEyes blog news... Big news yesterday with the hijacking of routes to Google properties. Our Technical Marketing Manager, Ameet Naik, gives you the details in his blog post [Internet Vulnerability Takes Down Google](https://blog.thousandeyes.com/internet-vulnerability-takes-down-google/). Ameet got a fast start on the analysis thanks to having Endpoint Agent installed on laptops around the ThousandEyes office. If you want to know who done it, Ameet's post will tell you who the guilty party is. Added bonus: see the outage through the eyes of an Endpoint Agent.
@@ -32,15 +30,21 @@ A couple improvements to Report Snapshots, to match the PDF-making features avai
 
 In addition to downloading Reports as PDF files, users can now download Report Snapshots as PDF files. When viewing a Report Snapshot, a new **Share** button will be visible \(and the **Share this Snapshot** link will now be a button\):
 
+IMAGE MISSING
+
 ### PDF attachments in Report Snapshots
 
 When configuring a Report Snapshot to be emailed automatically, a PDF attachment of the Report can be included in the email.
+
+IMAGE MISSING
 
 On the [Reports page](https://app.thousandeyes.com/reports/), select the **Snapshots** link, then choose either create a new "Scheduled Snapshot" or "Edit Scheduled Snapshots". Click the **Include a PDF attachment of the Report** box to have the PDF attachment included in the emails.
 
 ### Arranging Number Cards
 
 The Number Cards in a Number widget of an existing Report can now be arranged via drag and drop. Click the Settings icon of a Report to enter edit mode, then click the Card. The clicked Card will be highlighted, and will be draggable to new locations within the widget.
+
+IMAGE MISSING
 
 ## Minor enhancements & bug fixes
 
