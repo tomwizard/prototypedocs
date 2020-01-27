@@ -1,12 +1,12 @@
 # Release Notes: 2019-05-14
 
-### Release Update 2019-05-14
-
 Welcome to our latest release!
 
 Half a tick 'til we get to the details of the release; time for a tip of the old bowler to all who attended a smashing ThousandEyes Connect event in New York City, a half-fortnight past. Blimey, what a turnout of loverly ThousandEyes users. We were absolutely chuffed.
 
 Take a miss on Connect NYC? Have no idea what all that meant? The solution to either is to make your bookings for...
+
+IMAGE MISSING
 
 Come join us for Connect London on Thursday, June 13th \(held at a pub, of course\). We've got a right cracking lineup of speakers, including ThousandEyes co-founders Mohit Lad and Ricardo Oliveira. [Registration](https://www.thousandeyes.com/events/connect/london-2019) is open and won't cost you a farthing. 
 
@@ -20,15 +20,21 @@ A couple new authentication options are available for Enterprise Agents, as well
 
 Page Load and Transaction tests run from Enterprise Agents can now be configured to authenticate with websites using Kerberos and Kerberos-based authentication schemes.
 
+IMAGE MISSING
+
 From the Cloud & Enterprise Agents &gt; Agent Settings page, select the Kerberos Settings tab and configure the information for granting Kerberos tickets to Agents which allow access to the websites in the Page Load or Transaction tests. This configuration can also be selected for a specific Enterprise Agent under the Agents tab, in the Agent's Advanced Settings:
 
-When creating a Page Load or Transaction test, select Kerberos in the HTTP Authentication section of the test's Advanced Settings.  
+When creating a Page Load or Transaction test, select Kerberos in the HTTP Authentication section of the test's Advanced Settings. 
+
+IMAGE MISSING
 
 When you run the test from an Agent which has a Kerberos configuration, the test will use the Agent's assigned Kerberos configuration.
 
 ### NTLM proxy authentication
 
-Enterprise Agents can now use NTLM authentication with web proxies. For ThousandEyes Appliances, select the NTLM option in the Web Proxy section of the Network settings.  
+Enterprise Agents can now use NTLM authentication with web proxies. For ThousandEyes Appliances, select the NTLM option in the Web Proxy section of the Network settings. 
+
+IMAGE MISSING
 
 For Linux package-based and container-based Agents, set "proxy-auth-type=NTLM" in the /etc/te-agent.cfg file.
 
