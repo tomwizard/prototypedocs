@@ -32,6 +32,8 @@ We've added new functionality for the [/reports endpoint](https://developer.thou
 
 When configuring the **Proxy Options** setting of an Endpoint Agent's HTTP Server test, the proxy configured for the system on which the Agent runs will now always be used if configured for the test. Previously, if an Agent-level proxy had been assigned via the Agent Settings page, the system proxy was not used even if selected in Proxy Options. To implement this, we've added a fourth menu choice: "Endpoint Agent's proxy configuration" which will allow for Agent-level proxies to be selected from the Proxy Options. The "System Proxy" setting will now always allow the test to use the system's proxy setting.
 
+IMAGE MISSING
+
 ## Bug fixes & minor enhancements
 
 Here are the bug fixes and minor enhancements in this week's release. Version numbers in parentheses indicate when a fix first appears \(when relevant, e.g. Endpoint Agent version\):

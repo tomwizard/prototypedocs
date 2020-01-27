@@ -33,12 +33,7 @@ Welcome to the Cloud Agent family. 你好 \(Ni how\)!
 
 A couple improvements in the way Path Visualizations are drawn for Enterprise and Endpoint Agents. First, we are using more information from neighbor nodes to determine whether a private \(RFC 1918\) IP address that appears in multiple Agent's traces is a single node common to multiple paths, or the same IP address used by multiple distinct nodes \(i.e. paths with no common node\).
 
-IMAGE MISSING  
-IMAGE MISSING
-
 Also, we've improved the rendering of nodes near the target when forwarding loss is occurring. In the following image, the white nodes before the target will now be correctly rendered as forwarding loss on a single 10.12.16.86 node:
-
-IMAGE MISSING
 
 ## Endpoint Agent permissions
 
