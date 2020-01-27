@@ -1,8 +1,8 @@
 # Release Notes: 2016-05-11
 
-### Release update 2016-05-11
-
 We're just over a week from ThousandEyes Connect NYC. Great speakers from AIM Specialty Health, Nasdaq and Verisign are on the agenda! There are only a few seats left, so [register online here](https://www.thousandeyes.com/events/connect/new-york-2016).
+
+IMAGE MISSING
 
 We've seen a few blips in connectivity by Tier 1 providers in the East Coast US in the last couple of weeks. In [this blog post](https://blog.thousandeyes.com/trans-atlantic-issues-level-3-network/), [Young Xu](https://blog.thousandeyes.com/author/young/) discusses the impact of Trans-Atlantic Issues in the Level 3 Network, discussing some interesting findings and inferring root cause of the outage which impacted connectivity between Europe and the US east coast last week. Remember, you can subscribe to the ThousandEyes Blog to stay up to date with what's happening out there in the connected world.
 
@@ -12,13 +12,21 @@ And, without further ado, let's get into the release notes for this week.
 
 Listening to the voice of your customers is key to maintaining a relationship with your customer base. Based on popular demand, we've added support for FTP-based testing to the product, and are beginning an open beta beginning this week.
 
+IMAGE MISSING
+
 Test common FTP requests; download or upload a file, verify directory contents, and track metrics across your requests. As with other types of application-layer testing, we're including Network tests along with these tests for free.  This beta for FTP-based tests includes testing and alerting; Reporting and API access will be introduced as the beta progresses, as will support for other FTP-like protocols \(including SFTP and FTPS\).
+
+For more information on working with FTP tests, check out articles on [Using the FTP Server tests view](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmmWKAS), and [FTP test settings](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000Cmn7KAC). 
 
 ## Reporting updates
 
 ### Test & Agent group filtering and aggregation
 
 As we continue to enhance our reporting capabilities, we've added the ability to filter and aggregate based on test and agent groups.
+
+IMAGE MISSING
+
+Refer to [this article on working with reports](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmnTKAS) for detailed information on how to use this very powerful feature set to report on your data.
 
 ## Internet Explorer compatibility
 
