@@ -10,13 +10,13 @@ Endpoint Agent Pulse offers some of the same functionality as the normal Endpoin
 
 Select the option for Endpoint Agent Pulse and choose the download option.
 
-1. 1. Navigate to  Endpoint Agents &gt; Agent Settings &gt; Add New Endpoint Agent button.    ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/EndpointAgentLite0.png?version=2&modificationDate=1554411992365&cacheVersion=1&api=v2&width=850&height=182)   
+1. 1. Navigate to  Endpoint Agents &gt; Agent Settings &gt; Add New Endpoint Agent button.    IMAGE MISSING
    2. Select the Endpoint Agent Pulse Option
 
-      ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/EndpointAgentPulse0002.png?version=2&modificationDate=1560470534392&cacheVersion=1&api=v2&width=850&height=497)
+      IMAGE MISSING
 2. To provide this link to allow anyone to download the Endpoint Agent Pulse, select the toggle control to reveal the links.
 
-   ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/EndpointAgentPulse0004.png?version=1&modificationDate=1560470413249&cacheVersion=1&api=v2&width=850&height=497)
+   IMAGE MISSING
 
 ## Installing the Endpoint Agent Pulse for Mac OS X <a id="KBSeed:EndpointAgentLite-Titled:EndpointAgentPulse-InstallingtheEndpointAgentPulseforMacOSX"></a>
 
@@ -39,27 +39,29 @@ Endpoint Agent Pulse is custom-built for each account. Access to the Endpoint Ag
 
 1. Launch the installer.  You'll be prompted by the wizard through the installation steps.  Click the **Continue** button.
 
-   ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/InstallEndpointAgentLite001.png?version=1&modificationDate=1554421146969&cacheVersion=1&api=v2&width=352&height=250)
+   IMAGE MISSING
 
 2. Read the End-user License Agreement and Terms of Use.  Click the **Continue** button.
 
-    ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/InstallEndpointAgentLite002.png?version=1&modificationDate=1554421190081&cacheVersion=1&api=v2&width=352&height=250) ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/InstallEndpointAgentLite003.png?version=1&modificationDate=1554421225178&cacheVersion=1&api=v2&width=352&height=250)
+    IMAGE MISSING  
+   IMAGE MISSING
 
 3. Accept the End-user License Agreement and Terms of Use.  Click the **Agree** button to continue.
 
-   ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/InstallEndpointAgentLite004.png?version=1&modificationDate=1554421264418&cacheVersion=1&api=v2&width=352&height=250)
+   IMAGE MISSING
 
 4. Accept the default location for the software installation by choosing the _Install for all users of this computer_ option. Click the **Continue** button
 
-   ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/InstallEndpointAgentLite005.png?version=2&modificationDate=1554421325077&cacheVersion=1&api=v2&width=353&height=250)
+   IMAGE MISSING
 
 5. Next, you'll be shown how much disk space the ThousandEyes Endpoint Agent Pulse will consume.  Click the **Install** button.
 
-   ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/InstallEndpointAgentLite006.png?version=1&modificationDate=1554421339964&cacheVersion=1&api=v2&width=354&height=250)
+   IMAGE MISSING
 
 6. Your system will prompt for the username and password of an account with rights to install software.  Enter your username and password, then click the **Install Software** button.
 
-    ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/InstallEndpointAgentLite009.png?version=1&modificationDate=1554421427552&cacheVersion=1&api=v2&width=449&height=234)   ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/InstallEndpointAgentLite008.png?version=1&modificationDate=1554421395998&cacheVersion=1&api=v2&width=365&height=258)
+    IMAGE MISSING  
+   IMAGE MISSING
 
 7. After installation completes \(it should take less than a minute to install\), you'll see an installation summary.  Click the **Close** button to complete the installation.
 

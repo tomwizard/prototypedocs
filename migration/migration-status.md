@@ -14,8 +14,6 @@ Reports
 
 Internet Insights
 
-API
-
 Using DNS+
 
 Outage Detection
@@ -47,6 +45,8 @@ Release Notes 2020
 Enterprise Agents
 
 User Management
+
+API
 
 Advanced Troubleshooting
 

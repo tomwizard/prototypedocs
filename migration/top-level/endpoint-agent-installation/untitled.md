@@ -10,13 +10,13 @@ Endpoint Agent Pulse offers some of the same functionality as the normal Endpoin
 
 Select the option for Endpoint Agent Pulse and choose the download option.
 
-1. 1. Navigate to  Endpoint Agents &gt; Agent Settings &gt; Add New Endpoint Agent Button.    IMAGE MISSING
+1. 1. Navigate to  Endpoint Agents &gt; Agent Settings &gt; Add New Endpoint Agent Button.    ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/EndpointAgentLite0.png?version=2&modificationDate=1554411992365&cacheVersion=1&api=v2&width=850&height=182)   
    2. Select the Endpoint Agent Pulse Option
 
-      IMAGE MISSING
+      ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/EndpointAgentPulse0002.png?version=2&modificationDate=1560470534392&cacheVersion=1&api=v2&width=850&height=497)
 2. To provide this link to allow anyone to download the Endpoint Agent Pulse Select the toggle control to reveal the links
 
-   IMAGE MISSING
+   ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/EndpointAgentPulse0004.png?version=1&modificationDate=1560470413249&cacheVersion=1&api=v2&width=850&height=497)
 
 ## Installing the Endpoint Agent Pulse for Windows <a id="KBSeed:EndpointAgentLite-Titled:EndpointAgentPulse-InstallingtheEndpointAgentPulseforWindows"></a>
 
@@ -37,44 +37,45 @@ Endpoint Agent Pulse is custom-built for each account. Access to the Endpoint Ag
 1. Navigate to  **Endpoint Agents &gt; Agents** 
 2. Click **Add New Endpoint Agent Button**
 
-   IMAGE MISSING  
-   IMAGE MISSING
+   ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/EndpointAgentLite0.png?version=2&modificationDate=1554411992365&cacheVersion=1&api=v2&width=850&height=182)
+
+   ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/EndpointAgentPulse0002.png?version=2&modificationDate=1560470534392&cacheVersion=1&api=v2&width=850&height=497)
 
 3. Download the appropriate Installer file based on your operating system architecture. Click **Download - x86 Windows MSI** or **Download - x64 Windows MSI**to start downloading the MSI installer file.  Depending on your security settings, you may see a warning that the file can harm your computer, per the image below.  Select the **Keep** option to continue the download.
 
-   IMAGE MISSING
+   ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/EndpointAgentPulse0003.png?version=1&modificationDate=1560469978340&cacheVersion=1&api=v2&width=850&height=497)
 
-   IMAGE MISSING
+   ![](https://thousandeyes.atlassian.net/wiki/download/attachments/554074433/EndpointAgentLite4-rtaImage.png?version=1&modificationDate=1554413987574&cacheVersion=1&api=v2)
 
 4. Once downloaded, double click the file in the receiving folder and select Run to start the installation.
 
-   IMAGE MISSING
+   ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/EndpointAgentLite5rtaImage.png?version=1&modificationDate=1554414124411&cacheVersion=1&api=v2&width=400&height=301)
 
 ## Installing the Endpoint Agent Pulse <a id="KBSeed:EndpointAgentLite-Titled:EndpointAgentPulse-InstallingtheEndpointAgentPulse"></a>
 
 1. Launch the installer.  You'll be guided by the wizard through the installation steps.  Click the **Next** button.
 
-   IMAGE MISSING
+   ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/EndpointAgentInstall-Win01.jpeg?version=1&modificationDate=1554744019429&cacheVersion=1&api=v2&width=512&height=400)
 
 2. Read the End-User License Agreement.  Click the checkbox to accept the terms and then click the **Next** button.
 
-   IMAGE MISSING
+   ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/EndpointAgentInstall-Win02.png?version=1&modificationDate=1554744006629&cacheVersion=1&api=v2&width=501&height=388)
 
 3. Choose an installation folder.  Click the **Next** button.
 
-   IMAGE MISSING
+   ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/EndpointAgentInstall-Win03.png?version=1&modificationDate=1554743990370&cacheVersion=1&api=v2&width=495&height=389)
 
 4. Install the Endpoint Agent Pulse. Click the **Install** button.
 
-   IMAGE MISSING
+   ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/EndpointAgentInstall-Win04.png?version=1&modificationDate=1554743973730&cacheVersion=1&api=v2&width=497&height=391)
 
 5. You may receive a warning about the installation.  Check that the verified publisher is "ThousandEyes, Inc."  If so, click the **Yes** button or similar button to continue.
 
-   IMAGE MISSING
+   ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/EndpointAgentInstall-Win05.png?version=1&modificationDate=1554743958196&cacheVersion=1&api=v2&width=464&height=262)
 
 6. Click the **Finish** button to complete the installation.
 
-   IMAGE MISSING
+   ![](https://thousandeyes.atlassian.net/wiki/download/thumbnails/554074433/EndpointAgentInstall-Win10.png?version=1&modificationDate=1554743845188&cacheVersion=1&api=v2&width=495&height=382)
 
 ## Uninstalling Endpoint Agent <a id="KBSeed:EndpointAgentLite-Titled:EndpointAgentPulse-UninstallingEndpointAgent"></a>
 
