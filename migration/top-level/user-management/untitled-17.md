@@ -1,5 +1,7 @@
 # How to configure Single Sign-On with Google G Suite
 
+### How to configure Single Sign-On with Google G Suite
+
 For the security of your SaaS-based infrastructure and the convenience of users in your organization, the ThousandEyes service offers login via single sign-on \(SSO\). ThousandEyes supports SAML2-based identity providers \(IdPs\) for single sign-on.  In this configuration example, we use Google's G Suite \(formerly Google Apps\) as the identity provider.
 
 There are **two steps** to set up single sign-on:
@@ -24,17 +26,15 @@ Here's what you need to configure single sign-on:
 2. Open the Admin Console \([https://admin.google.com](https://admin.google.com/)\)
 3. Click on the **Apps \(Manage apps and their settings\)** item 
 4. Click on the **SAML apps**
-5. Click on the **+** icon to configure a new SAML application IMAGE MISSING
-6. Click on **SETUP MY OWN CUSTOM APP** IMAGE MISSING
+5. Click on the **+** icon to configure a new SAML application
+6. Click on **SETUP MY OWN CUSTOM APP**
 7. Obtain the Google identity provider information for configuration in ThousandEyes.
 
     "**Option 1**" is used for [Static Configuration]() of the Service Provider. Copy and paste the SSO URL and IdP Entity ID values into a separate document, and download the certificate. Then click **Next.** Or...
 
-    "**Option 2**" is used for [Imported Metadata Configuration]() of the Service Provider. Download the IDP Metadata file. Then click **Next.**  
-   IMAGE MISSING
+    "**Option 2**" is used for [Imported Metadata Configuration]() of the Service Provider. Download the IDP Metadata file. Then click **Next.**
 
-Enable the ThousandEyes application for all users by clicking on the More Options menu \(three vertical dots\) and selecting **ON for everyone**  
-IMAGE MISSING
+Enable the ThousandEyes application for all users by clicking on the More Options menu \(three vertical dots\) and selecting **ON for everyone**
 
 ## Service provider configuration
 
@@ -42,7 +42,7 @@ IMAGE MISSING
 
 1. Log in to ThousandEyes as a user having a role with the Edit security & authentication settings permission
 2. Navigate the [Security & Authentication](https://app.thousandeyes.com/settings/account/?section=security) tab of the Account Settings page
-3. In the **Setup Single Sign-On** section:  IMAGE MISSING
+3. In the **Setup Single Sign-On** section:  
    * Check the Enable Single Sign-On box
    * Enter the **Login Page URL** \(SSO URL from previous section - step 7\)
    * Enter a **Logout Page URL** \(Optional\)
@@ -58,16 +58,14 @@ Follow these steps to configure your ThousandEyes organization to use single sig
 
 * Enter the ThousandEyes application information that will be visible with the user's Google environment.
 
-   **Description** and **Upload logo** are both optional. The ThousandEyes [Media Kit](https://www.thousandeyes.com/media-kit) provides a variety of ThousandEyes logos, which can be scaled down to fit within the required dimensions, if needed. A pre-sized logo is available below the screenshot.  
-  IMAGE MISSING
+   **Description** and **Upload logo** are both optional. The ThousandEyes [Media Kit](https://www.thousandeyes.com/media-kit) provides a variety of ThousandEyes logos, which can be scaled down to fit within the required dimensions, if needed. A pre-sized logo is available below the screenshot.
 
-   A ThousandEyes logo, sized to fit with Google Apps:  
-  IMAGE MISSING
+   A ThousandEyes logo, sized to fit with Google Apps:
 
    Right-click on the image above to save it to your local storage, then upload to Google Apps with the **Choose File** button.
 
-* Enter required ThousandEyes Service Provider details: IMAGE MISSING
-* Skip the optional **Attribute Mapping**, and click **Finish:** IMAGE MISSING
+* Enter required ThousandEyes Service Provider details:
+* Skip the optional **Attribute Mapping**, and click **Finish:**
   1. Log in to ThousandEyes as a user with a role that has the Edit security & authentication settings permission.
   2. Navigate to the [Security & Authentication](https://app.thousandeyes.com/settings/account/?section=security) tab of the Account Settings page
   3. In the **Setup Single Sign-On** section:
@@ -76,7 +74,7 @@ Follow these steps to configure your ThousandEyes organization to use single sig
      * Enter a **Logout Page URL** \(Optional\)
      * Enter the **Identity Provider Issuer** \(Entity ID from the previous section - step 7\)
      * Enter the Service Provider Issuer \(SP Entity ID from previous section - step 9; do **not** use the Entity ID from step 7\)
-     * Click the **Choose File** button to upload the verification certificate \(certificate downloaded from the previous section - step 7\) IMAGE MISSING   
+     * Click the **Choose File** button to upload the verification certificate \(certificate downloaded from the previous section - step 7\)   
   4. Click **Save**
   5. Click **Run Single Sign-On Test** to verify the single sign-on works as expected.
   6. Log in to ThousandEyes using an account with a role that has the _Edit security & authentication settings_ permission.
@@ -85,7 +83,7 @@ Follow these steps to configure your ThousandEyes organization to use single sig
   9. Click the **Imported Metadata Configuration** button.
   10. Click the **Import File** button and upload the **IDP Metadata File** downloaded at Step 7 of the **Identity Provider configuration** section. The configuration section should populate with the SSO parameters \(see screenshot below\).
   11. Click the **Save** button.
-  12. Click **Run Single Sign-On Test** to verify the single sign-on works as expected. IMAGE MISSING IMAGE MISSING
+  12. Click **Run Single Sign-On Test** to verify the single sign-on works as expected.
 
 ## Logging in using SSO
 
