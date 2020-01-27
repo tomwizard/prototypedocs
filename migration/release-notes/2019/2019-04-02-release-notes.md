@@ -27,7 +27,7 @@ And now for the details of today's release...
           describes exactly where that page you need went. And of course, you can
           always contact Customer Success for assistance.</p>
       </th>
-      <th style="text-align:left"></th>
+      <th style="text-align:left">IMAGE MISSING</th>
     </tr>
   </thead>
   <tbody></tbody>
@@ -41,8 +41,11 @@ Endpoint Agent Lite can be deployed on Mac OS X 10.9 \(Mavericks\) and later, an
 
 For browser-based tests \(Page Load and Transaction tests\) we have added the ability to configure the frame buffer size \(length and width, in pixels\) of the virtual browser, allowing the test to emulate phones and tables. The **Window Size** pull-down menu will display a list of common devices and their screen dimensions \(custom dimensions can also be specified\).
 
-  
+IMAGE MISSING
+
 Selecting one of the Phone or Tablet devices will also permit clicking on the icons for portrait or landscape orientation, to swap the length and width values.
+
+IMAGE MISSING
 
 ## Updating Tests
 
