@@ -27,6 +27,8 @@ Two new metrics on which to alert:
 
 Transaction tests have a new command called **dynamicType**:
 
+IMAGE MISSING
+
 This command is similar to the standard **type** command, but instead of specifying static text in the Value field, we now permit a JavaScript expression, the results of which are provided to dynamicType via the JavaScript return statement.  The returned value must be a number or a string.
 
 An example use case: the dynamicType command allows Transaction tests to navigate login mechanisms such as a security question chosen from a list of questions. A monitoring account could be given answers to security questions which are a sequence of characters or words chosen from a text element on the page with the security question. If a login page displayed a security question with the text of "What is your least favorite relative's name?" and the answer to each security question is the 4th word of the question, then the JavaScript in the Value field could extract the string "least" using the following:
