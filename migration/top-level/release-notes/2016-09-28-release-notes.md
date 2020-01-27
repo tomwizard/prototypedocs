@@ -2,8 +2,6 @@
 
 A quick announcement or two, before the details on tonight's release.  First, ThousandEyes Connect is back!
 
-IMAGE MISSING
-
 Join us in San Francisco on November 17th or New York \(date TBD\). Learn more and save your spot [here](https://www.thousandeyes.com/events/connect).
 
 Also, check out our latest blog posts:
@@ -17,8 +15,6 @@ Nick and Young are always hard at work to provide you with information on produc
 ## Reports
 
 We've added a set of built-in reports to give you information that is commonly needed from the Reports function in ThousandEyes.  On the Reports page, when you click on the Reports selector, you'll see the following new reports:
-
-IMAGE MISSING
 
 These reports contain a number of widgets which provide a variety of data commonly needed for the type of test indicated in the report title.  You may find the report useful as-is for your own reporting needs, or the plethora of widgets may give you some ideas for creating your own reports.  Feel free to play with the widget configuration in the reports to see what pretty maps and graphs result.  Consider creating a new Account Group for this experimentation, since each of these reports works on a per-Account Group basis \("Reports Sandbox" would be a good choice for the name\).  You can share tests from other Account Groups to your new Account Group in order to provide data to populate the experimental Account Group's reports.
 
@@ -45,8 +41,7 @@ To configure a PAC file, Linux package and Docker users can consult the instruct
 * Slack notifications now correctly link back to Agent to Agent tests, and don't display "NO CALLBACK DEFINED"
 * In Agent to Agent tests, the Target to Source tab is now clickable when showing the traceroute-style output in both directions
 * Entering large numbers of kilobytes in the Limit Download Size of Web Layer tests no longer results in an error or doesn't save. \(Yes, you really can limit your test to the first gigabyte, now.  Have fun racing your link speed against the test timeout.  Graph the results with a report.  Send us the code for the Embedded Widget. We'll embed it in into a future blog post.\)
-* Best for last: the current name is now selectable in the current display selector:  
-  IMAGE MISSING
+* Best for last: the current name is now selectable in the current display selector:
 
   Now you can create long test, dashboard or other names, without fear you'll have to type the name you've chosen.  But don't tell your co-workers that you can copy and paste from the selector.  Let your boss think you're just that fast and accurate a typist.
 
