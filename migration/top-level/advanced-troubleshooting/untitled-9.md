@@ -30,8 +30,6 @@ This header cannot be removed via test configuration.  This header is the best c
 
 Users may add any custom header of their own choosing with the **Custom Headers** field.  The field is available in the Advanced Settings tab of the test configuration.  Enter the name of the header, a colon and a space, followed by the value of the header.  In the example below, the header name is "X-My-Custom-Header" and the value is the string "Hello World!".
 
-IMAGE MISSING
-
 Multiple headers can be entered by typing the Enter/Return key when you are finished entering the first header.
 
 **NOTE:** Custom Headers in Page Load and Transaction tests are only inserted into the request for the test's target page.  Subsequent requests for objects in the DOM or other pages \(Transaction tests\) will not use the **Custom Header** field's contents. To identify the subsequent requests, some other session-based method would be required.
@@ -58,27 +56,17 @@ These defaults can be changed by selecting the Advanced Settings tab on the test
 
 A test's HTTP request headers can be displayed in test results:
 
-IMAGE MISSING
-
 #### HTTP Server test
 
 To view the request headers of an HTTP Server test, navigate to the on the test results page, then click on the **View Headers** link on the Map tab, or click on the **\[Headers\]** link in the Response Code column of the Table tab:
 
-IMAGE MISSING
-
 To see the **View Headers** link, an Agent must be selected.  The Table tab does not require Agent selection before displaying the **\[Headers\]** link:
-
-IMAGE MISSING
 
 #### Page Load and Transaction tests \(BrowserBot\)
 
 To view the request headers in a Page Load or Transaction test, first select the **Show HTTP headers in waterfalls** checkbox in the Advanced Settings tab of the test configuration:
 
-IMAGE MISSING
-
 then mouse over the Headers icon in the Waterfall tab of the test results page:
-
-IMAGE MISSING
 
 ## Agent IP Addresses
 
