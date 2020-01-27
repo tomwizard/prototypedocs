@@ -30,11 +30,9 @@ Find out more about moving tests between accounts by reviewing the Knowledge Bas
 
  We've moved a few things around on the Test Settings interface.  We now have a More Actions menu for each test on the test settings page. You can now duplicate, delete or transfer ownership for a test.  We've removed buttons for duplicating and deleting tests.  We've also changed how the test settings panels are rendered.
 
-IMAGE MISSING
-
 In addition, we've enabled live sharing of DNS+ and BGP tests.
 
-## New cloud agents
+##  New cloud agents
 
  We've recently added another 3 locations to our Cloud Agent list.  These new agents can be found in Mississauga, Canada, Markham, Canada and Tunis, Tunisia.  Look for more exciting locations as we continue to build out our cloud agent network.  The full list can be found [here](https://www.thousandeyes.com/product/cloud-agents).
 

@@ -1,7 +1,5 @@
 # Release Notes: 2016-12-07
 
-### Release update 2016-12-07
-
 As we wind down 2016 and move into the holiday season, the remaining releases \(today's, and the release in two weeks\) will be relatively light and fluffy as snowflakes, as compared to many releases in the past year that introduced major features. One or two cool new features, a stockingful of bug fixes.  You'll need to look elsewhere for a really big haul of presents in the waning weeks of 2016. But look on the bright side: we won't give you an ugly sweater.  As anyone who has attended a ThousandEyes CONNECT event can attest, we only hand out great t-shirts...  
 
 And if you're a last-minute type, live in the metro New York City and want one of those t-shirts, then procrastinate on your shopping this Wednesday, December 8th, and come on down to CONNECT NYC!  Register [here](https://www.thousandeyes.com/events/connect/new-york-fall-2016) or just come on down to [LMHQ](https://goo.gl/maps/vmag4nT3eCK2) in Manhattan and do day-of registration.
@@ -12,10 +10,15 @@ Onward to the details of today's release...
 
 The Transaction Step Time and Transaction Page Time metrics from the Timings tab of a Transaction test are now available in Reports.  Create a pie chart of page timings:
 
-  
+IMAGE MISSING
+
 to show the relative sizes of the page timings. \(Wow, our staging site's "Log In" page is slow! And don't even ask what the orange thing represents...\) Or create a stacked area chart of step timings:
 
+IMAGE MISSING
+
 to show the change over time of each step's timing. Useful for quickly spotting a page or step that's occasionally being naughty instead of nice, and blowing up the timing results:
+
+IMAGE MISSING
 
 ## Endpoint Agent
 
