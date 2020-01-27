@@ -6,11 +6,9 @@ This week, our team has continued prepping for our next couple of releases, whic
 
 We've updated the Enterprise Agent Status widget and added the capability to toggle between the Traditional Path Visualization view, which shows the path visualization from the agent to our Agent Collector, and the World Map, showing geolocation data for your agent.  To configure the Enterprise Agent Status widget, click the gears icon and change the view from Path Visualization to World Map view, or vice versa.  The screenshots below show examples of the widget's options:
 
-  
-_Enterprise Agent Status widget showing Path Visualization View_
+IMAGE MISSING
 
-   
-_Enterprise Agent Status widget showing World Map View_
+IMAGE MISSING
 
 ## Alert rules
 
@@ -22,6 +20,8 @@ We've modified a couple of our out of the box default alert rules, to reduce ale
 These defaults are changed on new accounts only at this time.  if you would like assistance updating your default rules, please [engage our Customer Success Team.](mailto:support@thousandeyes.com?subject=Alert%20Rule%20Changes)
 
 We've also added a new metric for DNS+ Domain Trace tests.  When setting up a Mapping _is not in_ rule, you can add the option to alert when a percentage of mappings is above or below a certain threshold.  Click the Add % of Mappings option after configuring this rule, to add a percentage constraint.
+
+IMAGE MISSING
 
 This rule was introduced to allow users to monitor changes to GLB DNS scenarios.  As an example, consider the record www.company.com is mapped to 1.1.1.1 in North America, 2.2.2.2 in Europe, and 3.3.3.3 in Asia/Pacific. In the past, monitoring for specific record changes could result in a significant number of false positives.  This option will allow more specificity in alert management, in order to allow alerting on regional changes with minimal numbers of false positives.
 
