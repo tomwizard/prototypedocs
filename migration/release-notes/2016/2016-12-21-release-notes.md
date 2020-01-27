@@ -1,7 +1,5 @@
 # Release Notes: 2016-12-21
 
-### Release Update 2016-12-21
-
 Happy Holidays from the team at ThousandEyes!
 
 In case you missed it, Archana Kesavan published an interesting blog article covering a recap of the top Internet outages of 2016 in today's blog post. In her post, Archana writes about everything from fortune-seeking lottery players crashing the Powerball website to the Mirai Botnet taking down Dyn's massive DNS infrastructure.  Check it out [here](https://blog.thousandeyes.com/top-internet-outages-2016/)!
