@@ -1,4 +1,4 @@
-# CLI network troubleshooting utilities
+# CLI network troubleshooting utilities - ThousandEyes Customer Success Center
 
 ThousandEyes provides a full suite of terminal based Network, DNS, and Voice utilities. These utilities come from the same code base that our Agents use to perform tests, and provide enhanced insight during troubleshooting.  
  
@@ -156,8 +156,6 @@ rtt min/avg/max/mdev = 5.00/5.68/6.00/0.44 ms
 ###  te-pathtrace
 
 Runs a traceroute, using the same methods as are used by ThousandEyes to the endpoint.  In addition to obtaining the IP addresses transited by each probe, our code shows quoted-ttl, response-ttl and MPLS label values for each probe.  Since each agent test runs 3 probes \(test attempts\) to the target, if you want consistent results with that of the agent, run with option -P 3, to obtain three sets of trace data.  Requires sudo permissions.  Note in the example shown that the path to the same target IP diverges in two separate trace requests from the same target, at hop \# 4 \(shown in bold for emphasis\).  Using the Paris-traceroute algorithm \(which is used by ThousandEyes in our Path Visualization view\), this would show a path split, as in the image shown below.
-
-IMAGE MISSING
 
 #### Syntax & Options
 
