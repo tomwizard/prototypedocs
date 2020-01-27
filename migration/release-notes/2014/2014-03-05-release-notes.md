@@ -6,11 +6,15 @@ Short and sweet for the week, here's a quick preview of what our team has been w
 
 Our dashboard has developed a penchant for plastic surgery, and our development team has been putting some extra cycles into optimizing the dashboard editor workflow.  This week's update adjusts the workflow for working with new templates, removing the modal dialog and replacing it with an inline editor.  To work with the template editor, follow these simple instructions:
 
+IMAGE MISSING
+
 1. Open the template editor
 2. Create a new template
 3. Duplicate or delete\(\*\) the currently selected template
 
 Once the Template editor is open, the dashboard will show up with a striped background.  Work with the settings in the metadata section of the editor to modify the template name, and define it as private, or as a default:
+
+IMAGE MISSING
 
 1. Create a copy of the template under a new name
 2. Deletes the template

@@ -17,6 +17,8 @@ What are covered and covering prefixes?
 * A **covered prefix** is a prefix, for which a shorter prefix \(shorter subnet mask\) is being monitored, which contains the covered prefix.  For example, 8.8.8.0/24 is covered by 8.8.0.0/16.
 * A **covering prefix** is exactly the opposite of a covered prefix: it's a shorter prefix which contains the covering prefix.  For example, 8.8.0.0/16 is a covering prefix for 8.8.8.0/24.
 
+IMAGE MISSING
+
 ## Register your domain
 
 We've granted access to the My Domains and Networks settings interface, which was previously in Beta.  Using this interface, organizations can register their domain names, such that users using the live share capability of the platform can share results with your domain, rather than a specific user, as well as in some upcoming features.  
@@ -32,7 +34,7 @@ We strongly recommend that organizations _validate_ _their primary email domain_
 
 ##  Proxied agents
 
-Proxied agents now show an icon \(\) beside the agent in detailed test results, to help distinguish them from agents which are not behind a proxy.  Hovering over the proxy icon shows the name of the proxy.
+Proxied agents now show an icon IMAGE MISSING beside the agent in detailed test results, to help distinguish them from agents which are not behind a proxy.  Hovering over the proxy icon shows the name of the proxy.
 
 ## API Changes
 
