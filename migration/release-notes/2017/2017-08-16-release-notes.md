@@ -1,7 +1,5 @@
 # Release Notes: 2017-08-16
 
-### Release Update 2017-08-16
-
 Welcome to tonight's release!
 
 Continuing our series of posts from our last ThousandEyes Connect event, we've posted a summary of the presentation by PayPal's Viet Nguyen, Senior Manager of Problem and Change Management \(and formerly Senior Manager of Network Engineering/Security/Operations\). Entitled [How PayPal Benchmarks Their Service Providers for Application Delivery](https://blog.thousandeyes.com/how-paypal-benchmarks-service-providers-application-delivery/), the presentation describes the variety of ways that PayPal uses ThousandEyes to monitor such cloud-based infrastructure services as CDN's and DDoS mitigation providers, as well as monitor internal PayPal resources. Viet's discussion of a major DDoS attack that had repercussions for their DDoS mitigation provider and a CDN provider's performance issue demonstrated graphically the risk posed by using cloud services whose resources are shared by many customers.
@@ -26,9 +24,13 @@ Manila, in the Republic of the Philippines is our newest IPv4 Cloud Agent. Three
 
 In order to make managing large numbers of Endpoint Agents easier, we've added a feature to allow editing of multiple Endpoint Agents' settings. On the [Agents tab of the Endpoint Agents Settings page](https://app.thousandeyes.com/settings/agents/endpoint/?section=agents), each Endpoint Agent now has a checkbox. Selecting a box displays the **Edit Selected Agents** button.
 
+IMAGE MISSING
+
 Click the button to display the menu which allows enabling of disabled Agents, disabling of enabled Agents, and deleting of Agents. Click the "-" to select all Endpoint Agents.
 
 Additionally, we've added DNS Server probes to the Network Topology view of the Endpoint Data:
+
+IMAGE MISSING
 
 Mouse over the DNS Server icon to get a tooltip with information on the DNS Server probe.
 
