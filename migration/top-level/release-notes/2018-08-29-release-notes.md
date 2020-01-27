@@ -18,8 +18,6 @@ And now for tonight's new features. Drum roll please...
 
  For those customers who need the power of a regularly scheduled test from a location of their choosing, but don't want to set up an Enterprise Agent, we now offer scheduled tests on Endpoint Agents. Users may now create HTTP Server and Agent to Server tests and assign them to Endpoint Agents, to be run at regular intervals, automatically--no human required. Under the Tests settings menu, you'll now see Endpoint Tests, where you'll see a listing of your existing tests, and an **+ Add New Test** form:
 
-IMAGE MISSING
-
 Endpoint Tests are assigned to an Agent Label, which contains Endpoint Agents. All Endpoint Agents matching the Label will run the test, subject to the rule that each Endpoint Agent can run a maximum of 3 tests. Endpoint Agents that are no longer in contact with the ThousandEyes collector are removed from their Label\(s\) after 1 hour. Editing or creating Endpoint Tests requires a role with the Edit endpoint tests permission.
 
 Additionally, Alert Rules can be configured for the HTTP Server and Agent to Server test types, and Reports can use Endpoint Agents as a data source.
