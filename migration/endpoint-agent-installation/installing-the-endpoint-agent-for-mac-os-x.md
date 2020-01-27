@@ -12,23 +12,23 @@ Endpoint Agent is custom-built for each account. Access to the Endpoint Agent in
 
 1. Navigate to [Endpoint Agents &gt; Agent Settings](https://app.thousandeyes.com/endpoint/agent-settings/?section=agents)
 2. Click **Add New Endpoint Agent**
-3. Click the **Download - Mac PKG** link to start downloading the PKG installer file. Clicking the **Allow anyone with the link to download** switch reveals public links to each installer file. Depending on your security settings, you may see a warning that the file can harm your computer, per the image below.  
-4.  Click the **Keep** button to continue the download.
+3. Click the **Download - Mac PKG** link to start downloading the PKG installer file. Clicking the **Allow anyone with the link to download** switch reveals public links to each installer file. Depending on your security settings, you may see a warning that the file can harm your computer, per the image below.  IMAGE MISSING
+4.  Click the **Keep** button to continue the download. IMAGE MISSING
 5. Once downloaded, double click the file in the receiving folder to start the installation.
 
 ## Installing the Endpoint Agent  
 
-1. Launch the installer.  You'll be prompted by the wizard through the installation steps.  Click the **Continue** button.
-2. Read the End-user License Agreement and Terms of Use.  Click the **Continue** button.
-3. Accept the End-user License Agreement and Terms of Use.  Click the **Agree** button to continue.  
-4. Accept the default location for the software installation by choosing the _Install for all users of this computer_ option. Click the **Continue** button
-5. Next, you'll be shown how much disk space the ThousandEyes Endpoint Agent will consume.  Click the **Install** button.
-6. Your system will prompt for the username and password of an account with rights to install software.  Enter your username and password, then click the **Install Software** button.
-7. After installation completes \(it should take less than a minute to install\), you'll see an installation summary.  Click the **Close** button to Launch Google Chrome to complete the installation.
+1. Launch the installer.  You'll be prompted by the wizard through the installation steps.  Click the **Continue** button. IMAGE MISSING
+2. Read the End-user License Agreement and Terms of Use.  Click the **Continue** button. IMAGE MISSING
+3. Accept the End-user License Agreement and Terms of Use.  Click the **Agree** button to continue.  IMAGE MISSING
+4. Accept the default location for the software installation by choosing the _Install for all users of this computer_ option. Click the **Continue** button IMAGE MISSING
+5. Next, you'll be shown how much disk space the ThousandEyes Endpoint Agent will consume.  Click the **Install** button. IMAGE MISSING
+6. Your system will prompt for the username and password of an account with rights to install software.  Enter your username and password, then click the **Install Software** button. IMAGE MISSING
+7. After installation completes \(it should take less than a minute to install\), you'll see an installation summary.  Click the **Close** button to Launch Google Chrome to complete the installation. IMAGE MISSING
 8. Google Chrome will launch and prompt you to add the extension for Chrome.  Click the **Add to Chrome** button to add the extension.
-   1. Clicking on **Add to Chrome,** makes a request to Google Web Store. If access to Google Web Store is blocked, please allow the following URL to be available -  [https://chrome.google.com/webstore/detail/thousandeyes-endpoint-age/ddnennmeinlkhkmajmmfaojcnpddnpgb](https://chrome.google.com/webstore/detail/thousandeyes-endpoint-age/ddnennmeinlkhkmajmmfaojcnpddnpgb)
-9. After you click the Add to Chrome button, Chrome will prompt you to accept the changes required by the Endpoint Agent.  Click the **Add extension** button to continue.
-10. Once added, the extension will show a notification next to the newly-added toolbar button in Chrome.  
+   1. Clicking on **Add to Chrome,** makes a request to Google Web Store. If access to Google Web Store is blocked, please allow the following URL to be available -  [https://chrome.google.com/webstore/detail/thousandeyes-endpoint-age/ddnennmeinlkhkmajmmfaojcnpddnpgb](https://chrome.google.com/webstore/detail/thousandeyes-endpoint-age/ddnennmeinlkhkmajmmfaojcnpddnpgb) IMAGE MISSING
+9. After you click the Add to Chrome button, Chrome will prompt you to accept the changes required by the Endpoint Agent.  Click the **Add extension** button to continue. IMAGE MISSING
+10. Once added, the extension will show a notification next to the newly-added toolbar button in Chrome.  IMAGE MISSING
 
 ## Collecting data using the Endpoint Agent
 
