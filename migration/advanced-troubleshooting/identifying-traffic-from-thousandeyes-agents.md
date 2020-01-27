@@ -64,7 +64,7 @@ IMAGE MISSING
 
 To view the request headers of an HTTP Server test, navigate to the on the test results page, then click on the **View Headers** link on the Map tab, or click on the **\[Headers\]** link in the Response Code column of the Table tab:
 
-![21720858-3\_Custom\_Headers\_HTTP\_Server\_view-Map\_tab.png](https://success.thousandeyes.com/servlet/rtaImage?eid=ka044000000UJhe&feoid=00NE0000006OT0r&refid=0EME0000000DWTV)
+IMAGE MISSING
 
 To see the **View Headers** link, an Agent must be selected.  The Table tab does not require Agent selection before displaying the **\[Headers\]** link:
 
@@ -74,7 +74,11 @@ IMAGE MISSING
 
 To view the request headers in a Page Load or Transaction test, first select the **Show HTTP headers in waterfalls** checkbox in the Advanced Settings tab of the test configuration:
 
+IMAGE MISSING
+
 then mouse over the Headers icon in the Waterfall tab of the test results page:
+
+IMAGE MISSING
 
 ## Agent IP Addresses
 
