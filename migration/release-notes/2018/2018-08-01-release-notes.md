@@ -56,12 +56,15 @@ Two new additions, in our ongoing work to improve the visualization of Path Visu
 
 In addition to grouping Agents and destinations, intermediate nodes on the Path Visualization can now be grouped using the **Interfaces by** quick link. Users can create a compact view of the path by grouping interfaces by location, network, network and location or individual device. The example below groups by Network:
 
-  
+IMAGE MISSING
+
 Attributes of grouped nodes such as errors or forwarding loss will be shown on the group and in the quick selection menu, similar to ungrouped nodes \(attributes of grouped links will not be visible in the visualization or in the quick selection unless the relevant nodes are ungrouped\). Clicking a grouped node will ungroup it. 
 
 ### Bezier curves for links
 
 We now render links between nodes with bezier curves \(similar to the Topology view of Device Layer\):
+
+IMAGE MISSING
 
  These new curved links make large topologies that converge on the a single node more readable, particularly if labels are used.
 

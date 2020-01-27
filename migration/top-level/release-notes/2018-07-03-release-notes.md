@@ -4,8 +4,6 @@ Welcome to tonight's release!
 
 Ten days 'til ThousandEyes Connect in Silicon Valley, on July 12th!
 
-IMAGE MISSING
-
 Check out the [schedule of events](https://www.thousandeyes.com/events/connect/santa-clara-2018) and sign up today--registration is free. Nothing like a cool conference to beat the summer heat!
 
 The new crop of ThousandEyes blog posts discusses two significant recent outages. On Friday, Senior Marketing Manager Angelique Medina posted about that day's fiber optic cable cuts in two providers' networks which affected many subscribers of Comcast's Xfinity service, in locations across the nation. Read about the rip and the ripple in her article [Comcast Fiber Outage Rips the Internet](https://blog.thousandeyes.com/comcast-fiber-outage-rips-the-internet/).
@@ -20,21 +18,15 @@ And now for the details of tonight's release...
 
 We've revamped the web-based administrative interface of our Appliances to correspond to the app's look and feel, and to prepare for future new features.
 
-IMAGE MISSING
-
 The Diagnostics have been moved under the Status menu. You'll also now see the details of the web server's SSL certificate, under the Appliance Access menu. Stay tuned for more improvements!
 
 ## Reports
 
 We've added a new Settings menu item for Reports. The Reports Settings page lists the current Account Group's reports, and permits management of individual reports or multiple reports \(bulk actions\). Bulk actions are duplicate, delete and add a label.
 
-IMAGE MISSING
-
 Users can view the list by filtering on Snapshots of reports, email recipients of a Snapshot, or labels.
 
 Single report actions include setting a report as the default report, adding labels, duplicating and deleting. A report can also be renamed, and given a description.
-
-IMAGE MISSING
 
 ## Path Visualization grouping
 
@@ -48,21 +40,15 @@ In a [previous release](https://success.thousandeyes.com/PublicArticlePage?artic
 
 An example of grouping destinations by Location:
 
-IMAGE MISSING
-
 Each destination grouping node displays the number of targets in the group. In the example above, the location of Sunnyvale contains two targets.
 
 ## Device Layer filters
 
 ​We've added filters to the Search bar on the [**Devices &gt; Device Settings**](https://app.thousandeyes.com/settings/devices/?tab=credentials) page. Devices can now be displayed by Device Type or Monitoring Agent.
 
-IMAGE MISSING
-
 ## ServiceNow Alerts
 
 Notifications in Alert Rules can now be sent to ServiceNow, natively. When creating an Alert Rule, click **Edit Integrations** in the Integrations section of the Notifications tab, and select ServiceNow as the **Type**:
-
-IMAGE MISSING
 
 A Notification is sent to ServiceNow when a condition triggers an Alert Rule, and when the condition that triggered the Alert Rule is no longer in effect.
 
