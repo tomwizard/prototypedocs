@@ -4,8 +4,6 @@ Welcome to our latest release!
 
 Before the new blog and feature fun, a quick reminder about the next ThousandEyes Connect event:
 
-IMAGE MISSING
-
 Our next Connect will be held in Seattle on October 3rd, 2019 at the world-famous Space Needle! [Registration](https://www.thousandeyes.com/events/connect/seattle-2019) is open and free! Come rub elbows with your fellow ThousandEyes users and hear presentations on how ThousandEyes provides them with peace of mind. And if that's not enough reason to come to Seattle, then don't forget the spectacular views of [Mount Rainier](https://www.nps.gov/mora/planyourvisit/images/mountseries2rainierlentics-1-26-2011sdredmaneatvilwa_web.jpeg?maxwidth=1200&maxheight=1200&autorotate=false) from many locations in the city, a [museum](https://en.wikipedia.org/wiki/List_of_museums_in_Seattle) for almost any interest, an amazing [art scene](https://en.wikipedia.org/wiki/Arts_in_Seattle) \(Seattle is the [glass arts](https://www.seattlemag.com/article/how-seattle-became-epicenter-glass-art) epicenter of the US, dontcha know\) and one of the most wonderful [used bookstores](http://www.twicesoldtales.com/) in the world \(trust me, it's awesome; warning: NSF those with certain allergies\).
 
 And speaking of Connect presentations, our Content Marketing Director Sean Coombs brings us the second post in his recap of Viacom's presentation at ThousandEyes Connect Chicago: [How Viacom Brings Reliable Real-Time Video to Millions of Customers](https://blog.thousandeyes.com/how-viacom-brings-reliable-real-time-video-to-millions-of-customers/). Have a peek at how Viacom uses ThousandEyes to instrument its massive video streaming infrastructure.
@@ -19,8 +17,6 @@ When a node in a Path Visualization is not part of any BGP-announced network pre
 ## Kerberos proxy authentication for Appliances
 
 The ThousandEyes Appliance's web administration now provides a configuration setting for authenticating with Kerberos to a proxy server, under the Network section of the web admin's UI:
-
-IMAGE MISSING
 
 Kerberos authentication can be used with either the Static or PAC proxy types.
 
