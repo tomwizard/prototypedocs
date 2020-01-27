@@ -29,8 +29,6 @@ Architecture: x86\_64
 
 Any User-Agent string whose Browser field is a known browser such as Chrome or Safari will result in the request being categorized as from that browser.  In order to uniquely identify requests from ThousandEyes Cloud or Enterprise Agents, the default User-Agent strings for HTTP Server and BrowserBot tests can be changed to a custom string by selecting the **Advanced Settings** tab on a Web Layer test configuration page, and setting the **User Agent** selector to "Custom", then entering a unique User-Agent string in the text field below the selector:
 
-IMAGE MISSING
-
 A suitable User-Agent string that will identify requests from ThousandEyes Cloud or Enterprise Agents is the following:
 
 ```text
@@ -85,8 +83,6 @@ To create a new segment to exclude page visits based on User-Agent string, follo
 
  The new segment should appear similar to the following:
 
-IMAGE MISSING
-
 ### Filter method
 
 The filter method allows for three approaches: one based on the User-Agent, one based on Agent domain name \("ISP domain"\) and one based on Agent IP address.
@@ -110,8 +106,6 @@ To create a new filter to exclude page visits based on User-Agent string, follow
 
  The new filter should appear similar to the following:
 
-IMAGE MISSING
-
 To create a new filter to exclude page visits based on Agent domain name, follow these steps:
 
 1. Click on the **Admin** tab
@@ -131,8 +125,6 @@ To create a new filter to exclude page visits based on Agent domain name, follow
 10. Click the **Save** button
 
  The new filter should appear similar to the following:
-
-IMAGE MISSING
 
 To create a new filter to exclude page visits based on Agent IP address, follow these steps:
 
