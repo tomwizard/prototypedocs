@@ -30,11 +30,7 @@ Test Metrics
 
 We've redone our Groups interface for grouping ThousandEyes Agents, which will now be called Labels. We've replaced the drag and drop-based configuration with a new interface which is consistent with the look and feel of the rest of the app, and which simplifies configuration and management of multiple Agents or multiple tests.
 
-IMAGE MISSING
-
 Access to the Labels from the Tests page or Enterprise Agents page is unchanged, beyond renaming the "Groups" to "Labels":
-
-IMAGE MISSING
 
 ## Cloud Agents
 
