@@ -4,8 +4,6 @@ Welcome to today's release! Our last spring bloom, as it were.
 
 Before we get to the details... June is a time for much of the world to start contemplating vacation and travel. If you need a last-minute destination, we have a few excuses to get away:
 
-IMAGE MISSING
-
 If San Diego, Washington DC, or London sound appealing, there's still time to sign up and come on down to say hi at our booths. Head on over to our [events page](https://www.thousandeyes.com/events) for details, if you fancy a spur-of-the-moment get-way that can be written off to a business trip! Or check out the upcoming events that are not so last-minute.
 
 In ThousandEyes blog news, we got what everyone loves to read about--outages! Angelique Medina has analysis of the Google Cloud Platform outage in her appropriately entitled post, [Google Cloud Platform Outage Analysis](https://blog.thousandeyes.com/google-cloud-platform-outage-analysis/). Archana Kesavan covers the disruption of WhatsApp's service in [WhatsApp Disruption: Just One Symptom of Broader Route Leak](https://blog.thousandeyes.com/whatsapp-disruption-just-one-symptom-of-broader-route-leak/). Have at 'em.
@@ -18,20 +16,13 @@ Enterprise Agents running on Ubuntu 14.04 LTS \(a.k.a. “Trusty”\) and on Red
 
 So, check your [Enterprise Agents Settings page](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents), and look for a red triangle warning icon \(\) in an Agent row. If hovering over the icon produces an **Agent OS is Unsupported** warning, or the General Info panel for the Agent displays:
 
-IMAGE MISSING
-
 then review the ThousandEyes Knowledge Base article [How to plan for Enterprise Agent upgrades](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA02R000000Q52FSAS_How-to-plan-for-Enterprise-Agent-Upgrades). Feel free to contact the Customer Success team for further advice.
 
 ## Proxy improvements
 
 A couple of additions in our ongoing process of improving both the proxy capabilities of tests, and the user interface in general. The Proxy Settings tab of the Agent Settings page now uses slide-out panels to display the details of the proxy configurations. Click on a row to display the panel:
 
-IMAGE MISSING
-
 Additionally, the Bypass List settings are now consulted for all proxy configurations of a test to determine whether to run included Network metrics \(Overview and Path Visualization\). If a test has a **Proxy Configuration** setting which instructs the test to use a proxy, then the test target must be in the bypass list to run included Network metrics \(Overview and Path Visualization\).
-
-IMAGE MISSING  
-IMAGE MISSING
 
 In the above example, the test is using a **Proxy Configuration** of "Orange" \(first image\). The test must have a target matching the configuration's **Bypass List** contents \( \*.mysite.com\) in order to run included Network metrics, which will be run directly to the target.
 
