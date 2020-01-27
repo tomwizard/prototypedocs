@@ -8,6 +8,8 @@ We also presented to the experts at Network Field Day 12 last week, and are exci
 
 As we mentioned, things are pretty exciting for us right now.
 
+IMAGE MISSING
+
 ThousandEyes Endpoint Agent gives you a new vantage point that runs on employee laptops and desktops. Data from Endpoint Agents provides complete visibility into the performance of your applications, as well as the underlying networks that support application delivery, no matter where or how your users are connecting to the Internet and your corporate network. With islands of your network floating around the globe inside your employees’ laptops, you’ll need to look to the endpoint to have any shot at measuring what you care about. It’s the only way.
 
 If you're a ThousandEyes customer, we're granting access to all customers to try the product during the preview period for free. Reach out to the customer success team, or to your sales representative to obtain access and set up a session to help you understand how to take advantage of the rich data immediately at your fingertips.
@@ -30,11 +32,13 @@ This monitor has stopped providing routes to our service. As of this evening, it
 
 We've introduced a new option to allow administrators to control redirect behavior of HTTP server tests. Found in the advanced settings tab of the test's settings, users can control whether or not HTTP/301 and HTTP/302 referrals will be followed in order to validate the output of a test.
 
+IMAGE MISSING
+
 ## DNS trace tests
 
 We've enhanced how DNS trace tests work in the case of a SERVFAIL response received while looking up DNS records. Prior to this change, in the event that a SERVFAIL response were received by an agent, the test would fail with a "Dead End" error message. With the implementation of this change, upon receipt of a SERVFAIL response from an authoritative nameserver for a record, which has multiple authoritative nameservers, the next nameserver in the list will be tried, until either no remaining servers are available, or until the test timeout has been reached.
 
-##  Upcoming maintenance
+## Upcoming maintenance
 
 We'll be running two scheduled maintenance periods next week as we introduce changes to our core network infrastructure. We don't expect customers to experience any issues during the maintenance periods. Watch our announcements forum for updates on these maintenance periods; we will publish additional details before the end of this week.
 
