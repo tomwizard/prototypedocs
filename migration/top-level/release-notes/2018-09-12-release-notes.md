@@ -4,9 +4,6 @@ Welcome to tonight's release! A light night for new features, but some other hea
 
 First, a quick heads-up for...
 
-IMAGE MISSING  
-IMAGE MISSING
-
 Whether you're in [Minnesota](https://www.thousandeyes.com/events/connect/twin-cities-2018) or [Texas](https://www.thousandeyes.com/events/connect/dallas-2018), or fancy a visit to either, come be a star at ThousandEyes Connect! We'll be skating into the Twin Cities on September 19th with a great lineup of speakers, and in the Big D on October 11th with another band of all-star speakers. For you Connect rookies: registration is free, you'll get to rub elbows with other ThousandEyes users from a wide range of companies, there's lots of great ThousandEyes t-shirts given away during intermission and you're guaranteed a great seat that's close to the action!
 
 From the ThousandEyes blog, we have some great new posts that we hope will put a twinkle in your eyes. First up, Senior Product Marketing Manager Angelique Medina has a one-two punch of articles for those who are responsible for delivering SaaS-based services to their users: [The Building Blocks of SaaS are Also Risks](https://blog.thousandeyes.com/the-building-blocks-of-saas-are-also-risks/) and [Five Operational Habits of Successful SaaS Delivery](https://blog.thousandeyes.com/five-operational-habits-successful-saas-delivery/). This checklist of best practices, useful suggestions and general philosophies will help guarantee that your users are your biggest fans.
