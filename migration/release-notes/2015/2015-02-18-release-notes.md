@@ -1,7 +1,5 @@
 # Release Notes: 2015-02-18
 
-### Release update 2015-02-18
-
 One of the biggest customer requests to our team - especially on large accounts - has been the ability to define user permissions in the system on a granular basis.... our team has been working long and hard on this task, and we're ready to release....
 
 ## New permissions model: "Role-Based Access Control"
@@ -18,9 +16,13 @@ Once you've read through the article on RBAC, [let us know](mailto:support@thous
 
 A new option is available for Enterprise agents only, which allows a user to toggle whether or not the browser maintains a browser cache.  This option \(newly introduced in tonight's release\) will allow page load and transaction test execution to cache objects, such that future rounds using the same cached objects take less time to execute \(and more accurately reflect user experience\).
 
+IMAGE MISSING
+
 ### Agent utilization calculations
 
 As we work on increasing the number of concurrent tests that agents can run, we've made some changes to the task queueing and execution model.  For the most part, this won't change anything from the perspective of a user, but it does change how utilization is calculated.  We've consolidated the separate queues for HTTP Server, DNS and Network tests to a single queue, and done the same for Page load and Transaction tests.  These new utilization queues can be seen by opening the Agent Settings page, selecting an agent, and checking the Agent Utilization charts shown in the lower right hand corner of the expanded section.
+
+IMAGE MISSING
 
 ##  Reports
 
@@ -30,11 +32,15 @@ If you'd like assistance moving over to the fancy new \(and much more flexible\)
 
 We've also added user and account group default options, which will allow a user to set a report as their own personal default, or an administrator to set a default for the account group.  These options area available when clicking the Add/Manage widgets button in the reports interface.
 
+IMAGE MISSING
+
 ## Dashboard changes
 
 ### Enterprise Agent Status widget
 
 We've added an option to the Enterprise Agent Status dashboard widget to allow users to select which agents are shown in the widget: all agents shared with your current account group, or only agents owned by your account group.  Prior to this change, only enterprise agents owned by the user's account group would be shown.  Users can make this change by modifying the settings of the widget, and selecting either Owned Agents \(default option\), or All Assigned Agents.
+
+IMAGE MISSING
 
 ## Cloud agent changes
 
