@@ -173,7 +173,7 @@
   * [Instructions for mitigating Meltdown and Spectre on Enterprise Agents](migration/enterprise-agents/untitled-42.md)
   * [Unlocking the ThousandEyes Appliance](migration/enterprise-agents/unlocking-the-thousandeyes-appliance.md)
   * [Installing CA Certificates on Enterprise Agents](migration/enterprise-agents/untitled-40.md)
-  * [Resetting an Enterprise Agent - ThousandEyes Customer Success Center](migration/enterprise-agents/untitled-39.md)
+  * [Resetting an Enterprise Agent](migration/enterprise-agents/resetting-an-enterprise-agent.md)
   * [Security policy and public NTP servers on Enterprise Agents](migration/enterprise-agents/untitled-38.md)
   * [IaaS Enterprise Agent deployment - Amazon AWS](migration/enterprise-agents/untitled-37.md)
   * [Enterprise Agent deployment using Linux Package method](migration/enterprise-agents/untitled-36.md)
