@@ -1,6 +1,4 @@
-# Troubleshooting Endpoint Agent issues - ThousandEyes Customer Success Center
-
-### Troubleshooting Endpoint Agent issues
+# Troubleshooting Endpoint Agent issues
 
 In the event that the ThousandEyes Endpoint Agent does not install or function correctly, review the following information:
 
@@ -29,11 +27,7 @@ In the event that the ThousandEyes Endpoint Agent does not install or function c
 ### Share data with ThousandEyes Support
 
 1. Navigate to the `C:\Program Files (x86)\ThousandEyes\Endpoint Agent\` directory and run the `te-diagnostics.exe` program. A file named `TE Endpoint Agent - Diagnostics Results.zip` will be created on your desktop. The folder contains all relevant Endpoint Agent logs. Share this file with [support@thousandeyes.com](mailto:support@thousandeyes.com).
-2. Additionally, send to [support@thousandeyes.com](mailto:support@thousandeyes.com) a share link of the Endpoint Agent View encompassing the issue. You can create a share link by pressing the **Share** button, as outlined in the following figure:
-
-![](https://lh4.googleusercontent.com/WoMwLIP0zENVnSw21YtQMTNZqzEFFdUVkMct4ylBqEg8n8XRLy9WEzPzsmbhfM4ctGbNiwsZ03lnd1OzaZxGsjAOZ0FVubbw4aBAWv_3SrsGM33r1XxzDwG1RoL0DfEp45jN4mCg)
-
-Location of the Share button \(1\)
+2. Additionally, send to [support@thousandeyes.com](mailto:support@thousandeyes.com) a share link of the Endpoint Agent View encompassing the issue. You can create a share link by pressing the **Share** button, as outlined in the following figure: IMAGE MISSING
 
 ## Endpoint Agent installed on Mac OS X
 
@@ -58,11 +52,7 @@ Location of the Share button \(1\)
 ### Share data with ThousandEyes Support
 
 1. To run the ThousandEyes Endpoint Agent Diagnostics Tool, open Spotlight by pressing the Command+Space keys, type `kind:app ThousandEyes Endpoint Agent`. In the popup dialogue box click **Run Diagnostics**. You will be prompted with the file name and the location of your diagnostic test results. Please share this file with [support@thousandeyes.com](mailto:support@thousandeyes.com).
-2. Additionally, send to [support@thousandeyes.com](mailto:support@thousandeyes.com) a share link of the Endpoint Agent View encompassing the issue. You can create a share link by pressing the **Share** button, as outlined in the following figure:
-
-![](https://lh6.googleusercontent.com/hzDxebK3Fax50-iVSZ2w-GVt3aRZms6vfl4UXvdicoHmF6QX2O1OK71InmkWl6fiZNo2iXl8prey6cZQfCEXWt7TB3ydBT6d2yX-H2zoOaZqKiNfdT6gXGS1W9Rno0rEg9u0UUUk)
-
-Location of the Share button \(1\)
+2. Additionally, send to [support@thousandeyes.com](mailto:support@thousandeyes.com) a share link of the Endpoint Agent View encompassing the issue. You can create a share link by pressing the **Share** button, as outlined in the following figure: IMAGE MISSING
 
 ## Further assistance
 
