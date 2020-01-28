@@ -160,7 +160,7 @@
   * [Enterprise Agent deployment, using ThousandEyes Virtual Appliance \(OVA\)](migration/enterprise-agents/untitled-55.md)
   * [Enterprise Agent deployment, using ThousandEyes Virtual Appliance \(Hyper-V\)](migration/enterprise-agents/untitled-54.md)
   * [What to do if te-agent stops running due to a VACUUM error](migration/enterprise-agents/untitled-53.md)
-  * [Enterprise Agent Port Forwarding - ThousandEyes Customer Success Center](migration/enterprise-agents/untitled-52.md)
+  * [Enterprise Agent Port Forwarding](migration/enterprise-agents/enterprise-agent-port-forwarding.md)
   * [Enterprise Agent Hardware Requirements - ThousandEyes Customer Success Center](migration/enterprise-agents/untitled-51.md)
   * [Comparison of Agent Types - ThousandEyes Customer Success Center](migration/enterprise-agents/untitled-50.md)
   * [End-of-Life announcement for Precise-based Virtual Appliances](migration/enterprise-agents/untitled-49.md)

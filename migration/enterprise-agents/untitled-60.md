@@ -6,6 +6,8 @@ A Enterprise Agent is a system configured to run a supported version of Linux, w
 
 The diagram below shows a simple version of the connectivity between a Enterprise Agent, network assets you are monitoring, and ThousandEyes.
 
+IMAGE MISSING
+
 The following steps are repeated during the course of a Enterprise Agent's operation.
 
 1. Wake up
