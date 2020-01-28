@@ -7,15 +7,25 @@ To continue using your Trusty-based appliances, one of the following actions is 
 * **Perform an in-place upgrade:** Performing an in-place upgrade is most likely the simplest method of keeping your appliances supported. The main part of this article describes the in-place upgrade process.
 * **Alternatively, migrate the agent:** If an in-place upgrade is not the right option for you, you can migrate the agent to one of the other deployment options or other supported operating systems. Consult the [Related information]() section at the bottom of this article.
 
+### Table of contents
+
+* [Identifying appliances requiring an upgrade]()
+* [Performing the in-place upgrade]()
+* [Upgrade verification]()
+* [Getting help]()
+* [Related information]()
+
 ## [Identifying appliances requiring an upgrade]()
 
 In the [Cloud & Enterprise Agents &gt; Agent Settings &gt; "Agents" tab](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) section of the web portal, the agents requiring your attention will have a red triangle icon with an exclamation mark inside \(\) visible next to their names, as pointed out with the marker \#1 in the following figure:
 
-IMAGE MISSING
+  
+Agent list with red triangles marking agents requiring your attention
 
 To get more information, you can either hover your mouse over the red triangle icon \(1\) and a brief popup \(2\) will appear, or, alternatively, you can expand the agent list item and observe the version details displayed on the right-hand side panel:
 
-IMAGE MISSING
+  
+Expanded agent panel showing soon-to-be-unsupported operating system warning
 
 The agents that you are looking for have the following information displayed:
 
@@ -120,7 +130,8 @@ Relevant content in the `/var/log/syslog` file will be prefixed with the `te-app
 
 Once the upgrade process has completed successfully, the agent information panel in the web UI will present the following information:
 
-IMAGE MISSING
+  
+Upgrade verification locations
 
 The important details to pay attention to are:
 
