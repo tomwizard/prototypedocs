@@ -1,7 +1,5 @@
 # Firewall configuration for Enterprise Agents
 
-### Firewall configuration for Enterprise Agents
-
 ## Problem
 
 What firewall rules are required to allow an Enterprise Agent to execute tests, report data to the ThousandEyes platform, and access necessary infrastructure services such as the Domain Name Service \(DNS\) or the Network Time Protocol \(NTP\)?

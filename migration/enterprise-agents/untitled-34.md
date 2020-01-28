@@ -1,5 +1,7 @@
 # End-of-Life announcement for Red Hat Linux package Enterprise Agents: versions 6.7, 7.2 and 7.3
 
+### End-of-Life announcement for Red Hat Linux package Enterprise Agents: versions 6.7, 7.2 and 7.3
+
 ThousandEyes support policy for Red Hat-based Linux package Agents is based on Red Hat's [Extended Update Support](https://access.redhat.com/support/policy/updates/errata#Extended_Life_Cycle_Phase) \(EUS\) schedules. Red Hat Enterprise Linux \(RHEL\) versions 6.7, 7.2 and 7.3 will reach the end of Red Hat's Extended Update Support period on or before December 31st, 2018. Red Hat will end Extended Update Support for Red Hat version 6.7 on December 31st, 2018 \(Red Hat had previously announced July 31st, 2018, but subsequently moved back the date\). Red Hat will end Extended Update Support for Red Hat version 7.3 on November 30th, 2018.
 
 Per the ThousandEyes Enterprise Agent operating system end-of-life announcement in our Release Update of [Release Update 2018-10-23](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CplcCAC_Release-Update-2018-10-23), ThousandEyes' support for Enterprise Agents installed on these operating systems will end after December 31st, 2018.
