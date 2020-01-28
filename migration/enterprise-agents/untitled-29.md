@@ -2,20 +2,6 @@
 
 SaltStack is an operating system configuration management software that uses a controller and receiver model to execute commands and manage configuration on remote nodes. With the ThousandEyes SaltStack module, you can quickly deploy and manage Enterprise Agents on servers inside your configuration management environment. If you already have a working SaltStack environment, then it is relatively easy to add the TE-Agent SaltStack module. For those of you starting with a fresh build, check out the prerequisites section for pointers to get started.
 
-## Table of contents
-
-* [Terminology]()
-* [Prerequisites]()
-* [Modules]()
-* [Downloading the ThousandEyes module]()
-* [ThousandEyes module setup]()
-* [Configuration options: te-agent.conf.yml]()
-* [Applying the module to individual nodes]()
-* [Adding the module to]() [highstate]()
-* [Multiple Configuration Files]()
-* [Agent validation]()
-* [Problems and diagnostics]()
-
 ## Terminology
 
 Some common terminology used in this Knowledge Base article:
@@ -356,6 +342,8 @@ Total run time: 239.597 s
 ## Agent validation
 
 When complete, any newly created Agents should appear under the Agent management page in your ThousandEyes account:
+
+IMAGE MISSING
 
 The fastest way to validate that your new Agents are working as expected is to use them to perform an [Instant Test](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnaUCAS_How-to-use-Instant-Tests).
 

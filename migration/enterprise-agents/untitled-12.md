@@ -6,29 +6,6 @@ This article provides background information on web proxy servers, and steps to 
 
 Proxies for Voice Layer tests are not configured using the information in this article. Customers needing configuration information for proxies of Voice over IP communication should consult the ThousandEyes Knowledge Base article [SIP Server test settings](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000LB68CAG).
 
-## Table of contents
-
-1. [Introduction]()
-   * [Types of proxy server]()
-   * [Configuration methods]()
-   * [Additional configuration information]()
-   * [Next steps]()
-2. [Docker container Enterprise Agents]()
-   * [Reconfigure proxy settings for existing Enterprise Agent]()
-   * [Static configuration]()
-   * [PAC file configuration]()
-     * [PAC file stored on Docker Agent]()
-   * [Configuring proxy settings for APT package manager]()
-3. [Virtual and Physical Appliances]()
-   * [Configuring proxy settings for Web Proxy]()
-   * [Configuring proxy settings for Apt Proxy]()
-4. [Linux package-based Enterprise Agents]()
-   * [Configuring proxy settings for Enterprise Agent software]()
-   * [Configuring proxy settings for APT package manager on Ubuntu]()
-   * [Configuring proxy settings for YUM]() [package manager]() [on RHEL / CentOS / Oracle Linux]()
-5. [Installing proxy CA certificates]()
-6. [Verification]()
-
 ## 1. Introduction
 
 Configuring a proxy on an Enterprise Agent depends on a number of variables.  The type of proxy server will affect the configuration of the Enterprise Agent. Additionally, the type of Agent deployment used \(Appliance, Docker container or Linux package\) will affect the configuration process. Additionally, proxy configuration may need to be performed both for the Enterprise Agent's software, and for the system's package manager which performs software updates. Before attempting to configure the Enterprise Agent, customers should read this Introduction to determine what information will be required. Then proceed to the section\(s\) which contains configuration steps needed for your environment.
@@ -50,6 +27,8 @@ Proxy servers have two principle characteristics which govern the way clients ar
    Non-SSL decrypting proxies do not require clients to be configured with a proxy CA certificate.
 
 Figure 1 below indicates the required configuration information for each of the four combinations of proxy type:
+
+IMAGE MISSING
 
 For proxies that are transparent and non-SSL decrypting, no additional configuration in this article is required for the Enterprise Agent.  Configure your Enterprise Agent in the same way that non-proxied Enterprise Agents are configured.
 
@@ -125,6 +104,8 @@ To create the new docker run command with proxy settings, go to the **+ Add New 
 
  An example of a completed form for static proxy configuration is below:
 
+IMAGE MISSING
+
  For information on the **Name**, **Docker Version** and **Host Vol. Agent Directory** fields, review the ThousandEyes Knowledge Base article [Enterprise Agent deployment using Docker](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmnXKAS).
 
 The **Proxy Host** and **Proxy Port** are required.  **Proxy User**, **Proxy Password** and **Proxy Bypass List** are optional.
@@ -134,6 +115,8 @@ Static proxy configuration applies the proxy settings to the Enterprise Agent pr
 #### PAC file configuration
 
  An example of the completed form for PAC file configuration is below:
+
+IMAGE MISSING
 
  For information on the **Name**, **Docker Version** and **Host Vol. Agent Directory** fields, review the ThousandEyes Knowledge Base article [Enterprise Agent deployment using Docker](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmnXKAS).
 
@@ -190,16 +173,20 @@ Copy the commands from the completed form and add the above commands to the dock
 
 Proxy settings on ThousandEyes Enterprise Agent Virtual and Physical Appliance can be configured at any time from the Network tab of the web administrative interface on the Appliance. A proxy for the Enterprise Agent and a proxy for the [APT](https://en.wikipedia.org/wiki/Advanced_Packaging_Tool) package manager can be configured independently. Using a web browser, navigate to `http://<APPLIANCE.IP.ADDRESS.HERE>` and log in, then click on the **Network** menu item \(1\) as shown in the following image:
 
+IMAGE MISSING
+
 #### Configuring proxy settings for Web Proxy
 
 Scroll down to the **Web Proxy** section and enable either **Static** or **PAC** option to configure proxy settings for the Enterprise Agent:
+
+IMAGE MISSING  
+IMAGE MISSING
 
 #### Configuring proxy settings for APT package manager
 
 A separate proxy configuration for APT \(Ubuntu's package manager\) is available below the **Web Proxy** section. Scroll down to **Apt Proxy** section, and check the **Use Apt Proxy** box. If you wish to use the same proxy settings for the APT proxy as for your web proxy, check the **Same as Web Proxy** box. If a proxy for APT is not configured, the APT package manager will attempt to perform automatic package updates directly to the APT repositories, without using a proxy.
 
-  
-Apt proxy configuration section
+IMAGE MISSING
 
 Click the **Save** button when finished configuring settings.
 
