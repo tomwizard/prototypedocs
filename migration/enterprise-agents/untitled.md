@@ -4,18 +4,16 @@ Management of ThousandEyes' Virtual Appliance and Physical Appliance is done usi
 
 In order to access an Appliance using TLS, configuration of the Appliance, the user's browser, or both is required, depending on the level of security required. This article explains how to access the Appliance in the default configuration, how to replace the default configuration by configuring the Appliance's web server with a digital certificate, and lists steps which may be required after configuring the Appliance with a digital certificate.
 
-* [Accessing the Appliance with the default configuration]()
-* [Configuring the Appliance with a valid server certificate]()
-* [Accessing the Appliance with a valid certificate]()
-* [Deleting a certificate or CSR]()
-
 ## [Accessing the Appliance with the default configuration]()
 
  The web management interface of the ThousandEyes Virtual Appliance or Physical Appliance are accessed by an https URL. Access via http URL will be redirected to the HTTPS. For initial configuration, the HTTPS connection to the web interface is done using the Appliance's IP address, for example, https://192.168.1.100
 
+IMAGE MISSING
+
 Normally, accessing the Appliance web interface with the IP address will cause most browsers to generate a security warning because the pre-installed digital certificate used by the Appliance's web server is a self-signed certificate. Chrome, for example, displays the message **NET::ERR\_CERT\_AUTHORITY\_INVALID**, indicating that the certificate authority \(itself\) is not acceptable as an issuer of trusted root certificates:
 
-  
+IMAGE MISSING
+
 Other browsers will display similar warnings.
 
 For the first connection to the Appliance, users must allow the browser to continue to the site. In the example above using Chrome, clicking the **Advanced** button will display a link which allows the user to proceed to the site. Other browsers may display similar buttons, or request explicit exemption be made for the site.
@@ -24,7 +22,8 @@ For customers planning to add a valid server certificate, temporarily bypassing 
 
 Once the browser has permitted a connection to the site, the login page for the web management will appear, likely with the browser displaying additional warnings, such as Chrome, below, displaying Not Secure in the address bar:
 
-  
+IMAGE MISSING
+
 Users may now log in to the Appliance's web management with the default username \("admin"\) and password \("welcome"\). Depending on the type of browser and configuration settings, the warnings may or may not reappear upon subsequent connections, while the Appliance uses its default self-signed certificate. Additionally, users should remove any browser exceptions for bypassing certificate warnings once they are not needed.
 
 **IMPORTANT:** Because the initial connection will be made in a way which does not utilize the HTTPS ability to verify the server identity, initial configuration should be done in a secure environment. The Appliance should not be accessible from the public Internet for initial configuration. Organizations with stringent security requirements may wish to perform initial configuration in an isolated network, such as a virtual network or "host-only" network created within a hypervisor or similar virtualization software.
@@ -98,6 +97,8 @@ Installing the certificate requires rebooting the Appliance. A modal will appear
 
  Once a valid server certificate has been Installed, the Appliance can be accessed with an https:// URL using any of the names \(or IP addresses\) in the Subject Alternative Names field. For example, if the CSR form in the Appliance contained:
 
+IMAGE MISSING
+
 then a browser could use the following URLs securely:  
  
 
@@ -111,6 +112,8 @@ https://192.167.150.100
 ## [Deleting a certificate or CSR]()
 
 Once a certificate is uploaded, the certificate and its associated private key can be removed by clicking the **Remove Certificate** button.
+
+IMAGE MISSING
 
 Removing the certificate requires rebooting the Appliance. A modal will appear, asking whether the user wants to reboot the appliance now. Upon rebooting, the Appliance will automatically re-install the original, self-signed certificate.
 
