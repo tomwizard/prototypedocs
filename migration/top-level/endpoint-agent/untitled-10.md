@@ -2,8 +2,6 @@
 
 All data from browsing webpages of domains from a monitored network is presented under the **Views &gt; Endpoint Data** page for that Account Group. Data collected by manually triggering a recording session will also be shown. This article describes the **Network** View under **Views &gt; Endpoint Agent**, also the default **Endpoint Agent View**
 
-IMAGE MISSING
-
 1. **Add A Filter:** Search through collected data from all user sessions within the selected time period using the following criteria. The selection affects the entire View.
    * **Connection**: Network connection of the Endpoint Agent \(e.g. wireless, ethernet, virtual\)
    * **Destination IP**: IP address of visited site
@@ -25,10 +23,10 @@ IMAGE MISSING
    * _**Connection Failures:**_ The number of times the Endpoint Agent failed to establish a TCP connection with the web server or the proxy.
 4. **Bin Size**: View data collected from Endpoint Agent\(s\) in intervals based on this setting.
 5. **Path Visualization:** The network path from each Endpoint Agent to the web servers.
-6. **Add a filter**: View data based on applied filters. You can apply multiple filters. The image below provides an example using the "Platform", "Connection", "Visited Site" and "Agent" filters. Clicking on the numbers in the group nodes will automatically apply a filter and expand on that data. IMAGE MISSING
+6. **Add a filter**: View data based on applied filters. You can apply multiple filters. The image below provides an example using the "Platform", "Connection", "Visited Site" and "Agent" filters. Clicking on the numbers in the group nodes will automatically apply a filter and expand on that data.
 7. **Map**: Uses geo-location data to place Endpoint Agents on a map. The world map is zoomable using the controls to the right of the map or scrolling with your mouse.
-   * **Details**: Shows data on the selected Agent's sessions. When no Agent is selected on the map, averages are computed across all Endpoint Agents for the chosen metric in the selected round. IMAGE MISSING
+   * **Details**: Shows data on the selected Agent's sessions. When no Agent is selected on the map, averages are computed across all Endpoint Agents for the chosen metric in the selected round.
 8. **Table:** Each row will show detailed metrics and data for Agents based on the Current Filter \(\#1\) and other filters.
 
-    IMAGE MISSING
+    \
 
