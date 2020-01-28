@@ -250,7 +250,7 @@
   * [How to generate Packet Captures](migration/top-level/advanced-troubleshooting/untitled-1.md)
   * [Transactions \(Classic\) - Web Transaction tests for Salesforce](migration/top-level/advanced-troubleshooting/untitled.md)
 * [Endpoint Agent](migration/top-level/endpoint-agent/README.md)
-  * [Data collected by Endpoint Agent](migration/endpoint-agent/data-collected-by-endpoint-agent.md)
+  * [Data collected by Endpoint Agent](migration/top-level/endpoint-agent/untitled-12.md)
   * [Endpoint Agent Views - Session Details](migration/top-level/endpoint-agent/untitled-11.md)
   * [Endpoint Agent Views - Network](migration/top-level/endpoint-agent/untitled-10.md)
   * [Reporting on data collected by Endpoint Agent](migration/top-level/endpoint-agent/untitled-9.md)
