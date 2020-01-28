@@ -1,12 +1,27 @@
-# Configuring Endpoint Agent setup
+# Configuring Endpoint Agent setup - ThousandEyes Customer Success Center
 
 The ThousandEyes [Endpoint Agent](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnvICAS_Comparison-of-Agent-Types) is an application that is installed on Windows or Mac OS X machines to collect network and application performance data when users access specific websites from within monitored networks. The Endpoint Agent installer contains a built-in ThousandEyes account key, allowing performance data collected by the Endpoint Agent to be routed to the correct Account Group in ThousandEyes. This document outlines the basic setup process for an Endpoint Agent.
+
+## Table of contents
+
+[Adding an Endpoint Agent]()  
+[Collecting data using Endpoint Agent]()
+
+[Adding a monitored network]()  
+[Defining a monitored domain set]()
+
+[Managing Endpoint Agents]()
+
+[Disabling Endpoint Agent]()  
+[Deleting Endpoint Agent]()  
+[Reinstalling Endpoint Agent]()  
+[Related articles]()
 
 ## Adding an Endpoint Agent
 
 To add an Endpoint Agent, navigate to [Endpoint](https://app.thousandeyes.com/endpoint/agent-settings/?section=agents) [Agents &gt; Agent Settings ](https://app.thousandeyes.com/endpoint/agent-settings/?section=agents) and click on the **Add New Endpoint Agent** button. An account having a role with the _Download Endpoint Agents_ permission \(such as the built-in Account Admin or Organization Admin roles\) is required to download the Endpoint Agent installer. Download the appropriate installer file based on your operating system architecture. **Allow anyone with the link to download** switch would reveal links to each installer file.
 
-IMAGE MISSING  
+  
 Refer the following guides for step-by-step installation instructions:
 
 * [Installing the Endpoint Agent \(Windows\)](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnBuCAK_Installing-the-Endpoint-Agent-for-Windows)
@@ -35,8 +50,6 @@ After installing the Endpoint Agent on a supported system, configuring the Endpo
 
 Repeat the process above to define multiple monitored networks. Configured networks and their corresponding monitored domain sets will be listed under **Monitored Networks** tab:
 
-IMAGE MISSING
-
 Optionally, to configure data collection regardless of agent's current public IP address, a built-in entry **All other networks** is available in the list as well. To delete a monitored network, click on the corresponding **Trash** icon on the right-hand side of the network list.
 
 ### Defining a monitored domain set
@@ -45,7 +58,7 @@ Optionally, to configure data collection regardless of agent's current public IP
 2. Name your new monitored domain set.
 3. Add one or more domain names into the **Monitored Domains** field. Don't wildcard your entries - enter the domain suffix only \(ie. "thousandeyes.com", rather than "\*.thousandeyes.com"\).
 4. If desired, uncheck the **Periodically collect network topology data** to disable local network measurements.
-5. Click **Add** button to conclude the creation process. IMAGE MISSING
+5. Click **Add** button to conclude the creation process.
 
 **Note:** No data collection occurs against non-monitored domains.
 
@@ -59,17 +72,13 @@ An Endpoint Agent can be either enabled or disabled. When enabled and when insid
 
 To disable an Endpoint Agent, find the agent in the list, expand it and click the **Disable** button \(on the lower left of the expanded Endpoint Agent details panel\):
 
-IMAGE MISSING
-
 Once disabled, the agent's list entry will show the word "Disabled" in the **Last Contact** column and the aforementioned **Disable** button will become an **Enable** button. This change takes effect immediately.
 
 ### Deleting Endpoint Agent
 
 To delete an Endpoint Agent navigate to [Endpoint](https://app.thousandeyes.com/endpoint/agent-settings/?section=agents) [Agents &gt; Agent Settings](https://app.thousandeyes.com/endpoint/agent-settings/?section=agents) page.
 
-IMAGE MISSING
-
-1. Click the options button \(IMAGE MISSING\) on the Endpoint Agent you wish to delete.
+1. Click the options button \(\) on the Endpoint Agent you wish to delete.
 2. Click **Delete.** If the **Delete** option is not available, then your ThousandEyes user account may not have permission to delete Endpoint Agents.
 3. Once deleted an Endpoint Agent can be recovered upto 7 days.
 

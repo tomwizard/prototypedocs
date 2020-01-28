@@ -8,25 +8,17 @@ For a quick start guide to getting started with Endpoint Agent, see the sections
 
 ## 2. Configuring and deploying the Endpoint Agent
 
-* Log in to ThousandEyes and navigate to [Settings &gt; Agents &gt; Endpoint Agents](https://app.thousandeyes.com/settings/agents/endpoint/) where you will be presented with a brief setup wizard.
-
-![](https://lh6.googleusercontent.com/LtEuqLpg9DBGqY11lTLomGv27CeaeG52RK6LrxxJPwYT6zMGYPngBxQW8_iLxJnxIaTOXxfaCiR0rMAOKOsFtyRpLAE8xw2QPnZ6pn6sbCis1Ua0BopeQZCBivRr8T5T_-nlCaIW)
-
+* Log in to ThousandEyes and navigate to [Settings &gt; Agents &gt; Endpoint Agents](https://app.thousandeyes.com/settings/agents/endpoint/) where you will be presented with a brief setup wizard. IMAGE MISSING
 * Configure the networks you want to monitor \(‘“anywhere” if you don’t care where your users are, or specific IP/subnets representing the public IPs of the egress locations you want to limit monitoring to\), then click ‘Next’.
 * Choose the domains you want to automatically monitor and
   * Check "Collect periodic network statistics" box to gather Endpoint Agent network access metrics for this profile, then click ‘Next’.
 * Download the Endpoint Agent installer for the operating system\(s\) on which you want to install it. For detailed installation instructions on how to deploy to a large number of machines via software distribution tools, see our [Windows](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnBuCAK_Installing-the-Endpoint-Agent-for-Windows) & [Mac](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnBvCAK_Installing-the-Endpoint-Agent-for-Mac-OS-X) installation documentation.
 * Double click the installer file and follow the on-screen instructions to install both the Endpoint Agent application and browser extension.
 * **For Chrome**
-  * The ThousandEyes extension will appear in the Toolbar.
-
-![](https://lh3.googleusercontent.com/ZvK0sAxdgaVwXf_R_6_PmjKHvCskGjQiqwrvQjj3OLCNAJ4vZ09jTnp3ByRCbEQeGchXUSllsxR3b6_ZHppGNLYfgY_R7y7Sqxuh-S_Jp7Zb_dkOjh4FlpTqSKbAM_gtzc2xYtaw)
-
+  * The ThousandEyes extension will appear in the Toolbar. IMAGE MISSING
 * **For IE**
   * You may need to explicitly “Allow” the use of this extension upon the next run of the browser.
-  * To view the Endpoint Agent extension, go to View &gt; Toolbars &gt; Command bar.
-
-![](https://lh3.googleusercontent.com/DVDGLxvIbuKgXiUQNB-T7HeYR_nRJG0Z9HokVJov2uj5q49Z97TjocdQfR_I_j1c_FAs1UqWw78rhKIVGfbxubLJTtCtPAbx3gbFFVTRTB4iwk3Di6srEUq6rhwV0RI8wacE86si)
+  * To view the Endpoint Agent extension, go to View &gt; Toolbars &gt; Command bar. IMAGE MISSING
 
 ## 3. Viewing Data
 
@@ -39,17 +31,13 @@ For a quick start guide to getting started with Endpoint Agent, see the sections
 ## 4. Working with Endpoint Agent
 
 * Open your Chrome/IE browser and browse web domains configured within your Monitoring Profiles. Endpoint Agent will gather web and network layer data for Monitoring Profiles from within monitored networks under [Views &gt; Endpoint Agents](https://app.thousandeyes.com/view/endpoint-agent/).
-* For manual recording of a website, click on the ThousandEyes Endpoint Agent browser extension to start recording. Click on it again to stop recording or close browser tab.
-
-![](https://lh5.googleusercontent.com/UrcRU7QRKE1MbFGz-4kSL-kho-xflI3MCe2EyH4r8NsE_0wkBRcTJpAYQa9-oFmp1h81bd1re-wH5cwa0waGLpy6QTEsdm3OPCM_sonmKV4fN-lvzAm65BYOSETybkeuwazkxheR)
+* For manual recording of a website, click on the ThousandEyes Endpoint Agent browser extension to start recording. Click on it again to stop recording or close browser tab. IMAGE MISSING
 
 ## 5. Creating reports
 
 * Go to [Reports &gt; Reports](https://app.thousandeyes.com/reports/) and create a new report by clicking on the ‘Reports’ dropdown and choosing ‘New Blank Report.’
 * Provide a report name and hit ‘Enter.’
-* Drag the report widgets that you’d like to use into the report, then find the relevant metric you’d like to report on by clicking on the ‘Metric’ dropdown and typing “**endpoint**” to only show Endpoint Agent-related metrics \(if you don’t see any metrics or if there is a limited number of metrics available, the report type you’ve chosen doesn’t support Endpoint Agent metrics\).
-
-![](https://lh6.googleusercontent.com/6CeMMGGADyexuxwMwbzXiuC-02QUiaC0xGDZ4sJzbkH04ITcAOH7C_jHOubcdHVsqXiokflyfQtTQ0BIbf060W3PceFnwUkMzx3OXBoAQttoVrx-0pm9jh0BG1y8AJ-T3GaXclPK)
+* Drag the report widgets that you’d like to use into the report, then find the relevant metric you’d like to report on by clicking on the ‘Metric’ dropdown and typing “**endpoint**” to only show Endpoint Agent-related metrics \(if you don’t see any metrics or if there is a limited number of metrics available, the report type you’ve chosen doesn’t support Endpoint Agent metrics\). IMAGE MISSING
 
 Now, that you have a quick understanding, lets get started with [Getting Started with Endpoint Agent.](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmpZKAS_Getting-Started-with-Endpoint-Agent)
 
