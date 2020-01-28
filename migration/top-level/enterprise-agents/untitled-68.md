@@ -4,34 +4,12 @@ Our software is architected to run a version check upon check-in with the Thousa
 
 This process is run during the update:
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Ubuntu</th>
-      <th style="text-align:left">Red Hat Enterprise Linux/CentOS</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p>apt-get update</p>
-        <p>apt-get install te-agent</p>
-        <p>apt-get install te-browserbot*</p>
-      </td>
-      <td style="text-align:left">
-        <p>yum update</p>
-        <p>yum install te-agent</p>
-        <p>yum install te-browserbot*</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">* te-browserbot package is only required for instances running a browserbot
-        installation. This does require additional resources on a Enterprise Agent
-        (minimum 2GB RAM is recommended)</td>
-      <td style="text-align:left"></td>
-    </tr>
-  </tbody>
-</table>We have encountered circumstances where the keyrings for packages are centrally managed, and may not include the required public package keys. These errors will manifest in a manner similar to the following:
+| Ubuntu | Red Hat Enterprise Linux/CentOS |
+| :--- | :--- |
+|  |  |
+| \* te-browserbot package is only required for instances running a browserbot installation. This does require additional resources on a Enterprise Agent  \(minimum 2GB RAM is recommended\) |  |
+
+We have encountered circumstances where the keyrings for packages are centrally managed, and may not include the required public package keys. These errors will manifest in a manner similar to the following:
 
 ```text
 GPG error: http://apt.thousandeyes.com lucid Release: the following signatures couldn't be verified because the public key is not available: NO_PUBKEY C99A1F5BE718900

@@ -6,7 +6,8 @@
 
 When viewing your Enterprise Agent's status on the **Agents &gt; Enterprise Agents** page, you see a time synchronization warning, such as:
 
-Agent System Time: HH:MM UTC \(XX minutes behind\)
+Agent System Time: HH:MM UTC \(XX minutes behind\)  
+IMAGE MISSING
 
 or
 
