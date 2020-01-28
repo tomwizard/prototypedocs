@@ -181,7 +181,7 @@
   * [How do I perform an in-place upgrade from the latest RHEL 6 to the latest RHEL 7?](migration/enterprise-agents/untitled-20.md)
   * [Replacing an Enterprise Agent using Agent Identity Files](migration/enterprise-agents/untitled-19.md)
   * [Upgrading Ubuntu OS on Enterprise Agents](migration/enterprise-agents/untitled-18.md)
-  * [Upgrading Docker Enterprise Agents](migration/enterprise-agents/upgrading-docker-enterprise-agents.md)
+  * [Upgrading Docker Enterprise Agents](migration/enterprise-agents/untitled-17.md)
   * [How to plan for Enterprise Agent Upgrades](migration/enterprise-agents/untitled-16.md)
   * [Install the Enterprise Agent with BrowserBot on Oracle Linux Server 7](migration/enterprise-agents/untitled-15.md)
   * [Replacing an Enterprise Agent using the agent clustering method](migration/enterprise-agents/untitled-14.md)

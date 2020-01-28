@@ -9,6 +9,17 @@ Installing the ThousandEyes AgentFAILURE: Failed installing the ThousandEyes Age
 
  The following step by step guide will enable the repository holding the Enterprise Agent dependency packages, before attempting to run the Enterprise Agent installation script.
 
+* [Step 1: Register and subscribe]()
+* [Step 2: Enable additional repository]()
+* [Step 3: Install ThousandEyes Enterprise Agent]()
+* [Troubleshooting the installation]()
+  * [Default ThousandEyes linux package installation log]()
+  * [Are you subscribed to Redhat? Is your subscription valid?]()
+  * [Verify repositories]()
+  * [Clean your subscription registration]()
+  * [Verify dependencies]()
+  * [Redhat Knowledgebase reference]()
+
 All the commands below should be run as root. To reduce the content repetition, all "sudo" command prefixes have been removed and the whole guide assumes that you are running each command in a root shell.
 
 To reach the root shell, use the following command:
