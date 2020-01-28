@@ -1,7 +1,5 @@
 # What is an Enterprise Agent?
 
-### What is an Enterprise Agent?
-
 Our ThousandEyes platform uses _Agents_ to run tests against targets configured for measurement.  An _Agent_ is a Linux server running custom ThousandEyes software, which checks in with an agent collector to obtain instructions from the ThousandEyes platform.  Generally speaking, these are lightweight machines, which are tasked solely with acting as ThousandEyes Agents.  Within the Agent ecosystem, we have two main types of agent: _Cloud Agents_ and _Enterprise Agents_.
 
 ## Cloud Agents
@@ -15,6 +13,8 @@ An Enterprise Agent is an endpoint that is used to test targets from inside your
 ### Virtual Appliance
 
 The Virtual Appliance is a lightweight all-in-one package, intended for customers to rapidly deploy into a hypervisor platform.  The Virtual Appliance contains a web-based management console, which allows customers to configure network, proxy and other settings specific to this Virtual Appliance.  One of the biggest benefits of the Virtual Appliance is that it is manageable by someone with little-to-no Linux expertise.
+
+IMAGE MISSING
 
 Installation of a Virtual Appliance requires that a hypervisor be available.  Check out [this article](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmnmKAC) for suggestions on enabling an appropriate hypervisor.
 

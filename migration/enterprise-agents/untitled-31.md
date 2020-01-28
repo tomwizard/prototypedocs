@@ -1,6 +1,16 @@
 # Adding or removing Adobe Flash on Enterprise Agents
 
+### Adding or removing Adobe Flash on Enterprise Agents
+
 [BrowserBot](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmnsKAC_What-is-the-BrowserBot?), the component of ThousandEyes [Enterprise Agents](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmnbKAC_What-is-an-Enterprise-Agent?) that runs Page Load and Transaction tests, can include an [Adobe Flash Player](https://www.adobe.com/products/flashplayer.html) component. To add the Flash Player package to an existing agent, or should security or other considerations require removal of the Flash Player, the following content provides information to add or remove the package.
+
+### Table of contents:
+
+* [Flash presence on Enterprise Agents]()
+* [Installation]()
+* [Removal]()
+* [Flash end-of-life announcement by Adobe \(2020\)]()
+* [Related information]()
 
 ## Flash presence on Enterprise Agents
 
