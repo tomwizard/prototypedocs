@@ -1,0 +1,90 @@
+# How to configure Single Sign-On with OneLogin
+
+For the security of your SaaS-based infrastructure and the convenience of users in your organization, the ThousandEyes service offers login via single sign-on \(SSO\). ThousandEyes supports SAML2-based identity providers for single sign-on. There are two steps to set up single sign-on: the service provider configuration, which is done within ThousandEyes, and the identity provider configuration, done within your SSO system.  In this configuration example, we use [OneLogin](https://www.onelogin.com/) as the identity provider. 
+
+## Prerequisites
+
+Configuration is normally simple. Here's what you need:
+
+* ThousandEyes account assigned a role with the _Edit security & authentication settings_ permission
+* A SAML2 authentication provider \(in this example, [OneLogin](https://www.onelogin.com/)\)
+
+## ThousandEyes configuration
+
+Follow these steps to configure your ThousandEyes organisation to use single sign-on:
+
+1. Log into ThousandEyes using an account with a role that has the _Edit security & authentication settings_ permission
+2. Open the **Settings &gt; Accounts** page and click the **Security & Authentication** tab
+3. Check the **Enable Single Sign-On** box
+4. Configure the **Setup Single Sign-On** fields according to the following settings and click the **Save** button:
+
+   | **Login Page URL** | https://app.onelogin.com/trust/saml2/http-post/sso/440469 |
+   | :--- | :--- |
+   | **Logout Page URL** | Optional, see below |
+   | **Identity Provider Issuer** | https://app.onelogin.com/saml/metadata/440469 |
+   | **Service Provider Issuer** | http://www.thousandeyes.com |
+   | **Verification Certificate** | The certificate downloaded from Step 5 in the **Identity Provider configuration** section below |
+
+IMAGE MISSING
+
+**IMPORTANT:** Ensure that the **Service Provider Issuer** field reflects the value set by the identity provider in the AudienceRestriction element of the SAML response. Any mismatch, including a protocol mismatch \(http vs https\) will cause the request to be rejected.
+
+**NOTE:** The **Logout Page URL** is optional. If used, the URL should point to the page you wish your users to see when logging out of ThousandEyes.   
+
+## Identity Provider configuration  
+
+1. Log in to the OneLogin Admin Console, and go to the **Apps &gt; Add Apps** section
+2. Search for "ThousandEyes" and click on the search result IMAGE MISSING
+3. Edit the **Display Name** \(if desired\) and click the **Save** button IMAGE MISSING
+4. Go to the **SSO** tab and click the **View Details** link IMAGE MISSING
+5. Click on the **Download** button to save the certificate in "X.509 PEM" format on your local drive. IMAGE MISSING
+6. Log in to ThousandEyes and go to the **Security & Authentication** tab of the **Settings &gt; Account** page
+7. In the **Setup Single Sign-On** section, click the **Browse** button to select and upload the certificate IMAGE MISSING
+8. Click the **Save** button to save the settings
+
+## Test the configuration
+
+1. Log out of ThousandEyes
+2. Log in to the OneLogin Admin Console
+3. Click on the **ThousandEyes** icon IMAGE MISSING
+
+You should automatically login into ThousandEyes
+
+## Add users to OneLogin
+
+If you are not using the same username in ThousandEyes and OneLogin, you need to:
+
+1. Log in to the OneLogin Admin Console, and go to **Apps &gt; Company Apps**[ ](https://auth.miniorange.com/moas/downloadcsv)
+2. Click on the **ThousandEyes** application
+3. Go to the **Users** tab: IMAGE MISSING
+4. Click on the **User** and edit the **Username** to match the one that you use in ThousandEyes \(typically you need to use the email address but stripping out the "@&lt;domain&gt;". This can also be configured in **Apps &gt; Company Apps &gt; ThousandEyes App &gt; Parameters.** IMAGE MISSING
+5. Click the **Save** button
+
+##  Logging in using SSO
+
+1. To log in to ThousandEyes, go to https://[app.thousandeyes.com](https://app.thousandeyes.com/) and click the **SSO** link IMAGE MISSING
+2. Enter the SSO-enabled email address, and click the **Log In** link
+3. When the OneLogin authorization page appears, enter your email address and password, and press the **Log In** button: IMAGE MISSING
+
+You should be automatically logged into ThousandEyes
+
+Alternatively, users can access the ThousandEyes application through the user's OneLogin dashboard. Please refer to the "**Test the configuration"** section presented above.
+
+## Connection details for troubleshooting
+
+If your single sign-on login fails, verify that certain SAML settings are configured as below:
+
+* * Request Compression: Yes
+  * Assertion: Unsigned
+  * Response: Signed
+  * Destination: [http://www.thousandeyes.com](http://www.thousandeyes.com/)
+  * AuthnContextClassRef: PasswordProtectedTransport
+  * AudienceRestriction: [http://www.thousandeyes.com](http://www.thousandeyes.com/)
+
+    _Note: The AudienceRestriction element generated by your identity provider's configuration must match exactly_ the value set for the Service Provider Issuer field in ThousandEyes.  Any mismatch, including a protocol mismatch \(http vs https\) will cause the request to be rejected.
+
+  * Recipient: [http://www.thousandeyes.com](http://www.thousandeyes.com/)
+  * NameID Format: emailAddress
+  * Role: User
+  * AssertionConsumerServiceURL: [https://app.thousandeyes.com/login/sso/acs](https://app.thousandeyes.com/login/sso/acs)
+

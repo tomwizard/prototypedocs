@@ -1,12 +1,12 @@
 # Notification of upgrades, maintenance and outages
 
-### Notification of upgrades, maintenance and outages
-
 ThousandEyes releases periodic software updates and performs occasional maintenance.  While we endeavor to update the system unobtrusively, some changes require us to take offline all or part of the platform, Cloud Agents or other infrastructure. Additionally, unplanned outages can infrequently occur. Customers who wish to receive information on updates, maintenance that requires downtime or unplanned outages can selectively subscribe to emails and to our ThousandEyes Operations Twitter feed.
 
 Updates to the product, which introduce new features and bug fixes, typically occur on alternate Tuesdays, starting at 6 PM, Pacific time, but may also occur at other times. We post Release Updates to the Release Notes section of the [Customer Success Center's](https://success.thousandeyes.com/) Knowledge Base.  Release Updates provide valuable information about newly available features and bug fixes.
 
 When planned maintenance downtime is scheduled, we post an article in the Maintenance Announcements section of the Knowledge Base, as well as posting a message in the Notifications feature of the platform.  The Notifications feature is accessed through the bell icon on the menu bar of the platform's web interface:
+
+IMAGE MISSING
 
 During unplanned outages, we post an article in the Announcements section of the Knowledge Base, as well as tweeting from our @ThousandEyesOps handle.
 
@@ -26,6 +26,8 @@ To subscribe to the Release Notes, Maintenance Announcements or Announcements se
 4. In the **Email Notification** section, select the **Release Notes,** **Maintenance Announcements** and/or **Announcements** checkboxes
 5. Click the **Update Subscriptions** button to save your changes
 
+IMAGE MISSING
+
 ### Distribution of email to multiple recipients
 
 Customers who wish to distribute email notifications to multiple users can configure a forwarding rule within their email system which resends a received email.  Alternatively, customers can create an account in ThousandEyes whose username is the email address associated with a distribution list within their email system, for example netops-thousandeyes-notifications@example.com.
@@ -33,6 +35,8 @@ Customers who wish to distribute email notifications to multiple users can confi
 ## Following the Twitter feed
 
 For information on unplanned outages, you can follow the ThousandEyes Operations' Twitter handle: @ThousandEyesOps.  The Twitter feed will provide information on unplanned events as well as scheduled maintenance.  To subscribe to the Twitter handle, go to the [ThousandEyes Ops Twitter page](https://twitter.com/ThousandEyesOps), then click the **Follow** button:
+
+IMAGE MISSING
 
 Following a Twitter feed requires a Twitter account.  To unfollow the feed, consult Twitter's [support documentation for unfollowing](https://support.twitter.com/articles/15355-unfollowing-people-on-twitter).
 
