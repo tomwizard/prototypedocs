@@ -1,7 +1,5 @@
 # Instructions for mitigating Meltdown and Spectre on Enterprise Agents
 
-### Instructions for mitigating Meltdown and Spectre on Enterprise Agents
-
 As of February 22, 2018, updates for ThousandEyes Enterprise Agents have been made available and tested for the Meltdown and Spectre Version 1 and 2 vulnerabilities. This document outlines recommendations for mitigating vulnerabilities in Enterprise Agents deployed in customer environments. Follow the instructions below for each Enterprise Agent deployment type to apply security updates to your Enterprise Agents.
 
 Please see the ThousandEyes Knowledge Base article [Security Advisory: Meltdown and Spectre](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0440000009SQkCAM_Security-Advisory:-Meltdown-and-Spectre) describing ThousandEyes' general response to the Meltdown and Spectre vulnerabilities.
