@@ -2,8 +2,6 @@
 
 All data collected by Endpoint Agents from browsing webpages of domains listed under a monitoring profile from a monitored network is presented under [Endpoint Agents &gt; Views](https://app.thousandeyes.com/view/endpoint-agent/?). This article describes the **Wireless** View under **Network Access**.
 
-IMAGE MISSING
-
 1. **Metric:** Under the Wireless View, measurements for the following categories of metrics are available and metrics are averaged across all agents by default:
    * **Signal Quality:** A percentage value from 0% to 100%. A value of 0% implies an actual RSSI \(Received Signal Strength Indicator\) signal strength of -100 dBm. A value of 100% implies an actual RSSI signal strength of -50 dBm.
    * **Throughput:** Throughput observed by Endpoint Agent.
