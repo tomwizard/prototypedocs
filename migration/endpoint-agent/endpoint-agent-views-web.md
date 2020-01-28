@@ -2,6 +2,8 @@
 
 All data collected by Endpoint Agents from browsing webpages of domains listed under a monitoring profile from a monitored network is presented under **Views &gt; Endpoint Data** for that Account Group**.** Data collected by manually triggering a recording session will also be shown; see below for an example.
 
+IMAGE MISSING
+
 1. **Add a filter:** Search through data from all user sessions within the selected time period using the following criteria:
    * **Connection**: Network connection of the Endpoint Agent \(e.g. wireless ethernet, wired ethernet, virtualized network\)
    * **Destination IP**: IP address of visited site
@@ -25,7 +27,9 @@ All data collected by Endpoint Agents from browsing webpages of domains listed u
 7. **Number of Sessions**: Total number of active user sessions within the specified time interval.
 8. **Page Success Rate \(%\):** A web page is said to be fully loaded if the page load event is successfully triggered. This metric is a percentage measurement of successful page load events divided by the total page load requests by the browser, displayed for each selected Agent during the specified time interval.
 9. **Response Time \(ms\):** Total response time measured from each web page, displayed for each selected Agent during the specified time interval.
-10. **Waterfalls:** View waterfall data for each web page visited during the selected user session. 
+10. **Waterfalls:** View waterfall data for each web page visited during the selected user session.  IMAGE MISSING
 
 Click on the **View Waterfall** link to see detailed information about each object on the selected page: object name, domain name of the URL, size \(kB\) and time taken to load the object \(ms\).
+
+IMAGE MISSING
 
