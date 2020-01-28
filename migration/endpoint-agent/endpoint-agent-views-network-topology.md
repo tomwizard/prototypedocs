@@ -5,7 +5,7 @@
 All data collected by Endpoint Agents within an account group as a result of a browser session or scheduled test is presented in [Endpoint Agents &gt; Views](https://app.thousandeyes.com/view/endpoint-agent/). This article focuses on the [Endpoint Agent &gt; Views &gt; Network Access &gt; Network Topology](https://app.thousandeyes.com/view/endpoint-agent/?&scenarioId=eyebrowGateway) ****view ****and explains in detail the information given on that page as well as how to navigate and use all the view features. If you are looking for a detailed explanation on the associated [Endpoint Agent &gt; Network Access &gt; Wireless](https://app.thousandeyes.com/view/endpoint-agent/?roundId=1560158400&metric=interface-metric-signal-quality&scenarioId=eyebrowWireless) view then please refer to the [Endpoint Agent Views - Wireless](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA02R000000HlmWSAS_Endpoint-Agent-Views-Wireless) article. 
 
   
-Figure 1: Annotated Screenshot of [Endpoint Agent &gt; Views &gt; Network Access &gt; Network Topology](https://app.thousandeyes.com/view/endpoint-agent/?scenarioId=eyebrowGateway) view
+IMAGE MISSING
 
 **1. Add a filter:** Search through collected data using filters. The network topology filters span all data collected for the selected time span and persists across all Endpoint Agent views i.e. Scheduled Tests, Browser Sessions and the Network Topology view \(4\). The filters available for Network Topology view are broken down into two main categories, Agents and Network. The following is a list of all Network Access filter names and descriptions:
 

@@ -2,17 +2,25 @@
 
 Endpoint Agents can run two types of Scheduled Tests at regular intervals. The two tests are similar to the Network Layer's Agent to Server test type, and to the Web Layer's HTTP Server test type run by a Cloud or Enterprise Agent.
 
+## Table of contents
+
+* [Location]()
+* [Overview]()
+* [Using the HTTP Server test view]()
+* [Using the Network test view]()
+  * [Path Visualization for Agent to Server tests]()
+* [Data filtering]()
+* [Frequently asked questions]()
+
 ## Location
 
 Scheduled Test views are nested under [Endpoint Agents &gt; Views](https://app.thousandeyes.com/view/endpoint-agent/). Once there, select **Scheduled Tests** under the Views:
-
-IMAGE MISSING
 
 ## Overview
 
 The following figure shows the default Endpoint scheduled test results view, with an HTTP Server test selected:
 
-IMAGE MISSING
+Figure.3: Overview \(HTTP Server test results view\)
 
 The Endpoint Agent scheduled test results view consists of the following components:
 
@@ -46,7 +54,7 @@ The bottom pane on the HTTP Server view is split into two tabs:
 
 The Network layer can be opened by clicking on the **Network** link \(1\) as shown below:
 
-IMAGE MISSING
+Figure 4: Network test results view timeline
 
 Click on the **Network** link as outlined in the screen capture above leads to the Network test results view. The Network \(Agent to Server\) test on an Endpoint agent measures the following metrics \(2\): 
 
@@ -59,7 +67,7 @@ Click on the **Network** link as outlined in the screen capture above leads to t
 
 The available metrics can be selected for display in the **Metrics** drop-down menu \(pointer \#2 in the Screen capture no.4 above\). Additionally, metrics are also represented and clickable \(2\) on the left side of the **Map** \(1\) tab content on the bottom pane:
 
-IMAGE MISSING
+Figure 5: Map tab of the Network test view
 
 The bottom pane on the Network view is broken down into three tabs:
 
@@ -71,7 +79,7 @@ The bottom pane on the Network view is broken down into three tabs:
 
 Sample **Path Visualization** view for network tests:
 
-IMAGE MISSING
+Figure.6: Path Visualization tab of the Network test view
 
 More information of the Path Visualization view is available in the [Using the Path Visualization View](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmmiKAC) article.  
  
@@ -80,7 +88,7 @@ More information of the Path Visualization view is available in the [Using the P
 
 Endpoint Agent views provide extensive data filtering capabilities that enable users to drill down the data and present it in the most useful manner. In the following figure, the filtering controls are indicated:
 
-IMAGE MISSING
+Figure 6: Path Visualization tab of the Network test view
 
 Available filtering controls:
 
