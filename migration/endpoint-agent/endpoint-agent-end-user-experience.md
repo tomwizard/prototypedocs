@@ -1,4 +1,4 @@
-# Endpoint Agent End-user Experience - ThousandEyes Customer Success Center
+# Endpoint Agent End-user Experience
 
 This article addresses the effects of installing Endpoint Agent from the end-user perspective.  You may also be interested in the [ThousandEyes Endpoint Agent End-User FAQ](https://www.thousandeyes.com/product/endpoint-agents/end-user-faq), a publicly available webpage on the ThousandEyes site which can be used to answer some common questions that your users might have.
 
@@ -10,8 +10,8 @@ In general, end users will not see any degradation of system or network performa
 
  When recording browser activity manually, users will see a popup window bar that says “Recording Started.” The popup will disappear when users click the same button to stop recording, or if the user closes the browser tab.
 
-* **Chrome**:
-* ​​**Internet Explorer:**
+* **Chrome**: IMAGE MISSING
+* ​​**Internet Explorer:** IMAGE MISSING
 
 ### Processes
 
@@ -34,9 +34,8 @@ Log files:
 
  ThousandEyes Endpoint Agent browser extension executes in Chrome. When recording browser activity manually, a bar appears that says “Recording Started.” The popup will close once you stop the recording or close the tab.
 
-### 
+IMAGE MISSING
 
-* 
 ### Processes:
 
 * te-agent  The system service responsible for gathering system and network data, receiving new configurations, and sending data back to ThousandEyes.
