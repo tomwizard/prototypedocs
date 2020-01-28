@@ -1,5 +1,7 @@
 # Connecting to the ThousandEyes Virtual Appliance using SSH \(Mac/Linux\)
 
+### Connecting to the ThousandEyes Virtual Appliance using SSH \(Mac/Linux\)
+
 In order to connect to the ThousandEyes VA, you first need to configure the Virtual Appliance with an SSH public key.
 
 ## Generate an SSH key
@@ -59,8 +61,6 @@ Copying part is done by selecting the whole public key \(starting with "ssh-..."
 ## Copy the public key to the ThousandEyes VA
 
 Access the web interface of the Virtual Appliance, and navigate to the Appliance Access tab, then copy the public key \(which should be on your clipboard\) into the "Add New SSH key" text widget.  
-
-IMAGE MISSING
 
 The text will show as green if it validates successfully, or red if there is a problem.  For most circumstances where there is a problem, remove trailing line feeds.
 

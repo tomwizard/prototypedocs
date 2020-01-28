@@ -1,4 +1,4 @@
-# Enterprise Agent Port Forwarding
+# Enterprise Agent Port Forwarding - ThousandEyes Customer Success Center
 
 When an Enterprise Agent is installed in a virtual machine as either a Virtual Appliance or a Linux package Enterprise Agent, ThousandEyes recommends configuring the virtual machine with a bridged virtual network adapter.  Bridged adapters allow the Agent to communicate directly with the local physical network. However, some circumstances may prevent customers from using bridged adapters.  Reasons a bridged adapter may fail include lack of DHCP service for the virtual machine or security features of at the media access layer such as port-based MAC address security or wireless connections that permit only a single MAC address.
 
@@ -14,8 +14,8 @@ Also note that port forwarding using the virtual machine host's port numbers bel
 
 For additional information on configuration or limitations, consult the VirtualBox [Networking documentation](https://www.virtualbox.org/manual/ch06.html).
 
-1. Run VirtualBox, highlight your Agent's virtual machine and click the Settings icon. IMAGE MISSING
-2. Select the Network settings.  For "Adapter 1" configure the network adapter as **NAT.** IMAGE MISSING
+1. Run VirtualBox, highlight your Agent's virtual machine and click the Settings icon.
+2. Select the Network settings.  For "Adapter 1" configure the network adapter as **NAT.**
 3. Click the **Port Forwarding** button, then click the **+** icon to add a port forwarding rule.  Repeat the click to add more rules.
 
    In the example below, we have added the following rules:
@@ -26,10 +26,10 @@ For additional information on configuration or limitations, consult the VirtualB
     Rule 4 forwards the host port 49153/TCP to the Agent port 49153 for a ThousandEyes Agent to Agent test using TCP.  
     Rule 5 forwards the host port 49153/UDP to the Agent port 49153 for a ThousandEyes Agent to Agent test using UDP.
 
-    Click the **OK** button when finished.  
-   IMAGE MISSING
+    Click the **OK** button when finished.
 
-4. To test the configuration, using a web browser go to [http://localhost:8080/](http://localhost:8080/#/) in order to access the Agent's web administration console. IMAGE MISSING
+4. To test the configuration, using a web browser go to [http://localhost:8080/](http://localhost:8080/#/) in order to access the Agent's web administration console.
 
- For more information about port numbers used by ThousandEyes Enterprise Agents for tests and other functions, consult the ThousandEyes Knowledge Base article [Firewall configuration for Enterprise Agents](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnBtCAK).
+          
+For more information about port numbers used by ThousandEyes Enterprise Agents for tests and other functions, consult the ThousandEyes Knowledge Base article [Firewall configuration for Enterprise Agents](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnBtCAK).
 

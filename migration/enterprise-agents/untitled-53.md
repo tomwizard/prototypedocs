@@ -14,8 +14,6 @@ When database corruption occurs the Agent will stop, and an error message will b
 
 As a result, the local database will be stopped and the Agent will be unable to operate. The Agent's status will be shown as "Offline" in the Agent Settings page, with a last contacted date of whenever the first VACUUM error occurred.
 
-IMAGE MISSING
-
 In order to resolve this, follow the instructions below, per the type of Enterprise Agent \(Linux package or Virtual Appliance\).
 
 ## Linux Package

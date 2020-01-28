@@ -6,6 +6,14 @@ In some environments, the certificate\(s\) returned by the server do not chain b
 
 Adding root CA certificates cannot be performed on Cloud Agents, due to the shared nature of Cloud Agents. Endpoint Agents are installed on standard operating systems which the customer controls, including control of the certificate stores.
 
+## Table of contents
+
+1. [When to add certificates to an Enterprise Agent]()
+2. [Converting certificates into PEM format]()
+3. [Installing on Appliances]()
+4. [Installing on supported Linux Distributions]()
+5. [Installing on Docker]()
+
 ## When to add certificates to an Enterprise Agent
 
 When any Web Layer test \(HTTP Server test, Page Load test, Transaction test or FTP Server test\) or administrative communication from the Agent to ThousandEyes produces a certificate error, review the following scenarios to determine whether a root CA certificate must be added to the Enterprise Agent’s certificate store.
@@ -54,17 +62,11 @@ openssl pkcs12 -in infile -out outfile.pem -nodes
 
  Log into the Virtual Appliance's web management console, and click on the Network tab:
 
-IMAGE MISSING
-
 In the CA Certificate section, either paste the CA certificate into the **Add CA Certificate** field or browse to your PEM-formatted certificate file:
-
-IMAGE MISSING
 
 If pasting, ensure that whole certificate is pasted into the field, including the "-----BEGIN CERTIFICATE-----" and "-----END CERTIFICATE-----" markers at the beginning and end of the certificate.
 
 Multiple CA certificates may be installed by copying and pasting each certificate, concatenating the certificates in the **Add CA Certificate** field:
-
-IMAGE MISSING
 
 Click the **Save** button at the bottom of the page to complete the operation.  
 

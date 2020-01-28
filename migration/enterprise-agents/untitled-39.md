@@ -1,4 +1,6 @@
-# Resetting an Enterprise Agent
+# Resetting an Enterprise Agent - ThousandEyes Customer Success Center
+
+#### Resetting an Enterprise Agent
 
 Occasionally, customers may need to reset an Enterprise Agent. Resetting may be needed to repair incorrect behavior, or as the first step in reassigning the Agent to a different Account Group.
 
@@ -8,15 +10,19 @@ This article provides instructions for resetting Enterprise Agents, according to
 
 **Important:**  Resetting an Enterprise Agent removes all configuration belonging to the existing Account Group, and creates a new instance of the Agent in the ThousandEyes app. The new Agent will not automatically assign itself to any existing tests or alerts. Test and alert assignment must be done manually after the reset. Some configuration that is local to the Agent and not specific to Account Groups is retained.
 
+#### Table of contents
+
+* [Account Group token]()
+* [Removing old Agent entries]()
+* [Resetting an Appliance]()
+* [Resetting a Linux package Agent]()
+* [Resetting a Docker container Agent]()
+
 ## Account Group token
 
 If resetting an Enterprise Agent to change the Account Group, the Agent will need to be configured with the new Account Group's installation token. The token can be found on the [Enterprise Agents Settings](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) page. Select the **+Add New Agent** form. Under the **Appliance** view, click the **Show Account Group Token for Installation** link to display the token.
 
-IMAGE MISSING
-
 Copy the Account Group token for later use:
-
-IMAGE MISSING
 
 The Linux Package and Docker settings will also display the token, in the text of their installation instructions.
 
@@ -26,11 +32,11 @@ Access to the Account Group token requires a user account with a role that has t
 
 Resetting an Enterprise Agent will assign the Agent a new, unique ID number in the ThousandEyes application, and will create a new entry in the [Enterprise Agents Settings](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) page, in the Agent's Account Group.
 
-To avoid using an additional Enterprise Agent license, as well as avoiding confusion and accumulating out-of-date information, the entry for the Agent should be removed from the Enterprise Agents Settings page before resetting an Enterprise Agent, unless a specific reason to keep the entry exists. Resetting an Agent without deleting the old Agent's entry in the ThousandEyes app could result in an extra license used in the billing cycle, as the ThousandEyes app does not know that the Agent has been reset; only that the old Agent hasn't reported to ThousandEyes and a new Agent has been created.
+To avoid using an additional Enterprise Agent license, as well as avoiding confusion and accumulating out-of-date information, the entry for the Agent should be removed from the Enterprise Agents Settings pagebefore
+
+ resetting an Enterprise Agent, unless a specific reason to keep the entry exists. Resetting an Agent without deleting the old Agent's entry in the ThousandEyes app could result in an extra license used in the billing cycle, as the ThousandEyes app does not know that the Agent has been reset; only that the old Agent hasn't reported to ThousandEyes and a new Agent has been created.
 
 On the Enterprise Agents Settings page, expand the entry for the Agent and click the Delete dropdown option.
-
-IMAGE MISSING
 
 If the old entry is not removed before the Agent is reset, and the Agent is not being reassigned to a new Account Group, then the new Agent will be created with a name which has the new Agent's unique numerical ID appended to the name, in order to have a unique name. For example, resetting the Agent called "superteva" without first deleting the entry in the Settings page will result in the new Agent having a name "superteva-XXXXX" where XXXXX is the new Agent ID.
 
@@ -40,16 +46,12 @@ If the entry is not deleted prior to reset, and the new Agent name appears with 
 
 Resetting a Virtual or Physical Appliance is done using the web console of the Appliance. Access to the Appliance's web console is done using the IP address of the Appliance. The IP address can be found by accessing the [Enterprise Agents Settings](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) page, or by opening a console connection to the Appliance. In the console, the IP address and login credentials will be shown as per the example below:
 
-IMAGE MISSING
-
 1. Browse to http://&lt;Appliance\_IP\_address&gt; then log in to the web console
-2. Open the **Advanced Settings** tab IMAGE MISSING
+2. Open the **Advanced Settings** tab
 3. Click the **Reset Agent State** button
 4. Confirm the reset operation
 
 The user will be logged out of the Appliance. Log back in using the same credentials. The Agent will display the Setup wizard:
-
-IMAGE MISSING
 
 The Agent may now be set up using the instructions for configuring a new Appliance. If configuring the Agent for a new Account Group, provide the new Account Group's installation token during step 4, and make any other changes on the Appliance if needed. Once the Setup wizard has completed, navigate to the Status tab to ensure that the Agent is running, and return to the [Enterprise Agents Settings](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) page for the appropriate Account Group to confirm that the Agent is present.
 
