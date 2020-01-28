@@ -1,5 +1,7 @@
 # Getting Started with Endpoint Agent
 
+## [Getting started with Endpoint Agents](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmmsKAC_Working-with-Agent-settings)
+
  This article is your complete guide to getting started with Endpoint Agents. We'll explain: what Endpoint Agents are, where and how to deploy them, configuration options, how to run tests, end-user tools and experience, how to navigate your way through the UI and the layers of test views, how to create reports and dashboards, how to troubleshoot deployments and operations, managing licenses, user permissions and much more.
 
 Alternatively, if you’re new to Endpoint Agents and want to get started quickly check out our [Quick Start Guide](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmpW) or watch our [Getting Started with Endpoint Agent](https://www.thousandeyes.com/resources/getting-started-endpoint-agent-tutorial) video from our video tutorial series.
@@ -9,6 +11,35 @@ If you're already on your way to becoming an Endpoint Agent pro-user this guide 
 There are two types of Endpoint Agents: **Endpoint Enterprise** and **Endpoint Pulse.**  The agent and their differences are explained in more detail in the [Endpoint Enterprise vs Endpoint Pulse]() section below. Throughout this guide, all topics discussed apply to both products unless explicitly mentioned.
 
 Where further explanation is required you will find in-text links and lists of relevant articles with a brief summary of their content. If you don't see what you are looking for, try to search our entire Knowledgebase using the search bar above or reach out to our [Customer Success Team](http://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000UGTFCA4_Getting-support-from-ThousandEyes).
+
+## Table of contents
+
+* [Getting started with Endpoint Agents]()
+* [A brief introduction to Endpoint Agents]()
+* [Endpoint Enterprise vs. Endpoint Pulse]()
+* [Deploying Endpoint Agents]()
+  * [Detailed Mac OSX installation instructions]()
+  * [Detailed Windows OS installation instructions]()
+* [Endpoint HTTP proxy support]()
+  * [Browser Sessions proxy]()
+  * [Scheduled Tests proxy]()
+* [Endpoint Agent updates]()
+* [Endpoint Agent permissions]()
+* [Endpoint Agent licensing]()
+  * [Viewing, transferring and re-claiming licenses]()
+* [A brief introduction to Scheduled Tests, Browser Sessions and the Network Access layer]()  
+  * [Endpoint agent labels and test distribution and configuration]()
+  * [Browser Sessions and settings]()
+  * [Network Access]()
+* [Working with Endpoint Agent Views]()
+  * [Views, Scheduled Tests]()
+  * [Views, Browser Sessions]()
+  * [Views, Network Access]()
+* [Reports and Dashboards]()
+* [Alerting]()
+* [API]()
+* [Endpoint data collection and metrics]() 
+* [Reference articles]()
 
 ## [A brief introduction to Endpoint Agents]()
 
@@ -20,11 +51,11 @@ You have full control of when and under what conditions Scheduled Tests run or B
 
 Deploying Endpoints gives you the ability to identify and diagnose end-user issues in near real-time. Unlike [Enterprise Agents](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmmsKAC_Working-with-Agent-settings), Endpoint Agents run natively on Windows and Mac OSX operating systems and can be deployed on mass using standard automated deployment tools. [Figure 1]() below shows a typical example of deployment locations for Endpoint, [Enterprise](http://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmmsKAC_Working-with-Agent-settings) and [Cloud](https://www.thousandeyes.com/product/cloud-agents) Agents.
 
-IMAGE MISSING
+[**Figure 1. Example Endpoint, Enterprise and Cloud Agent deployment locations**]()
 
 Once an Endpoint Agent has been deployed it will stream performance data to the ThousandEyes platform. Scheduled Tests, Browser Sessions and Network Access results are displayed in the intuitive interactive [Endpoint Agent &gt; Views](https://app.thousandeyes.com/view/endpoint-agent) page for analysis.
 
-IMAGE MISSING
+**Figure 2. An example of just one of the many ways interactive data is presented:** [**Endpoint Agent &gt; Views**](http://app.thousandeyes.com/view/endpoint-agent)
 
 ## [Endpoint Enterprise vs. Endpoint Pulse]()
 
@@ -59,9 +90,7 @@ We currently support the use of HTTP proxies for both types of Endpoint Agents. 
 
  The proxy used by Browser Sessions is not configurable but automatically detected from the host system. See Figures [3]() and [4]() below for examples of how we present proxy data.
 
-IMAGE MISSING
-
-IMAGE MISSING
+[**Figure 4.**]() **Endpoint proxy displayed in Path Visualisation view:** [**Endpoint Agents &gt; Views &gt; Browser Sessions &gt; Network &gt; Path Visualization**](https://app.thousandeyes.com/view/endpoint-agent/?metric=loss&scenarioId=eyebrowNetwork)
 
 #### 
 
@@ -89,7 +118,8 @@ Endpoint Agent licenses are assigned to the organization and can be transferred 
 
 To free up a license you can disable an Endpoint Agent or delete it. The **Currently Active** licenses shown on page [Account Settings &gt; Usage and Billing](https://app.thousandeyes.com/account-settings/usage-billing/?section=usage) is a tally of all licenses used within a billing cycle. If you disable or delete an Endpoint Agent within a billing cycle the reduction of the **Currently Active** licenses will not appear until the following billing cycle. Note: removing the Endpoint Agent software package from an end-user machine will not free up a license until it is deleted from the [Endpoint Agents &gt; Agent Settings](https://app.thousandeyes.com/endpoint/agent-settings/?section=agents) page. 
 
-IMAGE MISSING
+[**Figure 5**]()**. Endpoint Agent licensing information on the** [**Account Settings &gt; Usage and Billing**](https://app.thousandeyes.com/account-settings/usage-billing/?section=usage) **page**   
+
 
 ## [A brief introduction to Scheduled Tests, Browser Sessions and the Network Access layer]()
 
@@ -119,8 +149,8 @@ The following sub-sections contain screenshots and KnowledgeBase article links, 
 
 * Views - [Scheduled Tests](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CpWcCAK_Endpoint-Agent-Views-Scheduled-Tests): HTTP Server and Network type tests, Path Visualizations, Maps and Tables
 
-IMAGE MISSING[  
-****](https://app.thousandeyes.com/view/endpoint-agent)
+[**Figure 6**]()**. Scheduled test results view:** [**Endpoint Agent &gt; Views &gt; Scheduled Tests &gt; HTTP Server**  
+](https://app.thousandeyes.com/view/endpoint-agent)
 
 #### [Views, Browser Sessions]()
 
@@ -129,7 +159,7 @@ IMAGE MISSING[
 * Views - [Browser Sessions &gt; Visited Pages](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmpYKAS_Endpoint-Agent-Views-Web): Web pages recorded manually with the browser extension or automatically via a Monitored Network and Domain groupset.      
 * Views - [Browser Sessions &gt; Sessions](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmpVKAS_Endpoint-Agent-Views-Session-Details-1472238551243): Web sessions recorded manually with the browser extension or automatically via a Monitored Network and Domain groupset.
 
-IMAGE MISSING  
+[**Figure 7**]()**. Browser Sessions Visited Pages:** [**Endpoint Agent &gt; Views &gt; Browser Sessions &gt; Visited Pages &gt; Sessions**](https://app.thousandeyes.com/view/endpoint-agent)  
 ****
 
 #### [Views, Network Access]()
@@ -137,7 +167,8 @@ IMAGE MISSING
 * Views - [Network Access &gt; Network Topology](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000Cmpa): Visualises the devices in use by Endpoint Enterprise Agents and their performance
 * Views - [Network Access &gt; Wireless](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA02R000000HlmWSAS_Endpoint-Agent-Views-Wireless): Endpoint Enterprise Agents wireless network connection performance data
 
-IMAGE MISSING
+[**Figure 8**]()**. Network Access layer:** [**Endpoint Agent &gt; Views &gt; Network Access &gt; Network Topology**](https://app.thousandeyes.com/view/endpoint-agent)  
+****
 
 ## [Dashboards and Reports of Endpoint Data]()
 
