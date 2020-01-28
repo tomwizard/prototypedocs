@@ -8,11 +8,15 @@ OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to <server:port_number>
 
 in the **Error Details** column of the test's Table tab, as shown below.
 
+IMAGE MISSING
+
 This error typically occurs when the TCP three-way handshake between Agent and server completes \(successful Connect phase, per the Map tab\) but then a TCP reset packet \(often written as "RST"\) is received by the Agent, terminating the connection during the SSL phase. This error is not produced when an Agent receives a RST packet during the three-way handshake, or after completion of the SSL/TLS negotiation \(SSL phase\).
 
 A packet capture from the Agent can confirm if the error is caused by a RST packet received after a completed TCP three-way handshake. Customers can perform captures using the tcpdump command-line utility from their Enterprise Agents. Contact ThousandEyes Customer Success to obtain packet captures from Cloud Agents.
 
 The screenshot below from the Wireshark packet analysis program displays the RST packet which generated the error in the previous screenshot.
+
+IMAGE MISSING
 
 Customers seeing this error should identify all possible devices in the path between Agent and server that could be sending the RST packet. Some suggestions for identifying devices:
 
