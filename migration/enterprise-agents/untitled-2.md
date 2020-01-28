@@ -1,5 +1,7 @@
 # Enterprise Agent deployment using Docker
 
+Docker containers are lightweight virtualized environments which can run the ThousandEyes Enterprise Agent through the use of the [Docker](https://www.docker.com/what-docker) environment. Docker and Docker containers can be deployed faster and achieve higher density of Agents on a host than virtual machines with full guest operating systems running in a hypervisor.  Additionally, while a Linux package Enterprise Agent deployment is restricted to Ubuntu LTS, Red Hat Enterprise Linux, Oracle Enterprise Linux, and CentOS distributions, the Docker environment can be run on a much wider variety of operating systems.
+
 Docker container Enterprise Agent is currently supported on 64-bit Linux distributions running Kernel version 3.10 or newer, such as:
 
 * Ubuntu 14.04 LTR or newer
