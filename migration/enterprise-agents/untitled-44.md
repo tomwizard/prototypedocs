@@ -174,7 +174,11 @@ root@jdm&gt; request virtual-network-functions console ThousandEyesVNF
 
 You should see a console with the current Agent’s IP address as follows:
 
+IMAGE MISSING
+
 If a different IP address is needed, type the “N” key, and enter the information to change the Network configuration.
+
+IMAGE MISSING
 
 To exit the console press “CTRL + SHIFT + \] ” 
 
@@ -182,20 +186,34 @@ To exit the console press “CTRL + SHIFT + \] ”
 
 Using a web browser from a system on the LAN, access the ThousandEyes Virtual Appliance using the URL and login credentials shown in the console screen.
 
+IMAGE MISSING
+
 3. Change the Web Interface password
+
+IMAGE MISSING
 
 4. Obtain and enter the Account Group Token
 
 Click the **ThousandEyes Platform Account Settings** link.
 
+IMAGE MISSING
+
 From the [Settings &gt;  Enterprise Agents](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) page, open the **Add New Agent** form and click the **Show Account Group Token for Installation** link, at the bottom.
 
+IMAGE MISSING
+
 Copy the Token and paste into the **Account Token** field of the ThousandEyes Virtual Appliance Setup.
+
+IMAGE MISSING
 
 Select 'Yes' to install the BrowserBot component if using Page Load or Transaction tests, then click the **Next** button.  
 If the Diagnostics check is successful, the Virtual Appliance's Status page should indicate that the ThousandEyes Agent is running.
 
+IMAGE MISSING
+
 The Agent will appear in the ThousandEyes platform, on the [Settings &gt; Enterprise Agents](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) page.
+
+IMAGE MISSING
 
 ## Uninstalling the ThousandEyes Juniper Virtual Appliance
 

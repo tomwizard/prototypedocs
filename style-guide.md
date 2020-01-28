@@ -97,8 +97,6 @@ This is definitely a warning.
 This is a checkmark to confirm something works.
 {% endhint %}
 
-{% page-ref page="sandbox/what-is-an-account-group.md" %}
-
 {% api-method method="get" host="" path="" %}
 {% api-method-summary %}
 API Method

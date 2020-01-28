@@ -2,16 +2,7 @@
 
 ThousandEyes Enterprise Agents can be deployed in some infrastructure-as-a-service providers natively. The ThousandEyes IaaS-based Enterprise Agent deployment method allows customers to deploy Enterprise Agents in their Amazon AWS environments, with only a few clicks.
 
-##  Table of contents
-
-* [Requirements]()
-* [Deployment]()
-* [Instance maintenance]()
-* [Connecting to SSH]()
-* [Removing the CloudFormation-based Enterprise Agent]()
-* [F.A.Q.]()
-
-##  Requirements
+## Requirements
 
  Deploying an Enterprise Agent in the AWS environment using the IaaS deployment method requires an Amazon AWS account with the following:
 
@@ -24,13 +15,13 @@ ThousandEyes Enterprise Agents can be deployed in some infrastructure-as-a-servi
 
  To start the IaaS Enterprise Agent deployment, head to the [Settings -&gt; Agents -&gt; Enterprise Agents](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) section of the web portal and expand the **"+ Add New Agent"** dialog. Click on the **"IaaS Marketplaces"** button \(1\) and the following content should appear:
 
-\(Deployment screenshot no.1: Initiate the IaaS deployment\)
+IMAGE MISSING
 
 In the dialog above, click on the **"Launch In AWS"** button \(2\). This will open a new tab in your browser and lead you to the [AWS CloudFormation management console](https://console.aws.amazon.com/cloudformation/). Note the location of the indicator with number "6" - this is where you will get your account group token needed in one of the steps below.
 
 Once AWS CloudFormation console loads in a new browser tab, you will see the **"Create stack"** screen as outlined here:
 
-\(Deployment screenshot no.2: Select template dialog of the stack creation procedure\)
+IMAGE MISSING
 
 The URL-based template location is already pre-selected \(3\). The [Amazon S3 URL](https://s3-us-west-1.amazonaws.com/oneclick-ea.aws.thousandeyes/aws-ea-oneclick.yaml) where the template will be retrieved from is also pre-populated.   
 Click the **"Next"** button \(4\) to continue with the creation process.
@@ -39,7 +30,7 @@ Click the **"Next"** button \(4\) to continue with the creation process.
 
 The following Enterprise Agent configuration details page will appear:
 
-\(Deployment screenshot no.3: Enterprise Agent configuration details\)
+IMAGE MISSING
 
 The following options should be configured on this page:
 
@@ -55,27 +46,27 @@ The following options should be configured on this page:
 
 The following stack **"Options"** page will open:
 
-\(Deployment screenshot no.4: Stack options configuration\)
+IMAGE MISSING
 
 No configuration change is required on this page. Once you're satisfied with your stack options configuration, click the **"Next"** button \(12\).
 
 You will be led to the following "Review" page:
 
-\(Deployment screenshot no.5: Review and creation dialog\)
+IMAGE MISSING
 
 You are encouraged to closely review your stack configuration. If anything is not configured properly, use the **"Previous"** button that will lead you back to the step where you can perform the correction. Once you're entirely satisfied with the configuration, use the **"Create stack"** button \(13\) to initiate the stack creation process.
 
 The following screen should appear in front of you \(you may need to click the "Reload" icon on the right side\):
 
-\(Deployment screenshot no.6: Stack creation in progress\)
+IMAGE MISSING
 
 Stack creation can take several minutes. While the stack is being created, the "CREATE\_IN\_PROGRESS" label is displayed in the table. Eventually, the stack creation will be complete and the "CREATE\_COMPLETE" label \(15\) will replace the in-progress one:
 
-\(Deployment screenshot no.7: Stack creation complete\)
+IMAGE MISSING
 
 Back in your ThousandEyes account, the notification about new agent should appear shortly:
 
-\(Deployment screenshot no.8: New Enterprise Agent notification\)
+IMAGE MISSING
 
 Congratulations!  
 You have just deployed a new Enterprise Agent in your Amazon AWS account using our IaaS deployment method.
@@ -96,7 +87,7 @@ There are two scenarios where manual instance maintenance can be expected:
  EC2 instances created by IaaS-based Enterprise Agent deployments provide SSH service for management purposes. To connect to the isntance using SSH, you will first need to obtain instance IP address\(es\). One way to find agent IP address\(es\) is by looking at agent's General Info panel of the expanded Enterprise Agent entry in Settings -&gt; Agent -&gt; Enterprise Agents section of the ThousandEyes web portal.  
 Alternatively, you can leverage [EC2 management console](https://console.aws.amazon.com/ec2) to find your instance IP addresses. Once you open the EC2 console, you are presented with the following view:
 
-\(Connecting to SSH screenshot no.1: Obtaining instance IP addresses\)
+IMAGE MISSING
 
 Use EC2 instance filtering facilities \(1\) to locate your instance. When you've located the instance, click on it \(2\) to select it. Then consult the "Description" tab \(3\) of the instance information panel. Look for the public \(4\) and private \(5\) IP address information.
 
@@ -106,24 +97,24 @@ To connect to the appliance, use the **"ubuntu"** username and the SSH key that 
 
  To remove the Enterprise Agent created using our IaaS-based deployment method, we suggest removing the whole CloudFormation stack related to your agent. To start the removal process, log in to your [CloudFormation management console](https://console.aws.amazon.com/cloudformation) and find the stack related to the agent you want to remove:
 
-\(Removal screenshot no.1: Initiating the stack removal process\)
+IMAGE MISSING
 
 Leverage the stacks searching facilities \(1\) provided by AWS to find the relevant stack. Once you have located the stack related to Enterprise Agent in question, right-click on the stack name \(2\) will open the context menu. Choose the **"Delete Stack"** \(3\) action.
 
 The following confirmation window will be presented to you:
 
-\(Removal screenshot no.2: Stack removal confirmation dialog\)
+IMAGE MISSING
 
 Make sure you are deleting the correct stack \(4\). Once ready, click the **"Yes, Delete"** button \(5\) to initiate the removal process.  
 You will be lead back to the stack list page.
 
 There, the "DELETE\_IN\_PROGRESS" label \(6\) will be displayed in the "Status" column:
 
-\(Removal screenshot no.3: Stack removal in progress\)
+IMAGE MISSING
 
 The last thing that remains to be performed is to delete the Enterprise Agent itself. Head to the Settings -&gt; Agents -&gt; Enterprise Agents section of the ThousandEyes web portal and find your agent. You can use the agent filtering facilities \(7\) to locate your agent:
 
-\(Removal screenshot no.4: Deleting the Enterprise Agent in ThousandEyes web portal\)
+IMAGE MISSING
 
 Once you've located your agent, click on options icon \(8\) to reveal menu. Select the **"Delete"** option \(9\) to remove the Agent. Confirm the action by clicking **Delete** in the side pane prompt.
 

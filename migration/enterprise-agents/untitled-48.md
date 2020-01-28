@@ -1,7 +1,5 @@
 # End-of-Life announcement for Ubuntu Precise Linux package Enterprise Agents
 
-### End-of-Life announcement for Ubuntu Precise Linux package Enterprise Agents
-
 Ubuntu version 12.04 LTS \(codename "Precise"\) has reached the end of its [maintenance updates period](https://www.ubuntu.com/info/release-end-of-life).  Per the **Agent operating system end of life policy** announcement in our [Release Update of April 26, 2017](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CoAXCA0), ThousandEyes' support for Enterprise Agents installed on these operating systems will reach end of life with the first ThousandEyes release after June 30, 2017.
 
 ## Existing installations
@@ -10,7 +8,9 @@ After July 7th, 2017, Enterprise Agents running on this unsupported operating sy
 
 We've also added an "Agents with Problems" notice to the platform to let you know that we've identified an Agent running on an end of life operating system.  Users will see this notice, indicated with a red triangle icon, in the Agent Settings page.  Mousing over the icon will display a tooltip with the notice that the "OS is at end of life".
 
-Clicking the Agent icon in the top navigation bar  will also display this information.
+IMAGE MISSING
+
+Clicking the Agent icon in the top navigation bar IMAGE MISSING  will also display this information.
 
 ### Upgrading to supported versions
 

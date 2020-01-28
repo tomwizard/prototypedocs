@@ -1,6 +1,4 @@
-# Enterprise Agent Hardware Requirements - ThousandEyes Customer Success Center
-
-### Enterprise Agent Hardware Requirements
+# Enterprise Agent Hardware Requirements
 
 This document describes the hardware requirements to run a ThousandEyes Enterprise Agent in virtualized and non-virtualized environments.
 
