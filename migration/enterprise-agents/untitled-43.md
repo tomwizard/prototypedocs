@@ -120,7 +120,7 @@ virtual-service connect name hitman console
 
 ###   Initializing the Cisco IOS XE Container
 
-* On connecting to the virtual service console, you should see a prompt message similar to one below.
+* On connecting to the virtual service console, you should see a prompt message similar to one below. IMAGE MISSING
 * On the first run, the Virtual Appliance tries to acquire an IP address via DHCP. I have configured a DHCP pool on the ISR, pointing the default-router to my VirtualPortGroup Interface and also assigning the internal DNS nameserver. The VitrtualPortGroup 3 interface is assigned an IP address from this subnet \(**10.100.152.100**\)
 
 ```text
@@ -130,25 +130,20 @@ isr(dhcp-config)# default-router 10.100.152.100
 isr(dhcp-config)# dns-server 10.100.100.102
 ```
 
-* If you want to assign a static IP address, press N and after the hostname screen, select "Static configuration parameters" using down arrow key and space bar.
+* If you want to assign a static IP address, press N and after the hostname screen, select "Static configuration parameters" using down arrow key and space bar. IMAGE MISSING
 
 Note: To exit the console - press **"CTRL+C" 3 times**.
 
-* Once the Network Settings are applied, access ThousandEyes Virtual Appliance interface through the URL in that screen and login with the credentials shown in the virtual console.
-* Upon login, you will be prompted to change the Web Interface password.
-
-![Screen\_Shot\_2015-11-10\_at\_3.08.33\_PM.png](https://lh4.googleusercontent.com/mpWaGGpReLSgRIYFAFzB9asd66mes4HOGKW9enILVZmvBwKw9YL2cu1EjY2OsRRCTUSi1oUSAW3yckE3DuCkJRBi6y5HrEE4T2uTuwj6CaPtVtUlGhzBIkRM9qcnBquw1LYwLau_)
-
-* Obtain your Account Group Token from the menu, using Settings &gt; Agents &gt; Enterprise Agents &gt; Add New Agent &gt; **Show Account Group Token for Installation**.  Copy the token.
-* Paste the Account Group Token into the Account Token field. The field should turn green.
-
-![blur.png](https://lh5.googleusercontent.com/ZZDxcxF2WqkXT-TXzK8Df0DX9LoFWHYHaut7LO59eLx2sRxCaUWrTPUTPAS00fxdn5zRbMl9-h-HbRbExYK9xoILh6eyXIzahIs8cK6mSdWtiuyCEPZE9NuQWWfnO44B8q3jQAcS)
+* Once the Network Settings are applied, access ThousandEyes Virtual Appliance interface through the URL in that screen and login with the credentials shown in the virtual console. IMAGE MISSING
+* Upon login, you will be prompted to change the Web Interface password. IMAGE MISSING
+* Obtain your Account Group Token from the menu, using Settings &gt; Agents &gt; Enterprise Agents &gt; Add New Agent &gt; **Show Account Group Token for Installation**.  Copy the token. IMAGE MISSING
+* Paste the Account Group Token into the Account Token field. The field should turn green. IMAGE MISSING
 
 1. Select Yes for Browserbot if you wish; this is required for Page Load and Transaction tests.
 2. Click Next, and verify/configure Network and Time server settings for the VA.
-3. Run the Diagnostics check and continue to proceed to Agent status.
+3. Run the Diagnostics check and continue to proceed to Agent status. IMAGE MISSING
 
-* Check that your Agent appears on the [Agents &gt; Enterprise Agents](https://app.stg.thousandeyes.com/settings/agents/enterprise/) page, inside ThousandEyes.
+* Check that your Agent appears on the [Agents &gt; Enterprise Agents](https://app.stg.thousandeyes.com/settings/agents/enterprise/) page, inside ThousandEyes. IMAGE MISSING
 
 **That's it! You've installed an enterprise agent in the context of your ISR.**
 
