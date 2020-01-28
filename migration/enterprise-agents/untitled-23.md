@@ -243,5 +243,7 @@ If you have removed this Agent with the expectation of replacing it, please see 
 
 If you do not plan to replace the Agent you should remove the Agent from the ThousandEyes platform. From the Agent Settings page, expand the Agent row, then click the "More Actions" icon and select "Delete".
 
+IMAGE MISSING
+
 **NOTE:** Deleting an Agent will remove the Agent from any tests to which it was assigned, and any tests that have no other Agents assigned will be disabled.
 
