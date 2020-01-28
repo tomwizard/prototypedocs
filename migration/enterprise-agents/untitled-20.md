@@ -2,17 +2,6 @@
 
 Red Hat Enterprise Linux 7 \(RHEL 7\) is the first major release of RHEL to allow in-place upgrades from the previous major RHEL release \(RHEL 6\). An in-place upgrade offers a way of upgrading a system to a new major release of RHEL by replacing the existing operating system. The following guide will lead you through the process of upgrading [package](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmnZKAS_Enterprise-Agent-deployment-using-Linux-Package-method)-based [Enterprise Agent](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmnbKAC_What-is-an-Enterprise-Agent)'s underlying RHEL 6 operating system to RHEL version 7.
 
-* [Overview]()
-* [Caveats]()
-  * [64-bit operating systems only]()
-  * [Upgrading not supported on Hyper-V \(possibly others\)]()
-* [Upgrade process]()
-  * [1. Prepare for the upgrade]()
-  * [2. Upgrade]()
-  * [3. Post-upgrade tasks]()
-* [Troubleshooting upgrade issues]()
-* [Further information]()
-
 ## Overview <a id="HowdoIperformanin-placeupgradefromthelatestRHEL6tothelatestRHEL7?-Overview"></a>
 
 This guide is based on Red Hat's [How do I upgrade from Red Hat Enterprise Linux 6 to Red Hat Enterprise Linux 7?](https://access.redhat.com/solutions/637583) guide. Before proceeding any further, make sure that you have read the aforementioned guide.
