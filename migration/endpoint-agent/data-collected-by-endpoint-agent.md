@@ -1,7 +1,5 @@
 # Data collected by Endpoint Agent
 
-### Data collected by Endpoint Agent
-
 This article covers the data collected by ThousandEyes Endpoint Agent.
 
 ## Website Visits
