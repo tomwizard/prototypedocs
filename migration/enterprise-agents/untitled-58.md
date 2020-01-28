@@ -4,15 +4,11 @@ The default Enterprise Agent installation on Docker uses NAT to connect the agen
 
 ## NAT
 
-IMAGE MISSING
-
 The default installation connects the agent to host's internal _docker0_ bridge. docker0 bridge is not bridged with any of the external interfaces, i.e. _eth0_. NAT is performed between docker0 bridge \(inside\) and host's default external interface, i.e. _eth0_ \(outside\).
 
 No further configuration is required to run the enterprise agent container in NAT mode.
 
 ### Host with multiple physical interfaces
-
-IMAGE MISSING
 
 What happens if we have a host with multiple physical interfaces, for instance _eth0_ and _wlan0_? Default NAT configuration does not favor any of the interfaces, instead it relies on Kernel IP routing to choose the exit interface. You can verify default exit interface by looking for the default route in the Kernel IP routing table:
 
@@ -76,8 +72,6 @@ A better solution is to change the default route for enterprise agent container 
    >    **post-up** ip route add default via 10.10.50.1 dev wlan0 table wlan0rt
 
 ## Bridge
-
-IMAGE MISSING
 
 Bridged connectivity allows the enterprise agent to connect directly into user's network, using either private or public IP address. Starting with v1.12, Docker allows you to bridge the enterprise agent container with a host's physical interface using the **macvlan** network driver. If your Docker installation is v1.11.2 or older, you will have to use [pipework](https://github.com/jpetazzo/pipework) tool to bridge the enterprise agent container.
 

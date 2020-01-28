@@ -233,8 +233,6 @@ To configure the network, follow these steps \(values are quoted, but quotes mus
 
 **NOTICE:** Network reconfiguration process might get stuck at the following screen:
 
-IMAGE MISSING
-
 If this happens, it takes about 5 minutes for the process to continue. Keep pressing "Enter" key to see the screen refreshed after 5 minutes have passed.
 
 **INFO:** Console can be disconnect from the VM at any time, by using ctrl+\] key combination.

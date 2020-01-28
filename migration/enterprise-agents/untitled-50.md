@@ -1,4 +1,4 @@
-# Comparison of Agent Types
+# Comparison of Agent Types - ThousandEyes Customer Success Center
 
 ### Comparison of Agent Types
 

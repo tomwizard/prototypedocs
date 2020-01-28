@@ -52,8 +52,6 @@ Requires: xorg-x11-server-Xvfb
 
 After running the installation script, your new Enterprise Agent will contact the ThousandEyes collector to register itself. Agent information is displayed on the [Settings &gt; Enterprise Agent](https://app.thousandeyes.com/settings/agents/enterprise/) page.  The General Info section will display the installation status of BrowserBot:
 
-IMAGE MISSING
-
 If logs indicate that a package dependency failed to install, list the system's configured package repositories and their status \(enabled or disabled\) using the `yum repolist all` command:
 
 ```text
