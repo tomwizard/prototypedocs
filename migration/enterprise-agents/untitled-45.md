@@ -14,11 +14,7 @@ Resetting the TTL breaks the standard path trace mechanism of setting TTL = 1 to
 
 A ThousandEyes Enterprise Agent performing Path Visualization using TCP sends TCP SYN packets towards the target. With the Agent's network adapter in NAT mode, the first hop \(the virtual machine host\) will respond to the SYN packet \(having a TTL = 1\) with an ICMP Time-to-Live exceeded packet. The second SYN packet, with TTL = 2, has the TTL changed to 64, which allows the packet to reach the target instead of expiring on the second hop. A normally functioning target replies with TCP SYN ACK, terminating the trace. Thus, the Path Visualization consists of the Agent, then one hop \(the host running the hypervisor\) and then the target. Below is a Path Visualization as it would appear from an Agent in Oracle VirtualBox with the "NAT" setting, or in VMware Fusion with the "Share My Mac" setting:
 
-IMAGE MISSING
-
 With the Agent's network adapter set to NAT Network, the first hop \(the host\) does not respond to the SYN packet \(having an original TTL = 1\) with an ICMP Time-to-Live exceeded packet, and the first SYN packet has the TTL changed to 64, which allows the packet to reach the target. A normally functioning target replies with TCP SYN ACK, terminating the trace. Thus, the Path Visualization consists of only the Agent and the target. Below is a Path Visualization as it would appear from an Agent in Oracle VirtualBox with the "NAT Network" setting, or in Parallels with the "Shared Network" setting:
-
-IMAGE MISSING
 
 The limitation is best documented in the Networking chapter of the VirtualBox user's guide, in the section [NAT Limitations](https://www.virtualbox.org/manual/ch06.html#nat-limitations):
 
