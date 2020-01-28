@@ -8,8 +8,6 @@ ThousandEyes Cloud Agents operate using the same concept as Enterprise Agent clu
 
 To create a cluster, click the **Add to Cluster** link shown at the bottom of an Enterprise Agent's Settings.  A dialog will open; choose to either add to a new cluster, or add to an existing cluster, and give the cluster a name.  By default, the cluster will inherit the name of the first cluster member.
 
-IMAGE MISSING
-
 When the new cluster is created, all Agent settings will be automatically mapped to the new cluster. This includes:
 
 * Inherit all tests assigned to the standalone Agent
@@ -44,15 +42,11 @@ To delete an Enterprise Agent cluster, under the Settings menu select Enterprise
 
 In certain cases, an Administrator may want to remove an Agent from a cluster.  To accomplish this, under the Settings menu, select Enterprise Agents, and choose the Cluster tab.  Expand the Enterprise Agent cluster's row, then click the **x** icon next to the cluster member.  You'll be shown a confirmation dialog:
 
-IMAGE MISSING
-
 Click the **Remove** button to remove the Agent from the cluster and return the Agent to a standalone status.  This operation removes the Agent, and recreates it in the context of the user's current Account Group, so be aware of your current Account Group, in the event that your user has management permissions across multiple Account Groups.  The Agent is created fresh, inheriting default Agent Notification rules, and without any tests assigned.
 
 ## Agent management
 
 In the Enterprise agents page, you'll be able to tell which agent is a cluster member by looking at the expanded agent details of an agent, or the cluster icon.  Click the cluster hyperlink to open the cluster settings, and view other cluster members.
-
-IMAGE MISSING
 
 Utilization details for the Agent are shown at the cluster member level, as well as on an overall basis at the cluster level.
 
@@ -69,8 +63,6 @@ Utilization is shown for each agent in the agent settings page, and the overall 
 ## Views and results
 
 Views will show the name of the agent as the cluster name, but show the individual IP address of the cluster member. This may include private and/or public IP information, so to troubleshoot individual cluster members having problems resolving data on a test, you'll have to identify the cluster member assigned to the test, and diagnose from that specific agent.  To view the information for a specific test, hover over the agent icon.
-
-IMAGE MISSING
 
 ## Agent to agent tests
 
