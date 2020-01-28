@@ -1,5 +1,7 @@
 # Replacing an Enterprise Agent using Agent Identity Files
 
+## **Table of contents**
+
 ## [Replacement overview]()
 
 ThousandEyes Enterprise Agents can be replaced by using one of the following methods:
@@ -23,8 +25,6 @@ This document will demonstrate how to successfully transfer Enterprise Agent ide
 
 The Enterprise Agent software package is installed as a service named `te-agent` onto a [supported Linux operating system](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmnoKAC_Supported-Enterprise-Agent-operating-systems). The following three files are used by the `te-agent` service during operation and must be transferred from the original Agent to the replacement Agent:
 
-IMAGE MISSING
-
 #### /etc/te-agent.cfg
 
 * This is the agent's main configuration file and contains account group information, logging, and proxy settings
@@ -47,8 +47,6 @@ IMAGE MISSING
 ### Disable the original Enterprise Agent using the ThousandEyes web application
 
 Prior to obtaining Enterprise Agent identity files, it is recommended to temporarily disable the Enterprise Agent to be replaced:
-
-IMAGE MISSING
 
 Select [Cloud & Enterprise Agents &gt; Agent Settings](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) within the left-hand navigation pane
 
@@ -236,8 +234,6 @@ $ sudo systemctl enable te-browserbot.service
 
  Once your replacement agent has been brought online, you may re-enable your Agent within the ThousandEyes web application:
 
-IMAGE MISSING
-
 Select [Cloud & Enterprise Agents &gt; Agent Settings](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) within the left-hand navigation pane and:
 
 **1.** Review the list of active Enterprise Agents for the name of the Agent that was replaced.  
@@ -245,8 +241,6 @@ Select [Cloud & Enterprise Agents &gt; Agent Settings](https://app.thousandeyes.
 
   
 Upon completion, review the **Advanced Settings** section to ensure that the Agent information is correct:
-
-IMAGE MISSING
 
 Select the **Advanced Settings** tab of your Enterprise Agent information pane:
 
