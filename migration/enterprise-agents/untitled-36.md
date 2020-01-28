@@ -66,8 +66,9 @@ Usage: ./install_thousandeyes.sh [-b [-F] [-L]] [-f] [-h] [-I INSTALL_LOG] [-l L
 
 ## Post-Installation
 
-Once the installation completes, the Agent will start automatically. Normally, within a minute the Agent will appear under **Agents &gt; Enterprise Agents.**   
- 
+Once the installation completes, the Agent will start automatically. Normally, within a minute the Agent will appear under **Agents &gt; Enterprise Agents.** 
+
+IMAGE MISSING
 
 To avoid synchronization problems with the ThousandEyes collector it is strongly recommended that you install a Network Time Protocol \(NTP\) package. To download and install an NTP package issue the following commands on the Agents host machine:
 
