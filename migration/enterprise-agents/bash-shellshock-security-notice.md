@@ -1,6 +1,4 @@
-# Bash \(ShellShock\) Security notice - ThousandEyes Customer Success Center
-
-### Bash \(ShellShock\) Security notice
+# Bash \(ShellShock\) Security notice
 
 On September 24, 2014, a critical vulnerability in the Bash shell \(shipped with many Linux configurations\) was documented in the National Vulnerability Database as CVE-2014-6271.  This notification can be found on the NIST site at[ this link](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-6271).
 

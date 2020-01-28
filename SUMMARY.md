@@ -149,7 +149,7 @@
   * [What is BrowserBot?](migration/enterprise-agents/what-is-browserbot.md)
   * [Network utilization from Enterprise Agent test traffic](migration/enterprise-agents/untitled-65.md)
   * [Custom Virtual Appliances](migration/enterprise-agents/custom-virtual-appliances.md)
-  * [Bash \(ShellShock\) Security notice - ThousandEyes Customer Success Center](migration/enterprise-agents/untitled-63.md)
+  * [Bash \(ShellShock\) Security notice](migration/enterprise-agents/bash-shellshock-security-notice.md)
   * [Working with Enterprise Agent Clusters](migration/enterprise-agents/untitled-62.md)
   * [BrowserBot installation fails on Red Hat or CentOS in Amazon EC2](migration/enterprise-agents/untitled-61.md)
   * [Enterprise Agents: what information do we collect?](migration/enterprise-agents/untitled-60.md)
