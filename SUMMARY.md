@@ -466,6 +466,7 @@
   * [What is Path Trace](images/getting-started-images/what-is-path-trace.md)
   * [Getting Support from ThousandEyes](images/getting-started-images/getting-supported-from-thousandeyes.md)
 * [ThousandEyes Basics](images/thousandeyes-basics/README.md)
+  * [Using the Network Overview](images/thousandeyes-basics/using-the-network-overview.md)
   * [Using the RTP Stream view](images/thousandeyes-basics/using-the-rtp-stream-view.md)
   * [Customizing your Dashboard](images/thousandeyes-basics/customizing-your-dashboard.md)
   * [Using the BGP Route Visualization view](images/thousandeyes-basics/using-the-bgp-route-visualization-view.md)
