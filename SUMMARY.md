@@ -466,6 +466,7 @@
   * [What is Path Trace](images/getting-started-images/what-is-path-trace.md)
   * [Getting Support from ThousandEyes](images/getting-started-images/getting-supported-from-thousandeyes.md)
 * [ThousandEyes Basics](images/thousandeyes-basics/README.md)
+  * [Using the Path Visualization View](images/thousandeyes-basics/using-the-path-visualization-view.md)
   * [Creating and editing Alert Rules](images/thousandeyes-basics/creating-and-editing-alert-rules.md)
   * [ThousandEyes view layouts](images/thousandeyes-basics/thousandeyes-view-layouts.md)
   * [Working with Labels for Agent and Test Groups](images/thousandeyes-basics/working-with-labels-for-agent-and-test-groups.md)
