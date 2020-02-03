@@ -466,6 +466,7 @@
   * [What is Path Trace](images/getting-started-images/what-is-path-trace.md)
   * [Getting Support from ThousandEyes](images/getting-started-images/getting-supported-from-thousandeyes.md)
 * [ThousandEyes Basics](images/thousandeyes-basics/README.md)
+  * [Customizing your Dashboard](images/thousandeyes-basics/customizing-your-dashboard.md)
   * [Using the BGP Route Visualization view](images/thousandeyes-basics/using-the-bgp-route-visualization-view.md)
   * [How Unit consumption works](images/thousandeyes-basics/how-unit-consumption-works.md)
   * [Replacing an Enterprise Agent using the agent clustering method](images/thousandeyes-basics/replacing-an-enterprise-agent-using-the-agent-clustering-method.md)
