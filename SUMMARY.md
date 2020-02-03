@@ -466,6 +466,7 @@
   * [What is Path Trace](images/getting-started-images/what-is-path-trace.md)
   * [Getting Support from ThousandEyes](images/getting-started-images/getting-supported-from-thousandeyes.md)
 * [ThousandEyes Basics](images/thousandeyes-basics/README.md)
+  * [MPLS Tunnel Inference using Deep Path Analysis](images/thousandeyes-basics/mpls-tunnel-inference-using-deep-path-analysis.md)
   * [Working with time zone settings](images/thousandeyes-basics/working-with-time-zone-settings.md)
   * [Working with the Dashboard](images/thousandeyes-basics/working-with-the-dashboard.md)
   * [Using the Network Overview](images/thousandeyes-basics/using-the-network-overview.md)
