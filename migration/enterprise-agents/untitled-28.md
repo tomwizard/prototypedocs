@@ -26,7 +26,6 @@ To assign the Appliance an IP address, either configure a DHCP server to provide
 
 To connect the Appliance to the Internet, assign a VirtualPortGroup interface as the default gateway. Make sure the VirtualPortGroup interface IP address is within the same layer 3 network as the Appliance's IP address.
 
-1. 
 ## Installing the Appliance
 
 * Log in to the ThousandEyes application using a login belonging to the Account Group which will be associated with the Appliance.
@@ -156,11 +155,12 @@ Cat9k#app-hosting connect appid teva console
 	Connected to appliance. Exit using ^c^c^c
 ```
 
-* The default Network configuration uses DHCP. If you want to assign a static IP address, press 'N'. After the hostname screen, select "Static configuration parameters" using the down-arrow key then the space bar. Use the Return key to select 'OK'
-* Once the Network settings are applied, access the Appliance's web interface with a browser, using the URL in the first console screen. Log in with the default username 'admin' and password 'welcome'.
-* Upon login, you will be shown pages on which to further configure Network and Time settings, and prompted to change the Web Interface password.
-* Obtain your Account Group Token from the Enterprise Agents Settings page by clicking the **Add New Enterprise Agent** button then clicking the **Show Account Group Token for Installation** link. Copy the token.
-* Paste the Account Group Token into the Account Token field.
+* IMAGE MISSING
+* The default Network configuration uses DHCP. If you want to assign a static IP address, press 'N'. After the hostname screen, select "Static configuration parameters" using the down-arrow key then the space bar. Use the Return key to select 'OK' IMAGE MISSING
+* Once the Network settings are applied, access the Appliance's web interface with a browser, using the URL in the first console screen. Log in with the default username 'admin' and password 'welcome'. IMAGE MISSING
+* Upon login, you will be shown pages on which to further configure Network and Time settings, and prompted to change the Web Interface password. IMAGE MISSING
+* Obtain your Account Group Token from the Enterprise Agents Settings page by clicking the **Add New Enterprise Agent** button then clicking the **Show Account Group Token for Installation** link. Copy the token. IMAGE MISSING
+* Paste the Account Group Token into the Account Token field. IMAGE MISSING
 * Select **Yes** to install Browserbot if needed. BrowserBot is required for Page Load and Transaction tests.
 * Click **Continue**.
 * View the Diagnostics page's checks and click **Complete** if all checks pass.

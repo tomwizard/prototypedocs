@@ -26,12 +26,14 @@ For more detailed instructions, refer to the section below.
 1. Create a new cluster using the Agent requiring replacement
 
    Navigate to the [Enterprise Agents page](https://app.thousandeyes.com/settings/agents/enterprise/?), expand the row of the Agent requiring replacement, and click the Add agent to cluster button.  
-   More info about clusters can be found in the Knowledge Base article [Working with Enterprise Agent Clusters](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmngKAC).
+   More info about clusters can be found in the Knowledge Base article [Working with Enterprise Agent Clusters](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmngKAC).  
+   IMAGE MISSING
 
-2. Name the new cluster
+2. Name the new cluster IMAGE MISSING
 3. Disable the new cluster
 
-   Disabling the cluster will prevent overages for additional Agents or errors for exceeding your contracted number of concurrent Agents.
+   Disabling the cluster will prevent overages for additional Agents or errors for exceeding your contracted number of concurrent Agents.  
+   IMAGE MISSING
 
 4. Create the new Agent
 
@@ -44,12 +46,13 @@ For more detailed instructions, refer to the section below.
 
 5. Add the new Agent to the cluster
 
-   Expand the row belonging to the new Agent and click the **Add agent to cluster** link.
+   Expand the row belonging to the new Agent and click the **Add agent to cluster** link.  
+   IMAGE MISSING
 
-6. When the **Add Agent to Cluster** window appears, click the **Add to existing cluster** radio button, then select the name of the cluster in the drop-down box
-7. Delete the old Agent
-8. Confirm deletion 
-9. Enable the new cluster \(1\) or convert the Cluster back into an Agent \(2\)
+6. When the **Add Agent to Cluster** window appears, click the **Add to existing cluster** radio button, then select the name of the cluster in the drop-down box IMAGE MISSING
+7. Delete the old Agent IMAGE MISSING
+8. Confirm deletion  IMAGE MISSING
+9. Enable the new cluster \(1\) or convert the Cluster back into an Agent \(2\) IMAGE MISSING
 
 ## Related information
 
