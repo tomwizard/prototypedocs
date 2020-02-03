@@ -460,5 +460,5 @@
 
 ## Images
 
-* [Untitled](images/images.md)
+* [Images](images/images.md)
 
