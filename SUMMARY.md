@@ -466,6 +466,7 @@
   * [What is Path Trace](images/getting-started-images/what-is-path-trace.md)
   * [Getting Support from ThousandEyes](images/getting-started-images/getting-supported-from-thousandeyes.md)
 * [ThousandEyes Basics](images/thousandeyes-basics/README.md)
+  * [Using the DNS Domain Trace view](images/thousandeyes-basics/using-the-dns-domain-trace-view.md)
   * [Using the DNS DNSSEC Trace view](images/thousandeyes-basics/using-the-dns-dnssec-trace-view.md)
   * [Using the HTTP Server view](images/thousandeyes-basics/using-the-http-server-view.md)
   * [Using the DNS Server view](images/thousandeyes-basics/using-the-dns-server-view.md)
