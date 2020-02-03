@@ -466,6 +466,7 @@
   * [What is Path Trace](images/getting-started-images/what-is-path-trace.md)
   * [Getting Support from ThousandEyes](images/getting-started-images/getting-supported-from-thousandeyes.md)
 * [ThousandEyes Basics](images/thousandeyes-basics/README.md)
+  * [Using the DNS Server view](images/thousandeyes-basics/using-the-dns-server-view.md)
   * [Using the Page Load view](images/thousandeyes-basics/using-the-page-load-view.md)
   * [Using the FTP Server view](images/thousandeyes-basics/using-the-ftp-server-view.md)
   * [MPLS Tunnel Inference using Deep Path Analysis](images/thousandeyes-basics/mpls-tunnel-inference-using-deep-path-analysis.md)
