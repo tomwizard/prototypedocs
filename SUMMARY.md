@@ -465,5 +465,6 @@
   * [Getting Started with ThousandEyes](images/getting-started-images/getting-started-with-thousandeyes.md)
   * [What is Path Trace](images/getting-started-images/what-is-path-trace.md)
   * [Getting Support from ThousandEyes](images/getting-started-images/getting-supported-from-thousandeyes.md)
-* [ThousandEyes Basics](images/thousandeyes-basics.md)
+* [ThousandEyes Basics](images/thousandeyes-basics/README.md)
+  * [Browsers supported by the ThousandEyes platform](images/thousandeyes-basics/browsers-supported-by-the-thousandeyes-platform.md)
 
