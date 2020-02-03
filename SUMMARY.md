@@ -466,6 +466,7 @@
   * [What is Path Trace](images/getting-started-images/what-is-path-trace.md)
   * [Getting Support from ThousandEyes](images/getting-started-images/getting-supported-from-thousandeyes.md)
 * [ThousandEyes Basics](images/thousandeyes-basics/README.md)
+  * [ThousandEyes view layouts](images/thousandeyes-basics/thousandeyes-view-layouts.md)
   * [Working with Labels for Agent and Test Groups](images/thousandeyes-basics/working-with-labels-for-agent-and-test-groups.md)
   * [Using the Transactions \(Classic\) View](images/thousandeyes-basics/using-the-transactions-classic-view.md)
   * [Working with Agent settings](images/thousandeyes-basics/working-with-agent-settings.md)
