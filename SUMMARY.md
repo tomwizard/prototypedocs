@@ -461,6 +461,7 @@
 ## Images
 
 * [Getting Started Images](getting-started-images/README.md)
+  * [Getting Started with ThousandEyes](getting-started-images/getting-started-with-thousandeyes.md)
   * [What is Path Trace](getting-started-images/what-is-path-trace.md)
   * [Getting Support from ThousandEyes](getting-started-images/getting-supported-from-thousandeyes.md)
 
