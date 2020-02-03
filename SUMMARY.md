@@ -29,6 +29,7 @@
 * [Role-Based Access Control, Explained](sandbox/role-based-access-control-explained/README.md)
   * [Terminology in RBAC](sandbox/role-based-access-control-explained/terminology-in-rbac.md)
 * [Working with RBAC](sandbox/working-with-rbac.md)
+* [Creating and editing Alert Rules](sandbox/untitled.md)
 
 ## Migration
 
@@ -466,6 +467,8 @@
   * [What is Path Trace](images/getting-started-images/what-is-path-trace.md)
   * [Getting Support from ThousandEyes](images/getting-started-images/getting-supported-from-thousandeyes.md)
 * [ThousandEyes Basics](images/thousandeyes-basics/README.md)
+  * [Inside-out BGP visibility](images/thousandeyes-basics/inside-out-bgp-visibility.md)
+  * [Voice Test overview](images/thousandeyes-basics/voice-test-overview.md)
   * [Using the DNS Domain Trace view](images/thousandeyes-basics/using-the-dns-domain-trace-view.md)
   * [Using the DNS DNSSEC Trace view](images/thousandeyes-basics/using-the-dns-dnssec-trace-view.md)
   * [Using the HTTP Server view](images/thousandeyes-basics/using-the-http-server-view.md)
