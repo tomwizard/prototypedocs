@@ -31,9 +31,8 @@ The End of Life \(EoL\) occurs 60 days after the End of Support. Agents will not
 
 ### Example operating system support lifecycle
 
-The following example uses Ubuntu Linux version 14.04 LTS to illustrate the ThousandEyes lifecycle. Ubuntu will end operating system support for version 14.04 LTS at the end of April, 2019. The diagram below illustrates the three phases of the ThousandEyes lifecycle.
-
-IMAGE MISSING
+The following example uses Ubuntu Linux version 14.04 LTS to illustrate the ThousandEyes lifecycle. Ubuntu will end operating system support for version 14.04 LTS at the end of April, 2019. The diagram below illustrates the three phases of the ThousandEyes lifecycle.  
+ 
 
 ## Notifications
 
