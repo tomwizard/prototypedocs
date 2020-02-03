@@ -1,6 +1,17 @@
 # Install the Enterprise Agent with BrowserBot on Oracle Linux Server 7
 
+#### Install the Enterprise Agent with BrowserBot on Oracle Linux Server 7
+
 By default, the Linux package installation of the Enterprise Agent on [supported version of Oracle Linux Operating System](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmnoKAC_Supported-Enterprise-Agent-operating-systems) will show a [warning]() due to missing dependency packages for [BrowserBot](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmnsKAC_What-is-the-BrowserBot-1472236191200) component. The following step by step guide will enable the repository holding the Enterprise Agent dependency packages, before attempting to run the Enterprise Agent installation script.
+
+* [Installation]()
+  * [Step 1: Download Oracle Linux media]()
+  * [Step 2: Install Oracle Linux 7]()
+  * [Step 3: Enable optional repository]()
+  * [Step 4: Install ThousandEyes Enterprise Agent]()
+* [Troubleshooting the installation]()
+  * [Default ThousandEyes Linux package installation log]()
+  * [Verify repositories]()
 
 ## Installation
 
