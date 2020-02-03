@@ -1,6 +1,4 @@
-# Enterprise Agent Utilization - ThousandEyes Customer Success Center
-
-### Enterprise Agent Utilization
+# Enterprise Agent Utilization
 
 For ThousandEyes Enterprise Agents and Agent clusters, the Utilization metric is not a measure related to any system hardware resource, such as random-access memory \(RAM\) use or CPU time consumed.
 
@@ -16,8 +14,11 @@ Agent utilization is displayed in both the ThousandEyes application \(web interf
 
 The Agents tab of the [Enterprise Agents page](https://app.stg.thousandeyes.com/settings/agents/enterprise/) \(**Settings &gt; Enterprise Agents**\) provides a table with each Enterprise Agent that is visible in the current Account Group context. Each row in the table lists an Enterprise Agent, along with a single percentage in the **Utilization** column. The single percentage displayed is the largest of the percentages from the queues which are used by the Agent.
 
-  
+IMAGE MISSING
+
 Expanding an Agent row and clicking the Agent Statistics tab will display graphs of all **Agent Utilization** queues used, with data for the past 24 hours.
+
+IMAGE MISSING
 
 In the example above, the Enterprise Agent "vm2-xen-stl" has four queues active, of which the **Voice Tests** queue currently has the greatest utilization of 21%, which is shown in the **Utilization** column of the table.
 

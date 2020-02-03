@@ -1,4 +1,4 @@
-# Upgrading Docker Enterprise Agents - ThousandEyes Customer Success Center
+# Upgrading Docker Enterprise Agents
 
 The original ThousandEyes Enterprise Agent Docker image was created using the Ubuntu 14.04 LTS base image.  [Canonical](https://www.canonical.com/), the developer of Ubuntu, has indicated in their [support lifetime policy](https://wiki.ubuntu.com/Releases) that the 14.04 LTS version is no longer supported as of April 2019. ThousandEyes has therefore upgraded the Enterprise Agent Docker image to the Ubuntu 18.04 LTS operating system.
 
@@ -6,26 +6,11 @@ Customers that do not have an automated Docker container redeployment solution i
 
 This article provides detailed instructions on how to redeploy the Enterprise Agent Docker container to implicitly upgrade the agent's underlying operating system.
 
-### Table of contents
-
-* [Identifying Docker-based Enterprise Agents that should be upgraded]()
-* [Redeploying a Docker container - overview]()
-* [Upgrade/redeployment guide]()
-  * [Recreating the "docker run ..." command]()
-    * [Using the runlike tool]()
-    * [Recreating the "docker run ..." command manually]()
-  * [Redeploying a Docker-based Enterprise Agent]()
-  * [Post-redeployment tasks]()
-  * [Upgrade verification]()
-* [Getting support]()
-* [Related information]()   
-
 ## [Identifying Docker-based Enterprise Agents that should be upgraded]()
 
 Within the ThousandEyes web application, select  [Cloud & Enterprise Agents &gt; Agent Settings](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) within the left-hand navigation pane \(pointers \#1 and \#2 in the following figure\):
 
-  
-Identifying end-of-life Docker-based Enterprise Agents
+IMAGE MISSING
 
 Once in the view, pay attention to the following elements:
 
@@ -152,8 +137,7 @@ docker inspect my-container-name > my-container-name.inspect.ORIG
 
 Once you have the above, head to [Cloud & Enterprise Agents &gt; Agent Settings](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) section of the web portal, click the **Add New Enterprise Agent** button and open the **Docker** tab. In there, a basic `docker run ...` command for deploying Docker-based Enterprise Agent is waiting for you:
 
-  
-The incomplete "docker run ..." command
+IMAGE MISSING
 
 You will have to fill in the main details:
 
@@ -221,8 +205,7 @@ This should free up some disk space on your Docker host.
 
 Once the upgrade process has completed successfully, the agent information panel in the web UI will present the following information:
 
-  
-Docker Enterprise Agent upgrade verification
+IMAGE MISSING
 
 The important details to pay attention to are:
 

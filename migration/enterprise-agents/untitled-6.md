@@ -1,7 +1,5 @@
 # How to set up the Virtual Appliance
 
-#### How to set up the Virtual Appliance
-
 The Virtual Appliance is a virtual machine containing a pre-built ThousandEyes Enterprise Agent, which can be quickly imported into virtualization software, configured and made available for use in testing. This article describes the requirements and steps required to install and use the ThousandEyes Virtual Appliance.    
  
 
@@ -26,16 +24,16 @@ The installation process for a Virtual Appliance consists of two parts:
 Before starting with the import it is necessary to know where these resources can be accessed. 
 
 * Enterprise Agents are listed in the Agent Settings. 
-* If no agents have been installed yet the listing will show **No Enterprise Agents Found**
+* If no agents have been installed yet the listing will show **No Enterprise Agents Found** IMAGE MISSING
 * To import a Virtual Appliance agent from this area, click the **Add New Enterprise Agent** Button. 
-* Follow the steps below to proceed with the Import from this area of the ThousandEyes platform.
+* Follow the steps below to proceed with the Import from this area of the ThousandEyes platform. IMAGE MISSING
 
 ####  Import with Open Virtualization Format \(OVA\) <a id="import-ova"></a>
 
 1. Download the latest [thousandeyes-va-&lt;version&gt;.ova](https://app.thousandeyes.com/install/downloads/appliance/thousandeyes-appliance.ova) file from the [Cloud & Enterprise Agents &gt; Agent Settings &gt; Enterprise Agents &gt; Agents](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) page.
 2. Click the **Add New Enterprise Agent** Button on the left hand side of the Agent Settings Screen.  
 3. There are several package types and options under this Menu. Under the **Package Type** “Appliance” should be selected: Click the button in the listing labeled **Download - OVA** for Virtual Appliance shown above the link for this Installation Guide.  
-4. Double-click the downloaded thousandeyes-va-latest.ova file, or import it based on the virtualization software if this does not occur automatically.  Click the import button and the progress of the installation will be shown.
+4. Double-click the downloaded thousandeyes-va-latest.ova file, or import it based on the virtualization software if this does not occur automatically.  Click the import button and the progress of the installation will be shown. IMAGE MISSING
 5. Go through the steps in the VM application you have.    Note: We recommend at least 2GB RAM memory allocated for the Virtual Appliance.
    * Oracle VirtualBox - instructions can be found on the VirtualBox manuals, at this [link](http://www.virtualbox.org/manual/ch01.html#ovf).
    * VMware Fusion \(5.x\) - instructions can be found on the VMware Fusion knowledgebase, at this [link](http://pubs.vmware.com/fusion-5/topic/com.vmware.fusion.help.doc/GUID-275EF202-CF74-43BF-A9E9-351488E16030.html).
@@ -45,17 +43,7 @@ Before starting with the import it is necessary to know where these resources ca
    * Microsoft Hyper-V - Instructions can be found in [this ThousandEyes Knowledge Base article](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmndKAC).
 6. No matter which platform you choose, you will need to configure your guest \(virtual machine\) to use a bridged network connection, so that the guest has unimpeded network and Internet access.  \([see screenshot below]()\).
    * **NOTE: For VMware hypervisors,** [**VMXNET 3**](https://kb.vmware.com/s/article/1001805) **adapter type is recommended. Flexible adapters are currently not supported.**
-7. Configure the Virtual Appliance. 
-
-Imported OVA appearing in VirtualBox
-
-   
-Network Settings showing Bridged Adapter selected  
- 
-
-  
-Virtual Appliance View following Start  
- 
+7. Configure the Virtual Appliance.  IMAGE MISSING IMAGE MISSING IMAGE MISSING 
 
 Proceed to the section linked here on [Configuring the Virtual Appliance]() to continue configuring of the Open Virtualization Format \(OVA\).
 
@@ -68,12 +56,12 @@ Proceed to the section linked here on [Configuring the Virtual Appliance]() to c
 5. Extract the zip file to the location that you would like to keep your Virtual Appliance files. We recommend using the default Hyper-V virtual machines folder.  Note: You cannot move the files after completing these steps.
 6. Run Hyper-V Manager and click on "Import Virtual Machine...".
 7. Click "Browse" to the select location of the extracted files. This folder should contain two folders: "Virtual Hard Disks" and "Virtual Machines" as well as the file "config.xml".
-8. Select "Copy the Virtual Machine \(create a new unique ID\)" and leave "Duplicate all files so that the same virtual machine can be imported again" unchecked, then click Import.
+8. Select "Copy the Virtual Machine \(create a new unique ID\)" and leave "Duplicate all files so that the same virtual machine can be imported again" unchecked, then click Import. IMAGE MISSING
 9. After the virtual machine has been imported, click "Settings...".
 10. Select "Network Adapter" from the left pane.
-11. In the drop-down menu under "Network:" select the appropriate network that you would like this virtual machine to connect to. This network should be accessible to you, and have access to the Internet.
+11. In the drop-down menu under "Network:" select the appropriate network that you would like this virtual machine to connect to. This network should be accessible to you, and have access to the Internet. IMAGE MISSING
 12. Click Ok.
-13. You can now run the virtual machine by clicking "Connect..." then "Start".
+13. You can now run the virtual machine by clicking "Connect..." then "Start". IMAGE MISSING
 14. Configure the Virtual Appliance.
 
 ### [Configuring the Virtual Appliance]()
@@ -81,12 +69,12 @@ Proceed to the section linked here on [Configuring the Virtual Appliance]() to c
  In order to get a new agent to appear in the Agents Settings page listing the newly downloaded ThousandEyes Enterprise Agent \(TEVA\) Virtual Appliance will need to be configured. 
 
 1. After the system starts a screen will appear that will show and IP address for the management console and default access credentials
-2. Access the ThousandEyes Virtual Appliance interface through the URL in that screen and login with the credentials shown.
-3. Open a browser entering the URL presented on the screen.  Enter the default username and password given. 
-4. Change the Virtual Appliance management console Web Interface Password and Click the “Change Password” Button. 
+2. Access the ThousandEyes Virtual Appliance interface through the URL in that screen and login with the credentials shown. IMAGE MISSING
+3. Open a browser entering the URL presented on the screen.  Enter the default username and password given.  IMAGE MISSING
+4. Change the Virtual Appliance management console Web Interface Password and Click the “Change Password” Button.  IMAGE MISSING
 5. Following that enter the Account Group Token in the field that will show up under the Agent Section.  This should appear automatically after changing the password.
-6. Retrieve the Account Group token from  [Cloud & Enterprise Agents &gt; Agent Settings &gt; Enterprise Agents &gt; Agents &gt; Add New Enterprise Agents](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) view. It can be found under the link labeled "Show Account Group Token for Installation".  This will reveal the token so it may be copied for use.
-7. Paste the Account Group Token into the Account Token field. The field should turn green.
+6. Retrieve the Account Group token from  [Cloud & Enterprise Agents &gt; Agent Settings &gt; Enterprise Agents &gt; Agents &gt; Add New Enterprise Agents](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) view. It can be found under the link labeled "Show Account Group Token for Installation".  This will reveal the token so it may be copied for use. IMAGE MISSING
+7. Paste the Account Group Token into the Account Token field. The field should turn green. IMAGE MISSING
 8. Yes is selected for Browserbot by default since this component is required for Page Load and Transaction test types.
 9. Click the **Continue** button.
 10. Following that The Review Section will appear and Diagnostics will begin to run.  Some errors will show up initially as red then turn to green.  Wait a few minutes.
@@ -100,10 +88,10 @@ Proceed to the section linked here on [Configuring the Virtual Appliance]() to c
 
 The following screenshots appear while completing configuration.  During this process the agent is communicating with the platform and updating.  Expect to see these views during that process:
 
-* Step 12: Agent Initialization
-* [Step 13: Run Diagnostics]()
-* [Step 14: Check Status]()
-* [Step 15: Check for Green Online Status]()
+* Step 12: Agent Initialization IMAGE MISSING IMAGE MISSING IMAGE MISSING IMAGE MISSING IMAGE MISSING IMAGE MISSING
+* [Step 13: Run Diagnostics]() IMAGE MISSING
+* [Step 14: Check Status]() IMAGE MISSING IMAGE MISSING
+* [Step 15: Check for Green Online Status]() IMAGE MISSING IMAGE MISSING
 
 ##  [Related Articles]()
 
