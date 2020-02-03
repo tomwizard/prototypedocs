@@ -6,22 +6,6 @@ This article is a special version of the article that guides you through the [ag
 
 In case you have not seen it yet, you are encouraged to review our [How to plan for Enterprise Agent upgrades](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA02R000000Q52FSAS_How-to-plan-for-Enterprise-Agent-Upgrades) article - it provides an overview of all possible upgrade paths.
 
-#### Table of contents
-
-* [Why Docker?]()
-* [Is there a simpler migration path?]()
-* [Migration guide:]()
-  * [Step 1a: Collect identity files from an appliance]()
-  * [Step 1b: Collect identity files from a package-based agent]()
-  * [Step 2: Determine the new Docker agent's data storage location]()
-  * [Step 3: Place the \*.sqlite identity files]()
-  * [Step 4: Generate and run the "docker run ..." command]()
-  * [Step 5 \(optional\): Install your CA certificates]()
-  * [Step 6 \(optional\): Migrate SSH keys]()
-  * [Step 7: Wipe the original agent]()
-* [Questions?]()
-* [Related information]()
-
 ## [Why Docker?]()
 
 Using Docker detaches you from what ThousandEyes [supports as an underlying operating system](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmnoKAC_Supported-Enterprise-Agent-operating-systems) for deploying Enterprise Agents. If Docker can run on your x64-based operating system of choice, your Docker-based Enterprise Agent will run on it as well.
@@ -78,8 +62,7 @@ ThousandEyes' dialog for creating new Docker-based Enterprise Agents provides tw
 
 The two settings listed above are pointed out by \#1 and \#2 markers in the following figure:
 
-  
-Docker Enterprise Agent configuration dialog
+IMAGE MISSING
 
 The generated `docker run ...` command above contains three paths that retain container's data and are bind-mounted into the container when it is running:
 
@@ -152,8 +135,7 @@ The `account-token` setting is generally handled implicitly by the `docker run .
 
 Now head over to the [Cloud & Enterprise Agents &gt; Agent Settings](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents&add-agent) section of the ThousandEyes web portal, click the **Add New Enterprise Agent** button and switch to the **Docker** tab. The familiar Docker agent creation dialog should appear:
 
-  
-Docker Enterprise Agent configuration dialog - a filled-out example
+IMAGE MISSING
 
 You should fill in all the necessary details - **Nam**e \(1\), a designated and absolute **Host Vol. Agent Directory** \(2\) path. If your original agent's `proxy-*` settings were configured, manipulate the proxy-related section of the dialog \(3\) to reach the identical proxy configuration.
 

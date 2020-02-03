@@ -1,7 +1,5 @@
 # NAT Traversal for Agent to Agent tests
 
-### NAT Traversal for Agent to Agent tests
-
 An Agent to Agent test permits ThousandEyes users to monitor two endpoints and visualize the network path in both directions, which can mean faster, more accurate identification of problems than with an Agent to Server test. However, unlike an Agent to Server test where the test target is typically intended to receive network traffic initiated by other hosts, in an Agent to Agent test often one or both Agents cannot receive network traffic initiated by other hosts, either from the public Internet or from other network locations. Changes to network address translation \(NAT\), port address translation \(PAT\) and/or stateful packet filter \(SPF, i.e. firewall\) rules would normally be required to allow the test traffic.
 
 To avoid the need for changes, ThousandEyes provides a NAT traversal feature, which allows the Agent to Agent test traffic to work in conjunction with typical NAT/PAT/SPF configurations. NAT traversal in the ThousandEyes platform is implemented through a proprietary method similar to NAT traversal methods described in IETF standards such as RFC 5382.  Agents behind NAT devices will register with the ThousandEyes NAT traversal server in order to discover the Agents’ NAT and PAT characteristics, then use the discovered information when performing Agent to Agent tests.
@@ -18,7 +16,7 @@ If an Agent to Agent test fails with an error indicating that one or both Agents
 
     Your firewall/NAT device prevents communications initiated from the public Internet to the Enterprise Agent, and only allows the Agent to initiate communications outbound to destinations on the public Internet.
 
-3. Test **Direction** configuration
+3. Test **Direction** configuration IMAGE MISSING
    * The **Direction** selector on the Agent to Agent test is “Both Directions”, and the above two conditions are true for one or both Enterprise Agents
    * The **Direction** selector is “Source to Target” and the above two conditions are true for the Target Enterprise Agent
    * The **Direction** selector is “Target to Source” and the above two conditions are true for the Source Enterprise Agent   
@@ -26,6 +24,8 @@ If an Agent to Agent test fails with an error indicating that one or both Agents
 ## Configuring NAT Traversal
 
 Configure the NAT traversal feature by checking the **Behind a NAT** box under the Agent's Advanced Settings tab on the **Settings &gt; Enterprise Agents** page.
+
+IMAGE MISSING
 
 **NOTE:** Because the NAT traversal feature is set on a per-Agent basis \(rather than a per-test basis\) the NAT traversal feature will affect all Agent to Agent tests in which the Agent participates.
 
