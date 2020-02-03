@@ -6,6 +6,8 @@ Depending on the type of Linux operating system on which your Enterprise Agents 
 
 **NOTE**: ThousandEyes Enterprise Agents should run current versions of ThousandEyes packages.  If the Agent cannot update because of failure to reach the mirrored repository or with the repository failing to provide current package versions, then there is risk that certain features of the Enterprise Agent will not work as advertised.  Use this process at your own risk.
 
+## Table of Contents
+
 ## Configure a server for the repository
 
 This document provides installation and configuration instructions on a Red Hat Enterprise Linux \(RHEL\) version 7 server operating system and on an Ubuntu 16.04 server operating system.  Other operating systems can be used; consult your operating system documentation to determine what comparable commands are needed for the steps listed below, or contact the ThousandEyes Customer Success Center.
@@ -22,11 +24,12 @@ Customers with Enterprise Agents installed via Linux package or Docker container
 
 To determine which type\(s\) of Enterprise Agents are used in your organization, review the listing of your Enterprise Agents from the Enterprise Agents page in the ThousandEyes platform.  Enterprise Agent operating systems are listed in the General Info box:
 
-IMAGE MISSING
+![](https://lh6.googleusercontent.com/U87pmiiIsck4zIvcBwkmTcjkAgid3qp9ijvHjwbbSMmhpdJiKNI1KdF3LQpRo9g3yAsYECwZ8g8hi6oVh1ytFDUey6dovGrcEjkOFUYGWwj_ZgBGjl50wHIewvFV41XZvXvbxx2w)
 
+  
 Be sure to check all your Account Groups, as Enterprise Agents may not be assigned to all Account Groups in an organization.  The Enterprise Agents page has a selector to display Agents in the current Account Group and not in the current Account Group:
 
-IMAGE MISSING
+![](https://lh6.googleusercontent.com/QSFWdiqIUKeI-PDfCp9sWY_b3kZVXnKPb_PcmPmmQCWfn8fAk6YGMMBI_WNd4pPDcQ5p9uANJOBnoxcyTWF1q0MBxrD225C8OBztzzgwmyh6Z-tWJdoum1Y1ZGz7-mWmAtsW9iCG)
 
 ### Install wget and Apache packages
 

@@ -1,8 +1,26 @@
-# Installing a Physical Appliance
+# Installing a Physical Appliance - ThousandEyes Customer Success Center
 
 For customers requiring a turnkey solution, the ThousandEyes [Enterprise Agent](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmnbKAC_What-is-an-Enterprise-Agent) can be installed on an off-the-shelf hardware such as the Intel NUC. The combination provides a convenient form-factor that is easily shipped to branch offices, partner sites, and other environments, where provisioning only requires a power and network connection. A downloadable ISO image is used to install Linux Ubuntu LTS, the ThousandEyes Enterprise Agent and management software onto the Intel NUC.
 
 This article details the hardware requirements and process required to commission the ThousandEyes Enterprise Agent on an Intel NUC.
+
+### Table of contents
+
+* Requirements
+  * [Hardware requirements]()
+  * [Installation environment requirements]()
+* Installation
+  * [Downloading the installer]()
+  * [Writing the ISO to a USB disk]()
+  * [Intel NUC BIOS]()
+  * [Installing Physical Appliance software]()
+  * [Configuring the Enterprise Agent]()
+* [Troubleshooting]()
+  * [USB drive not recognized as bootable device]()
+  * [Malformed IP Address]()
+  * [No Root File System Defined]()
+  * ["thousandeyes-va login:" prompt shown on the screen]()
+  * [Keyboard not working]()
 
 ## Hardware requirements
 
@@ -121,8 +139,6 @@ Download the installer that fits the requirement:
 
 On the ThousandEyes portal, go to **Cloud & Enterprise Agents&gt; Agent Settings&gt;**, select **Enterprise Agents** \(top line\), click **Add New Enterprise Agent** button. Select Package Type **Appliance.** On **Physical Appliance Installer** click **Download - ISO** button.
 
-IMAGE MISSING
-
 #### Custom Appliance
 
 On the ThousandEyes portal, go to **Cloud & Enterprise Agents&gt; Agent Settings&gt;**, select **Enterprise Agents** \(top line\), ****click the **Add New Enterprise Agent** button. Select Package Type **Custom Appliance**. Provide the following information:
@@ -135,8 +151,6 @@ On the ThousandEyes portal, go to **Cloud & Enterprise Agents&gt; Agent Settings
 
 Note that the custom download will include the [Account Group Token](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000fyjrCAA_Where-can-I-get-the-account-group-token) required for the Agent to register itself to the ThousandEyes system.  
 Click the **Generate** button. It may take take between 15 and 30 minutes to generate the image. An email will be generated once the image is ready to be downloaded.
-
-IMAGE MISSING
 
 ## Writing the ISO image to a USB disk
 
@@ -190,11 +204,11 @@ The following instructions are based on Rufus, an open-source application for cr
 
 1. A copy of Rufus can be obtained from [here](https://rufus.ie/).
 2. Start Rufus.
-3. Connect a USB drive that is at least 1GB in size. The disk’s content will be overwritten. If there is only one USB drive on the Windows system, Rufus will automatically selects it and it will be displayed under Device. Otherwise, use the down-arrow to select the desired USB drive. IMAGE MISSING
+3. Connect a USB drive that is at least 1GB in size. The disk’s content will be overwritten. If there is only one USB drive on the Windows system, Rufus will automatically selects it and it will be displayed under Device. Otherwise, use the down-arrow to select the desired USB drive.
 4. Click **SELECT** and browse to select the downloaded ISO image. In the above screen shot, the filename of the selected image is "thousandeyes-pa-0.162.iso." 
 5. The screen shot above shows the default settings and they can be left as is. Note that the **Cluster size** default will vary depending on the size of the USB drive. Leave it to the selected default size.
-6. Click **START.** IMAGE MISSING
-7. On the next screen, select "Write DD Image mode," click **OK**. DD Image Mode is recommended format. IMAGE MISSING
+6. Click **START.**
+7. On the next screen, select "Write DD Image mode," click **OK**. DD Image Mode is recommended format.
 8. Click **OK** to start the boot disk creation.
 9. When the process completes, remove the USB drive.
 
@@ -229,23 +243,19 @@ If USB is not shown as an option, power off the NUC, unplug the USB drive, plug 
 
  Consult the Knowledge Base "How to set up the Virtual Appliance," available [here](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmnwKAC_How-to-set-up-the-Virtual-Appliance) for a comprehensive set of instructions. The following are the minimum required to enable the Physical Agent to communicate with the ThousandEyes portal.
 
-1. Power on the NUC. After the unit boots, the "ThousandEyes Virtual Appliance" screen \(shown below\) will be displayed. The IP address displayed depends on the network environment of the NUC. Note the provided username and password. IMAGE MISSING
-2. Using a browser, access the provided URL \(IP address\), and log in using the provided username and password.  IMAGE MISSING
-3. The user will be taken to the **Appliance Access** screen to change the default password. IMAGE MISSING
+1. Power on the NUC. After the unit boots, the "ThousandEyes Virtual Appliance" screen \(shown below\) will be displayed. The IP address displayed depends on the network environment of the NUC. Note the provided username and password.
+2. Using a browser, access the provided URL \(IP address\), and log in using the provided username and password. 
+3. The user will be taken to the **Appliance Access** screen to change the default password.
 4. Skip this step if the installation is a Custom Appliance, as the Account Group Token is included in the image.
 
 For a Generic Appliance installation, the Account Group Token is obtained on the ISO download screen on the ThousandEyes portal, by clicking "Show Account Group Token for Installation." 
 
-IMAGE MISSING
-
-On the **Agent** screen, copy the Account Group Token to the field provided.
-
-IMAGE MISSING  
+On the **Agent** screen, copy the Account Group Token to the field provided.  
  
 
 1. For information on the other parameters, consult the Knowledge Base "How to set up the Virtual Appliance," available [here](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmnwKAC_How-to-set-up-the-Virtual-Appliance).
-2. Verify on the **Status** screen that all diagnostics are green. Follow up and correct any faults shown on the Status screen. IMAGE MISSING
-3. If network related parameters were changed, for example disabling IP V6 support, reboot the Agent, through the GUI and verify that all the diagnostics are green. IMAGE MISSING
+2. Verify on the **Status** screen that all diagnostics are green. Follow up and correct any faults shown on the Status screen.
+3. If network related parameters were changed, for example disabling IP V6 support, reboot the Agent, through the GUI and verify that all the diagnostics are green.
 4. The Enterprise Agent should now appear in the **Cloud & Enterprise Agents&gt; Agent Settings&gt; Enterprise Agents** page of the ThousandEyes portal.
 
 ## Troubleshooting

@@ -8,7 +8,7 @@ A number of publicly accessible web sites list mobile providers and the email ad
 
 Once the correct email address is known, the **Send emails to** field of an Alert Rule can be configured with the needed email addresses, which will send the Alerts to SMS-enabled devices.  The **Send emails to** field is located under the **Notifications** tab of your Alert Rule configuration.
 
-IMAGE MISSING
+![70377370-1-Alert\_Notification.png](https://thousandeyes--c.na98.content.force.com/servlet/rtaImage?eid=ka02R000000UScJ&feoid=00NE0000006OT0r&refid=0EME0000000DWNQ)
 
 Click the **Edit emails** link to add the email address to the list of available email addresses, if this is the first time assigning the email address to an Alert Rule.  Once the new email is added to the list of emails in your Account Group, a notification will be sent to the new email address, which will verify the email-to-text process is working.
 
