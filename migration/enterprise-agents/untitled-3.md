@@ -4,12 +4,6 @@ In order to access the command line of a ThousandEyes Virtual Appliance or Physi
 
 This article provides instructions for users of a Microsoft Windows operating system to perform the following steps:
 
-* [Obtain an SSH client]()
-* [Create an SSH key pair]()
-* [Configure the ThousandEyes Appliance]()
-* [Create an SSH connection]()
-* [Troubleshooting]()
-
 ## Obtain an SSH client
 
 An SSH application such as PuTTY is required. Download the latest [PuTTY installer](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) \(normally the 64-bit MSI\) to install the PuTTY suite of programs, most relevantly:
@@ -25,20 +19,21 @@ Run the MSI installer to installer once the MSI file has been downloaded. Altern
 
 If you don't already have an SSH key pair \(public key and matching private key\), you'll need to generate one using PuTTYgen.  Open the PuTTYgen program, and follow the steps below.
 
-1. In the PuTTY Key Generator window click the **Generate** button:  
-2. Move your mouse back and forth inside the **Key** field to generate randomness.  
+1. In the PuTTY Key Generator window click the **Generate** button:   IMAGE MISSING
+2. Move your mouse back and forth inside the **Key** field to generate randomness.   IMAGE MISSING
 3. \(Optional\) Add a passphrase using the fields provided, if desired.
-4. Highlight the public key and copy to the clipboard:  
+4. Highlight the public key and copy to the clipboard:   IMAGE MISSING
 5. Save your public and private keys using the **Save public key** and **Save private key** buttons.  Note the directory or directories where you save the keys. You'll need the path to the private key for the PuTTY SSH client.
 
 ## Configure the ThousandEyes Appliance
 
 The public key of a user's SSH key pair must be present on each Agent that is to be accessed. Log into the web interface of a ThousandEyes Appliance, then follow the steps below to configure the Appliance with your public key.
 
-1. On the Appliance Access tab paste [the key that was copied in step 4]() of the **SSH key creation** section into the **Add New SSH key** field.  
+1. On the Appliance Access tab paste [the key that was copied in step 4]() of the **SSH key creation** section into the **Add New SSH key** field.   **NOTE**: When pasting the key, make sure the string "ssh-rsa " that prepends the key is present, or the key won't be accepted as valid \(refer to the screenshot below on the correct format of the key\).  IMAGE MISSING
 2. Click the **Add Key** button.
 
-    The key will be added with the identifying string that follows the key:
+    The key will be added with the identifying string that follows the key:  
+   IMAGE MISSING
 
 ### Add Key failures
 
@@ -72,15 +67,15 @@ Once a public key has been installed on the Appliance, follow the instructions b
 
 1. Run the PuTTY program \(putty.exe\).
 2. In the PuTTY Configuration window's **Category** section, open the **Connection &gt; Data** panel.
-3. Enter the username "thousandeyes" in the **Auto-login username** field.  
+3. Enter the username "thousandeyes" in the **Auto-login username** field.   IMAGE MISSING
 4. In the PuTTY Configuration window's **Category** section, open the **Connection** &gt; **SSH** &gt; **Auth** panel.
-5. Click the **Browse** button and navigate to [the location selected in Step 5]() of the **Create an SSH key pair** section, above.
+5. Click the **Browse** button and navigate to [the location selected in Step 5]() of the **Create an SSH key pair** section, above. IMAGE MISSING
 6. In the PuTTY Configuration window's **Category** section, open the **Session** panel.
 7. Enter the IP address or hostname of the Enterprise Agent in the **Host Name \(or IP address\)** field.
 8. Enter a name for this PuTTY session in the **Saved Sessions** field.
-9. Click the **Save** button to save the session for future uses.
+9. Click the **Save** button to save the session for future uses. IMAGE MISSING
 10. Click the **Open** button to open the SSH connection to the Appliance's command line.
-11. If a [passphrase was created in Step 3]() of the **Create an SSH key pair** section then provide the passphrase to the SSH key.  
+11. If a [passphrase was created in Step 3]() of the **Create an SSH key pair** section then provide the passphrase to the SSH key.   IMAGE MISSING
 12. If the login is successful, the prompt "thousandeyes@appliance\_hostname:~ appears, indicating the user is in the home directory of the "thousandeyes" user.
 13. Now you're SSH'd in. Have fun!
 

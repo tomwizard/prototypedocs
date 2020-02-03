@@ -11,6 +11,8 @@ Some organizations' security policies require web communication \(HTTP, HTTPS an
 
 Figure 1 below indicates the required configuration information for each of the four combinations of proxy type:
 
+IMAGE MISSING
+
 For proxies that are transparent and non-SSL decrypting, no additional configuration is required to perform the Enterprise Agent installation. Follow the installation instructions for your type of Enterprise Agent installation without a proxy.
 
 The remaining three configurations of proxy are referred to in the remainder of this document with the following letters :
@@ -231,6 +233,8 @@ docker pull thousandeyes/enterprise-agent
 ### 3. Create Enterprise Agent Docker container with proxy configuration
 
  Log in to the ThousandEyes web application and open the [Enterprise Agents](https://app.thousandeyes.com/settings/agents/enterprise) page.  The commands to create the Enterprise Agent Docker container are produced by opening **+ Add New Agent** form and selecting "Docker" for the **Package Type**, then by completing the form.  An example of the completed form is below:
+
+IMAGE MISSING
 
 Note that Docker container Agents do not support use of PAC files for automatic updates.  APT, the package management tool which performs the updates, does not have the ability to parse PAC files.  For customers who select PAC as the **Proxy Type**, a single proxy must be chosen and configured manually for automatic updates of the ThousandEyes and operating system packages. For more information, refer to the [Configuring proxy settings for system updates - APT on Ubuntu](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000LB2kCAG#config-proxy-linux-apt) section of the ThousandEyes Knowledge Base article [Installing Enterprise Agents in Proxy Environments](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000LB2pCAG).
 

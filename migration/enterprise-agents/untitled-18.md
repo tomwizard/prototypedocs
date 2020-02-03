@@ -130,8 +130,7 @@ systemctl start te-browserbot
   
 The final check you need to do takes place in the [Cloud & Enterprise Agent &gt; Agent Settings](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) section of the web UI. Ensure the agent has contacted the platform and is showing the correct operating system version information, like this:
 
-  
-Appliance upgrade verification in web UI 
+IMAGE MISSING
 
 The important details to pay attention to are:
 

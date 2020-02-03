@@ -8,15 +8,19 @@ The token can be retrieved in two different views in the app, as illustrated in 
 
 The Account Group Token can be found in the [Account Settings](https://app.thousandeyes.com/settings/account/?section=accountgroups) page of the app, in the **Account Groups** tab \(1\):
 
+IMAGE MISSING
+
 In order for the Account Groups tab to be visible, the user needs to have the [Organization Admin role](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmnLKAS_Role-Based-Access-Control-explained), or alternatively, a role with the View all account groups settings permission.
 
 ## Agent Settings Page
 
-The second location where the Account Group Token can be obtained is the Enterprise Agents tab of the [Agent Settings](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) page:  
- 
+The second location where the Account Group Token can be obtained is the Enterprise Agents tab of the [Agent Settings](https://app.thousandeyes.com/settings/agents/enterprise/?section=agents) page:
 
-  
+IMAGE MISSING 
+
 First, click the **Add New Enterprise Agent** button \(2\), then, in the subsequent pop-up window, the Account Group Token can be revealed by clicking the **Show Account Group Token for Installation** link \(3\):
+
+IMAGE MISSING
 
 The user must have a role with the Edit agents in account group permission to see the Token. 
 

@@ -1,17 +1,5 @@
 # How to plan for Enterprise Agent Upgrades
 
-#### How to plan for Enterprise Agent Upgrades
-
-## Table of Contents
-
-[Recent announcements for end of Operating System support]()  
-[Identifying which Agents require upgrades]()  
-[Obtaining a detailed list of Agents which require upgrades]()  
-[Upgrade paths for specific systems]()
-
-[Replacing Enterprise Agents]()  
-[Requesting support consultations]()
-
 ## [Recent announcements for end of Operating System support]()
 
 The following Operating Systems were announced as "End of Life" by their respective developers within the last year:
@@ -32,6 +20,8 @@ You may identify which of your Agents are running on an unsupported Operating Sy
 
  To access the Agent Settings page, select [Cloud & Enterprise Agents &gt; Agent Settings](http://app.thousandeyes.com/settings/agents/enterprise/?section=agents) within the left-hand navigation pane:
 
+IMAGE MISSING
+
 #### Identifying Agents
 
 To identify agents requiring an upgrade:
@@ -50,7 +40,9 @@ When communicating with your team members which agents need to be updated, the f
 
 **5. Agent Operating System:** This includes both distribution and version number
 
-**6. Agent Installation Type:** This may be Linux Package, Docker, Physical Appliance, or Virtual Appliance  
+**6. Agent Installation Type:** This may be Linux Package, Docker, Physical Appliance, or Virtual Appliance
+
+IMAGE MISSING  
  
 
 #### Advanced Settings
@@ -74,6 +66,41 @@ Customers who choose to install the ThousandEyes Enterprise Agent onto their own
 ThousandEyes has tested and documented the upgrade process for supported Linux distributions. The following information may be used as a general guideline for customers to reference when planning upgrades.
 
 #### [Red Hat Enterprise Linux 6.x, CentOS 6.x]()
+
+**CentOS 6.x**
+
+[The CentOS Project no longer supports an upgrade path from CentOS 6.x to CentOS 7.](https://wiki.centos.org/TipsAndTricks/CentOSUpgradeTool)
+
+ThousandEyes suggests that customers using CentOS 6 consider either replacing the Agent's system with [a supported Operating System](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmnoKAC_Supported-Enterprise-Agent-operating-systems), or choosing a [ThousandEyes Appliance](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA0E0000000CmnwKAC_How-to-set-up-the-Virtual-Appliance).
+
+  
+**Red Hat Enterprise Linux 6.x**  
+
+[Red Hat has provided an upgrade path](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/migration_planning_guide/chap-red_hat_enterprise_linux-migration_planning_guide-upgrading) for customers who wish to update their system from RHEL 6 to RHEL 7. Please note that only 64-bit Operating Systems are supported.
+
+ThousandEyes suggests that customers attempt an upgrade on a single RHEL 6 system prior to determining whether they should upgrade or replace their current RHEL 6 Enterprise Agents.
+
+[A detailed description of the RHEL6 upgrade process is available here.](https://support.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000UGTKCA4_How-do-I-perform-an-in-place-upgrade-from-the-latest-RHEL-6-to-the-latest-RHEL-7)  
+ 
+
+#### Red Hat Enterprise Linux 7.x, CentOS 7.x
+
+  
+RHEL 7 and CentOS 7 systems may be updated to the latest version \(7.6 at the time of writing\) using the following command:
+
+```text
+sudo yum update
+```
+
+Custom repositories should be made current prior to the upgrade.  
+ 
+
+#### Ubuntu 14.04
+
+  
+Canonical has provided an upgrade path from Ubuntu 14.04 to Ubuntu 18.04. Please note that only 64-bit Operating Systems are supported.
+
+[A detailed description of the Ubuntu upgrade process is available here.](https://support.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000fymMCAQ_Upgrading-Ubuntu-OS-on-Enterprise-Agents)
 
 ### [ThousandEyes Virtual Appliances]()
 
