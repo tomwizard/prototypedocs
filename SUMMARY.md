@@ -466,6 +466,7 @@
   * [What is Path Trace](images/getting-started-images/what-is-path-trace.md)
   * [Getting Support from ThousandEyes](images/getting-started-images/getting-supported-from-thousandeyes.md)
 * [ThousandEyes Basics](images/thousandeyes-basics/README.md)
+  * [Replacing an Enterprise Agent using the agent clustering method](images/thousandeyes-basics/replacing-an-enterprise-agent-using-the-agent-clustering-method.md)
   * [Using the Path Visualization View](images/thousandeyes-basics/using-the-path-visualization-view.md)
   * [Creating and editing Alert Rules](images/thousandeyes-basics/creating-and-editing-alert-rules.md)
   * [ThousandEyes view layouts](images/thousandeyes-basics/thousandeyes-view-layouts.md)
