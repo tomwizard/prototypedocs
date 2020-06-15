@@ -16,9 +16,9 @@
   * [Data collected by Endpoint Agent](endpoint-agent/untitled-1/README.md)
     * [Reporting on data collected by Endpoint Agent](endpoint-agent/untitled-1/untitled-1-1.md)
 * [Release Notes](release-notes-1/README.md)
-  * [Release Update 2019-12-10 - ThousandEyes Customer Success Center](release-notes-1/untitled.md)
-  * [Release Update 2019-11-26 - ThousandEyes Customer Success Center](release-notes-1/release-update-2019-11-26-thousandeyes-customer-success-center.md)
-  * [Release Update 2019-11-12 - ThousandEyes Customer Success Center](release-notes-1/untitled-2.md)
+  * [Release Update 2019-12-10 - ThousandEyes Customer Success Center](release-notes-1/untitled/README.md)
+    * [Release Update 2019-11-26 - ThousandEyes Customer Success Center](release-notes-1/untitled/release-update-2019-11-26-thousandeyes-customer-success-center/README.md)
+      * [Release Update 2019-11-12 - ThousandEyes Customer Success Center](release-notes-1/untitled/release-update-2019-11-26-thousandeyes-customer-success-center/untitled-2.md)
 * [ThousandEyes Blog](https://blog.thousandeyes.com/)
 * [Markdown Formatting Guide](style-guide.md)
 
