@@ -48,7 +48,9 @@ Both Fetch Time and Throughput are still shown and available in the detailed met
     </tr>
   </thead>
   <tbody></tbody>
-</table>## CLI utilities
+</table>
+
+## CLI utilities
 
 Our command line interface utilities have been updated, by removing the requirement to specify an interface or source IP address while testing. Check out this [document](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmoAKAS) on using our CLI utilities for troubleshooting.
 

@@ -1,7 +1,5 @@
 # Supported Enterprise Agent operating systems
 
-#### Supported Enterprise Agent operating systems
-
 The ThousandEyes Enterprise Agent can be installed as a package on native Linux operating systems, as a ThousandEyes Virtual Appliance in a virtualized environment, as a Physical Appliance, or as a Docker container. The information below describes the supported platforms and operating system versions on which customers can install an Enterprise Agent, as well as the ThousandEyes lifecycle dates for expiration of support, and the policies which determine those dates.
 
 ## Linux package installation

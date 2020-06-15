@@ -192,7 +192,9 @@ Create rules to allow communication as follows.
       </td>
     </tr>
   </tbody>
-</table>  
+</table>
+
+  
 Additionally, if a customer desires remote management connections that traverse a firewall, then the following connections may need to be allowed.
 
 | **Protocol** | **Port** | **Destination** | **Direction**1 | **Description** |

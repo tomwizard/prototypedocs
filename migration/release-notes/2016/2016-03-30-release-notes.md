@@ -22,7 +22,9 @@ This release covers two major feature releases that our team has been working on
     </tr>
   </thead>
   <tbody></tbody>
-</table>If you're running a version of Linux that our agent doesn't natively support, fret not!  The Docker container-based approach will allow you to deploy an agent, using an Ubuntu-based container which is maintained and updated by the team at ThousandEyes, onto pretty much any supported server.  This means that it's literally minutes to deploy anything from 1 to dozens of enterprise agents.  Just download an image from the ThousandEyes repository on dockerHub, and start it!  
+</table>
+
+If you're running a version of Linux that our agent doesn't natively support, fret not!  The Docker container-based approach will allow you to deploy an agent, using an Ubuntu-based container which is maintained and updated by the team at ThousandEyes, onto pretty much any supported server.  This means that it's literally minutes to deploy anything from 1 to dozens of enterprise agents.  Just download an image from the ThousandEyes repository on dockerHub, and start it!  
 
 We've created an installation and deployment guide for installation of the enterprise agent container, located [here](https://success.thousandeyes.com/ViewArticle?articleIdParam=kA0E0000000CmnXKAS).  Let us know if you have any questions, and we'll be happy to answer.
 

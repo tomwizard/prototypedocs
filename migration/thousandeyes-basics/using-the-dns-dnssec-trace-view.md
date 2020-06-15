@@ -52,7 +52,9 @@ The DNSSEC Trace test measures worldwide validity by validating the keychain for
     </tr>
   </thead>
   <tbody></tbody>
-</table>Clicking the View Details link opens a modal dialog with two tabs related to the trace data, showing trust tree detailed information, and data chain detailed information for the query.  Examples of this detailed information can be found below:
+</table>
+
+Clicking the View Details link opens a modal dialog with two tabs related to the trace data, showing trust tree detailed information, and data chain detailed information for the query.  Examples of this detailed information can be found below:
 
 ### Trust tree detailed information for fbi.gov:A
 

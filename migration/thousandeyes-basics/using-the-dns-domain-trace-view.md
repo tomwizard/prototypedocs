@@ -63,5 +63,7 @@ The DNS Domain Trace view shows two different data views, depending on whether o
     </tr>
   </thead>
   <tbody></tbody>
-</table>Note that there is no jump-to menu available for a DNS Domain Trace test, since network measurements cannot be enabled against many servers, due to the proliferation of anycast DNS services on the Internet.
+</table>
+
+Note that there is no jump-to menu available for a DNS Domain Trace test, since network measurements cannot be enabled against many servers, due to the proliferation of anycast DNS services on the Internet.
 

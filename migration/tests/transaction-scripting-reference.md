@@ -85,7 +85,9 @@ ThousandEyes provides a wrapper of the Selenium WebDriver library for JavaScript
       </td>
     </tr>
   </tbody>
-</table>## Interacting with page elements
+</table>
+
+## Interacting with page elements
 
 A set of methods for interacting with elements. Once the element is located and retrieved \(by using the `findElement()` function or similar\), it can be managed using the following methods.
 
@@ -142,7 +144,9 @@ A set of methods for interacting with elements. Once the element is located and 
       </td>
     </tr>
   </tbody>
-</table>### Waiting for events
+</table>
+
+### Waiting for events
 
 Defines common conditions for use with WebDriver wait.
 
@@ -247,7 +251,9 @@ Defines common conditions for use with WebDriver wait.
       </td>
     </tr>
   </tbody>
-</table>### Generating keyboard events
+</table>
+
+### Generating keyboard events
 
 Representations of pressable keys that aren't text.
 
@@ -301,7 +307,9 @@ Representations of pressable keys that aren't text.
       </td>
     </tr>
   </tbody>
-</table>### Taking screenshots
+</table>
+
+### Taking screenshots
 
 | **Namespace** | `thousandeyes` |
 | :--- | :--- |
@@ -369,7 +377,9 @@ Representations of pressable keys that aren't text.
         credential name</td>
     </tr>
   </tbody>
-</table>### Handling downloads
+</table>
+
+### Handling downloads
 
 <table>
   <thead>
@@ -435,7 +445,9 @@ Representations of pressable keys that aren't text.
       <td style="text-align:left">None, if the download is successful, else will throw an error</td>
     </tr>
   </tbody>
-</table>## Measuring transaction time\(s\)
+</table>
+
+## Measuring transaction time\(s\)
 
 ThousandEyes transactions support two types of measuring time:
 
@@ -491,7 +503,9 @@ Start a marker:
         marker.</td>
     </tr>
   </tbody>
-</table>Stop a marker:
+</table>
+
+Stop a marker:
 
 | **Namespace** | `thousandeyes` |
 | :--- | :--- |
@@ -546,7 +560,9 @@ Set a marker:
       <td style="text-align:left">None.</td>
     </tr>
   </tbody>
-</table>### Overall transaction time
+</table>
+
+### Overall transaction time
 
 Running a transaction test implicitly causes the overall transaction time measurement, spanning from the moment the transaction test run starts and to the end of the transaction. However, if customization of overall transaction time's start and stop moments is required, the following methods can be used to such effect.
 
@@ -594,7 +610,9 @@ Set the overall transaction time **start** moment:
       <td style="text-align:left">None</td>
     </tr>
   </tbody>
-</table>Set the overall transaction time **end** moment:
+</table>
+
+Set the overall transaction time **end** moment:
 
 <table>
   <thead>
@@ -638,7 +656,9 @@ Set the overall transaction time **start** moment:
       <td style="text-align:left">None</td>
     </tr>
   </tbody>
-</table>## Element locators
+</table>
+
+## Element locators
 
 Provided is a set of mechanisms dedicated to locating elements on the page.
 
@@ -701,7 +721,9 @@ Provided is a set of mechanisms dedicated to locating elements on the page.
       </td>
     </tr>
   </tbody>
-</table>## Assertions
+</table>
+
+## Assertions
 
 The `assert` module provides a set of assertion functions for verifying invariants.
 
@@ -774,7 +796,9 @@ The `assert` module provides a set of assertion functions for verifying invarian
       </td>
     </tr>
   </tbody>
-</table>## Further information
+</table>
+
+## Further information
 
 For further information about transaction testing head back to the [Transaction Scripting Guide](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000UFYvCAO_Transaction-Scripting-Guide).
 

@@ -58,7 +58,9 @@ Let's consider the following user journey that we'll use throughout the rest of 
       <td style="text-align:left">IMAGE MISSING</td>
     </tr>
   </tbody>
-</table>Such a user journey could be scripted as follows:
+</table>
+
+Such a user journey could be scripted as follows:
 
 IMAGE MISSING
 

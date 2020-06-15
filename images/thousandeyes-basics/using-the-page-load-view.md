@@ -104,7 +104,9 @@ This example shows the result of a globally distributed Page Load test against c
       </td>
     </tr>
   </tbody>
-</table>## Waterfall example
+</table>
+
+## Waterfall example
 
 ![Screen\_Shot\_2015-07-07\_at\_11.53.12\_PM.png](https://success.thousandeyes.com/servlet/rtaImage?eid=ka044000000UJkB&feoid=00NE0000006OT0r&refid=0EME0000000DWPr)  
 ![Screen\_Shot\_2015-07-07\_at\_11.53.25\_PM.png](https://success.thousandeyes.com/servlet/rtaImage?eid=ka044000000UJkB&feoid=00NE0000006OT0r&refid=0EME0000000DWPt)

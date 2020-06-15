@@ -101,7 +101,9 @@ _Figure 1: Roles tab page and features_
       </td>
     </tr>
   </tbody>
-</table>  
+</table>
+
+  
  If there are any custom roles you think would benefit you or other users do [let the Customer Success Team know](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000UGTFCA4_Getting-support-from-ThousandEyes) and we'll consider adding them to the table above.
 
 ####  Managing Account Groups

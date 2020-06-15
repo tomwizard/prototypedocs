@@ -31,7 +31,9 @@ This process is run during the update:
       <td style="text-align:left"></td>
     </tr>
   </tbody>
-</table>We have encountered circumstances where the keyrings for packages are centrally managed, and may not include the required public package keys. These errors will manifest in a manner similar to the following:
+</table>
+
+We have encountered circumstances where the keyrings for packages are centrally managed, and may not include the required public package keys. These errors will manifest in a manner similar to the following:
 
 ```text
 GPG error: http://apt.thousandeyes.com lucid Release: the following signatures couldn't be verified because the public key is not available: NO_PUBKEY C99A1F5BE718900

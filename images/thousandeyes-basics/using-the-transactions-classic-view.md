@@ -79,7 +79,9 @@ Unlike other views, this section is pretty static. It includes the completion pe
     </tr>
   </thead>
   <tbody></tbody>
-</table>## Table Tab
+</table>
+
+## Table Tab
 
 The Table tab of a Transaction View displays a list of Agents, the date of the measurement in the user's chosen time zone, the completion of the test \(percentage, number of steps complete out of total steps\), and the transaction time for those steps.
 

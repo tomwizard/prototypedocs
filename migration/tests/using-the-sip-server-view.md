@@ -50,7 +50,9 @@ Availability tests the basic connectivity to and response of the target SIP serv
     </tr>
   </thead>
   <tbody></tbody>
-</table>  
+</table>
+
+  
 Definitions of the possible Error Types are in the table below:
 
 | Error Type | Error Definition |
@@ -96,7 +98,9 @@ Also known as time-to-first-byte, Response Time is the time elapsed from the beg
     </tr>
   </thead>
   <tbody></tbody>
-</table>  
+</table>
+
+  
 With or without an Agent selected, the timeline displays a graph of Average Response Time.  With an Agent selected, that Agent's Response Time data is plotted in addition to the Average Response Time. The following image shows the Response Time metric with the Chicago Agent selected. The Agent's data is plotted using a dark blue line, whereas the Average Response Time data is plotted as a solid light blue area.
 
 IMAGE MISSING
@@ -132,7 +136,9 @@ Total Time represents time spent performing all phases of the test and is accomp
     </tr>
   </thead>
   <tbody></tbody>
-</table>With or without an Agent selected, the timeline displays a graph of Average Total Time. With an Agent selected, that Agent's Total Time data is plotted in addition to the Average Total Time. The following image shows the Total Time metric with the Chicago Agent selected. The Agent's data is plotted using a dark blue line, whereas the Average Total Time data is plotted as a solid light blue area.
+</table>
+
+With or without an Agent selected, the timeline displays a graph of Average Total Time. With an Agent selected, that Agent's Total Time data is plotted in addition to the Average Total Time. The following image shows the Total Time metric with the Chicago Agent selected. The Agent's data is plotted using a dark blue line, whereas the Average Total Time data is plotted as a solid light blue area.
 
 IMAGE MISSING
 

@@ -39,7 +39,9 @@ As always, we've been busy optimizing our code and adding new features to get yo
     </tr>
   </thead>
   <tbody></tbody>
-</table>## ThousandEyes Virtual Appliance
+</table>
+
+## ThousandEyes Virtual Appliance
 
 We've added two new features to the ThousandEyes virtual appliance.  First, it will now automatically synchronize its clock with the pool.ntp.org group of servers.  This will prevent problems such as "Your agent's clock is X minutes behind", and some negative time errors shown as fixed below.  
 

@@ -31,7 +31,9 @@ And now for the details of today's release...
     </tr>
   </thead>
   <tbody></tbody>
-</table>## Endpoint Agent Lite
+</table>
+
+## Endpoint Agent Lite
 
 Customers can now measure and troubleshoot their end users' experiences with their applications via a new version of Endpoint Agent. Endpoint Agent Lite provides monitoring of web apps but without the Browser Sessions functionality, which simplifies installation and configuration. This product is intended for service providers and other customers who do not require Browser Session information or have security/privacy requirements which prevent installing the full Endpoint Agent. The Agent installation packages can be downloaded from publicly shareable links.
 

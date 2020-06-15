@@ -73,7 +73,9 @@ With this release, we have expanded agent connectivity notification: see this [a
     </tr>
   </thead>
   <tbody></tbody>
-</table>## A few minor enhancements
+</table>
+
+## A few minor enhancements
 
 Of course, no release would be complete without some bug squashing and minor enhancements.
 

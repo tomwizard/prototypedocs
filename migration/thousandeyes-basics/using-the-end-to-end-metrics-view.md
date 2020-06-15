@@ -57,7 +57,9 @@ The End-to-End Metrics view shows two different data views, depending on whether
     </tr>
   </thead>
   <tbody></tbody>
-</table>## Table view
+</table>
+
+## Table view
 
 IMAGE MISSING
 

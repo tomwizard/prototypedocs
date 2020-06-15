@@ -49,7 +49,9 @@ The Availability for a given Agent will be 100% if the FTP reply code is 2xx or 
     </tr>
   </thead>
   <tbody></tbody>
-</table>Definitions of the possible Error Types are in the table below:
+</table>
+
+Definitions of the possible Error Types are in the table below:
 
 | Error Type | Error Definition |
 | :--- | :--- |
@@ -106,7 +108,9 @@ Also known as time-to-first-byte, Response Time is the time elapsed from the beg
     </tr>
   </thead>
   <tbody></tbody>
-</table>With or without an Agent selected, the timeline displays a graph of Average Response Time.  With an Agent selected, that Agent's Response Time data is plotted in addition to the Average Response Time.  The following image shows the Response Time metric with the Bruges Agent selected.  The Agent's data is plotted using a blue line, whereas the Average Response Time data is plotted as a solid blue area.
+</table>
+
+With or without an Agent selected, the timeline displays a graph of Average Response Time.  With an Agent selected, that Agent's Response Time data is plotted in addition to the Average Response Time.  The following image shows the Response Time metric with the Bruges Agent selected.  The Agent's data is plotted using a blue line, whereas the Average Response Time data is plotted as a solid blue area.
 
 ![109605906-4-FTP\_server\_view\_timeline\_Response\_Time\_Agent\_Selected.png](https://success.thousandeyes.com/servlet/rtaImage?eid=ka044000000UJlR&feoid=00NE0000006OT0r&refid=0EME0000000DWNP)
 
@@ -151,7 +155,9 @@ Throughput is the total wire size divided by the receive time. The Throughput me
     </tr>
   </thead>
   <tbody></tbody>
-</table>With or without an Agent selected, the timeline displays a graph of Average Throughput.  With an Agent selected, that Agent's Throughput data is plotted in addition to the Average Throughput.  The following image shows the Throughput metric with the Bruges Agent selected.  The Agent's data is plotted using a blue line, whereas the Average Throughput data is plotted as a solid blue area.
+</table>
+
+With or without an Agent selected, the timeline displays a graph of Average Throughput.  With an Agent selected, that Agent's Throughput data is plotted in addition to the Average Throughput.  The following image shows the Throughput metric with the Bruges Agent selected.  The Agent's data is plotted using a blue line, whereas the Average Throughput data is plotted as a solid blue area.
 
 ![109605906-4-FTP\_server\_view\_timeline\_Throughput\_Agent\_Selected.png](https://success.thousandeyes.com/servlet/rtaImage?eid=ka044000000UJlR&feoid=00NE0000006OT0r&refid=0EME0000000DWNC)
 

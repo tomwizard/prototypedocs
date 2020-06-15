@@ -89,7 +89,9 @@ IMAGE MISSING
       </td>
     </tr>
   </tbody>
-</table>## Waterfall example
+</table>
+
+## Waterfall example
 
 IMAGE MISSING
 

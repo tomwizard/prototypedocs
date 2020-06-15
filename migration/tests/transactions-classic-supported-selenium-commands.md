@@ -392,7 +392,9 @@ For information about Selenium versions, refer to the [SeleniumHQ website](http:
       <td style="text-align:left">-</td>
     </tr>
   </tbody>
-</table>## waitForCondition calls
+</table>
+
+## waitForCondition calls
 
 The following boolean checks can be used in the value field of waitForCondition references.  As mentioned above, a waitForCondition call will repeatedly run the boolean check until it evaluates to true, or until the timeout expires.  If the timeout expires before true is returned, the transaction will fail.
 

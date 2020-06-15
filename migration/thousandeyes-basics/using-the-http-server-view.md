@@ -73,7 +73,9 @@ The Availability for a given agent should be 100% if the HTTP status code is 2xx
     </tr>
   </thead>
   <tbody></tbody>
-</table>### Response time
+</table>
+
+### Response time
 
 Also known as Time-to-first-byte, this is the time elapsed from the beginning of the request \(before DNS request\) until the client receives the first byte of the response from the server.
 
@@ -124,7 +126,9 @@ Also known as Time-to-first-byte, this is the time elapsed from the beginning of
     </tr>
   </thead>
   <tbody></tbody>
-</table>### Throughput
+</table>
+
+### Throughput
 
 Throughput is the total wire size divided by the receive.
 
@@ -182,3 +186,4 @@ Throughput is the total wire size divided by the receive.
   </thead>
   <tbody></tbody>
 </table>
+
