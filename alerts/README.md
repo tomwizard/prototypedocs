@@ -2,6 +2,15 @@
 
 The ThousandEyes platform allows customers to configure highly customizable Alert Rules and assign them to tests, in order to highlight or be notified of events of interest. For customers who want simplicity in alert configuration and management, the ThousandEyes platform ships with default Alert Rules configured and enabled for each test.
 
+{% hint style="info" %}
+**For Mac OS Catalina Users**: Test text
+
+**sdjfkl;asdfjlk;sdfj jksld;f** 
+
+1. _**fsdfsdf**_
+2. _**jklsdjlkflksdflk** sdfsdfsdfsdfsdfsdfsdfsdf_
+{% endhint %}
+
 ## Viewing alerts
 
 Current and past alerts can be viewed on the Alerts page.  The Alerts page has two tabs:

@@ -1,13 +1,11 @@
 # Creating and editing Alert Rules
 
-
-
 The following article describes the steps in adding or editing an Alert Rule. To understand how alerts work, refer to the ThousandEyes Knowledge Base article [How Alerts work](https://success.thousandeyes.com/PublicArticlePage?articleIdParam=kA044000000CnBqCAK).
 
 ![alert-rules](https://success.thousandeyes.com/servlet/rtaImage?eid=ka02R000000UOB4&feoid=00NE0000006OT0r&refid=0EM2R000000CD3N)
 
-To create a new Alert rule, Click on [**Alerts &gt; Alert Rules**](https://app.thousandeyes.com/settings/alerts/?)  and the Alert Rules page will open.  
-  
+To create a new Alert rule, Click on [**Alerts &gt; Alert Rules**](https://app.thousandeyes.com/settings/alerts/?) and the Alert Rules page will open.
+
 Select the desired source from the tabs at the top:
 
 * Cloud and Enterprise Agents
@@ -23,7 +21,7 @@ then click on **Add New Alert Rule**. The Add New Alert Rule panel will appear, 
 2. **Alert Type:** available alert types for the selected test layer.
 3. **Rule Name:** the name of the Alert Rule.
 
-### Settings tab
+## Settings tab
 
 Use the Settings tab to configure the conditions on which an Alert Rule is triggered, and assign the Alert Rule to tests and Agents. Settings will vary with the source tab selected. The above image displays the Cloud and Enterprise Agents tab.
 
@@ -37,7 +35,7 @@ Use the Settings tab to configure the conditions on which an Alert Rule is trigg
 5. **Compatible Test Types:** lists the test types to which this Alert Rule can be assigned.
 6. **Notifications:** tab to display settings for receiving Alert Notifications.  See listing and graphic below.
 
-### Notifications tab
+## Notifications tab
 
 Use the Notifications tab to configure the methods by which users are notified when an Alert Rule is triggered.
 
